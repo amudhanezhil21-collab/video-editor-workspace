@@ -1,0 +1,4073 @@
+{
+ "_meta": {
+  "job": "invesco-vs-motilal-large-midcap",
+  "generated": "2026-08-16",
+  "timebase": "base-cut seconds, 25fps (assets/reference-basecut.mp4, 813.840s). Delivery timeline = t + 3.000 (the 3.0s disclaimer PREPEND). All highlightSchedule times are word t0 values from transcript/basecut-anchors.json unless marked estimated.",
+  "conventions": {
+   "emphasis": "*word* inside a title or line marks the serif-italic $lf-indigo emphasised half (style typography rule: never one family alone); the rest is the neutral sans half.",
+   "estimated": "highlightSchedule entries with estimated:true had no ASR word match in basecut-anchors (sparse/empty paragraph); time comes from the scene-map estimate — verify against base-cut audio at build (WhisperX lesson).",
+   "layouts": "data-panel = §8 indigo panel/table, rows revealed + spoken row highlighted; twin-tables = mirrored labeled pair, cells land in same screen position; topic-banner = fig12 banner device / type-6 resolving serif title over the running MG; deck-slide & chart-bars = styled reproduction of the printed asset, values character-exact; callout-boxes = designed boxes/chips (fig13, never plain); verdict-table = final verdict act on a table (colour code: green=good, red=worse, gold=neutral).",
+   "fixedSlots": "PREPEND disclaimer / OVERLAY brand transition / APPEND endscreen+legal live in scene-map.json fixedSlots — deliberately not duplicated here."
+  }
+ },
+ "s01": {
+  "t0": 0.0,
+  "t1": 8.354,
+  "frameType": 3,
+  "paragraph": "p01",
+  "layout": "creator-text",
+  "lines": [
+   {
+    "text": "Kabhi socha hai ki do log",
+    "style": "sans-white"
+   },
+   {
+    "text": "same exam",
+    "style": "serif-purple"
+   },
+   {
+    "text": "pass karke, same city mein job start karke bhi,",
+    "style": "sans-white"
+   }
+  ],
+  "notes": "Hook. Text builds word-by-word, purple right-to-left IN PLACE, timed to p01 word anchors (socha@1.71...). Two-figures + coin illustrations rise bottom-to-top with mandatory internal motion (fig02 football precedent). Serif/sans emphasis split is a builder choice per the typography rule (never one family alone). Base-cut t=0; 3.0s disclaimer PREPENDS before this frame."
+ },
+ "s02": {
+  "t0": 8.354,
+  "t1": 14.656,
+  "frameType": 7,
+  "paragraph": "p01",
+  "layout": "broll",
+  "boxed": true,
+  "dust": true,
+  "content": "AI b-roll: camera follows two figures on one path; the path forks; figures diverge on 'bilkul alag jagah' (~9.6s). 4-side black box + grain/dust treatment mandatory (S3.4).",
+  "notes": "transitionIn: zoom-in + brand-primary light leak at 8.354."
+ },
+ "s03": {
+  "t0": 14.656,
+  "t1": 29.44,
+  "frameType": 5,
+  "paragraph": "p02",
+  "layout": "callout-boxes",
+  "title": "",
+  "sourceLine": "",
+  "starMarkers": "",
+  "asOfDate": "",
+  "elements": [
+   {
+    "kind": "icon",
+    "desc": "Invesco piggy circle, depth stroke, wavy progression tail (fig04 'funds in a race')"
+   },
+   {
+    "kind": "icon",
+    "desc": "Motilal piggy circle, depth stroke, wavy progression tail"
+   },
+   {
+    "kind": "chip",
+    "desc": "Same SEBI Mandate"
+   },
+   {
+    "kind": "chip",
+    "desc": "Same Benchmark"
+   }
+  ],
+  "notes": "Concept MG, no inventory asset. Chip texts are scene furniture from the spoken line, not sourced data.",
+  "highlightSchedule": [
+   {
+    "t": 14.656,
+    "what": "two piggy circles enter on shared grid bg"
+   },
+   {
+    "t": 19.5,
+    "what": "'Same SEBI Mandate' chip pops",
+    "estimated": true
+   },
+   {
+    "t": 23.5,
+    "what": "'Same Benchmark' chip pops",
+    "estimated": true
+   },
+   {
+    "t": 26.5,
+    "what": "camera pushes into the piggies' portfolios",
+    "estimated": true
+   }
+  ]
+ },
+ "s04": {
+  "t0": 29.44,
+  "t1": 32.943,
+  "frameType": 6,
+  "paragraph": "p02",
+  "layout": "topic-banner",
+  "title": "Bilkul *Different* Philosophy",
+  "sourceLine": "",
+  "starMarkers": "",
+  "asOfDate": "",
+  "elements": [
+   {
+    "kind": "resolving-title",
+    "desc": "serif italic title resolves word-by-word purple right-to-left IN PLACE over the running piggy MG; progression tails diverge; never on a cut"
+   }
+  ],
+  "notes": "Type 6 resolve on continuous MG from s03. *word* = serif-purple emphasis convention (_meta).",
+  "highlightSchedule": [
+   {
+    "t": 29.941,
+    "what": "progression tails diverge + title resolve begins"
+   }
+  ]
+ },
+ "s05": {
+  "t0": 32.943,
+  "t1": 45.773,
+  "frameType": 5,
+  "paragraph": "p02",
+  "layout": "callout-boxes",
+  "title": "",
+  "sourceLine": "",
+  "starMarkers": "",
+  "asOfDate": "",
+  "elements": [
+   {
+    "kind": "logo-circle",
+    "name": "Invesco India Large & Mid Cap Fund",
+    "qualifier": "Direct Growth"
+   },
+   {
+    "kind": "logo-circle",
+    "name": "Motilal Oswal Large and Midcap Fund",
+    "qualifier": "Direct Growth"
+   },
+   {
+    "kind": "badge",
+    "desc": "Top 2 - 3Y & 5Y Returns"
+   }
+  ],
+  "notes": "Serif fund names + 'Direct Growth' qualifiers type under each circle. Badge text is scene furniture from the spoken line.",
+  "highlightSchedule": [
+   {
+    "t": 34.104,
+    "what": "Invesco logo circle pops with stroke motion"
+   },
+   {
+    "t": 37.626,
+    "what": "Motilal logo circle pops"
+   },
+   {
+    "t": 44.752,
+    "what": "'Top 2 - 3Y & 5Y Returns' badge lands"
+   }
+  ]
+ },
+ "s06": {
+  "t0": 45.773,
+  "t1": 55.984,
+  "frameType": 1,
+  "paragraph": "p03+p04",
+  "layout": "creator-text",
+  "lines": [
+   {
+    "text": "like * share * subscribe",
+    "style": "serif-purple"
+   }
+  ],
+  "notes": "Serif/sans mixed word-by-word with the ask (split at builder discretion). SUBSCRIBE UNIT #1: pill + cursor enters 47.43 ('like kar dijiye'), clicks SUBSCRIBE ~49.0, bell ~50.4, exits 52.43 (5.0s). BRAND TRANSITION (S1): groww-transition.mov 2.03s alpha composite over the timeline, scale 2x, retimed to 25fps, triggered on 'Chaliye shuru karte hai!' 55.083 — covers the s06->s07 boundary; only use in the video."
+ },
+ "s07": {
+  "t0": 55.984,
+  "t1": 58.846,
+  "frameType": 4,
+  "paragraph": "p05",
+  "layout": "topic-card",
+  "title": "Important Points",
+  "sub": "for Comparison",
+  "notes": "fig08 title pair: title white sans / sub indigo serif italic; lavender grid card, gold coins rotating in corners. Brand transition back half reveals this card."
+ },
+ "s08": {
+  "t0": 58.846,
+  "t1": 66.592,
+  "frameType": 6,
+  "paragraph": "p06",
+  "layout": "topic-banner",
+  "title": "Large & Mid Cap Funds",
+  "sourceLine": "",
+  "starMarkers": "",
+  "asOfDate": "",
+  "elements": [
+   {
+    "kind": "icon",
+    "name": "Invesco India Large & Mid Cap Fund",
+    "desc": "fund icon, depth stroke"
+   },
+   {
+    "kind": "icon",
+    "name": "Motilal Oswal Large and Midcap Fund",
+    "desc": "fund icon, depth stroke"
+   },
+   {
+    "kind": "resolving-title",
+    "desc": "serif title resolves purple, right-to-left in place over the converged icons"
+   }
+  ],
+  "notes": "S6 comparison-block recipe steps 1-3; straight cut from topic card, elements pop after.",
+  "highlightSchedule": [
+   {
+    "t": 58.846,
+    "what": "Invesco icon pops"
+   },
+   {
+    "t": 61.008,
+    "what": "Motilal icon pops"
+   },
+   {
+    "t": 63.469,
+    "what": "icons move closer + shrink"
+   },
+   {
+    "t": 65.01,
+    "what": "title 'Large & Mid Cap Funds' resolves word-by-word"
+   }
+  ]
+ },
+ "s09": {
+  "t0": 66.592,
+  "t1": 78.42,
+  "frameType": 5,
+  "paragraph": "p06",
+  "layout": "data-panel",
+  "title": "SEBI Mandate",
+  "sourceLine": "Source: Groww",
+  "starMarkers": "",
+  "asOfDate": "",
+  "elements": [
+   {
+    "label": "Definition",
+    "values": [
+     "An open ended equity mutual fund investing in both large cap and mid cap stocks of the Indian market"
+    ],
+    "highlight": true
+   },
+   {
+    "label": "Asset allocation",
+    "values": [
+     "Minimum investment in equity & equity related instruments of large cap stocks – 35% of total assets and mid cap stocks – 35% of total assets"
+    ],
+    "highlight": true
+   }
+  ],
+  "notes": "Icons from s08 dissolve (S6 step 4); table in-place morph on continuous grid bg. Title is scene furniture from the spoken line; 2-row/2-col bordered table as printed (grey label column left). 'Source: Groww' below throughout.",
+  "highlightSchedule": [
+   {
+    "t": 66.592,
+    "what": "a01 bordered table animates in; Definition row reveals"
+   },
+   {
+    "t": 69.454,
+    "what": "Asset-allocation row reveals"
+   },
+   {
+    "t": 71.375,
+    "what": "'35%' large-cap chip isolates + enlarges"
+   },
+   {
+    "t": 74.717,
+    "what": "'35%' mid-cap chip isolates + enlarges"
+   }
+  ]
+ },
+ "s10": {
+  "t0": 78.42,
+  "t1": 80.252,
+  "frameType": 4,
+  "paragraph": "p07",
+  "layout": "topic-card",
+  "title": "Benchmark",
+  "sub": "",
+  "notes": "1.8s cut to phrase; serif italic + rotating coins."
+ },
+ "s11": {
+  "t0": 80.252,
+  "t1": 84.247,
+  "frameType": 2,
+  "paragraph": "p08",
+  "layout": "topic-banner",
+  "title": "Benchmark",
+  "sourceLine": "",
+  "starMarkers": "",
+  "asOfDate": "",
+  "elements": [
+   {
+    "kind": "banner-row",
+    "name": "Invesco India Large & Mid Cap Fund"
+   },
+   {
+    "kind": "banner-row",
+    "name": "Motilal Oswal Large and Midcap Fund"
+   },
+   {
+    "kind": "shared-value",
+    "value": "NIFTY LargeMidcap 250 TRI (Total Return Index)"
+   }
+  ],
+  "notes": "Creator left, banner right (fig12 device, A 60.60). p08 timing is gap-inferred (0 ASR matches on the English index name) — verify landing frame against base-cut audio at build (WhisperX lesson).",
+  "highlightSchedule": [
+   {
+    "t": 80.3,
+    "what": "indigo banner enters bottom-to-top right: both fund names serif above one shared value",
+    "estimated": true
+   }
+  ]
+ },
+ "s12": {
+  "t0": 84.247,
+  "t1": 91.795,
+  "frameType": 2,
+  "paragraph": "p09",
+  "layout": "callout-boxes",
+  "title": "Launch Date",
+  "sourceLine": "",
+  "starMarkers": "",
+  "asOfDate": "",
+  "elements": [
+   {
+    "kind": "callout",
+    "name": "Invesco India Large & Mid Cap Fund",
+    "value": "January 01, 2013"
+   },
+   {
+    "kind": "callout",
+    "name": "Motilal Oswal Large and Midcap Fund",
+    "value": "October 17, 2019"
+   }
+  ],
+  "notes": "In-place slot swap from s11 banner (A 70.20 device). Designed callout boxes — internal gradient, never plain (fig13). Dates verbatim from the About boxes ('Launched on January 01, 2013' / 'Launched on October 17, 2019').",
+  "highlightSchedule": [
+   {
+    "t": 84.247,
+    "what": "Invesco 'January 01, 2013' callout lands"
+   },
+   {
+    "t": 89.753,
+    "what": "Motilal 'October 17, 2019' callout lands"
+   }
+  ]
+ },
+ "s13": {
+  "t0": 91.795,
+  "t1": 94.338,
+  "frameType": 4,
+  "paragraph": "p10",
+  "layout": "topic-card",
+  "title": "AUM",
+  "sub": "",
+  "notes": "A 77.35 'AUM' coin card exact; 2.5s cut to phrase."
+ },
+ "s14": {
+  "t0": 94.338,
+  "t1": 107.407,
+  "frameType": 2,
+  "paragraph": "p10",
+  "layout": "prose-box",
+  "title": "AUM",
+  "sourceLine": "Source: Value Research",
+  "starMarkers": "",
+  "asOfDate": "as of July 2026",
+  "elements": [
+   {
+    "kind": "prose-box",
+    "heading": "About Invesco India Large & Mid Cap Fund - Direct Plan",
+    "body": "Invesco India Large & Mid Cap Fund - Direct Plan is a equity mutual fund scheme of Invesco Mutual Fund. Launched on January 01, 2013, it is currently managed by Aditya Khemani. The fund has an expense ratio of 0.55% with an overall AUM (Assets Under Management) of ₹11,164 Cr.",
+    "pullout": "₹11,164 Cr"
+   },
+   {
+    "kind": "prose-box",
+    "heading": "About Motilal Oswal Large and Midcap Fund - Direct Plan",
+    "body": "Motilal Oswal Large and Midcap Fund - Direct Plan is a equity mutual fund scheme of Motilal Oswal Mutual Fund. Launched on October 17, 2019, it is currently managed by Varun Sharma, Ajay Khandelwal, Ankit Agarwal and Rakesh Shetty. The fund has an expense ratio of 0.60% with an overall AUM (Assets Under Management) of ₹18,413 Cr.",
+    "pullout": "₹18,413 Cr"
+   },
+   {
+    "kind": "date-chip",
+    "value": "as of July 2026"
+   }
+  ],
+  "notes": "CREATOR RULINGS 2026-08-16, all blockers clear: boxes shown AS PRINTED — expense ratios 0.55%/0.60% and manager 'Varun Sharma' stay exactly as printed; the printed-only discrepancy vs a29/VO (0.56%/0.90%) is consciously ignored. Do not edit box text (S2.3 character-for-character). Single 'Source: Value Research' line below covers BOTH boxes (as printed on page 3).",
+  "highlightSchedule": [
+   {
+    "t": 97.0,
+    "what": "a02 About-Invesco box in beside creator; '₹11,164 Cr' pulled out + enlarged",
+    "estimated": true
+   },
+   {
+    "t": 104.186,
+    "what": "in-place swap to a03 About-Motilal box; '₹18,413 Cr' enlarged"
+   },
+   {
+    "t": 106.426,
+    "what": "'as of July 2026' date chip lands (S2.3 as-of on screen with its data)"
+   }
+  ]
+ },
+ "s15": {
+  "t0": 107.407,
+  "t1": 111.388,
+  "frameType": 4,
+  "paragraph": "p11",
+  "layout": "topic-card",
+  "title": "Fund Managers",
+  "sub": "",
+  "notes": "A 91.30 card exact; 4.0s (phrase + breath)."
+ },
+ "s16": {
+  "t0": 111.388,
+  "t1": 124.824,
+  "frameType": 2,
+  "paragraph": "p12",
+  "layout": "journey",
+  "title": "Mr. Aditya Khemani",
+  "sourceLine": "Source: Invesco India",
+  "starMarkers": "",
+  "asOfDate": "",
+  "elements": [
+   {
+    "kind": "bordered-screenshot",
+    "body": "Aditya has over 20 years' of experience in the equities market and currently works with Invesco as Fund Manager - Equity with effect from 1st November 2023. In his last assignment before joining Invesco, Aditya was working with Motilal Oswal Asset Management India Company Ltd. as Fund Manager where he was responsible for managing Equity Funds at the firm. In the past, he has also worked with companies like HSBC Asset Management (India) Pvt. Ltd., SBI Funds Management Ltd., and Morgan Stanley Advantage Services. Aditya holds a Bachelor's in Commerce from St. Xavier's College, Kolkata University and a PGDM degree from Indian Institute of Management, Lucknow."
+   },
+   {
+    "kind": "journey-node",
+    "value": "B.Com (Hons) aur PGDBM qualified"
+   },
+   {
+    "kind": "journey-node",
+    "value": "over 20 years' of experience in the equities market"
+   },
+   {
+    "kind": "journey-node",
+    "value": "Fund Manager - Equity with effect from 1st November 2023"
+   }
+  ],
+  "notes": "Vertical journey line grows one node per spoken fact (A 95.35 Gunwani). CREATOR RULING 2026-08-16: on-screen date = '1st November 2023' (the a04 bio screenshot as printed) — do NOT print 'November 2013'. RESIDUAL FLAG: base-cut VO at ~123.2-124.6 audibly says 'November 2013 se' — screen will contradict audio; creator to choose keep / re-record / audio patch. 'Source: Invesco India' below the screenshot for the full span.",
+  "highlightSchedule": [
+   {
+    "t": 113.9,
+    "what": "a04 bordered bio panel in right; node 'B.Com (Hons) + PGDBM' phrase-sweep",
+    "estimated": true
+   },
+   {
+    "t": 119.312,
+    "what": "node '20+ years equity market' highlight"
+   },
+   {
+    "t": 123.234,
+    "what": "node 'with effect from 1st November 2023' highlight"
+   }
+  ]
+ },
+ "s17": {
+  "t0": 124.824,
+  "t1": 138.101,
+  "frameType": 5,
+  "paragraph": "p13+p14",
+  "layout": "photo-grid",
+  "title": "team-managed",
+  "sourceLine": "Source: Motilal Oswal Mutual Fund",
+  "starMarkers": "",
+  "asOfDate": "",
+  "elements": [
+   {
+    "kind": "manager-card",
+    "name": "Ajay Khandelwal",
+    "role": "Head Equity",
+    "link": "View other funds managed by him"
+   },
+   {
+    "kind": "manager-card",
+    "name": "Rakesh Shetty",
+    "role": "Head Debt",
+    "link": "View other funds managed by him"
+   },
+   {
+    "kind": "manager-card",
+    "name": "Atul Mehra",
+    "role": "Fund Manager",
+    "link": "View other funds managed by him"
+   },
+   {
+    "kind": "manager-card",
+    "name": "Swapnil Mayekar",
+    "role": "Fund Manager",
+    "link": "View other funds managed by him"
+   },
+   {
+    "kind": "manager-card",
+    "name": "Mr. Ankit Agarwal",
+    "role": "Fund Manager",
+    "link": "View other funds managed by him"
+   }
+  ],
+  "notes": "S2.3: cards in SCREENSHOT order (Khandelwal, Shetty, Mehra, Mayekar, Agarwal) — never re-order to spoken order; highlight jumps instead. Only the LAST card prints 'Mr.' — reproduce as printed. 'team-managed' serif label above. Related conflict (a03 'Varun Sharma' vs this five-name team) resolved at s14: box as printed.",
+  "highlightSchedule": [
+   {
+    "t": 125.895,
+    "what": "5 manager cards pop in SCREENSHOT order over the 'AND' reset beat"
+   },
+   {
+    "t": 130.117,
+    "what": "mint highlight jumps to Atul Mehra card"
+   },
+   {
+    "t": 131.358,
+    "what": "mint highlight jumps to Ajay Khandelwal card"
+   },
+   {
+    "t": 132.918,
+    "what": "mint highlight jumps to Mr. Ankit Agarwal card"
+   },
+   {
+    "t": 134.259,
+    "what": "mint highlight jumps to Rakesh Shetty card"
+   },
+   {
+    "t": 136.02,
+    "what": "mint highlight jumps to Swapnil Mayekar card"
+   }
+  ]
+ },
+ "s18": {
+  "t0": 138.101,
+  "t1": 140.944,
+  "frameType": 4,
+  "paragraph": "p15",
+  "layout": "topic-card",
+  "title": "Investment Philosophy",
+  "sub": "",
+  "notes": "Brand dual-panel wipe in (structural section boundary); A 302.20 card exact."
+ },
+ "s19": {
+  "t0": 140.944,
+  "t1": 153.957,
+  "frameType": 5,
+  "paragraph": "p16",
+  "layout": "deck-slide",
+  "title": "Key investment themes",
+  "sourceLine": "Source: Invesco India (data as of April 30, 2026)",
+  "starMarkers": "",
+  "asOfDate": "April 30, 2026",
+  "elements": [
+   {
+    "kind": "deck-slide",
+    "slideTitle": "Key investment themes",
+    "columns": [
+     {
+      "name": "Consumer Discretionary",
+      "allocation": "17.3% Portfolio allocation",
+      "weight": "3.2% Overweight",
+      "bullets": [
+       "Retail/Fashion- Trent, Eternal, Swiggy, Ethos, Safari Industries,",
+       "E-commerce- FSN E-commerce Ventures",
+       "Consumer durables- Amber Enterprises",
+       "Beneficiaries of long-term demand potential"
+      ],
+      "focus": false
+     },
+     {
+      "name": "Healthcare",
+      "allocation": "19.1% Portfolio allocation",
+      "weight": "11.9% Overweight",
+      "bullets": [
+       "E.g.- Max Healthcare Institute, Glenmark Pharmaceuticals, Global Health, Krishna Institute, Sai life sciences etc.",
+       "The sector offers long runway of growth and a proxy play on India's consumption at a relatively better valuation"
+      ],
+      "focus": false
+     },
+     {
+      "name": "Real Estate",
+      "allocation": "7.7% Portfolio allocation",
+      "weight": "6.1% Overweight",
+      "bullets": [
+       "Residential and Commercial property-developers- Prestige Estates Projects, Phoenix Mills, Sobha, Max Estates",
+       "Beneficiaries of sustained demand and new launches"
+      ],
+      "focus": false
+     },
+     {
+      "name": "Financials",
+      "allocation": "29.2% Portfolio allocation",
+      "weight": "-1.0% Underweight",
+      "bullets": [
+       "Private Banks and NBFC- ICICI Bank, Federal Bank, AU Small Finance Bank, Chola Investment, L&T Finance",
+       "Financial services- BSE, HDFC Asset Management, Go Digit General Insurance, Max Financial Services",
+       "Play on India's growth outlook at a relatively reasonable valuation"
+      ],
+      "focus": true
+     }
+    ],
+    "note": "render as styled reproduction of the slide (black border, white bg, light-grey column panels, dark-blue circular icons; column order as printed — never re-order)"
+   }
+  ],
+  "notes": "a06 run spans s19-s22; source + as-of below for the whole run. Column layout order as printed (Consumer Discretionary, Healthcare, Real Estate, Financials); VO visits Financials first — reveal order follows VO, printed geometry never changes.",
+  "highlightSchedule": [
+   {
+    "t": 140.944,
+    "what": "slide frame + blue title in; 4 column ghosts"
+   },
+   {
+    "t": 146.97,
+    "what": "FINANCIALS column reveals (other columns dimmed)"
+   },
+   {
+    "t": 148.852,
+    "what": "'29.2%' isolates + enlarges"
+   },
+   {
+    "t": 151.194,
+    "what": "'-1.0% Underweight' red chip"
+   }
+  ]
+ },
+ "s20": {
+  "t0": 153.957,
+  "t1": 165.252,
+  "frameType": 5,
+  "paragraph": "p17",
+  "layout": "deck-slide",
+  "title": "Key investment themes",
+  "sourceLine": "Source: Invesco India (data as of April 30, 2026)",
+  "starMarkers": "",
+  "asOfDate": "April 30, 2026",
+  "elements": [
+   {
+    "kind": "deck-slide",
+    "slideTitle": "Key investment themes",
+    "columns": [
+     {
+      "name": "Consumer Discretionary",
+      "allocation": "17.3% Portfolio allocation",
+      "weight": "3.2% Overweight",
+      "bullets": [
+       "Retail/Fashion- Trent, Eternal, Swiggy, Ethos, Safari Industries,",
+       "E-commerce- FSN E-commerce Ventures",
+       "Consumer durables- Amber Enterprises",
+       "Beneficiaries of long-term demand potential"
+      ],
+      "focus": false
+     },
+     {
+      "name": "Healthcare",
+      "allocation": "19.1% Portfolio allocation",
+      "weight": "11.9% Overweight",
+      "bullets": [
+       "E.g.- Max Healthcare Institute, Glenmark Pharmaceuticals, Global Health, Krishna Institute, Sai life sciences etc.",
+       "The sector offers long runway of growth and a proxy play on India's consumption at a relatively better valuation"
+      ],
+      "focus": true
+     },
+     {
+      "name": "Real Estate",
+      "allocation": "7.7% Portfolio allocation",
+      "weight": "6.1% Overweight",
+      "bullets": [
+       "Residential and Commercial property-developers- Prestige Estates Projects, Phoenix Mills, Sobha, Max Estates",
+       "Beneficiaries of sustained demand and new launches"
+      ],
+      "focus": false
+     },
+     {
+      "name": "Financials",
+      "allocation": "29.2% Portfolio allocation",
+      "weight": "-1.0% Underweight",
+      "bullets": [
+       "Private Banks and NBFC- ICICI Bank, Federal Bank, AU Small Finance Bank, Chola Investment, L&T Finance",
+       "Financial services- BSE, HDFC Asset Management, Go Digit General Insurance, Max Financial Services",
+       "Play on India's growth outlook at a relatively reasonable valuation"
+      ],
+      "focus": false
+     }
+    ],
+    "note": "render as styled reproduction of the slide (black border, white bg, light-grey column panels, dark-blue circular icons; column order as printed — never re-order)"
+   }
+  ],
+  "notes": "In-place build — bg never cuts (S2.8 dissection changes pacing, never numbers).",
+  "highlightSchedule": [
+   {
+    "t": 153.957,
+    "what": "HEALTHCARE column reveals"
+   },
+   {
+    "t": 154.757,
+    "what": "'19.1%' enlarges"
+   },
+   {
+    "t": 155.918,
+    "what": "'11.9% Overweight' green chip"
+   },
+   {
+    "t": 162.39,
+    "what": "'proxy play on India's consumption... relatively better valuation' bullet sweeps with VO"
+   }
+  ]
+ },
+ "s21": {
+  "t0": 165.252,
+  "t1": 174.117,
+  "frameType": 5,
+  "paragraph": "p18",
+  "layout": "deck-slide",
+  "title": "Key investment themes",
+  "sourceLine": "Source: Invesco India (data as of April 30, 2026)",
+  "starMarkers": "",
+  "asOfDate": "April 30, 2026",
+  "elements": [
+   {
+    "kind": "deck-slide",
+    "slideTitle": "Key investment themes",
+    "columns": [
+     {
+      "name": "Consumer Discretionary",
+      "allocation": "17.3% Portfolio allocation",
+      "weight": "3.2% Overweight",
+      "bullets": [
+       "Retail/Fashion- Trent, Eternal, Swiggy, Ethos, Safari Industries,",
+       "E-commerce- FSN E-commerce Ventures",
+       "Consumer durables- Amber Enterprises",
+       "Beneficiaries of long-term demand potential"
+      ],
+      "focus": true
+     },
+     {
+      "name": "Healthcare",
+      "allocation": "19.1% Portfolio allocation",
+      "weight": "11.9% Overweight",
+      "bullets": [
+       "E.g.- Max Healthcare Institute, Glenmark Pharmaceuticals, Global Health, Krishna Institute, Sai life sciences etc.",
+       "The sector offers long runway of growth and a proxy play on India's consumption at a relatively better valuation"
+      ],
+      "focus": false
+     },
+     {
+      "name": "Real Estate",
+      "allocation": "7.7% Portfolio allocation",
+      "weight": "6.1% Overweight",
+      "bullets": [
+       "Residential and Commercial property-developers- Prestige Estates Projects, Phoenix Mills, Sobha, Max Estates",
+       "Beneficiaries of sustained demand and new launches"
+      ],
+      "focus": false
+     },
+     {
+      "name": "Financials",
+      "allocation": "29.2% Portfolio allocation",
+      "weight": "-1.0% Underweight",
+      "bullets": [
+       "Private Banks and NBFC- ICICI Bank, Federal Bank, AU Small Finance Bank, Chola Investment, L&T Finance",
+       "Financial services- BSE, HDFC Asset Management, Go Digit General Insurance, Max Financial Services",
+       "Play on India's growth outlook at a relatively reasonable valuation"
+      ],
+      "focus": false
+     }
+    ],
+    "note": "render as styled reproduction of the slide (black border, white bg, light-grey column panels, dark-blue circular icons; column order as printed — never re-order)"
+   }
+  ],
+  "notes": "In-place build 3/4.",
+  "highlightSchedule": [
+   {
+    "t": 165.252,
+    "what": "CONSUMER DISCRETIONARY column reveals"
+   },
+   {
+    "t": 166.712,
+    "what": "'17.3%' enlarges"
+   },
+   {
+    "t": 168.433,
+    "what": "'Beneficiaries of long-term demand potential' bullet sweep"
+   },
+   {
+    "t": 171.715,
+    "what": "'3.2% Overweight' green chip"
+   }
+  ]
+ },
+ "s22": {
+  "t0": 174.117,
+  "t1": 181.181,
+  "frameType": 5,
+  "paragraph": "p19",
+  "layout": "deck-slide",
+  "title": "Key investment themes",
+  "sourceLine": "Source: Invesco India (data as of April 30, 2026)",
+  "starMarkers": "",
+  "asOfDate": "April 30, 2026",
+  "elements": [
+   {
+    "kind": "deck-slide",
+    "slideTitle": "Key investment themes",
+    "columns": [
+     {
+      "name": "Consumer Discretionary",
+      "allocation": "17.3% Portfolio allocation",
+      "weight": "3.2% Overweight",
+      "bullets": [
+       "Retail/Fashion- Trent, Eternal, Swiggy, Ethos, Safari Industries,",
+       "E-commerce- FSN E-commerce Ventures",
+       "Consumer durables- Amber Enterprises",
+       "Beneficiaries of long-term demand potential"
+      ],
+      "focus": false
+     },
+     {
+      "name": "Healthcare",
+      "allocation": "19.1% Portfolio allocation",
+      "weight": "11.9% Overweight",
+      "bullets": [
+       "E.g.- Max Healthcare Institute, Glenmark Pharmaceuticals, Global Health, Krishna Institute, Sai life sciences etc.",
+       "The sector offers long runway of growth and a proxy play on India's consumption at a relatively better valuation"
+      ],
+      "focus": false
+     },
+     {
+      "name": "Real Estate",
+      "allocation": "7.7% Portfolio allocation",
+      "weight": "6.1% Overweight",
+      "bullets": [
+       "Residential and Commercial property-developers- Prestige Estates Projects, Phoenix Mills, Sobha, Max Estates",
+       "Beneficiaries of sustained demand and new launches"
+      ],
+      "focus": true
+     },
+     {
+      "name": "Financials",
+      "allocation": "29.2% Portfolio allocation",
+      "weight": "-1.0% Underweight",
+      "bullets": [
+       "Private Banks and NBFC- ICICI Bank, Federal Bank, AU Small Finance Bank, Chola Investment, L&T Finance",
+       "Financial services- BSE, HDFC Asset Management, Go Digit General Insurance, Max Financial Services",
+       "Play on India's growth outlook at a relatively reasonable valuation"
+      ],
+      "focus": false
+     }
+    ],
+    "note": "render as styled reproduction of the slide (black border, white bg, light-grey column panels, dark-blue circular icons; column order as printed — never re-order)"
+   }
+  ],
+  "notes": "Column 4/4 — a06 ANCHOR LINE (p19). Full slide reassembles + source line holds through the 178.6-181.2 breath.",
+  "highlightSchedule": [
+   {
+    "t": 174.217,
+    "what": "REAL ESTATE column reveals"
+   },
+   {
+    "t": 174.977,
+    "what": "'7.7%' enlarges"
+   },
+   {
+    "t": 176.038,
+    "what": "'6.1% Overweight' green chip"
+   }
+  ]
+ },
+ "s23": {
+  "t0": 181.181,
+  "t1": 184.765,
+  "frameType": 1,
+  "paragraph": "p20",
+  "layout": "creator-text",
+  "lines": [
+   {
+    "text": "ek *alag* philosophy",
+    "style": "serif-purple"
+   }
+  ],
+  "notes": "Whip-cut to creator (alternation beat between a06 and a07); text lands word-by-word."
+ },
+ "s24": {
+  "t0": 184.765,
+  "t1": 189.75,
+  "frameType": 5,
+  "paragraph": "p20",
+  "layout": "deck-slide",
+  "title": "High Quality & High Growth Focused House",
+  "sourceLine": "Source: Motilal Oswal AMC",
+  "starMarkers": "",
+  "asOfDate": "",
+  "elements": [
+   {
+    "kind": "deck-slide",
+    "header": "High Quality & High Growth Focused House",
+    "letters": [
+     {
+      "letter": "Q",
+      "box": "Minimum threshold set to ROCE/ROE",
+      "focus": false
+     },
+     {
+      "letter": "G L",
+      "box": "Ensuring Longevity of Growth by investing in sustainable themes identified by the Investment team collectively",
+      "focus": false
+     },
+     {
+      "letter": "P",
+      "box": "Application of PE, PEG framework and Expanding the framework through rolling out DCF, implied returns and implied growth",
+      "focus": false
+     }
+    ],
+    "bottomRow": [
+     "House theme representation in portfolio. Stock picking — 65%",
+     "Flexibity to invest outside house themes — 25%",
+     "Provision for risk mitigation — 10%"
+    ],
+    "bottomRowFocus": false,
+    "note": "render as styled reproduction of the slide (dark-blue Q G L P letters, yellow-dotted connectors, grey rounded boxes, curly-bracket connectors, Motilal Oswal Mutual Fund logo top-right; 'Flexibity' is genuinely printed on the slide — reproduce as printed, S2.3)"
+   }
+  ],
+  "notes": "a07 run spans s24-s28. Source line was missing in the doc; CREATOR RULING 2026-08-16: 'Source: Motilal Oswal AMC' (the pages-7/8 'Invesco India' answer was the page mix-up).",
+  "highlightSchedule": [
+   {
+    "t": 184.765,
+    "what": "slide header + Motilal logo in"
+   },
+   {
+    "t": 186.727,
+    "what": "Q letter pops"
+   },
+   {
+    "t": 187.768,
+    "what": "G letter pops"
+   },
+   {
+    "t": 188.369,
+    "what": "L letter pops"
+   },
+   {
+    "t": 188.909,
+    "what": "P letter pops"
+   }
+  ]
+ },
+ "s25": {
+  "t0": 189.75,
+  "t1": 197.397,
+  "frameType": 5,
+  "paragraph": "p21",
+  "layout": "deck-slide",
+  "title": "High Quality & High Growth Focused House",
+  "sourceLine": "Source: Motilal Oswal AMC",
+  "starMarkers": "",
+  "asOfDate": "",
+  "elements": [
+   {
+    "kind": "deck-slide",
+    "header": "High Quality & High Growth Focused House",
+    "letters": [
+     {
+      "letter": "Q",
+      "box": "Minimum threshold set to ROCE/ROE",
+      "focus": true
+     },
+     {
+      "letter": "G L",
+      "box": "Ensuring Longevity of Growth by investing in sustainable themes identified by the Investment team collectively",
+      "focus": false
+     },
+     {
+      "letter": "P",
+      "box": "Application of PE, PEG framework and Expanding the framework through rolling out DCF, implied returns and implied growth",
+      "focus": false
+     }
+    ],
+    "bottomRow": [
+     "House theme representation in portfolio. Stock picking — 65%",
+     "Flexibity to invest outside house themes — 25%",
+     "Provision for risk mitigation — 10%"
+    ],
+    "bottomRowFocus": false,
+    "note": "render as styled reproduction of the slide (dark-blue Q G L P letters, yellow-dotted connectors, grey rounded boxes, curly-bracket connectors, Motilal Oswal Mutual Fund logo top-right; 'Flexibity' is genuinely printed on the slide — reproduce as printed, S2.3)"
+   }
+  ],
+  "notes": "In-place build with yellow-dotted connector.",
+  "highlightSchedule": [
+   {
+    "t": 189.75,
+    "what": "Q re-highlights; grey box 'Minimum threshold set to ROCE/ROE' reveals"
+   },
+   {
+    "t": 193.654,
+    "what": "'ROCE' token emphasised"
+   },
+   {
+    "t": 194.275,
+    "what": "'ROE' token emphasised"
+   }
+  ]
+ },
+ "s26": {
+  "t0": 197.397,
+  "t1": 207.661,
+  "frameType": 5,
+  "paragraph": "p22",
+  "layout": "deck-slide",
+  "title": "High Quality & High Growth Focused House",
+  "sourceLine": "Source: Motilal Oswal AMC",
+  "starMarkers": "",
+  "asOfDate": "",
+  "elements": [
+   {
+    "kind": "deck-slide",
+    "header": "High Quality & High Growth Focused House",
+    "letters": [
+     {
+      "letter": "Q",
+      "box": "Minimum threshold set to ROCE/ROE",
+      "focus": false
+     },
+     {
+      "letter": "G L",
+      "box": "Ensuring Longevity of Growth by investing in sustainable themes identified by the Investment team collectively",
+      "focus": true
+     },
+     {
+      "letter": "P",
+      "box": "Application of PE, PEG framework and Expanding the framework through rolling out DCF, implied returns and implied growth",
+      "focus": false
+     }
+    ],
+    "bottomRow": [
+     "House theme representation in portfolio. Stock picking — 65%",
+     "Flexibity to invest outside house themes — 25%",
+     "Provision for risk mitigation — 10%"
+    ],
+    "bottomRowFocus": false,
+    "note": "render as styled reproduction of the slide (dark-blue Q G L P letters, yellow-dotted connectors, grey rounded boxes, curly-bracket connectors, Motilal Oswal Mutual Fund logo top-right; 'Flexibity' is genuinely printed on the slide — reproduce as printed, S2.3)"
+   }
+  ],
+  "notes": "Holds through 205.6-207.7 breath.",
+  "highlightSchedule": [
+   {
+    "t": 197.397,
+    "what": "G+L letters co-highlight; wide box reveals (one box spans both letters, as printed)"
+   },
+   {
+    "t": 202.419,
+    "what": "phrase sweep tracks 'sustainable themes'"
+   }
+  ]
+ },
+ "s27": {
+  "t0": 207.661,
+  "t1": 218.728,
+  "frameType": 5,
+  "paragraph": "p23",
+  "layout": "deck-slide",
+  "title": "High Quality & High Growth Focused House",
+  "sourceLine": "Source: Motilal Oswal AMC",
+  "starMarkers": "",
+  "asOfDate": "",
+  "elements": [
+   {
+    "kind": "deck-slide",
+    "header": "High Quality & High Growth Focused House",
+    "letters": [
+     {
+      "letter": "Q",
+      "box": "Minimum threshold set to ROCE/ROE",
+      "focus": false
+     },
+     {
+      "letter": "G L",
+      "box": "Ensuring Longevity of Growth by investing in sustainable themes identified by the Investment team collectively",
+      "focus": false
+     },
+     {
+      "letter": "P",
+      "box": "Application of PE, PEG framework and Expanding the framework through rolling out DCF, implied returns and implied growth",
+      "focus": true
+     }
+    ],
+    "bottomRow": [
+     "House theme representation in portfolio. Stock picking — 65%",
+     "Flexibity to invest outside house themes — 25%",
+     "Provision for risk mitigation — 10%"
+    ],
+    "bottomRowFocus": false,
+    "note": "render as styled reproduction of the slide (dark-blue Q G L P letters, yellow-dotted connectors, grey rounded boxes, curly-bracket connectors, Motilal Oswal Mutual Fund logo top-right; 'Flexibity' is genuinely printed on the slide — reproduce as printed, S2.3)"
+   }
+  ],
+  "notes": "One element per named term (rule 10).",
+  "highlightSchedule": [
+   {
+    "t": 207.661,
+    "what": "P highlights; box 'Application of PE, PEG framework...' reveals"
+   },
+   {
+    "t": 209.382,
+    "what": "'PE' token pops"
+   },
+   {
+    "t": 209.762,
+    "what": "'PEG' token pops"
+   },
+   {
+    "t": 212.543,
+    "what": "'DCF (Discounted Cash Flow)' token pops"
+   },
+   {
+    "t": 214.985,
+    "what": "'implied returns' token pops"
+   },
+   {
+    "t": 216.405,
+    "what": "'implied growth' token pops"
+   }
+  ]
+ },
+ "s28": {
+  "t0": 218.728,
+  "t1": 233.307,
+  "frameType": 5,
+  "paragraph": "p24",
+  "layout": "deck-slide",
+  "title": "High Quality & High Growth Focused House",
+  "sourceLine": "Source: Motilal Oswal AMC",
+  "starMarkers": "",
+  "asOfDate": "",
+  "elements": [
+   {
+    "kind": "deck-slide",
+    "header": "High Quality & High Growth Focused House",
+    "letters": [
+     {
+      "letter": "Q",
+      "box": "Minimum threshold set to ROCE/ROE",
+      "focus": false
+     },
+     {
+      "letter": "G L",
+      "box": "Ensuring Longevity of Growth by investing in sustainable themes identified by the Investment team collectively",
+      "focus": false
+     },
+     {
+      "letter": "P",
+      "box": "Application of PE, PEG framework and Expanding the framework through rolling out DCF, implied returns and implied growth",
+      "focus": false
+     }
+    ],
+    "bottomRow": [
+     "House theme representation in portfolio. Stock picking — 65%",
+     "Flexibity to invest outside house themes — 25%",
+     "Provision for risk mitigation — 10%"
+    ],
+    "bottomRowFocus": true,
+    "note": "render as styled reproduction of the slide (dark-blue Q G L P letters, yellow-dotted connectors, grey rounded boxes, curly-bracket connectors, Motilal Oswal Mutual Fund logo top-right; 'Flexibity' is genuinely printed on the slide — reproduce as printed, S2.3)"
+   }
+  ],
+  "notes": "a07 ANCHOR LINE (p24). Slide genuinely prints 'Flexibity' — reproduce as printed (S2.3). Full slide reassembles through 232.7-233.3.",
+  "highlightSchedule": [
+   {
+    "t": 218.728,
+    "what": "curly-bracket connectors draw on"
+   },
+   {
+    "t": 220.671,
+    "what": "'House theme representation... Stock picking — 65%' box enlarges"
+   },
+   {
+    "t": 226.338,
+    "what": "'Flexibity to invest outside house themes — 25%' box enlarges"
+   },
+   {
+    "t": 230.604,
+    "what": "'Provision for risk mitigation — 10%' box enlarges"
+   }
+  ]
+ },
+ "s29": {
+  "t0": 233.307,
+  "t1": 245.331,
+  "frameType": 5,
+  "paragraph": "p25",
+  "layout": "deck-slide",
+  "title": "Growth Oriented Themes which could be Potential Leaders of the Cycle",
+  "sourceLine": "Source: Motilal Oswal AMC",
+  "starMarkers": "",
+  "asOfDate": "",
+  "elements": [
+   {
+    "kind": "deck-slide",
+    "header": "Growth Oriented Themes which could be Potential Leaders of the Cycle",
+    "columns": [
+     {
+      "name": "China +1",
+      "subThemes": [
+       "Chemicals",
+       "Electronic Manufacturing Services"
+      ]
+     },
+     {
+      "name": "Make in India",
+      "subThemes": [
+       "Auto + EV",
+       "Capital Goods & Engineering",
+       "Infrastructure Ancillaries",
+       "Renewable Power"
+      ]
+     },
+     {
+      "name": "Financialisation",
+      "subThemes": [
+       "High AUM Growth Retail Focused Lenders",
+       "Capital Market Companies",
+       "Health & Life Insurance"
+      ]
+     },
+     {
+      "name": "Tech & Tech Services",
+      "subThemes": [
+       "New Age Consumer Tech",
+       "High Growth Tech Companies"
+      ]
+     },
+     {
+      "name": "Urbanisation",
+      "subThemes": [
+       "Leisure & Luxury",
+       "Travel & Hospitality",
+       "Premiumisation"
+      ]
+     },
+     {
+      "name": "Healthcare Ecosystem",
+      "subThemes": [
+       "Hospitals",
+       "Diagnostics",
+       "Pharma"
+      ]
+     },
+     {
+      "name": "Telecom",
+      "subThemes": [
+       "Equipment and Infra",
+       "Services"
+      ]
+     }
+    ],
+    "note": "render as styled reproduction of the slide (circular grey icons above dark-blue pill headers with yellow arrows, stacked light-grey sub-theme boxes; one column pops per named item)"
+   }
+  ],
+  "notes": "Dissolve in (slide -> slide, same deck family). Sub-theme boxes cascade under each pill after its pop. Pill printed 'China +1' (with space) per inventory; script says 'China+1'. Source per creator ruling 2026-08-16.",
+  "highlightSchedule": [
+   {
+    "t": 235.188,
+    "what": "China +1 column pops"
+   },
+   {
+    "t": 236.708,
+    "what": "Make in India column pops"
+   },
+   {
+    "t": 237.868,
+    "what": "Financialisation column pops"
+   },
+   {
+    "t": 238.969,
+    "what": "Tech & Tech Services column pops"
+   },
+   {
+    "t": 241.029,
+    "what": "Urbanisation column pops"
+   },
+   {
+    "t": 241.71,
+    "what": "Healthcare Ecosystem column pops"
+   },
+   {
+    "t": 243.87,
+    "what": "Telecom column pops"
+   }
+  ]
+ },
+ "s30": {
+  "t0": 245.331,
+  "t1": 248.812,
+  "frameType": 4,
+  "paragraph": "p26",
+  "layout": "topic-card",
+  "title": "Portfolio",
+  "sub": "",
+  "notes": "Brand dual-panel wipe (section boundary); 3.5s cut to phrase."
+ },
+ "s31": {
+  "t0": 248.812,
+  "t1": 260.152,
+  "frameType": 2,
+  "paragraph": "p27",
+  "layout": "data-panel",
+  "title": "Invesco India Large & Mid Cap Fund Direct Growth",
+  "panelHeading": "Concentration",
+  "sourceLine": "Source: Value Research",
+  "starMarkers": "",
+  "asOfDate": "",
+  "elements": [
+   {
+    "label": "No. of Stocks",
+    "values": [
+     "40"
+    ],
+    "highlight": true
+   },
+   {
+    "label": "Top 10 Stocks (i)",
+    "values": [
+     "53.42%"
+    ],
+    "highlight": true
+   },
+   {
+    "label": "Top 5 Stocks (i)",
+    "values": [
+     "33.55%"
+    ],
+    "highlight": true
+   },
+   {
+    "label": "Top 3 Sectors (i)",
+    "values": [
+     "59.73%"
+    ],
+    "highlight": false
+   }
+  ],
+  "notes": "Serif label above panel carries the Direct Growth qualifier from the a11 label (per inventory duplicate note). Printed row order preserved (Top 10 before Top 5, as printed) — VO speaks Top 5 first, so highlights jump; rows never re-order (S2.3). 'Top 3 Sectors — 59.73%' row present but unhighlighted (spoken at p29/s33).",
+  "highlightSchedule": [
+   {
+    "t": 252.614,
+    "what": "'No. of Stocks — 40' row reveals + mint chip"
+   },
+   {
+    "t": 256.158,
+    "what": "'Top 5 Stocks (i) — 33.55%' mint chip"
+   },
+   {
+    "t": 258.54,
+    "what": "'Top 10 Stocks (i) — 53.42%' mint chip"
+   }
+  ]
+ },
+ "s32": {
+  "t0": 260.152,
+  "t1": 274.684,
+  "frameType": 2,
+  "paragraph": "p28",
+  "layout": "data-panel",
+  "title": "Motilal Oswal Large and Midcap Fund Direct Growth",
+  "panelHeading": "Concentration",
+  "sourceLine": "Source: Value Research",
+  "starMarkers": "",
+  "asOfDate": "",
+  "elements": [
+   {
+    "label": "No. of Stocks",
+    "values": [
+     "29"
+    ],
+    "highlight": true
+   },
+   {
+    "label": "Top 10 Stocks (i)",
+    "values": [
+     "43.76%"
+    ],
+    "highlight": true
+   },
+   {
+    "label": "Top 5 Stocks (i)",
+    "values": [
+     "23.36%"
+    ],
+    "highlight": true
+   },
+   {
+    "label": "Top 3 Sectors (i)",
+    "values": [
+     "59.65%"
+    ],
+    "highlight": false
+   }
+  ],
+  "notes": "In-place slot swap, identical mirrored layout (grammar rule 2). p28 anchors are sparse (timing widened) — verify row-highlight frames at build.",
+  "highlightSchedule": [
+   {
+    "t": 265.848,
+    "what": "'zyada concentrated' serif emphasis; 'No. of Stocks — 29' chip"
+   },
+   {
+    "t": 268.0,
+    "what": "'Top 5 Stocks (i) — 23.36%' chip",
+    "estimated": true
+   },
+   {
+    "t": 271.5,
+    "what": "'Top 10 Stocks (i) — 43.76%' chip",
+    "estimated": true
+   }
+  ]
+ },
+ "s33": {
+  "t0": 274.684,
+  "t1": 285.569,
+  "frameType": 5,
+  "paragraph": "p29",
+  "layout": "twin-tables",
+  "title": "",
+  "sourceLine": "Source: Value Research",
+  "starMarkers": "",
+  "asOfDate": "",
+  "elements": [
+   {
+    "panel": "Invesco India Large & Mid Cap Fund Direct Growth",
+    "heading": "Concentration",
+    "rows": [
+     {
+      "label": "No. of Stocks",
+      "values": [
+       "40"
+      ],
+      "highlight": false
+     },
+     {
+      "label": "Top 10 Stocks (i)",
+      "values": [
+       "53.42%"
+      ],
+      "highlight": false
+     },
+     {
+      "label": "Top 5 Stocks (i)",
+      "values": [
+       "33.55%"
+      ],
+      "highlight": false
+     },
+     {
+      "label": "Top 3 Sectors (i)",
+      "values": [
+       "59.73%"
+      ],
+      "highlight": true
+     }
+    ],
+    "sourceLine": "Source: Value Research"
+   },
+   {
+    "panel": "Motilal Oswal Large and Midcap Fund Direct Growth",
+    "heading": "Concentration",
+    "rows": [
+     {
+      "label": "No. of Stocks",
+      "values": [
+       "29"
+      ],
+      "highlight": false
+     },
+     {
+      "label": "Top 10 Stocks (i)",
+      "values": [
+       "43.76%"
+      ],
+      "highlight": false
+     },
+     {
+      "label": "Top 5 Stocks (i)",
+      "values": [
+       "23.36%"
+      ],
+      "highlight": false
+     },
+     {
+      "label": "Top 3 Sectors (i)",
+      "values": [
+       "59.65%"
+      ],
+      "highlight": true
+     }
+    ],
+    "sourceLine": "Source: Value Research"
+   }
+  ],
+  "notes": "Both labeled Direct-Growth cards side-by-side on grid bg; cells land in same screen position (3/3 videos). CREATOR RULING (a11): page-10 source is Value Research and EACH card carries its own source line.",
+  "highlightSchedule": [
+   {
+    "t": 281.687,
+    "what": "Invesco 'Top 3 Sectors — 59.73%' band-highlight"
+   },
+   {
+    "t": 284.869,
+    "what": "Motilal 'Top 3 Sectors — 59.65%' band-highlight (same screen position)"
+   },
+   {
+    "t": 285.2,
+    "what": "'lagbhag same' gold chips on both values (gold = mixed/neutral verdict code)",
+    "estimated": true
+   }
+  ]
+ },
+ "s34": {
+  "t0": 285.569,
+  "t1": 288.03,
+  "frameType": 4,
+  "paragraph": "p30",
+  "layout": "topic-card",
+  "title": "Market Cap Allocation",
+  "sub": "",
+  "notes": "2.5s cut to phrase (ends 287.67)."
+ },
+ "s35": {
+  "t0": 288.03,
+  "t1": 302.298,
+  "frameType": 5,
+  "paragraph": "p30",
+  "layout": "data-panel",
+  "title": "Invesco India Large & Mid Cap Fund Direct Growth",
+  "sourceLine": "Source: Value Research",
+  "starMarkers": "",
+  "asOfDate": "",
+  "elements": [
+   {
+    "label": "Large (i)",
+    "values": [
+     "37.43%",
+     "Category: 52.75%"
+    ],
+    "highlight": true
+   },
+   {
+    "label": "Mid (i)",
+    "values": [
+     "38.33%",
+     "Category: 37.30%"
+    ],
+    "highlight": true
+   },
+   {
+    "label": "Small (i)",
+    "values": [
+     "24.24%",
+     "Category: 11.65%"
+    ],
+    "highlight": true
+   },
+   {
+    "label": "Avg Mkt Cap (i)",
+    "values": [
+     "₹97,433 Cr",
+     "Category: ₹ 1,57,535 Cr"
+    ],
+    "highlight": false
+   }
+  ],
+  "notes": "a13 Portfolio-Aggregates card full-screen; Direct Growth label carried from the a15 duplicate. VO word gap 290.6-298.7 (unmatched ASR) — block draw-on/bar-fill animation carries the hold; verify against audio. Category values stay attached to each block (S2.3 — value never stripped of its comparison column). Avg Mkt Cap block spoken at p32 (s39).",
+  "highlightSchedule": [
+   {
+    "t": 290.371,
+    "what": "'Large (i) 37.43%' block enlarges"
+   },
+   {
+    "t": 298.696,
+    "what": "'Mid (i) 38.33%' block enlarges"
+   },
+   {
+    "t": 301.497,
+    "what": "'Small (i) 24.24%' block enlarges"
+   }
+  ]
+ },
+ "s36": {
+  "t0": 302.298,
+  "t1": 313.085,
+  "frameType": 5,
+  "paragraph": "p30",
+  "layout": "data-panel",
+  "title": "Invesco India Large & Mid Cap Fund Direct Growth",
+  "sourceLine": "Source: Value Research",
+  "starMarkers": "",
+  "asOfDate": "",
+  "elements": [
+   {
+    "label": "Large (i)",
+    "values": [
+     "37.43%",
+     "Category: 52.75%"
+    ],
+    "highlight": true
+   },
+   {
+    "label": "Mid (i)",
+    "values": [
+     "38.33%",
+     "Category: 37.30%"
+    ],
+    "highlight": false
+   },
+   {
+    "label": "Small (i)",
+    "values": [
+     "24.24%",
+     "Category: 11.65%"
+    ],
+    "highlight": true
+   },
+   {
+    "label": "Avg Mkt Cap (i)",
+    "values": [
+     "₹97,433 Cr",
+     "Category: ₹ 1,57,535 Cr"
+    ],
+    "highlight": false
+   }
+  ],
+  "notes": "a13 continues — dissection act 2 (category comparison); same elements, in-place.",
+  "highlightSchedule": [
+   {
+    "t": 305.0,
+    "what": "'Category: 52.75%' chip flashes red-vs-fund on the Large block"
+   },
+   {
+    "t": 306.02,
+    "what": "Large block tints down / Small block tints up ('large-cap mein kam aur small-cap mein zyada')"
+   },
+   {
+    "t": 310.423,
+    "what": "Small tint-up emphasis completes"
+   }
+  ]
+ },
+ "s37": {
+  "t0": 313.085,
+  "t1": 331.922,
+  "frameType": 5,
+  "paragraph": "p31",
+  "layout": "data-panel",
+  "title": "Motilal Oswal Large and Midcap Fund Direct Growth",
+  "sourceLine": "Source: Value Research",
+  "starMarkers": "",
+  "asOfDate": "",
+  "elements": [
+   {
+    "label": "Large (i)",
+    "values": [
+     "39.57%",
+     "Category: 52.75%"
+    ],
+    "highlight": true
+   },
+   {
+    "label": "Mid (i)",
+    "values": [
+     "31.79%",
+     "Category: 37.30%"
+    ],
+    "highlight": true
+   },
+   {
+    "label": "Small (i)",
+    "values": [
+     "28.64%",
+     "Category: 11.65%"
+    ],
+    "highlight": true
+   },
+   {
+    "label": "Avg Mkt Cap (i)",
+    "values": [
+     "₹77,294 Cr",
+     "Category: ₹ 1,57,535 Cr"
+    ],
+    "highlight": false
+   }
+  ],
+  "notes": "In-place swap to a14, identical mirrored layout; Direct Growth label from the a16 duplicate. p31 mid-sentence anchors sparse — verify block times at build.",
+  "highlightSchedule": [
+   {
+    "t": 315.5,
+    "what": "'Large (i) 39.57%' block enlarges",
+    "estimated": true
+   },
+   {
+    "t": 318.5,
+    "what": "'Mid (i) 31.79%' block enlarges",
+    "estimated": true
+   },
+   {
+    "t": 321.0,
+    "what": "'Small (i) 28.64%' block enlarges",
+    "estimated": true
+   },
+   {
+    "t": 323.918,
+    "what": "category chips repeat treatment"
+   },
+   {
+    "t": 329.661,
+    "what": "both funds' Small blocks co-highlight ('small-cap tilt zyada')"
+   }
+  ]
+ },
+ "s38": {
+  "t0": 331.922,
+  "t1": 334.403,
+  "frameType": 4,
+  "paragraph": "p32",
+  "layout": "topic-card",
+  "title": "Average Market Cap",
+  "sub": "",
+  "notes": "Card cut to the opener phrase (ends 333.72); assets land next span."
+ },
+ "s39": {
+  "t0": 334.403,
+  "t1": 345.528,
+  "frameType": 5,
+  "paragraph": "p32",
+  "layout": "twin-tables",
+  "title": "",
+  "sourceLine": "Source: Value Research",
+  "starMarkers": "",
+  "asOfDate": "",
+  "elements": [
+   {
+    "panel": "Invesco India Large & Mid Cap Fund Direct Growth",
+    "rows": [
+     {
+      "label": "Large (i)",
+      "values": [
+       "37.43%",
+       "Category: 52.75%"
+      ],
+      "highlight": false
+     },
+     {
+      "label": "Mid (i)",
+      "values": [
+       "38.33%",
+       "Category: 37.30%"
+      ],
+      "highlight": false
+     },
+     {
+      "label": "Small (i)",
+      "values": [
+       "24.24%",
+       "Category: 11.65%"
+      ],
+      "highlight": false
+     },
+     {
+      "label": "Avg Mkt Cap (i)",
+      "values": [
+       "₹97,433 Cr",
+       "Category: ₹ 1,57,535 Cr"
+      ],
+      "highlight": true
+     }
+    ],
+    "sourceLine": "Source: Value Research"
+   },
+   {
+    "panel": "Motilal Oswal Large and Midcap Fund Direct Growth",
+    "rows": [
+     {
+      "label": "Large (i)",
+      "values": [
+       "39.57%",
+       "Category: 52.75%"
+      ],
+      "highlight": false
+     },
+     {
+      "label": "Mid (i)",
+      "values": [
+       "31.79%",
+       "Category: 37.30%"
+      ],
+      "highlight": false
+     },
+     {
+      "label": "Small (i)",
+      "values": [
+       "28.64%",
+       "Category: 11.65%"
+      ],
+      "highlight": false
+     },
+     {
+      "label": "Avg Mkt Cap (i)",
+      "values": [
+       "₹77,294 Cr",
+       "Category: ₹ 1,57,535 Cr"
+      ],
+      "highlight": true
+     }
+    ],
+    "sourceLine": "Source: Value Research"
+   }
+  ],
+  "notes": "a15+a16 at ANCHOR LINE (p32), mirrored twins. Page 13 prints one shared source line; per the a11 creator ruling each card carries its own 'Source: Value Research' here (flagged in scene-map OPEN QUESTIONS).",
+  "highlightSchedule": [
+   {
+    "t": 337.524,
+    "what": "twin cards in, Avg Mkt Cap blocks foregrounded; '₹97,433 Cr' lands"
+   },
+   {
+    "t": 343.887,
+    "what": "emphasis swaps to '₹77,294 Cr'"
+   },
+   {
+    "t": 344.887,
+    "what": "'Category: ₹ 1,57,535 Cr' chip flashes on both cards"
+   }
+  ]
+ },
+ "s40": {
+  "t0": 345.528,
+  "t1": 355.693,
+  "frameType": 6,
+  "paragraph": "p32",
+  "layout": "twin-tables",
+  "title": "*Smaller* Companies Than Category",
+  "sourceLine": "Source: Value Research",
+  "starMarkers": "",
+  "asOfDate": "",
+  "elements": [
+   {
+    "panel": "Invesco India Large & Mid Cap Fund Direct Growth",
+    "rows": [
+     {
+      "label": "Large (i)",
+      "values": [
+       "37.43%",
+       "Category: 52.75%"
+      ],
+      "highlight": false
+     },
+     {
+      "label": "Mid (i)",
+      "values": [
+       "38.33%",
+       "Category: 37.30%"
+      ],
+      "highlight": false
+     },
+     {
+      "label": "Small (i)",
+      "values": [
+       "24.24%",
+       "Category: 11.65%"
+      ],
+      "highlight": false
+     },
+     {
+      "label": "Avg Mkt Cap (i)",
+      "values": [
+       "₹97,433 Cr",
+       "Category: ₹ 1,57,535 Cr"
+      ],
+      "highlight": true
+     }
+    ],
+    "sourceLine": "Source: Value Research"
+   },
+   {
+    "panel": "Motilal Oswal Large and Midcap Fund Direct Growth",
+    "rows": [
+     {
+      "label": "Large (i)",
+      "values": [
+       "39.57%",
+       "Category: 52.75%"
+      ],
+      "highlight": false
+     },
+     {
+      "label": "Mid (i)",
+      "values": [
+       "31.79%",
+       "Category: 37.30%"
+      ],
+      "highlight": false
+     },
+     {
+      "label": "Small (i)",
+      "values": [
+       "28.64%",
+       "Category: 11.65%"
+      ],
+      "highlight": false
+     },
+     {
+      "label": "Avg Mkt Cap (i)",
+      "values": [
+       "₹77,294 Cr",
+       "Category: ₹ 1,57,535 Cr"
+      ],
+      "highlight": true
+     }
+    ],
+    "sourceLine": "Source: Value Research"
+   },
+   {
+    "kind": "resolving-title",
+    "desc": "serif title resolves in place over the running twin-card MG (no cut)"
+   }
+  ],
+  "notes": "Type 6 resolve; resolved title + twins hold through the 350.5-355.7 breath; exit on card cut 355.69.",
+  "highlightSchedule": [
+   {
+    "t": 348.409,
+    "what": "title resolves on 'chhoti companies mein zyada invest'"
+   }
+  ]
+ },
+ "s41": {
+  "t0": 355.693,
+  "t1": 357.675,
+  "frameType": 4,
+  "paragraph": "p33",
+  "layout": "topic-card",
+  "title": "Valuation",
+  "sub": "",
+  "notes": "2.0s cut to phrase (ends 356.95)."
+ },
+ "s42": {
+  "t0": 357.675,
+  "t1": 376.388,
+  "frameType": 5,
+  "paragraph": "p33",
+  "layout": "data-panel",
+  "title": "Valuation",
+  "columns": [
+   "Valuation Metric",
+   "Invesco India Large & Mid Cap Fund",
+   "Motilal Oswal Large & Midcap Fund",
+   "NIFTY LargeMidcap 250 (Benchmark)"
+  ],
+  "sourceLine": "Source: Value Research & Screener",
+  "starMarkers": "*Direct Growth",
+  "asOfDate": "",
+  "elements": [
+   {
+    "label": "Portfolio P/E Ratio",
+    "values": [
+     "48.34",
+     "46.23",
+     "24.60"
+    ],
+    "highlight": true
+   },
+   {
+    "label": "Portfolio P/B Ratio",
+    "values": [
+     "5.26",
+     "7.06",
+     "3.71"
+    ],
+    "highlight": true
+   }
+  ],
+  "notes": "Header prints 'Motilal Oswal Large & Midcap Fund' WITH ampersand (everywhere else 'Large and Midcap') — reproduce as printed (S2.3). Cell values are never spoken — highlights key off the spoken metric names. Every column printed incl. benchmark. '*Direct Growth' star (no space, as printed on page 14) + source below.",
+  "highlightSchedule": [
+   {
+    "t": 358.815,
+    "what": "4-column table builds, headers in; P/E row cells 48.34 vs 46.23 highlight"
+   },
+   {
+    "t": 364.119,
+    "what": "P/B row cells 5.26 vs 7.06 highlight"
+   },
+   {
+    "t": 374.247,
+    "what": "'valuation... alag' gold chips on both fund columns"
+   }
+  ]
+ },
+ "s43": {
+  "t0": 376.388,
+  "t1": 387.731,
+  "frameType": 5,
+  "paragraph": "p33",
+  "layout": "data-panel",
+  "title": "Valuation",
+  "columns": [
+   "Valuation Metric",
+   "Invesco India Large & Mid Cap Fund",
+   "Motilal Oswal Large & Midcap Fund",
+   "NIFTY LargeMidcap 250 (Benchmark)"
+  ],
+  "sourceLine": "Source: Value Research & Screener",
+  "starMarkers": "*Direct Growth",
+  "asOfDate": "",
+  "elements": [
+   {
+    "label": "Portfolio P/E Ratio",
+    "values": [
+     "48.34",
+     "46.23",
+     "24.60"
+    ],
+    "highlight": true
+   },
+   {
+    "label": "Portfolio P/B Ratio",
+    "values": [
+     "5.26",
+     "7.06",
+     "3.71"
+    ],
+    "highlight": true
+   }
+  ],
+  "notes": "a17 continues — dissection act 2 (benchmark column sweep), in-place build.",
+  "highlightSchedule": [
+   {
+    "t": 376.388,
+    "what": "'NIFTY LargeMidcap 250 (Benchmark)' column sweeps: 24.60 then 3.71"
+   },
+   {
+    "t": 385.671,
+    "what": "both fund columns tint vs benchmark ('relatively higher-valued companies')"
+   }
+  ]
+ },
+ "s44": {
+  "t0": 387.731,
+  "t1": 392.212,
+  "frameType": 1,
+  "paragraph": "p33",
+  "layout": "creator-text",
+  "lines": [
+   {
+    "text": "sector allocation * stock selection",
+    "style": "serif-purple"
+   }
+  ],
+  "notes": "Interpretation returns to bare creator (rule 13); whip-cut in at 387.73."
+ },
+ "s45": {
+  "t0": 392.212,
+  "t1": 394.0,
+  "frameType": 4,
+  "paragraph": "p34",
+  "layout": "topic-card",
+  "title": "Portfolio Turnover",
+  "sub": "",
+  "notes": "1.8s cut to phrase (ends 393.97)."
+ },
+ "s46": {
+  "t0": 394.0,
+  "t1": 413.978,
+  "frameType": 2,
+  "paragraph": "p34",
+  "layout": "data-panel",
+  "title": "Portfolio Turnover",
+  "columns": [
+   "Fund (* Direct Growth)",
+   "Portfolio Turnover Ratio (as of March 31, 2025)"
+  ],
+  "sourceLine": "Source: Morningstar",
+  "starMarkers": "* Direct Growth",
+  "asOfDate": "as of March 31, 2025",
+  "elements": [
+   {
+    "label": "Invesco India Large & Mid Cap Fund",
+    "values": [
+     "61.82%"
+    ],
+    "highlight": true
+   },
+   {
+    "label": "Motilal Oswal Large and Midcap Fund",
+    "values": [
+     "42.35%"
+    ],
+    "highlight": true
+   }
+  ],
+  "notes": "a18 table beside creator (A 181.72 turnover callout). As-of qualifier is italic INSIDE the header cell as printed: 'Fund (* Direct Growth)' / 'Portfolio Turnover Ratio (as of March 31, 2025)'. 20.0s hold earned by 4 highlight steps.",
+  "highlightSchedule": [
+   {
+    "t": 398.294,
+    "what": "Invesco row '61.82%' highlight"
+   },
+   {
+    "t": 403.642,
+    "what": "Motilal row '42.35%' highlight"
+   },
+   {
+    "t": 406.406,
+    "what": "'March 31, 2025' italic chip re-emphasised"
+   },
+   {
+    "t": 409.731,
+    "what": "Invesco row re-highlights ('zyada frequently changes')"
+   }
+  ]
+ },
+ "s47": {
+  "t0": 413.978,
+  "t1": 419.48,
+  "frameType": 1,
+  "paragraph": "p35+p36",
+  "layout": "creator-text",
+  "lines": [
+   {
+    "text": "*sirf* portfolio composition?",
+    "style": "serif-purple"
+   }
+  ],
+  "notes": "Crash-zoom in on the creator's face (A 466.35 parallel); text lands on the clause at 414.46."
+ },
+ "s48": {
+  "t0": 419.48,
+  "t1": 425.003,
+  "frameType": 4,
+  "paragraph": "p36+p37",
+  "layout": "topic-card",
+  "title": "Risk & Risk-Adjusted Returns",
+  "sub": "",
+  "morphTo": "Standard Deviation",
+  "morphAt": 422.84,
+  "notes": "Morph card (A 483.95 device): card lands on 'ab risk aur risk-adjusted returns' 419.48-422.60; title morphs IN PLACE -> 'Standard Deviation' on 'Pehla metric hai Standard Deviation' 422.84-424.44. Covers openers 11+12/25."
+ },
+ "s49": {
+  "t0": 425.003,
+  "t1": 430.245,
+  "frameType": 1,
+  "paragraph": "p37",
+  "layout": "creator-text",
+  "lines": [
+   {
+    "text": "Standard Deviation",
+    "style": "serif-purple"
+   }
+  ],
+  "notes": "Unsourced definition -> creator to camera (rule 8); inline serif label + rotating coins (C 428.44 mini-label device)."
+ },
+ "s50": {
+  "t0": 430.245,
+  "t1": 443.633,
+  "frameType": 5,
+  "paragraph": "p38",
+  "layout": "data-panel",
+  "title": "Standard Deviation",
+  "columns": [
+   "Metric",
+   "Invesco India Large & Mid Cap Fund",
+   "Motilal Oswal Large and Midcap Fund",
+   "Category Average"
+  ],
+  "sourceLine": "Source: Morningstar",
+  "starMarkers": "* Direct Growth",
+  "asOfDate": "",
+  "elements": [
+   {
+    "label": "Standard Deviation",
+    "values": [
+     "18.36",
+     "21.33",
+     "16.24"
+    ],
+    "highlight": true
+   }
+  ],
+  "notes": "Full-screen metric table (A 502.35 risk-table treatment). Column order as printed: Invesco | Motilal | Category Average.",
+  "highlightSchedule": [
+   {
+    "t": 433.687,
+    "what": "Invesco '18.36' cell highlight"
+   },
+   {
+    "t": 436.188,
+    "what": "'Category Average 16.24' cell highlight"
+   },
+   {
+    "t": 439.0,
+    "what": "Motilal '21.33' cell highlight",
+    "estimated": true
+   },
+   {
+    "t": 442.952,
+    "what": "both fund cells tint red ('apni category se zyada volatile'; red = worse)"
+   }
+  ]
+ },
+ "s51": {
+  "t0": 443.633,
+  "t1": 446.334,
+  "frameType": 4,
+  "paragraph": "p39",
+  "layout": "topic-card",
+  "title": "Beta",
+  "sub": "",
+  "notes": "2.7s cut to phrase (ends 445.07); dissolve in from table."
+ },
+ "s52": {
+  "t0": 446.334,
+  "t1": 453.877,
+  "frameType": 1,
+  "paragraph": "p39",
+  "layout": "creator-text",
+  "lines": [
+   {
+    "text": "Beta",
+    "style": "serif-purple"
+   },
+   {
+    "text": "Beta > 1 = zyada volatile",
+    "style": "sans-white"
+   }
+  ],
+  "notes": "Definition to camera; micro-text lands on the rule clause ~449.9-452.6."
+ },
+ "s53": {
+  "t0": 453.877,
+  "t1": 465.531,
+  "frameType": 5,
+  "paragraph": "p40",
+  "layout": "data-panel",
+  "title": "Beta",
+  "columns": [
+   "Metric",
+   "Invesco India Large & Mid Cap Fund",
+   "Motilal Oswal Large and Midcap Fund",
+   "Category Average"
+  ],
+  "sourceLine": "Source: Morningstar",
+  "starMarkers": "* Direct Growth",
+  "asOfDate": "",
+  "elements": [
+   {
+    "label": "Beta",
+    "values": [
+     "1.08",
+     "1.17",
+     "0.97"
+    ],
+    "highlight": true
+   }
+  ],
+  "notes": "Same treatment slot as a19 (identical layout family, in-place swap between metric tables via card beats). p40 anchors sparse on the values — verify at build.",
+  "highlightSchedule": [
+   {
+    "t": 455.5,
+    "what": "Invesco '1.08' cell highlight",
+    "estimated": true
+   },
+   {
+    "t": 458.0,
+    "what": "Motilal '1.17' cell highlight",
+    "estimated": true
+   },
+   {
+    "t": 461.96,
+    "what": "Category '0.97' cell highlight"
+   },
+   {
+    "t": 465.141,
+    "what": "both fund cells tint red ('benchmark se zyada volatile')"
+   }
+  ]
+ },
+ "s54": {
+  "t0": 465.531,
+  "t1": 467.5,
+  "frameType": 4,
+  "paragraph": "p41",
+  "layout": "topic-card",
+  "title": "Alpha",
+  "sub": "",
+  "notes": "Opener phrase heads a data sentence — card 2.0s, table next span."
+ },
+ "s55": {
+  "t0": 467.5,
+  "t1": 482.769,
+  "frameType": 5,
+  "paragraph": "p41",
+  "layout": "data-panel",
+  "title": "Alpha",
+  "columns": [
+   "Metric",
+   "Invesco India Large & Mid Cap Fund",
+   "Motilal Oswal Large and Midcap Fund",
+   "Category Average"
+  ],
+  "sourceLine": "Source: Morningstar",
+  "starMarkers": "* Direct Growth",
+  "asOfDate": "",
+  "elements": [
+   {
+    "label": "Alpha",
+    "values": [
+     "8.11",
+     "6.36",
+     "0.62"
+    ],
+    "highlight": true
+   }
+  ],
+  "notes": "a21 at ANCHOR LINE (p41); no definition beat — table carries the whole paragraph, 15.3s cell-walked. p41 anchors empty before 478s — value times estimated; verify at build.",
+  "highlightSchedule": [
+   {
+    "t": 469.0,
+    "what": "Invesco '8.11' green cell",
+    "estimated": true
+   },
+   {
+    "t": 472.0,
+    "what": "Category '0.62' cell with 'sirf' shrink-emphasis",
+    "estimated": true
+   },
+   {
+    "t": 475.5,
+    "what": "Motilal '6.36' green cell",
+    "estimated": true
+   },
+   {
+    "t": 481.047,
+    "what": "both fund cells green-sweep ('kaafi zyada excess return'; green = good)"
+   }
+  ]
+ },
+ "s56": {
+  "t0": 482.769,
+  "t1": 485.351,
+  "frameType": 4,
+  "paragraph": "p42",
+  "layout": "topic-card",
+  "title": "Sharpe Ratio",
+  "sub": "",
+  "notes": "A 518.65 card exact; 2.6s (phrase ends 484.27)."
+ },
+ "s57": {
+  "t0": 485.351,
+  "t1": 490.395,
+  "frameType": 1,
+  "paragraph": "p42",
+  "layout": "creator-text",
+  "lines": [
+   {
+    "text": "Sharpe Ratio",
+    "style": "serif-purple"
+   },
+   {
+    "text": "extra return / extra risk",
+    "style": "sans-white"
+   }
+  ],
+  "notes": "Definition without citable source -> creator (rule 8); micro-fraction animates on the clause ~485.4-488.0."
+ },
+ "s58": {
+  "t0": 490.395,
+  "t1": 507.353,
+  "frameType": 5,
+  "paragraph": "p43",
+  "layout": "data-panel",
+  "title": "Sharpe Ratio",
+  "columns": [
+   "Metric",
+   "Invesco India Large & Mid Cap Fund",
+   "Motilal Oswal Large and Midcap Fund",
+   "Category Average"
+  ],
+  "sourceLine": "Source: Morningstar",
+  "starMarkers": "* Direct Growth",
+  "asOfDate": "",
+  "elements": [
+   {
+    "label": "Sharpe Ratio",
+    "values": [
+     "0.94",
+     "0.77",
+     "0.59"
+    ],
+    "highlight": true
+   }
+  ],
+  "notes": "17.0s incl. verdict tint + tail hold; table holds resolved, exits with sting into the capture-ratio card through the 503.3-507.4 breath.",
+  "highlightSchedule": [
+   {
+    "t": 493.137,
+    "what": "Invesco '0.94' green cell"
+   },
+   {
+    "t": 497.42,
+    "what": "Motilal '0.77' cell"
+   },
+   {
+    "t": 498.741,
+    "what": "Category '0.59' cell"
+   },
+   {
+    "t": 501.943,
+    "what": "both fund cells green ('behtar risk-adjusted returns')"
+   }
+  ]
+ },
+ "s59": {
+  "t0": 507.353,
+  "t1": 510.095,
+  "frameType": 4,
+  "paragraph": "p44+p45",
+  "layout": "topic-card",
+  "title": "Upside & Downside Capture Ratio",
+  "sub": "",
+  "morphTo": "Upside Capture Ratio",
+  "morphAt": 508.3,
+  "notes": "Morph card (openers 16+17/25): lands on the p44 phrase 507.35-508.19, morphs in place -> 'Upside Capture Ratio' as p45 begins ~508.3."
+ },
+ "s60": {
+  "t0": 510.095,
+  "t1": 517.799,
+  "frameType": 1,
+  "paragraph": "p45",
+  "layout": "creator-text",
+  "lines": [
+   {
+    "text": "Upside Capture Ratio",
+    "style": "serif-purple"
+   },
+   {
+    "text": ">100 = benchmark se behtar",
+    "style": "sans-white"
+   }
+  ],
+  "notes": "Definition to camera; micro-text lands 513.3-516.4."
+ },
+ "s61": {
+  "t0": 517.799,
+  "t1": 530.828,
+  "frameType": 5,
+  "paragraph": "p46",
+  "layout": "data-panel",
+  "title": "Upside Capture Ratio",
+  "columns": [
+   "Metric",
+   "Invesco India Large & Mid Cap Fund",
+   "Motilal Oswal Large and Midcap Fund",
+   "Category Average"
+  ],
+  "sourceLine": "Source: Morningstar",
+  "starMarkers": "* Direct Growth",
+  "asOfDate": "",
+  "elements": [
+   {
+    "label": "Upside Capture Ratio",
+    "values": [
+     "132",
+     "133",
+     "101"
+    ],
+    "highlight": true
+   }
+  ],
+  "notes": "Cells light at speak-time; green = good.",
+  "highlightSchedule": [
+   {
+    "t": 519.68,
+    "what": "Invesco '132' green cell"
+   },
+   {
+    "t": 522.722,
+    "what": "Motilal '133' green cell"
+   },
+   {
+    "t": 524.963,
+    "what": "Category '101' cell"
+   },
+   {
+    "t": 529.967,
+    "what": "both cells green-sweep ('kaafi aage nikal jaate')"
+   }
+  ]
+ },
+ "s62": {
+  "t0": 530.828,
+  "t1": 533.4,
+  "frameType": 4,
+  "paragraph": "p47",
+  "layout": "topic-card",
+  "title": "Downside Capture Ratio",
+  "sub": "",
+  "notes": "Card title MORPHS in place from the s59 card family -> 'Downside Capture Ratio' (spoken ~531.8-532.9); dissolve in from table; 2.6s."
+ },
+ "s63": {
+  "t0": 533.4,
+  "t1": 540.886,
+  "frameType": 1,
+  "paragraph": "p47",
+  "layout": "creator-text",
+  "lines": [
+   {
+    "text": "Downside Capture Ratio",
+    "style": "serif-purple"
+   },
+   {
+    "text": "<100 = kam gira = achhi baat",
+    "style": "sans-white"
+   }
+  ],
+  "notes": "Definition to camera; micro-text lands 537.4-540.8."
+ },
+ "s64": {
+  "t0": 540.886,
+  "t1": 554.147,
+  "frameType": 5,
+  "paragraph": "p48",
+  "layout": "data-panel",
+  "title": "Downside Capture Ratio",
+  "columns": [
+   "Metric",
+   "Invesco India Large & Mid Cap Fund",
+   "Motilal Oswal Large and Midcap Fund",
+   "Category Average"
+  ],
+  "sourceLine": "Source: Morningstar",
+  "starMarkers": "* Direct Growth",
+  "asOfDate": "",
+  "elements": [
+   {
+    "label": "Downside Capture Ratio",
+    "values": [
+     "104",
+     "116",
+     "99"
+    ],
+    "highlight": true
+   }
+  ],
+  "notes": "p48 has ZERO matched anchor words — every time here is estimated; p48 t1 is gap-inferred. Verify all four highlight frames and the exit frame against base-cut audio at build (WhisperX lesson).",
+  "highlightSchedule": [
+   {
+    "t": 543.5,
+    "what": "Invesco '104' cell highlight",
+    "estimated": true
+   },
+   {
+    "t": 546.5,
+    "what": "Motilal '116' red cell",
+    "estimated": true
+   },
+   {
+    "t": 549.5,
+    "what": "Category '99' cell",
+    "estimated": true
+   },
+   {
+    "t": 551.5,
+    "what": "both fund cells tint red ('category se zyada girta')",
+    "estimated": true
+   }
+  ]
+ },
+ "s65": {
+  "t0": 554.147,
+  "t1": 556.988,
+  "frameType": 4,
+  "paragraph": "p49",
+  "layout": "topic-card",
+  "title": "Maximum Drawdown",
+  "sub": "",
+  "notes": "2.8s cut to phrase (ends 556.35); dissolve in."
+ },
+ "s66": {
+  "t0": 556.988,
+  "t1": 562.43,
+  "frameType": 1,
+  "paragraph": "p49",
+  "layout": "creator-text",
+  "lines": [
+   {
+    "text": "Maximum Drawdown",
+    "style": "serif-purple"
+   }
+  ],
+  "notes": "Definition to camera; peak-to-trough micro-glyph animates on 'peak se kitna neeche gira' 558.2-560.3."
+ },
+ "s67": {
+  "t0": 562.43,
+  "t1": 573.573,
+  "frameType": 5,
+  "paragraph": "p50",
+  "layout": "data-panel",
+  "title": "Maximum Drawdown",
+  "columns": [
+   "Metric",
+   "Invesco India Large & Mid Cap Fund",
+   "Motilal Oswal Large and Midcap Fund",
+   "Benchmark Index Average"
+  ],
+  "sourceLine": "Source: Morningstar",
+  "starMarkers": "* Direct Growth",
+  "asOfDate": "",
+  "elements": [
+   {
+    "label": "Maximum Drawdown",
+    "values": [
+     "-17.08%",
+     "-24.12%",
+     "-18.15%"
+    ],
+    "highlight": true
+   },
+   {
+    "label": "Drawdown Period",
+    "values": [
+     "Oct 2024 – Feb 2025 (5 months)",
+     "Jan 2025 – Feb 2025 (2 months)",
+     "-"
+    ],
+    "highlight": true
+   }
+  ],
+  "notes": "a25 built across s67-s69 (p50-p52); star + source below for the whole run. Fourth column header reads 'Benchmark Index Average' as printed — NOT 'Category Average' like the other risk tables (S2.3).",
+  "highlightSchedule": [
+   {
+    "t": 566.651,
+    "what": "a25 table in; Invesco '-17.08%' red cell"
+   },
+   {
+    "t": 567.232,
+    "what": "'Drawdown Period' row reveals: 'Oct 2024 – Feb 2025 (5 months)'"
+   },
+   {
+    "t": 571.933,
+    "what": "'(5 months)' emphasis"
+   }
+  ]
+ },
+ "s68": {
+  "t0": 573.573,
+  "t1": 589.116,
+  "frameType": 5,
+  "paragraph": "p51",
+  "layout": "data-panel",
+  "title": "Maximum Drawdown",
+  "columns": [
+   "Metric",
+   "Invesco India Large & Mid Cap Fund",
+   "Motilal Oswal Large and Midcap Fund",
+   "Benchmark Index Average"
+  ],
+  "sourceLine": "Source: Morningstar",
+  "starMarkers": "* Direct Growth",
+  "asOfDate": "",
+  "elements": [
+   {
+    "label": "Maximum Drawdown",
+    "values": [
+     "-17.08%",
+     "-24.12%",
+     "-18.15%"
+    ],
+    "highlight": true
+   },
+   {
+    "label": "Drawdown Period",
+    "values": [
+     "Oct 2024 – Feb 2025 (5 months)",
+     "Jan 2025 – Feb 2025 (2 months)",
+     "-"
+    ],
+    "highlight": true
+   }
+  ],
+  "notes": "In-place build — Motilal column + benchmark column.",
+  "highlightSchedule": [
+   {
+    "t": 578.354,
+    "what": "Motilal '-24.12%' deep-red cell"
+   },
+   {
+    "t": 579.475,
+    "what": "period 'Jan 2025 – Feb 2025 (2 months)' reveals"
+   },
+   {
+    "t": 587.956,
+    "what": "'Benchmark Index Average -18.15%' column sweeps"
+   }
+  ]
+ },
+ "s69": {
+  "t0": 589.116,
+  "t1": 597.783,
+  "frameType": 5,
+  "paragraph": "p52",
+  "layout": "verdict-table",
+  "title": "Maximum Drawdown",
+  "columns": [
+   "Metric",
+   "Invesco India Large & Mid Cap Fund",
+   "Motilal Oswal Large and Midcap Fund",
+   "Benchmark Index Average"
+  ],
+  "sourceLine": "Source: Morningstar",
+  "starMarkers": "* Direct Growth",
+  "asOfDate": "",
+  "elements": [
+   {
+    "label": "Maximum Drawdown",
+    "values": [
+     "-17.08%",
+     "-24.12%",
+     "-18.15%"
+    ],
+    "highlight": true
+   },
+   {
+    "label": "Drawdown Period",
+    "values": [
+     "Oct 2024 – Feb 2025 (5 months)",
+     "Jan 2025 – Feb 2025 (2 months)",
+     "-"
+    ],
+    "highlight": true
+   }
+  ],
+  "notes": "a25 verdict act at its ANCHOR LINE (p52); verdict tints per colour code (red = worse, gold = neutral). Table exits in the 596-597.8 breath.",
+  "highlightSchedule": [
+   {
+    "t": 592.817,
+    "what": "Motilal cell holds red vs benchmark band ('kaafi zyada gehra')"
+   },
+   {
+    "t": 595.6,
+    "what": "Invesco cell tints gold/neutral ('kaafi kareeb raha')",
+    "estimated": true
+   }
+  ]
+ },
+ "s70": {
+  "t0": 597.783,
+  "t1": 601.927,
+  "frameType": 4,
+  "paragraph": "p53",
+  "layout": "topic-card",
+  "title": "Returns",
+  "sub": "",
+  "notes": "Brand dual-panel wipe (major section); A 432.05 card exact; 4.1s."
+ },
+ "s71": {
+  "t0": 601.927,
+  "t1": 615.058,
+  "frameType": 5,
+  "paragraph": "p54",
+  "layout": "data-panel",
+  "title": "Returns",
+  "columns": [
+   "Metric",
+   "Invesco India Large & Mid Cap Fund",
+   "Motilal Oswal Large and Midcap Fund"
+  ],
+  "sourceLine": "Source: Value Research",
+  "starMarkers": "* Direct Growth",
+  "asOfDate": "",
+  "elements": [
+   {
+    "label": "1-Year Return",
+    "values": [
+     "13.45%",
+     "8.43%"
+    ],
+    "highlight": true
+   },
+   {
+    "label": "1-Year Benchmark Return",
+    "values": [
+     "4.56%",
+     "4.56%"
+    ],
+    "highlight": true
+   },
+   {
+    "label": "1-Year Category Return",
+    "values": [
+     "8.27%",
+     "8.17%"
+    ],
+    "highlight": true
+   },
+   {
+    "label": "1-Year Rank (Category)",
+    "values": [
+     "3",
+     "18"
+    ],
+    "highlight": true
+   },
+   {
+    "label": "3-Year Return",
+    "values": [
+     "25.73%",
+     "23.17%"
+    ],
+    "highlight": false
+   },
+   {
+    "label": "3-Year Benchmark Return",
+    "values": [
+     "12.30%",
+     "12.30%"
+    ],
+    "highlight": false
+   },
+   {
+    "label": "3-Year Category Return",
+    "values": [
+     "16.76%",
+     "16.78%"
+    ],
+    "highlight": false
+   },
+   {
+    "label": "3-Year Rank (Category)",
+    "values": [
+     "1",
+     "2"
+    ],
+    "highlight": false
+   },
+   {
+    "label": "5-Year Return",
+    "values": [
+     "18.71%",
+     "18.88%"
+    ],
+    "highlight": false
+   },
+   {
+    "label": "5-Year Benchmark Return",
+    "values": [
+     "11.76%",
+     "11.76%"
+    ],
+    "highlight": false
+   },
+   {
+    "label": "5-Year Category Return",
+    "values": [
+     "14.68%",
+     "14.70%"
+    ],
+    "highlight": false
+   },
+   {
+    "label": "5-Year Rank (Category)",
+    "values": [
+     "2",
+     "1"
+    ],
+    "highlight": false
+   }
+  ],
+  "notes": "ONE table (a26) built across s71-s77 (p54-p62); star + source below for the whole run. Comparison table walked cell-by-cell; cells land in same screen position (grammar rule 2).",
+  "highlightSchedule": [
+   {
+    "t": 603.628,
+    "what": "a26 frame + headers build; '1-Year' band active; Invesco '13.45%' green cell"
+   },
+   {
+    "t": 607.752,
+    "what": "benchmark '4.56%' cell with 'sirf' emphasis"
+   },
+   {
+    "t": 609.5,
+    "what": "category '8.27%' cell",
+    "estimated": true
+   },
+   {
+    "t": 613.777,
+    "what": "'Rank 3' chip ('category mein 3rd rank')"
+   }
+  ]
+ },
+ "s72": {
+  "t0": 615.058,
+  "t1": 631.812,
+  "frameType": 5,
+  "paragraph": "p55",
+  "layout": "data-panel",
+  "title": "Returns",
+  "columns": [
+   "Metric",
+   "Invesco India Large & Mid Cap Fund",
+   "Motilal Oswal Large and Midcap Fund"
+  ],
+  "sourceLine": "Source: Value Research",
+  "starMarkers": "* Direct Growth",
+  "asOfDate": "",
+  "elements": [
+   {
+    "label": "1-Year Return",
+    "values": [
+     "13.45%",
+     "8.43%"
+    ],
+    "highlight": true
+   },
+   {
+    "label": "1-Year Benchmark Return",
+    "values": [
+     "4.56%",
+     "4.56%"
+    ],
+    "highlight": true
+   },
+   {
+    "label": "1-Year Category Return",
+    "values": [
+     "8.27%",
+     "8.17%"
+    ],
+    "highlight": true
+   },
+   {
+    "label": "1-Year Rank (Category)",
+    "values": [
+     "3",
+     "18"
+    ],
+    "highlight": true
+   },
+   {
+    "label": "3-Year Return",
+    "values": [
+     "25.73%",
+     "23.17%"
+    ],
+    "highlight": false
+   },
+   {
+    "label": "3-Year Benchmark Return",
+    "values": [
+     "12.30%",
+     "12.30%"
+    ],
+    "highlight": false
+   },
+   {
+    "label": "3-Year Category Return",
+    "values": [
+     "16.76%",
+     "16.78%"
+    ],
+    "highlight": false
+   },
+   {
+    "label": "3-Year Rank (Category)",
+    "values": [
+     "1",
+     "2"
+    ],
+    "highlight": false
+   },
+   {
+    "label": "5-Year Return",
+    "values": [
+     "18.71%",
+     "18.88%"
+    ],
+    "highlight": false
+   },
+   {
+    "label": "5-Year Benchmark Return",
+    "values": [
+     "11.76%",
+     "11.76%"
+    ],
+    "highlight": false
+   },
+   {
+    "label": "5-Year Category Return",
+    "values": [
+     "14.68%",
+     "14.70%"
+    ],
+    "highlight": false
+   },
+   {
+    "label": "5-Year Rank (Category)",
+    "values": [
+     "2",
+     "1"
+    ],
+    "highlight": false
+   }
+  ],
+  "notes": "1-Year Motilal column, mirrored in place.",
+  "highlightSchedule": [
+   {
+    "t": 617.841,
+    "what": "Motilal '8.43%' cell"
+   },
+   {
+    "t": 622.845,
+    "what": "category '8.17%' cell + benchmark-beat tick"
+   },
+   {
+    "t": 626.208,
+    "what": "'Rank 18' chip"
+   },
+   {
+    "t": 630.011,
+    "what": "Invesco 1Y cell re-flashes green ('clear outperformance')"
+   }
+  ]
+ },
+ "s73": {
+  "t0": 631.812,
+  "t1": 645.102,
+  "frameType": 5,
+  "paragraph": "p56+p57",
+  "layout": "data-panel",
+  "title": "Returns",
+  "columns": [
+   "Metric",
+   "Invesco India Large & Mid Cap Fund",
+   "Motilal Oswal Large and Midcap Fund"
+  ],
+  "sourceLine": "Source: Value Research",
+  "starMarkers": "* Direct Growth",
+  "asOfDate": "",
+  "elements": [
+   {
+    "label": "1-Year Return",
+    "values": [
+     "13.45%",
+     "8.43%"
+    ],
+    "highlight": false
+   },
+   {
+    "label": "1-Year Benchmark Return",
+    "values": [
+     "4.56%",
+     "4.56%"
+    ],
+    "highlight": false
+   },
+   {
+    "label": "1-Year Category Return",
+    "values": [
+     "8.27%",
+     "8.17%"
+    ],
+    "highlight": false
+   },
+   {
+    "label": "1-Year Rank (Category)",
+    "values": [
+     "3",
+     "18"
+    ],
+    "highlight": false
+   },
+   {
+    "label": "3-Year Return",
+    "values": [
+     "25.73%",
+     "23.17%"
+    ],
+    "highlight": true
+   },
+   {
+    "label": "3-Year Benchmark Return",
+    "values": [
+     "12.30%",
+     "12.30%"
+    ],
+    "highlight": true
+   },
+   {
+    "label": "3-Year Category Return",
+    "values": [
+     "16.76%",
+     "16.78%"
+    ],
+    "highlight": true
+   },
+   {
+    "label": "3-Year Rank (Category)",
+    "values": [
+     "1",
+     "2"
+    ],
+    "highlight": true
+   },
+   {
+    "label": "5-Year Return",
+    "values": [
+     "18.71%",
+     "18.88%"
+    ],
+    "highlight": false
+   },
+   {
+    "label": "5-Year Benchmark Return",
+    "values": [
+     "11.76%",
+     "11.76%"
+    ],
+    "highlight": false
+   },
+   {
+    "label": "5-Year Category Return",
+    "values": [
+     "14.68%",
+     "14.70%"
+    ],
+    "highlight": false
+   },
+   {
+    "label": "5-Year Rank (Category)",
+    "values": [
+     "2",
+     "1"
+    ],
+    "highlight": false
+   }
+  ],
+  "notes": "Opener 21/25 handled as IN-TABLE title morph (scene-map OPEN QUESTIONS); bg never cuts.",
+  "highlightSchedule": [
+   {
+    "t": 632.133,
+    "what": "'3-Year' band header enlarges + table scrolls in place"
+   },
+   {
+    "t": 634.014,
+    "what": "Invesco '25.73%' green cell"
+   },
+   {
+    "t": 636.976,
+    "what": "benchmark '12.30%' cell"
+   },
+   {
+    "t": 638.617,
+    "what": "category '16.76%' cell"
+   },
+   {
+    "t": 644.081,
+    "what": "'Rank 1' gold-green chip ('1st rank')"
+   }
+  ]
+ },
+ "s74": {
+  "t0": 645.102,
+  "t1": 659.37,
+  "frameType": 5,
+  "paragraph": "p58",
+  "layout": "data-panel",
+  "title": "Returns",
+  "columns": [
+   "Metric",
+   "Invesco India Large & Mid Cap Fund",
+   "Motilal Oswal Large and Midcap Fund"
+  ],
+  "sourceLine": "Source: Value Research",
+  "starMarkers": "* Direct Growth",
+  "asOfDate": "",
+  "elements": [
+   {
+    "label": "1-Year Return",
+    "values": [
+     "13.45%",
+     "8.43%"
+    ],
+    "highlight": false
+   },
+   {
+    "label": "1-Year Benchmark Return",
+    "values": [
+     "4.56%",
+     "4.56%"
+    ],
+    "highlight": false
+   },
+   {
+    "label": "1-Year Category Return",
+    "values": [
+     "8.27%",
+     "8.17%"
+    ],
+    "highlight": false
+   },
+   {
+    "label": "1-Year Rank (Category)",
+    "values": [
+     "3",
+     "18"
+    ],
+    "highlight": false
+   },
+   {
+    "label": "3-Year Return",
+    "values": [
+     "25.73%",
+     "23.17%"
+    ],
+    "highlight": true
+   },
+   {
+    "label": "3-Year Benchmark Return",
+    "values": [
+     "12.30%",
+     "12.30%"
+    ],
+    "highlight": true
+   },
+   {
+    "label": "3-Year Category Return",
+    "values": [
+     "16.76%",
+     "16.78%"
+    ],
+    "highlight": true
+   },
+   {
+    "label": "3-Year Rank (Category)",
+    "values": [
+     "1",
+     "2"
+    ],
+    "highlight": true
+   },
+   {
+    "label": "5-Year Return",
+    "values": [
+     "18.71%",
+     "18.88%"
+    ],
+    "highlight": false
+   },
+   {
+    "label": "5-Year Benchmark Return",
+    "values": [
+     "11.76%",
+     "11.76%"
+    ],
+    "highlight": false
+   },
+   {
+    "label": "5-Year Category Return",
+    "values": [
+     "14.68%",
+     "14.70%"
+    ],
+    "highlight": false
+   },
+   {
+    "label": "5-Year Rank (Category)",
+    "values": [
+     "2",
+     "1"
+    ],
+    "highlight": false
+   }
+  ],
+  "notes": "3-Year Motilal column.",
+  "highlightSchedule": [
+   {
+    "t": 646.903,
+    "what": "Motilal '23.17%' green cell"
+   },
+   {
+    "t": 650.225,
+    "what": "benchmark + category beat ticks"
+   },
+   {
+    "t": 653.627,
+    "what": "'Rank 2' chip ('category rank 2nd')"
+   },
+   {
+    "t": 657.329,
+    "what": "both 3Y fund cells green-sweep ('outstanding performance')"
+   }
+  ]
+ },
+ "s75": {
+  "t0": 659.37,
+  "t1": 673.134,
+  "frameType": 5,
+  "paragraph": "p59+p60",
+  "layout": "data-panel",
+  "title": "Returns",
+  "columns": [
+   "Metric",
+   "Invesco India Large & Mid Cap Fund",
+   "Motilal Oswal Large and Midcap Fund"
+  ],
+  "sourceLine": "Source: Value Research",
+  "starMarkers": "* Direct Growth",
+  "asOfDate": "",
+  "elements": [
+   {
+    "label": "1-Year Return",
+    "values": [
+     "13.45%",
+     "8.43%"
+    ],
+    "highlight": false
+   },
+   {
+    "label": "1-Year Benchmark Return",
+    "values": [
+     "4.56%",
+     "4.56%"
+    ],
+    "highlight": false
+   },
+   {
+    "label": "1-Year Category Return",
+    "values": [
+     "8.27%",
+     "8.17%"
+    ],
+    "highlight": false
+   },
+   {
+    "label": "1-Year Rank (Category)",
+    "values": [
+     "3",
+     "18"
+    ],
+    "highlight": false
+   },
+   {
+    "label": "3-Year Return",
+    "values": [
+     "25.73%",
+     "23.17%"
+    ],
+    "highlight": false
+   },
+   {
+    "label": "3-Year Benchmark Return",
+    "values": [
+     "12.30%",
+     "12.30%"
+    ],
+    "highlight": false
+   },
+   {
+    "label": "3-Year Category Return",
+    "values": [
+     "16.76%",
+     "16.78%"
+    ],
+    "highlight": false
+   },
+   {
+    "label": "3-Year Rank (Category)",
+    "values": [
+     "1",
+     "2"
+    ],
+    "highlight": false
+   },
+   {
+    "label": "5-Year Return",
+    "values": [
+     "18.71%",
+     "18.88%"
+    ],
+    "highlight": true
+   },
+   {
+    "label": "5-Year Benchmark Return",
+    "values": [
+     "11.76%",
+     "11.76%"
+    ],
+    "highlight": true
+   },
+   {
+    "label": "5-Year Category Return",
+    "values": [
+     "14.68%",
+     "14.70%"
+    ],
+    "highlight": true
+   },
+   {
+    "label": "5-Year Rank (Category)",
+    "values": [
+     "2",
+     "1"
+    ],
+    "highlight": true
+   }
+  ],
+  "notes": "Opener 22/25 as in-table morph; then Invesco 5Y cells.",
+  "highlightSchedule": [
+   {
+    "t": 659.57,
+    "what": "'5-Year' band enlarges"
+   },
+   {
+    "t": 662.511,
+    "what": "Invesco '18.71%' cell"
+   },
+   {
+    "t": 665.712,
+    "what": "benchmark '11.76%' cell"
+   },
+   {
+    "t": 669.353,
+    "what": "category '14.68%' cell"
+   },
+   {
+    "t": 671.813,
+    "what": "'Rank 2' chip"
+   }
+  ]
+ },
+ "s76": {
+  "t0": 673.134,
+  "t1": 686.677,
+  "frameType": 5,
+  "paragraph": "p61",
+  "layout": "data-panel",
+  "title": "Returns",
+  "columns": [
+   "Metric",
+   "Invesco India Large & Mid Cap Fund",
+   "Motilal Oswal Large and Midcap Fund"
+  ],
+  "sourceLine": "Source: Value Research",
+  "starMarkers": "* Direct Growth",
+  "asOfDate": "",
+  "elements": [
+   {
+    "label": "1-Year Return",
+    "values": [
+     "13.45%",
+     "8.43%"
+    ],
+    "highlight": false
+   },
+   {
+    "label": "1-Year Benchmark Return",
+    "values": [
+     "4.56%",
+     "4.56%"
+    ],
+    "highlight": false
+   },
+   {
+    "label": "1-Year Category Return",
+    "values": [
+     "8.27%",
+     "8.17%"
+    ],
+    "highlight": false
+   },
+   {
+    "label": "1-Year Rank (Category)",
+    "values": [
+     "3",
+     "18"
+    ],
+    "highlight": false
+   },
+   {
+    "label": "3-Year Return",
+    "values": [
+     "25.73%",
+     "23.17%"
+    ],
+    "highlight": false
+   },
+   {
+    "label": "3-Year Benchmark Return",
+    "values": [
+     "12.30%",
+     "12.30%"
+    ],
+    "highlight": false
+   },
+   {
+    "label": "3-Year Category Return",
+    "values": [
+     "16.76%",
+     "16.78%"
+    ],
+    "highlight": false
+   },
+   {
+    "label": "3-Year Rank (Category)",
+    "values": [
+     "1",
+     "2"
+    ],
+    "highlight": false
+   },
+   {
+    "label": "5-Year Return",
+    "values": [
+     "18.71%",
+     "18.88%"
+    ],
+    "highlight": true
+   },
+   {
+    "label": "5-Year Benchmark Return",
+    "values": [
+     "11.76%",
+     "11.76%"
+    ],
+    "highlight": true
+   },
+   {
+    "label": "5-Year Category Return",
+    "values": [
+     "14.68%",
+     "14.70%"
+    ],
+    "highlight": true
+   },
+   {
+    "label": "5-Year Rank (Category)",
+    "values": [
+     "2",
+     "1"
+    ],
+    "highlight": true
+   }
+  ],
+  "notes": "5-Year Motilal column with micro-compare.",
+  "highlightSchedule": [
+   {
+    "t": 674.314,
+    "what": "Motilal '18.88%' green cell"
+   },
+   {
+    "t": 678.335,
+    "what": "18.88 vs 18.71 cells pulse together ('marginally zyada')"
+   },
+   {
+    "t": 679.616,
+    "what": "benchmark/category ticks"
+   },
+   {
+    "t": 685.677,
+    "what": "'Rank 1' chip"
+   }
+  ]
+ },
+ "s77": {
+  "t0": 686.677,
+  "t1": 693.72,
+  "frameType": 6,
+  "paragraph": "p62",
+  "layout": "verdict-table",
+  "title": "*Comfortably* Outperformed - Every Period",
+  "columns": [
+   "Metric",
+   "Invesco India Large & Mid Cap Fund",
+   "Motilal Oswal Large and Midcap Fund"
+  ],
+  "sourceLine": "Source: Value Research",
+  "starMarkers": "* Direct Growth",
+  "asOfDate": "",
+  "elements": [
+   {
+    "label": "1-Year Return",
+    "values": [
+     "13.45%",
+     "8.43%"
+    ],
+    "highlight": false
+   },
+   {
+    "label": "1-Year Benchmark Return",
+    "values": [
+     "4.56%",
+     "4.56%"
+    ],
+    "highlight": false
+   },
+   {
+    "label": "1-Year Category Return",
+    "values": [
+     "8.27%",
+     "8.17%"
+    ],
+    "highlight": false
+   },
+   {
+    "label": "1-Year Rank (Category)",
+    "values": [
+     "3",
+     "18"
+    ],
+    "highlight": false
+   },
+   {
+    "label": "3-Year Return",
+    "values": [
+     "25.73%",
+     "23.17%"
+    ],
+    "highlight": false
+   },
+   {
+    "label": "3-Year Benchmark Return",
+    "values": [
+     "12.30%",
+     "12.30%"
+    ],
+    "highlight": false
+   },
+   {
+    "label": "3-Year Category Return",
+    "values": [
+     "16.76%",
+     "16.78%"
+    ],
+    "highlight": false
+   },
+   {
+    "label": "3-Year Rank (Category)",
+    "values": [
+     "1",
+     "2"
+    ],
+    "highlight": false
+   },
+   {
+    "label": "5-Year Return",
+    "values": [
+     "18.71%",
+     "18.88%"
+    ],
+    "highlight": false
+   },
+   {
+    "label": "5-Year Benchmark Return",
+    "values": [
+     "11.76%",
+     "11.76%"
+    ],
+    "highlight": false
+   },
+   {
+    "label": "5-Year Category Return",
+    "values": [
+     "14.68%",
+     "14.70%"
+    ],
+    "highlight": false
+   },
+   {
+    "label": "5-Year Rank (Category)",
+    "values": [
+     "2",
+     "1"
+    ],
+    "highlight": false
+   },
+   {
+    "kind": "resolving-title",
+    "desc": "serif title resolves on the conclusion clause over the zoomed-out table (no cut)"
+   }
+  ],
+  "notes": "Type 6 resolve; a26 at its ANCHOR LINE (p62) — hard rule satisfied.",
+  "highlightSchedule": [
+   {
+    "t": 688.978,
+    "what": "full a26 table zooms out; every fund-vs-benchmark/category cell sweeps green"
+   },
+   {
+    "t": 691.579,
+    "what": "title resolves ('comfortably outperform')"
+   }
+  ]
+ },
+ "s78": {
+  "t0": 693.72,
+  "t1": 697.5,
+  "frameType": 4,
+  "paragraph": "p63",
+  "layout": "topic-card",
+  "title": "Return Consistency",
+  "sub": "Discrete Returns",
+  "notes": "Brand dual-panel wipe in; 3.8s cut to the phrase head; chart frame begins building under the phrase tail; sub-line serif italic."
+ },
+ "s79": {
+  "t0": 697.5,
+  "t1": 706.303,
+  "frameType": 5,
+  "paragraph": "p63",
+  "layout": "chart-bars",
+  "title": "Invesco India Large & Mid Cap Fund - Direct Plan",
+  "sourceLine": "Source: Value Research",
+  "starMarkers": "",
+  "asOfDate": "",
+  "elements": [
+   {
+    "kind": "chart-bars",
+    "legend": [
+     "Invesco India Large & Mid Cap Fund - Direct Plan",
+     "BSE Large Mid Cap TRI",
+     "Equity: Large & MidCap"
+    ],
+    "yAxis": "Return(%)",
+    "years": "2014-2025",
+    "bars": [
+     "2014: ~45% / ~36% / ~55% (category is chart's tallest bar)",
+     "2015: ~6% / ~2% / ~4%",
+     "2016: ~5% / ~5% / ~7%",
+     "2017: ~41% / ~34% / ~40%",
+     "2018: ~1% / ~2% / ~-6% (category negative)",
+     "2019: ~11% / ~10% / ~9%",
+     "2020: ~14% / ~13% / ~17%",
+     "2021: ~31% / ~33% / ~39% (fund lags both)",
+     "2022: ~1% / ~6% / ~3% (fund lags both)",
+     "2023: ~33% / ~26% / ~31%",
+     "2024: ~38% / ~14% / ~22% (widest fund-over-benchmark gap)",
+     "2025: ~6% / ~9% / ~3%"
+    ],
+    "watermark": "Value Research",
+    "note": "render as styled reproduction of the chart — animate the draw-on, never redraw the data (S2.4); bar values above are approximate (~1-2 percentage points) read off the image; the source screenshot is the authority — verify rendered chart against source point by point at build; 'Value Research' watermark preserved in-plot; axes never rescaled, all 3 series, legend order/colours unchanged"
+   }
+  ],
+  "notes": "a28 chart at ANCHOR LINE (p63); S2.4 reproduced curve-for-curve — axes never rescaled, all 3 series, legend order/colours unchanged; Value Research watermark preserved in-plot. No printed 'Source:' caption on the panel (watermark only); CREATOR RULING 2026-08-16: page 23 charts are Value Research. Verify point-by-point at build.",
+  "highlightSchedule": [
+   {
+    "t": 697.5,
+    "what": "chart chrome, legend, Y-axis, 12 year-groups 2014-2025 bars draw on"
+   },
+   {
+    "t": 699.221,
+    "what": "2020-2025 window band highlights ('2020 se lekar aaj tak')"
+   },
+   {
+    "t": 702.222,
+    "what": "post-2020 outperform year-groups flash green + '2 / 6' chip ('6 mein se 2 saalon')"
+   }
+  ]
+ },
+ "s80": {
+  "t0": 706.303,
+  "t1": 712.705,
+  "frameType": 5,
+  "paragraph": "p63",
+  "layout": "chart-bars",
+  "title": "Motilal Oswal Large and Midcap Fund - Direct Plan",
+  "sourceLine": "Source: Value Research",
+  "starMarkers": "",
+  "asOfDate": "",
+  "elements": [
+   {
+    "kind": "chart-bars",
+    "legend": [
+     "Motilal Oswal Large and Midcap Fund - Direct Plan",
+     "BSE Large Mid Cap TRI",
+     "Equity: Large & MidCap"
+    ],
+    "yAxis": "Return(%)",
+    "years": "2020-2025",
+    "bars": [
+     "2020: ~15% / ~13% / ~18%",
+     "2021: ~43% / ~32% / ~39%",
+     "2022: ~3% / ~5% / ~3%",
+     "2023: ~40% / ~24% / ~31%",
+     "2024: ~47% / ~14% / ~22% (fund's tallest bar; widest gap over benchmark)",
+     "2025: ~-4% (only negative fund bar, dips below 0 line) / ~9% / ~3%"
+    ],
+    "watermark": "Value Research",
+    "note": "render as styled reproduction of the chart — animate the draw-on, never redraw the data (S2.4); bar values above are approximate (~1-2 percentage points) read off the image; the source screenshot is the authority — verify rendered chart against source point by point at build; 'Value Research' watermark preserved in-plot; axes never rescaled, all 3 series, legend order/colours unchanged"
+   }
+  ],
+  "notes": "Tab chrome as printed: 'Trailing Returns' | 'Discrete Returns' (active) | 'Rolling Returns' (lock); toggle 'Annually' active. Same source ruling as s79.",
+  "highlightSchedule": [
+   {
+    "t": 706.303,
+    "what": "in-place swap to a27 Motilal panel (tab chrome as printed); bars draw"
+   },
+   {
+    "t": 709.204,
+    "what": "outperform year-groups (2021/2023/2024 shape) flash green + '3 / 6' chip ('6 mein se 3 saalon')"
+   }
+  ]
+ },
+ "s81": {
+  "t0": 712.705,
+  "t1": 714.486,
+  "frameType": 4,
+  "paragraph": "p64",
+  "layout": "topic-card",
+  "title": "Expense Ratio",
+  "sub": "",
+  "notes": "Brand dual-panel wipe; A 692.80 card exact; 1.8s cut to phrase (ends 714.39)."
+ },
+ "s82": {
+  "t0": 714.486,
+  "t1": 719.35,
+  "frameType": 1,
+  "paragraph": "p64",
+  "layout": "creator-text",
+  "lines": [
+   {
+    "text": "Expense Ratio",
+    "style": "serif-purple"
+   }
+  ],
+  "notes": "Definition to camera; 'yearly fee' coin micro-glyph on 'har saal li jaane wali fee' 717.3-719.3."
+ },
+ "s83": {
+  "t0": 719.35,
+  "t1": 733.041,
+  "frameType": 5,
+  "paragraph": "p65+p66",
+  "layout": "twin-tables",
+  "title": "Expense Ratio",
+  "sourceLine": "Source: Morningstar",
+  "starMarkers": "* Direct Growth",
+  "asOfDate": "",
+  "elements": [
+   {
+    "panel": "Invesco India Large & Mid Cap Fund",
+    "rows": [
+     {
+      "label": "Expense Ratio",
+      "values": [
+       "0.56%"
+      ],
+      "highlight": true
+     }
+    ],
+    "sourceLine": "Source: Morningstar"
+   },
+   {
+    "panel": "Motilal Oswal Large and Midcap Fund",
+    "rows": [
+     {
+      "label": "Expense Ratio",
+      "values": [
+       "0.90%"
+      ],
+      "highlight": true
+     }
+    ],
+    "sourceLine": "Source: Morningstar"
+   }
+  ],
+  "notes": "a29 is printed as ONE 3-column table (Metric | Invesco | Motilal); rendered as twin side-by-side panels per scene-map (A 696.40 exact device) — values/labels unchanged. CREATOR RULING 2026-08-16: table+VO 0.56%/0.90% as printed; About boxes 0.55%/0.60% also as printed; the discrepancy is consciously ignored — do not reconcile. a29 at ANCHOR LINE (p66).",
+  "highlightSchedule": [
+   {
+    "t": 721.591,
+    "what": "twin panels in; Invesco '0.56%' lands GREEN (lower = better)"
+   },
+   {
+    "t": 724.414,
+    "what": "Motilal '0.90%' lands RED (higher)"
+   },
+   {
+    "t": 731.54,
+    "what": "deduct animation (coins subtracting from a returns bar) beside panels"
+   }
+  ]
+ },
+ "s84": {
+  "t0": 733.041,
+  "t1": 740.246,
+  "frameType": 1,
+  "paragraph": "p66",
+  "layout": "creator-text",
+  "lines": [
+   {
+    "text": "*lower* expense ratio = natural advantage",
+    "style": "serif-purple"
+   }
+  ],
+  "notes": "Rationale to camera (rule 13); lands on the clause 736.8-740.2."
+ },
+ "s85": {
+  "t0": 740.246,
+  "t1": 745.56,
+  "frameType": 8,
+  "paragraph": "p66",
+  "layout": "broll",
+  "boxed": true,
+  "dust": true,
+  "content": "Real footage (Envato): watering can over growing coin stacks / time-lapse plant on coins (compounding metaphor, B 620.1 exact). Black box + grain.",
+  "notes": "The data-half's single breather; zoom-in + light leak in at 740.69, 5.3s within the 3-8s norm."
+ },
+ "s86": {
+  "t0": 745.56,
+  "t1": 747.5,
+  "frameType": 4,
+  "paragraph": "p67",
+  "layout": "topic-card",
+  "title": "Conclusion",
+  "sub": "",
+  "notes": "Opener 25/25 (C 706.68 1.0s flash precedent); 1.9s — p68 VO onset 746.4 runs under the card tail; zoom-out from b-roll onto card."
+ },
+ "s87": {
+  "t0": 747.5,
+  "t1": 765.179,
+  "frameType": 1,
+  "paragraph": "p68",
+  "layout": "creator-text",
+  "lines": [
+   {
+    "text": "portfolio construction",
+    "style": "serif-purple",
+    "t": 752.0
+   },
+   {
+    "text": "sector positioning",
+    "style": "serif-purple",
+    "t": 753.5
+   },
+   {
+    "text": "turnover",
+    "style": "serif-purple",
+    "t": 755.0
+   },
+   {
+    "text": "volatility",
+    "style": "serif-purple",
+    "t": 758.5
+   },
+   {
+    "text": "drawdown",
+    "style": "serif-purple",
+    "t": 759.5
+   },
+   {
+    "text": "risk-adjusted returns",
+    "style": "serif-purple",
+    "t": 761.0
+   }
+  ],
+  "notes": "Final verdict to camera (rule 12); 17.7s deliberate trust hold (1 of 2). Serif keywords land word-by-word as named; times from scene-map (approximate — verify at build)."
+ },
+ "s88": {
+  "t0": 765.179,
+  "t1": 780.328,
+  "frameType": 1,
+  "paragraph": "p69",
+  "layout": "creator-text",
+  "lines": [
+   {
+    "text": "higher return != poora picture",
+    "style": "serif-purple"
+   },
+   {
+    "text": "risk profile",
+    "style": "serif-purple",
+    "t": 777.1
+   }
+  ],
+  "notes": "Interpretation (trust hold 2 of 2); jump-cut/reframe within continuous take (C device) at 765.18."
+ },
+ "s89": {
+  "t0": 780.328,
+  "t1": 797.978,
+  "frameType": 3,
+  "paragraph": "p69",
+  "layout": "creator-text",
+  "lines": [
+   {
+    "text": "Investment Philosophy",
+    "style": "serif-purple",
+    "t": 786.97
+   },
+   {
+    "text": "Portfolio Strategy",
+    "style": "serif-purple",
+    "t": 788.85
+   },
+   {
+    "text": "Risk Characteristics",
+    "style": "serif-purple",
+    "t": 789.89
+   },
+   {
+    "text": "Risk Appetite",
+    "style": "serif-purple",
+    "t": 792.72
+   },
+   {
+    "text": "Financial Goals",
+    "style": "serif-purple",
+    "t": 793.68
+   }
+  ],
+  "notes": "Type 3 checklist (C 232.32 creator-side checklist): creator reframed left, items pop exactly as named, coins + serif/sans mixed styling; items tick on 'kitna match karte hain' 794.7-796.0. No-cut overlay build over continuous take."
+ },
+ "s90": {
+  "t0": 797.978,
+  "t1": 805.648,
+  "frameType": 2,
+  "paragraph": "p70",
+  "layout": "prose-box",
+  "title": "",
+  "sourceLine": "",
+  "starMarkers": "",
+  "asOfDate": "",
+  "elements": [
+   {
+    "kind": "prose-box",
+    "body": "Yaad rahe, yeh video sirf educational purpose ke liye banayi gayi hai. Isme diye gaye securities ya investments recommendatory nahi hain."
+   }
+  ],
+  "notes": "a30 EXCLUDED by creator 2026-08-16 — do NOT render the page-25 RA compliance block (English 'Disclaimer:...' text, RA Sign, 'Research Analyst : Shreesha Ramesh Desai', 'RA Date : 07-08-2026'); the closing legal chain uses the supplied rolling-disclaimer asset instead. Panel here carries ONLY the spoken p70 disclaimer sentence (C 125.28 typewriter-disclaimer device); inventory editorDirections notes it 'may also need on-screen display per Groww convention' — confirm with creator before build. No source line (spoken dialogue, not a sourced visual).",
+  "highlightSchedule": [
+   {
+    "t": 797.978,
+    "what": "compliance callout panel slides up; sentence 1 phrase-sweeps in sync with VO"
+   },
+   {
+    "t": 801.12,
+    "what": "sentence 2 phrase-sweep ('Isme diye gaye securities...')"
+   }
+  ]
+ },
+ "s91": {
+  "t0": 805.648,
+  "t1": 813.84,
+  "frameType": 2,
+  "paragraph": "p71",
+  "layout": "callout-boxes",
+  "title": "",
+  "sourceLine": "",
+  "starMarkers": "",
+  "asOfDate": "",
+  "elements": [
+   {
+    "kind": "subscribe-unit",
+    "desc": "'Mutual Funds with Groww' bar + SUBSCRIBE + bell; cursor moves in and clicks BOTH (fig06)"
+   }
+  ],
+  "notes": "Outro CTA slot (3/3 videos). a30 strip persistence REMOVED (creator exclusion) — span keeps its base type without the strip. 'Until then, bye!' 811.90-812.70; creator wave-out holds to base-cut end 813.84; endscreen APPEND hard-cuts at 813.840.",
+  "highlightSchedule": [
+   {
+    "t": 807.331,
+    "what": "SUBSCRIBE UNIT #2 enters ('like karein')"
+   },
+   {
+    "t": 809.054,
+    "what": "cursor clicks SUBSCRIBE"
+   },
+   {
+    "t": 810.5,
+    "what": "cursor clicks bell",
+    "estimated": true
+   },
+   {
+    "t": 812.33,
+    "what": "unit exits (5.0s total)",
+    "estimated": true
+   }
+  ]
+ }
+}

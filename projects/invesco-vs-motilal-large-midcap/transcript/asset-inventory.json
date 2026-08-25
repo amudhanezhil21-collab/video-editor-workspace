@@ -1,0 +1,590 @@
+{
+ "generatedFrom": "assets/Invesco India Large & Mid Cap Fund vs Motilal Oswal Large and Midcap Fund.pdf (pages 1-25, five page-range inventories merged 2026-08-16); anchors cross-referenced against transcript/script.json",
+ "anchorConvention": "anchorParagraph is the script.json paragraph id whose spoken text the asset accompanies — matched via the asset's triggerBefore (the asset follows/overlays that paragraph). Spans and duplicate-instance notes are in the content field and in asset-inventory.md.",
+ "items": [
+  {
+   "id": "a01",
+   "page": 1,
+   "kind": "table",
+   "label": "",
+   "content": "2-row, 2-column bordered table (grey label column left, description column right):\nRow 1: Definition | An open ended equity mutual fund investing in both large cap and mid cap stocks of the Indian market\nRow 2: Asset allocation | Minimum investment in equity & equity related instruments of large cap stocks – 35% of total assets and mid cap stocks – 35% of total assets",
+   "sourceLine": "Source: Groww",
+   "starMarkers": "",
+   "asOfDate": "",
+   "triggerBefore": "Yaani SEBI mandate ke anusar dono ko apne portfolio ka kam se kam 35% hissa large-cap stocks mein...",
+   "triggerAfter": "Dono funds ka benchmark same hai: NIFTY LargeMidcap 250 TRI (Total Return Index).",
+   "anchorParagraph": "p06"
+  },
+  {
+   "id": "a02",
+   "page": 3,
+   "kind": "prose-box",
+   "label": "About Invesco India Large & Mid Cap Fund - Direct Plan",
+   "content": "Bold-bordered cream/beige box, bold heading \"About Invesco India Large & Mid Cap Fund - Direct Plan\", body text verbatim: \"Invesco India Large & Mid Cap Fund - Direct Plan is a equity mutual fund scheme of Invesco Mutual Fund. Launched on January 01, 2013, it is currently managed by Aditya Khemani. The fund has an expense ratio of 0.55% with an overall AUM (Assets Under Management) of ₹11,164 Cr.\"",
+   "sourceLine": "Source: Value Research (single line below BOTH About boxes on page 3, covers both)",
+   "starMarkers": "",
+   "asOfDate": "",
+   "triggerBefore": "Ab baat karte hai AUM ki. Invesco India Large & Mid Cap Fund ka AUM hai ₹11,164 Crore... as of July 2026.",
+   "triggerAfter": "Toh, kaun hai in dono funds ke fund managers?",
+   "anchorParagraph": "p10",
+   "resolution": "expense figures: creator 2026-08-16 — boxes shown AS PRINTED (0.55/0.60); the printed-only discrepancy vs p65/a29 (0.56/0.90) is consciously ignored"
+  },
+  {
+   "id": "a03",
+   "page": 3,
+   "kind": "prose-box",
+   "label": "About Motilal Oswal Large and Midcap Fund - Direct Plan",
+   "content": "Second bold-bordered cream/beige box directly below the Invesco box, bold heading \"About Motilal Oswal Large and Midcap Fund - Direct Plan\", body text verbatim: \"Motilal Oswal Large and Midcap Fund - Direct Plan is a equity mutual fund scheme of Motilal Oswal Mutual Fund. Launched on October 17, 2019, it is currently managed by Varun Sharma, Ajay Khandelwal, Ankit Agarwal and Rakesh Shetty. The fund has an expense ratio of 0.60% with an overall AUM (Assets Under Management) of ₹18,413 Cr.\"",
+   "sourceLine": "Source: Value Research (single line below BOTH About boxes on page 3, covers both)",
+   "starMarkers": "",
+   "asOfDate": "",
+   "triggerBefore": "Ab baat karte hai AUM ki. ... Motilal Oswal Large and Midcap Fund ka AUM hai ₹18,413 Crore, as of July 2026.",
+   "triggerAfter": "Toh, kaun hai in dono funds ke fund managers?",
+   "anchorParagraph": "p10",
+   "resolution": "creator 2026-08-16: show the About box AS PRINTED, Varun Sharma stays | expense figures: creator 2026-08-16 — boxes shown AS PRINTED (0.55/0.60); the printed-only discrepancy vs p65/a29 (0.56/0.90) is consciously ignored"
+  },
+  {
+   "id": "a04",
+   "page": 4,
+   "kind": "bordered-screenshot",
+   "label": "",
+   "content": "Thin-bordered white screenshot box containing a single paragraph of small text (Aditya Khemani bio from Invesco site), verbatim: \"Aditya has over 20 years' of experience in the equities market and currently works with Invesco as Fund Manager - Equity with effect from 1st November 2023. In his last assignment before joining Invesco, Aditya was working with Motilal Oswal Asset Management India Company Ltd. as Fund Manager where he was responsible for managing Equity Funds at the firm. In the past, he has also worked with companies like HSBC Asset Management (India) Pvt. Ltd., SBI Funds Management Ltd., and Morgan Stanley Advantage Services. Aditya holds a Bachelor's in Commerce from St. Xavier's College, Kolkata University and a PGDM degree from Indian Institute of Management, Lucknow.\"",
+   "sourceLine": "Source: Invesco India",
+   "starMarkers": "",
+   "asOfDate": "",
+   "triggerBefore": "Invesco India Large & Mid Cap Fund ke Fund Manager Mr. Aditya Khemani hain, jo B.Com (Hons) aur PGDBM qualified...",
+   "triggerAfter": "Motilal Oswal Large and Midcap Fund ek team-managed fund hai, jise Mr. Atul Mehra, Mr. Ajay Khandelwal...",
+   "anchorParagraph": "p12"
+  },
+  {
+   "id": "a05",
+   "page": 5,
+   "kind": "photo-grid",
+   "label": "",
+   "content": "Bordered screenshot of 5 stacked fund-manager cards (Motilal Oswal site UI). Each card: circular headshot photo with yellow arc, name in blue bold, role below, underlined link. Top to bottom, verbatim:\n1. Ajay Khandelwal | Head Equity | View other funds managed by him\n2. Rakesh Shetty | Head Debt | View other funds managed by him\n3. Atul Mehra | Fund Manager | View other funds managed by him\n4. Swapnil Mayekar | Fund Manager | View other funds managed by him\n5. Mr. Ankit Agarwal | Fund Manager | View other funds managed by him\n(Note: only the last card carries the \"Mr.\" prefix in the source screenshot.)",
+   "sourceLine": "Source: Motilal Oswal Mutual Fund",
+   "starMarkers": "",
+   "asOfDate": "",
+   "triggerBefore": "Motilal Oswal Large and Midcap Fund ek team-managed fund hai, jise Mr. Atul Mehra, Mr. Ajay Khandelwal, Mr. Ankit Agarwal, Mr. Rakesh Shetty, aur Mr. Swapnil P Mayekar...",
+   "triggerAfter": "(dialogue resumes on page 6)",
+   "anchorParagraph": "p14"
+  },
+  {
+   "id": "a06",
+   "page": 6,
+   "kind": "colour-deck-slide",
+   "label": "Key investment themes",
+   "content": "Slide title (blue): \"Key investment themes\". Four columns, each with a dark-blue circular icon (people/magnifier, medical briefcase, buildings, cash notes). COLUMN 1 — Consumer Discretionary | 17.3% Portfolio allocation (blue) | 3.2% Overweight (green) | bullets: \"Retail/Fashion- Trent, Eternal, Swiggy, Ethos, Safari Industries,\" ; \"E-commerce- FSN E-commerce Ventures\" ; \"Consumer durables- Amber Enterprises\" ; \"Beneficiaries of long-term demand potential\". COLUMN 2 — Healthcare | 19.1% Portfolio allocation (blue) | 11.9% Overweight (green) | bullets: \"E.g.- Max Healthcare Institute, Glenmark Pharmaceuticals, Global Health, Krishna Institute, Sai life sciences etc.\" ; \"The sector offers long runway of growth and a proxy play on India's consumption at a relatively better valuation\". COLUMN 3 — Real Estate | 7.7% Portfolio allocation (blue) | 6.1% Overweight (green) | bullets: \"Residential and Commercial property-developers- Prestige Estates Projects, Phoenix Mills, Sobha, Max Estates\" ; \"Beneficiaries of sustained demand and new launches\". COLUMN 4 — Financials | 29.2% Portfolio allocation (blue) | -1.0% Underweight (red) | bullets: \"Private Banks and NBFC- ICICI Bank, Federal Bank, AU Small Finance Bank, Chola Investment, L&T Finance\" ; \"Financial services- BSE, HDFC Asset Management, Go Digit General Insurance, Max Financial Services\" ; \"Play on India's growth outlook at a relatively reasonable valuation\". Slide has a black border; white background; column bodies on light-grey panels. Spoken coverage spans p16-p19 (Financials p16, Healthcare p17, Consumer Discretionary p18, Real Estate p19).",
+   "sourceLine": "Source: Invesco India (data as of April 30, 2026)",
+   "starMarkers": "",
+   "asOfDate": "April 30, 2026",
+   "triggerBefore": "Aur Real Estate mein 7.7% allocation hai, 6.1% overweight compared to benchmark.",
+   "triggerAfter": "Motilal Oswal Large and Midcap Fund ek alag philosophy follow karta hai - QGLP framework, yaani Quality,",
+   "anchorParagraph": "p19"
+  },
+  {
+   "id": "a07",
+   "page": 7,
+   "kind": "colour-deck-slide",
+   "label": "High Quality & High Growth Focused House",
+   "content": "Motilal Oswal slide, black border. Header (dark blue, with yellow paddle/oar icon left): \"High Quality & High Growth Focused House\". Top-right: motilal oswal Mutual Fund logo. Four giant dark-blue letters across the middle: Q G L P, each with a yellow-dotted connector line down to grey rounded boxes. Under Q: \"Minimum threshold set to ROCE/ROE\". Under G and L (one wide box spanning both): \"Ensuring Longevity of Growth by investing in sustainable themes identified by the Investment team collectively\". Under P: \"Application of PE, PEG framework and Expanding the framework through rolling out DCF, implied returns and implied growth\". Curly-bracket connector lines lead to a bottom row of three grey boxes with large dark-blue percentage figures: \"House theme representation in portfolio. Stock picking — 65%\" ; \"Flexibity to invest outside house themes — 25%\" (sic — slide genuinely prints \"Flexibity\", verified at 200dpi) ; \"Provision for risk mitigation — 10%\". Spoken coverage spans p20-p24 (QGLP intro p20, Q p21, G+L p22, P p23, construction split p24).",
+   "sourceLine": "Source: Motilal Oswal AMC",
+   "starMarkers": "",
+   "asOfDate": "",
+   "triggerBefore": "Portfolio construction mein, fund ka 65% house theme representation aur stock picking par based hai, 25% flexibility",
+   "triggerAfter": "Fund ke growth-oriented themes mein China+1, Make in India, Financialisation, Tech & Tech Services, Urbanisation, Healthcare Ecosystem,",
+   "anchorParagraph": "p24",
+   "resolution": "creator 2026-08-16: confirmed 'Source: Motilal Oswal AMC' (the pages-7/8 'Invesco India' answer was the page mix-up)"
+  },
+  {
+   "id": "a08",
+   "page": 8,
+   "kind": "colour-deck-slide",
+   "label": "Growth Oriented Themes which could be Potential Leaders of the Cycle",
+   "content": "Motilal Oswal slide, black border. Header (dark blue, yellow paddle icon left): \"Growth Oriented Themes which could be Potential Leaders of the Cycle\". Top-right: motilal oswal Mutual Fund logo. Seven columns, each a circular grey icon above a dark-blue pill header with yellow arrow beneath, then stacked light-grey sub-theme boxes. COL 1 China +1: Chemicals | Electronic Manufacturing Services. COL 2 Make in India: Auto + EV | Capital Goods & Engineering | Infrastructure Ancillaries | Renewable Power. COL 3 Financialisation: High AUM Growth Retail Focused Lenders | Capital Market Companies | Health & Life Insurance. COL 4 Tech & Tech Services: New Age Consumer Tech | High Growth Tech Companies. COL 5 Urbanisation: Leisure & Luxury | Travel & Hospitality | Premiumisation. COL 6 Healthcare Ecosystem: Hospitals | Diagnostics | Pharma. COL 7 Telecom: Equipment and Infra | Services.",
+   "sourceLine": "Source: Motilal Oswal AMC",
+   "starMarkers": "",
+   "asOfDate": "",
+   "triggerBefore": "Fund ke growth-oriented themes mein China+1, Make in India, Financialisation, Tech & Tech Services, Urbanisation, Healthcare Ecosystem,",
+   "triggerAfter": "Ab hum in donom funds ke portfolio ke baare mein jaante hain.",
+   "anchorParagraph": "p25",
+   "resolution": "creator 2026-08-16: confirmed 'Source: Motilal Oswal AMC' (the pages-7/8 'Invesco India' answer was the page mix-up)"
+  },
+  {
+   "id": "a09",
+   "page": 8,
+   "kind": "bordered-screenshot",
+   "label": "",
+   "content": "Value Research style card, cream/off-white background, black border, serif heading \"Concentration\". Four rows separated by thin rules, label left / value right: No. of Stocks — 40 | Top 10 Stocks (i) — 53.42% | Top 5 Stocks (i) — 33.55% | Top 3 Sectors (i) — 59.73%. Grey circular (i) info icons follow the Top 10 / Top 5 / Top 3 labels. (This is the Invesco India Large & Mid Cap Fund card per the dialogue; no bold label is printed with it here. Duplicate of a11 — appears again as a labeled \"Direct Growth\" reference card on pages 9-10.)",
+   "sourceLine": "Source: Value Research",
+   "starMarkers": "",
+   "asOfDate": "",
+   "triggerBefore": "Invesco India Large & Mid Cap Fund ka portfolio mein 40 stocks hai. Top 5 stocks portfolio ka 33.55%",
+   "triggerAfter": "Motilal Oswal Large and Midcap Fund ka portfolio zyada concentrated hai, jisme sirf 29 stocks hai.",
+   "anchorParagraph": "p27"
+  },
+  {
+   "id": "a10",
+   "page": 9,
+   "kind": "bordered-screenshot",
+   "label": "",
+   "content": "Value Research style card, cream/off-white background, black border, serif heading \"Concentration\". Four rows: No. of Stocks — 29 | Top 10 Stocks (i) — 43.76% | Top 5 Stocks (i) — 23.36% | Top 3 Sectors (i) — 59.65%. Grey circular (i) info icons follow the Top 10 / Top 5 / Top 3 labels. (This is the Motilal Oswal Large and Midcap Fund card per the dialogue; no bold label is printed with it here. Duplicate of a12 — appears again as a labeled \"Direct Growth\" reference card on page 10.)",
+   "sourceLine": "Source: Value Research",
+   "starMarkers": "",
+   "asOfDate": "",
+   "triggerBefore": "Motilal Oswal Large and Midcap Fund ka portfolio zyada concentrated hai, jisme sirf 29 stocks hai.",
+   "triggerAfter": "Dono funds ke top 3 sectors combined portfolio ka lagbhag same hissa hold karte hai.",
+   "anchorParagraph": "p28"
+  },
+  {
+   "id": "a11",
+   "page": 10,
+   "kind": "bordered-screenshot",
+   "label": "Invesco India Large & Mid Cap Fund Direct Growth",
+   "content": "Repeat of the Invesco Concentration card, identical values. Cream/off-white Value Research card, black border, serif heading \"Concentration\". Rows: No. of Stocks — 40 | Top 10 Stocks (i) — 53.42% | Top 5 Stocks (i) — 33.55% | Top 3 Sectors (i) — 59.73%. Its bold label \"Invesco India Large & Mid Cap Fund Direct Growth\" is printed at the bottom of page 9; the card itself sits at the top of page 10 (label/asset pair crosses the page boundary). This card is rendered slightly narrower than the page-8 copy. Duplicate of a09 — the edit needs only ONE on-screen instance per fund but must carry the Direct Growth qualifier from this label.",
+   "sourceLine": "Source: Value Research",
+   "starMarkers": "",
+   "asOfDate": "",
+   "triggerBefore": "Invesco India Large & Mid Cap Fund mein top 3 sectors 59.73% hai, jabki Motilal Oswal Large and Midcap Fund mein top 3 sectors 59.65% hai.",
+   "triggerAfter": "Ab baat karte hai market cap allocation ki.",
+   "anchorParagraph": "p29",
+   "resolution": "creator 2026-08-16: page 10 source is Value Research — each card carries its own line (settles the shared-line question)"
+  },
+  {
+   "id": "a12",
+   "page": 10,
+   "kind": "bordered-screenshot",
+   "label": "Motilal Oswal Large and Midcap Fund Direct Growth",
+   "content": "Repeat of the Motilal Concentration card, identical values. Cream/off-white Value Research card, black border, serif heading \"Concentration\". Rows: No. of Stocks — 29 | Top 10 Stocks (i) — 43.76% | Top 5 Stocks (i) — 23.36% | Top 3 Sectors (i) — 59.65%. The single \"Source: Value Research\" line on page 10 is printed directly below this card and appears to serve both Direct Growth cards on the page. Duplicate of a10.",
+   "sourceLine": "Source: Value Research",
+   "starMarkers": "",
+   "asOfDate": "",
+   "triggerBefore": "Invesco India Large & Mid Cap Fund mein top 3 sectors 59.73% hai, jabki Motilal Oswal Large and Midcap Fund mein top 3 sectors 59.65% hai.",
+   "triggerAfter": "Ab baat karte hai market cap allocation ki. Invesco India Large & Mid Cap Fund ka allocation hai:",
+   "anchorParagraph": "p29"
+  },
+  {
+   "id": "a13",
+   "page": 11,
+   "kind": "bordered-screenshot",
+   "label": "",
+   "content": "Portfolio Aggregates card (cream/beige background, thin black border). Four stat blocks, each headed by a bold word followed by a grey circular 'i' info icon. Row 1, three columns: Large (i) 37.43%, Category: 52.75% | Mid (i) 38.33%, Category: 37.30% | Small (i) 24.24%, Category: 11.65%. Row 2, one block: Avg Mkt Cap (i) ₹97,433 Cr, Category: ₹ 1,57,535 Cr. (Values match Invesco India Large & Mid Cap Fund; no fund-name label printed with this instance — labeled duplicate a15 appears on page 13.)",
+   "sourceLine": "Source: Value Research",
+   "starMarkers": "",
+   "asOfDate": "",
+   "triggerBefore": "apne category ke muqable large-cap mein kam aur small-cap mein zyada exposure rakhta hai. (tail of a sentence that begins on page 10)",
+   "triggerAfter": "Motilal Oswal Large and Midcap Fund ka allocation hai: Large-cap 39.57%, Mid-cap 31.79%, aur Small-cap 28.64%.",
+   "anchorParagraph": "p30"
+  },
+  {
+   "id": "a14",
+   "page": 12,
+   "kind": "bordered-screenshot",
+   "label": "",
+   "content": "Portfolio Aggregates card (cream/beige background, thin black border). Four stat blocks, each headed by a bold word followed by a grey circular 'i' info icon. Row 1, three columns: Large (i) 39.57%, Category: 52.75% | Mid (i) 31.79%, Category: 37.30% | Small (i) 28.64%, Category: 11.65%. Row 2, one block: Avg Mkt Cap (i) ₹77,294 Cr, Category: ₹ 1,57,535 Cr. (Values match Motilal Oswal Large and Midcap Fund; no fund-name label printed with this instance — labeled duplicate a16 appears on page 13.)",
+   "sourceLine": "Source: Value Research",
+   "starMarkers": "",
+   "asOfDate": "",
+   "triggerBefore": "Yeh fund bhi apne category average se large-cap mein kam exposure rakhta hai, aur dono funds mein Motilal Oswal ka small-cap tilt zyada hai. (page 11)",
+   "triggerAfter": "Average market cap ki baat karein toh, Invesco India Large & Mid Cap Fund ka average market cap hai ₹97,433 Crore,",
+   "anchorParagraph": "p31"
+  },
+  {
+   "id": "a15",
+   "page": 13,
+   "kind": "bordered-screenshot",
+   "label": "Invesco India Large & Mid Cap Fund Direct Growth",
+   "content": "Portfolio Aggregates card (cream/beige background, thin black border), identical data to the page-11 screenshot (a13). Large (i) 37.43%, Category: 52.75% | Mid (i) 38.33%, Category: 37.30% | Small (i) 24.24%, Category: 11.65% | Avg Mkt Cap (i) ₹97,433 Cr, Category: ₹ 1,57,535 Cr. First of two labeled reference duplicates on page 13 (no spoken dialogue on this page). Duplicate of a13 — the edit needs only ONE on-screen instance per fund but must carry the Direct Growth qualifier from this label.",
+   "sourceLine": "Source: Value Research (printed once at the bottom of page 13, below the second screenshot; appears to cover both screenshots on the page)",
+   "starMarkers": "",
+   "asOfDate": "",
+   "triggerBefore": "Category average ₹1,57,535 Crore hai, yaani dono hi funds apne category ke muqable chhoti companies mein zyada invest karte hai. (page 12)",
+   "triggerAfter": "Valuation ki baat karein toh, Invesco ka Portfolio P/E Ratio Motilal Oswal ka Portfolio P/E Ratio se zyada hai (page 14)",
+   "anchorParagraph": "p32"
+  },
+  {
+   "id": "a16",
+   "page": 13,
+   "kind": "bordered-screenshot",
+   "label": "Motilal Oswal Large and Midcap Fund Direct Growth",
+   "content": "Portfolio Aggregates card (cream/beige background, thin black border), identical data to the page-12 screenshot (a14). Large (i) 39.57%, Category: 52.75% | Mid (i) 31.79%, Category: 37.30% | Small (i) 28.64%, Category: 11.65% | Avg Mkt Cap (i) ₹77,294 Cr, Category: ₹ 1,57,535 Cr. Second of two labeled reference duplicates on page 13 (no spoken dialogue on this page). Duplicate of a14.",
+   "sourceLine": "Source: Value Research",
+   "starMarkers": "",
+   "asOfDate": "",
+   "triggerBefore": "Category average ₹1,57,535 Crore hai, yaani dono hi funds apne category ke muqable chhoti companies mein zyada invest karte hai. (page 12)",
+   "triggerAfter": "Valuation ki baat karein toh, Invesco ka Portfolio P/E Ratio Motilal Oswal ka Portfolio P/E Ratio se zyada hai (page 14)",
+   "anchorParagraph": "p32"
+  },
+  {
+   "id": "a17",
+   "page": 14,
+   "kind": "table",
+   "label": "",
+   "content": "4-column bordered table, all header and cell text bold. Headers: Valuation Metric | Invesco India Large & Mid Cap Fund | Motilal Oswal Large & Midcap Fund | NIFTY LargeMidcap 250 (Benchmark). Row 1: Portfolio P/E Ratio | 48.34 | 46.23 | 24.60. Row 2: Portfolio P/B Ratio | 5.26 | 7.06 | 3.71. (Header spells \"Motilal Oswal Large & Midcap Fund\" with ampersand — everywhere else it is \"Large and Midcap\"; reproduce as printed.)",
+   "sourceLine": "Source: Value Research & Screener",
+   "starMarkers": "*Direct Growth",
+   "asOfDate": "",
+   "triggerBefore": "Yeh difference sector allocation aur stock selection ki wajah se bhi ho sakta hai.",
+   "triggerAfter": "Portfolio turnover ki baat karein toh, Invesco India Large & Mid Cap Fund ka reported turnover hai 61.82%,",
+   "anchorParagraph": "p33"
+  },
+  {
+   "id": "a18",
+   "page": 15,
+   "kind": "table",
+   "label": "",
+   "content": "2-column bordered table, header and cell text bold; the as-of qualifier in the header is italic. Headers: Fund (* Direct Growth) | Portfolio Turnover Ratio (as of March 31, 2025). Row 1: Invesco India Large & Mid Cap Fund | 61.82%. Row 2: Motilal Oswal Large and Midcap Fund | 42.35%.",
+   "sourceLine": "Source: Morningstar",
+   "starMarkers": "* Direct Growth (printed inside the header cell as \"Fund (* Direct Growth)\")",
+   "asOfDate": "as of March 31, 2025",
+   "triggerBefore": "Yaani Invesco apne portfolio mein relatively zyada frequently changes karta hai. (page 14)",
+   "triggerAfter": "Ab, Sirf portfolio composition dekhkar equity funds ko judge karna kaafi nahi hota.",
+   "anchorParagraph": "p34"
+  },
+  {
+   "id": "a19",
+   "page": 16,
+   "kind": "table",
+   "label": "",
+   "content": "Metric | Invesco India Large & Mid Cap Fund | Motilal Oswal Large and Midcap Fund | Category Average || Standard Deviation | 18.36 | 21.33 | 16.24",
+   "sourceLine": "Source: Morningstar",
+   "starMarkers": "* Direct Growth",
+   "asOfDate": "",
+   "triggerBefore": "(table sits at top of page 16 — preceding VO sentence on page 15: Invesco SD 18.36 vs category 16.24, Motilal 21.33)",
+   "triggerAfter": "Ab baat karte hai Beta ki. Beta measure karta hai ki fund benchmark ke comparison mein kitna volatile hai.",
+   "anchorParagraph": "p38"
+  },
+  {
+   "id": "a20",
+   "page": 16,
+   "kind": "table",
+   "label": "",
+   "content": "Metric | Invesco India Large & Mid Cap Fund | Motilal Oswal Large and Midcap Fund | Category Average || Beta | 1.08 | 1.17 | 0.97",
+   "sourceLine": "Source: Morningstar",
+   "starMarkers": "* Direct Growth",
+   "asOfDate": "",
+   "triggerBefore": "Yaani dono hi funds apne benchmark se zyada volatile hai.",
+   "triggerAfter": "Alpha ki baat karein toh, Invesco India Large & Mid Cap Fund ka Alpha hai 8.11, jabki iski category ka average sirf 0.62 hai.",
+   "anchorParagraph": "p40"
+  },
+  {
+   "id": "a21",
+   "page": 17,
+   "kind": "table",
+   "label": "",
+   "content": "Metric | Invesco India Large & Mid Cap Fund | Motilal Oswal Large and Midcap Fund | Category Average || Alpha | 8.11 | 6.36 | 0.62",
+   "sourceLine": "Source: Morningstar",
+   "starMarkers": "* Direct Growth",
+   "asOfDate": "",
+   "triggerBefore": "Yaani dono hi funds apne benchmark se kaafi zyada excess return generate kar rahe hai.",
+   "triggerAfter": "Ab baat karte hai Sharpe Ratio ki, jo har extra unit of risk ke liye fund ne kitna extra return diya, yeh batata hai.",
+   "anchorParagraph": "p41"
+  },
+  {
+   "id": "a22",
+   "page": 17,
+   "kind": "table",
+   "label": "",
+   "content": "Metric | Invesco India Large & Mid Cap Fund | Motilal Oswal Large and Midcap Fund | Category Average || Sharpe Ratio | 0.94 | 0.77 | 0.59",
+   "sourceLine": "Source: Morningstar",
+   "starMarkers": "* Direct Growth",
+   "asOfDate": "",
+   "triggerBefore": "Toh dono hi funds apni category se behtar risk-adjusted returns de rahe hai.",
+   "triggerAfter": "Ab chaliye dekhte hai Upside aur Downside Capture Ratio ko.",
+   "anchorParagraph": "p43"
+  },
+  {
+   "id": "a23",
+   "page": 18,
+   "kind": "table",
+   "label": "",
+   "content": "Metric | Invesco India Large & Mid Cap Fund | Motilal Oswal Large and Midcap Fund | Category Average || Upside Capture Ratio | 132 | 133 | 101",
+   "sourceLine": "Source: Morningstar",
+   "starMarkers": "* Direct Growth",
+   "asOfDate": "",
+   "triggerBefore": "Yaani dono hi funds rising market mein apni category se kaafi aage nikal jaate hai.",
+   "triggerAfter": "Downside Capture Ratio batata hai ki jab market girta hai, fund us fall mein kitna neeche jaata hai.",
+   "anchorParagraph": "p46"
+  },
+  {
+   "id": "a24",
+   "page": 19,
+   "kind": "table",
+   "label": "",
+   "content": "Metric | Invesco India Large & Mid Cap Fund | Motilal Oswal Large and Midcap Fund | Category Average || Downside Capture Ratio | 104 | 116 | 99",
+   "sourceLine": "Source: Morningstar",
+   "starMarkers": "* Direct Growth",
+   "asOfDate": "",
+   "triggerBefore": "Yaani falling market mein donom funds category se zyada girta hai.",
+   "triggerAfter": "Ab baat karte hai Maximum Drawdown ki, jo yeh dikhata hai ki fund apne peak se kitna neeche gira sabse bura phase mein.",
+   "anchorParagraph": "p48"
+  },
+  {
+   "id": "a25",
+   "page": 20,
+   "kind": "table",
+   "label": "",
+   "content": "Metric | Invesco India Large & Mid Cap Fund | Motilal Oswal Large and Midcap Fund | Benchmark Index Average || Maximum Drawdown | -17.08% | -24.12% | -18.15% || Drawdown Period | Oct 2024 – Feb 2025 (5 months) | Jan 2025 – Feb 2025 (2 months) | -. (Fourth column is 'Benchmark Index Average', not 'Category Average' like the other risk tables; values spoken in p50-p51.)",
+   "sourceLine": "Source: Morningstar",
+   "starMarkers": "* Direct Growth",
+   "asOfDate": "",
+   "triggerBefore": "Yaani Motilal Oswal Large and Midcap Fund ka drawdown apni category se kaafi zyada gehra raha hai, jabki Invesco apni category ke kaafi kareeb raha.",
+   "triggerAfter": "Ab baat karte hai returns ki, yaani fund ki actual performance ki.",
+   "anchorParagraph": "p52"
+  },
+  {
+   "id": "a26",
+   "page": "21-22",
+   "kind": "table",
+   "label": "Invesco India Large & Mid Cap Fund | Motilal Oswal Large and Midcap Fund",
+   "content": "Returns comparison table — ONE table spanning pages 21-22, merged here into a single item. Columns: Metric | Invesco India Large & Mid Cap Fund | Motilal Oswal Large and Midcap Fund. All header and cell text bold. Rows:\n1-Year Return | 13.45% | 8.43%\n1-Year Benchmark Return | 4.56% | 4.56%\n1-Year Category Return | 8.27% | 8.17%\n1-Year Rank (Category) | 3 | 18\n3-Year Return | 25.73% | 23.17%\n3-Year Benchmark Return | 12.30% | 12.30%\n3-Year Category Return | 16.76% | 16.78%\n3-Year Rank (Category) | 1 | 2\n5-Year Return | 18.71% | 18.88%\n5-Year Benchmark Return | 11.76% | 11.76%\n5-Year Category Return | 14.68% | 14.70%\n5-Year Rank (Category) | 2 | 1\nImmediately below the table: '* Direct Growth' (bold) then 'Source: Value Research'. Values spoken across p54-p61.",
+   "sourceLine": "Source: Value Research (printed after the table's continuation on page 22)",
+   "starMarkers": "* Direct Growth (printed after the continuation on page 22)",
+   "asOfDate": "",
+   "triggerBefore": "Overall dekha jaaye toh, dono funds ne har time period mein benchmark aur category average ko comfortably outperform kiya hai.",
+   "triggerAfter": "Ab return consistency check karne ke liye in funds ke discrete returns par nazar daalte hain.",
+   "anchorParagraph": "p62"
+  },
+  {
+   "id": "a27",
+   "page": 23,
+   "kind": "chart",
+   "label": "Motilal Oswal Large and Midcap Fund - Direct Plan",
+   "content": "Value Research 'Discrete Returns' annual grouped bar chart screenshot (top of two stacked chart panels, beige/cream background, rounded border). UI chrome across the top: tabs 'Trailing Returns' | 'Discrete Returns' (active, dark) | 'Rolling Returns' (with lock icon); right-side toggle 'Annually' (active) | 'Quarterly' | 'Monthly' | 'Weekly'. Legend (3 series): blue dot 'Motilal Oswal Large and Midcap Fund - Direct Plan', green dot 'BSE Large Mid Cap TRI', brown dot 'Equity: Large & MidCap'. 'Value Research' watermark logo top-right of plot area. Y-axis label 'Return(%)', ticks -10%, 0%, 10%, 20%, 30%, 40%, 50%, 60%. X-axis years 2020-2025. Approximate bar values (blue fund / green benchmark / brown category):\n2020: ~15% / ~13% / ~18%\n2021: ~43% / ~32% / ~39%\n2022: ~3% / ~5% / ~3%\n2023: ~40% / ~24% / ~31%\n2024: ~47% / ~14% / ~22% (fund's tallest bar; widest gap over benchmark)\n2025: ~-4% (only negative fund bar, dips below 0 line) / ~9% / ~3%\nShape story: fund (blue) beats both series in 2021, 2023, 2024 with a huge 2024 spread; 2022 roughly flat for all; 2025 fund goes negative while benchmark stays ~9%. Bar values read off the image, approximate to ~1-2 percentage points — the dialogue anchors the hard claim (Motilal outperformed 3 of 6 years since 2020).",
+   "sourceLine": "Source: Value Research",
+   "starMarkers": "",
+   "asOfDate": "",
+   "triggerBefore": "...jabki Motilal Oswal Large & Mid Cap Fund ne isi period mein 6 mein se 3 saalon mein category aur benchmark ko outperform kiya hai.",
+   "triggerAfter": "Ab baat karte hai expense ratio ki, yaani fund ko manage karne ke liye har saal li jaane wali fee.",
+   "anchorParagraph": "p63",
+   "resolution": "creator 2026-08-16: page 23 charts are Value Research"
+  },
+  {
+   "id": "a28",
+   "page": 23,
+   "kind": "chart",
+   "label": "Invesco India Large & Mid Cap Fund - Direct Plan",
+   "content": "Value Research annual grouped bar chart screenshot (bottom of two stacked chart panels, beige/cream background, rounded border; no tab chrome on this one). Legend (3 series): blue dot 'Invesco India Large & Mid Cap Fund - Direct Plan', green dot 'BSE Large Mid Cap TRI', brown dot 'Equity: Large & MidCap'. 'Value Research' watermark logo top-right of plot area. Y-axis label 'Return(%)', ticks 0%, 10%, 20%, 30%, 40%, 50%, 60% (top) down past 0 (2018 category bar dips negative). X-axis years 2014-2025 (12 groups). Approximate bar values (blue fund / green benchmark / brown category):\n2014: ~45% / ~36% / ~55% (category is chart's tallest bar)\n2015: ~6% / ~2% / ~4%\n2016: ~5% / ~5% / ~7%\n2017: ~41% / ~34% / ~40%\n2018: ~1% / ~2% / ~-6% (category negative)\n2019: ~11% / ~10% / ~9%\n2020: ~14% / ~13% / ~17%\n2021: ~31% / ~33% / ~39% (fund lags both)\n2022: ~1% / ~6% / ~3% (fund lags both)\n2023: ~33% / ~26% / ~31%\n2024: ~38% / ~14% / ~22% (widest fund-over-benchmark gap)\n2025: ~6% / ~9% / ~3%\nShape story: fund beats both in 2017, 2019, 2023, 2024; trails category badly in 2014 and both series in 2021-2022; 2024 is the standout outperformance year. Bar values read off the image, approximate to ~1-2 percentage points — the dialogue anchors the hard claim (Invesco outperformed 2 of 6 years since 2020).",
+   "sourceLine": "Source: Value Research",
+   "starMarkers": "",
+   "asOfDate": "",
+   "triggerBefore": "...jabki Motilal Oswal Large & Mid Cap Fund ne isi period mein 6 mein se 3 saalon mein category aur benchmark ko outperform kiya hai.",
+   "triggerAfter": "Ab baat karte hai expense ratio ki, yaani fund ko manage karne ke liye har saal li jaane wali fee.",
+   "anchorParagraph": "p63",
+   "resolution": "creator 2026-08-16: page 23 charts are Value Research"
+  },
+  {
+   "id": "a29",
+   "page": 24,
+   "kind": "table",
+   "label": "Invesco India Large & Mid Cap Fund | Motilal Oswal Large and Midcap Fund",
+   "content": "Expense ratio table. Columns: Metric | Invesco India Large & Mid Cap Fund | Motilal Oswal Large and Midcap Fund. Single data row:\nExpense Ratio | 0.56% | 0.90%\nAll text bold, centered. Below the table: '* Direct Growth' (bold) then 'Source: Morningstar'. Values spoken in p65.",
+   "sourceLine": "Source: Morningstar",
+   "starMarkers": "* Direct Growth",
+   "asOfDate": "",
+   "triggerBefore": "Isliye, agar do funds ki performance lagbhag similar ho, toh lower expense ratio wale fund ko ek natural advantage milta hai...",
+   "triggerAfter": "Toh yeh raha in dono funds ka comparison. Dono hi funds ka investment approach kaafi alag hai.",
+   "anchorParagraph": "p66"
+  },
+  {
+   "id": "a30",
+   "page": 25,
+   "kind": "prose-box",
+   "label": "",
+   "content": "Compliance/RA sign-off block (plain text, not spoken dialogue):\n'Disclaimer: This is solely for educational purposes. The securities/investments quoted here are not recommendatory.'\n'To read the RA disclaimer, please click here.' ('here' is a blue hyperlink)\n'RA Sign :' (blank space follows, no signature image visible)\n'Research Analyst : Shreesha Ramesh Desai' (name shown on a grey highlight/box)\n'RA Date : 07-08-2026'\nNot a timeline asset — post-script compliance block; the disclaimer text may need to appear on screen per Groww compliance convention (parent to decide). The spoken disclaimer sentence is p70.",
+   "sourceLine": "MISSING",
+   "starMarkers": "",
+   "asOfDate": "07-08-2026 (RA Date)",
+   "triggerBefore": "Agar yeh video helpful laga ho, toh like karein, share karein, aur channel ko subscribe karna...",
+   "triggerAfter": "(none - final page of document)",
+   "anchorParagraph": "p71",
+   "excluded": true,
+   "resolution": "creator 2026-08-16: no source and NOT shown in the video at all (legal chain uses the supplied rolling-disclaimer asset instead)"
+  }
+ ],
+ "structural": {
+  "instructionEndMarker": {
+   "text": "Chaliye shuru karte hai!",
+   "page": 1,
+   "paragraph": "p04",
+   "note": "Marks the end of the intro/instruction block; script.json flags it optional. The page-25 RA compliance block (RA Sign / Research Analyst : Shreesha Ramesh Desai / RA Date : 07-08-2026) is the post-script end marker — spoken script ends on page 24 with 'Until then, bye!'"
+  },
+  "subtopicOpeners": [
+   {
+    "page": 1,
+    "paragraph": "p05",
+    "text": "Pehle kuch basic important notes:"
+   },
+   {
+    "page": 2,
+    "paragraph": "p07",
+    "text": "Dono funds ka benchmark same hai:"
+   },
+   {
+    "page": 2,
+    "paragraph": "p10",
+    "text": "Ab baat karte hai AUM ki."
+   },
+   {
+    "page": 3,
+    "paragraph": "p11",
+    "text": "Toh, kaun hai in dono funds ke fund managers?"
+   },
+   {
+    "page": 6,
+    "paragraph": "p15",
+    "text": "Ab dekhte hai, inn funds ke investment philosophy ke baare mein."
+   },
+   {
+    "page": 8,
+    "paragraph": "p26",
+    "text": "Ab hum in donom funds ke portfolio ke baare mein jaante hain."
+   },
+   {
+    "page": 10,
+    "paragraph": "p30",
+    "text": "Ab baat karte hai market cap allocation ki."
+   },
+   {
+    "page": 12,
+    "paragraph": "p32",
+    "text": "Average market cap ki baat karein toh, Invesco India Large & Mid Cap Fund ka average market cap hai ₹97,433 Crore, jabki Motilal Oswal Large and Midcap Fund ka average market cap hai ₹77,294 Crore."
+   },
+   {
+    "page": 14,
+    "paragraph": "p33",
+    "text": "Valuation ki baat karein toh, Invesco ka Portfolio P/E Ratio Motilal Oswal ka Portfolio P/E Ratio se zyada hai aur Portfolio P/B ratio comparitively kam hai."
+   },
+   {
+    "page": 14,
+    "paragraph": "p34",
+    "text": "Portfolio turnover ki baat karein toh, Invesco India Large & Mid Cap Fund ka reported turnover hai 61.82%, jabki Motilal Oswal Large and Midcap Fund ka reported turnover hai 42.35%, dono hi March 31, 2025 tak ke data ke hisaab se."
+   },
+   {
+    "page": 15,
+    "paragraph": "p35+p36",
+    "text": "Ab, Sirf portfolio composition dekhkar equity funds ko judge karna kaafi nahi hota. Chaliye ab risk aur risk-adjusted returns ki baat karte hai."
+   },
+   {
+    "page": 15,
+    "paragraph": "p37",
+    "text": "Pehla metric hai Standard Deviation, jo yeh batata hai ki fund ke returns kitna fluctuate karte hai apne average return ke comparison mein."
+   },
+   {
+    "page": 16,
+    "paragraph": "p39",
+    "text": "Ab baat karte hai Beta ki. Beta measure karta hai ki fund benchmark ke comparison mein kitna volatile hai. Beta 1 se zyada matlab fund benchmark se zyada volatile hai."
+   },
+   {
+    "page": 16,
+    "paragraph": "p41",
+    "text": "Alpha ki baat karein toh, Invesco India Large & Mid Cap Fund ka Alpha hai 8.11, jabki iski category ka average sirf 0.62 hai."
+   },
+   {
+    "page": 17,
+    "paragraph": "p42",
+    "text": "Ab baat karte hai Sharpe Ratio ki, jo har extra unit of risk ke liye fund ne kitna extra return diya, yeh batata hai."
+   },
+   {
+    "page": 17,
+    "paragraph": "p44",
+    "text": "Ab chaliye dekhte hai Upside aur Downside Capture Ratio ko."
+   },
+   {
+    "page": 18,
+    "paragraph": "p45",
+    "text": "Upside Capture Ratio batata hai ki jab market upar jaata hai, fund apne benchmark ke comparison mein kaisa perform karta hai. 100 se zyada matlab fund ne benchmark se behtar perform kiya."
+   },
+   {
+    "page": 18,
+    "paragraph": "p47",
+    "text": "Downside Capture Ratio batata hai ki jab market girta hai, fund us fall mein kitna neeche jaata hai. 100 se kam matlab fund benchmark se kam gira, jo achhi baat hai."
+   },
+   {
+    "page": 19,
+    "paragraph": "p49",
+    "text": "Ab baat karte hai Maximum Drawdown ki, jo yeh dikhata hai ki fund apne peak se kitna neeche gira sabse bura phase mein."
+   },
+   {
+    "page": 20,
+    "paragraph": "p53",
+    "text": "Ab baat karte hai returns ki, yaani fund ki actual performance ki."
+   },
+   {
+    "page": 20,
+    "paragraph": "p56",
+    "text": "Ab 3-year performance dekhte hain."
+   },
+   {
+    "page": 21,
+    "paragraph": "p59",
+    "text": "Ab 5-year returns ki baat karein."
+   },
+   {
+    "page": 22,
+    "paragraph": "p63",
+    "text": "Ab return consistency check karne ke liye in funds ke discrete returns par nazar daalte hain."
+   },
+   {
+    "page": 23,
+    "paragraph": "p64",
+    "text": "Ab baat karte hai expense ratio ki, yaani fund ko manage karne ke liye har saal li jaane wali fee."
+   },
+   {
+    "page": 24,
+    "paragraph": "p67",
+    "text": "Conclusion"
+   }
+  ],
+  "subscribeCues": [
+   {
+    "page": 1,
+    "paragraph": "p03",
+    "text": "Video ko aage badhane se pehle like kar dijiye, share kar dijiye aur channel ko subscribe kar lijiye, taaki aise hi insightful comparisons aapko miss na ho!"
+   },
+   {
+    "page": 24,
+    "paragraph": "p71",
+    "text": "Agar yeh video helpful laga ho, toh like karein, share karein, aur channel ko subscribe karna na bhoolein. Milte hain next video mein. Until then, bye!"
+   }
+  ],
+  "editorDirections": [
+   {
+    "page": 4,
+    "paragraph": "p13",
+    "text": "AND",
+    "note": "Standalone connector between the Invesco bio screenshot and the Motilal manager material — structural, not VO; script.json flags p13 optional."
+   },
+   {
+    "page": 9,
+    "paragraph": null,
+    "text": "Invesco India Large & Mid Cap Fund Direct Growth",
+    "note": "Bold unspoken label at bottom of page 9 for the Concentration card at top of page 10 (a11)."
+   },
+   {
+    "page": 10,
+    "paragraph": null,
+    "text": "Motilal Oswal Large and Midcap Fund Direct Growth",
+    "note": "Bold unspoken label for the second Concentration card on page 10 (a12)."
+   },
+   {
+    "page": 13,
+    "paragraph": null,
+    "text": "Invesco India Large & Mid Cap Fund Direct Growth",
+    "note": "Bold unspoken label above the first Portfolio Aggregates screenshot on page 13 (a15)."
+   },
+   {
+    "page": 13,
+    "paragraph": null,
+    "text": "Motilal Oswal Large and Midcap Fund Direct Growth",
+    "note": "Bold unspoken label above the second Portfolio Aggregates screenshot on page 13 (a16)."
+   },
+   {
+    "page": 24,
+    "paragraph": "p70",
+    "text": "Yaad rahe, yeh video sirf educational purpose ke liye banayi gayi hai. Isme diye gaye securities ya investments recommendatory nahi hain.",
+    "note": "Spoken disclaimer that doubles as a compliance requirement — may also need on-screen display per Groww convention."
+   }
+  ]
+ }
+}

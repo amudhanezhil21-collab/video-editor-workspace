@@ -1,0 +1,65 @@
+[
+ {
+  "mood": "corporate",
+  "title": "Start creating now",
+  "id": "623",
+  "file": "audio/music/corporate-623.mp3",
+  "license": "Mixkit Free License (commercial ok, no attribution)"
+ },
+ {
+  "mood": "corporate",
+  "title": "House",
+  "id": "132",
+  "file": "audio/music/corporate-132.mp3",
+  "license": "Mixkit Free License (commercial ok, no attribution)"
+ },
+ {
+  "mood": "corporate",
+  "title": "Electronica",
+  "id": "371",
+  "file": "audio/music/corporate-371.mp3",
+  "license": "Mixkit Free License (commercial ok, no attribution)"
+ },
+ {
+  "mood": "ambient",
+  "title": "Start creating now",
+  "id": "127",
+  "file": "audio/music/ambient-127.mp3",
+  "license": "Mixkit Free License (commercial ok, no attribution)"
+ },
+ {
+  "mood": "ambient",
+  "title": "Mysterious",
+  "id": "292",
+  "file": "audio/music/ambient-292.mp3",
+  "license": "Mixkit Free License (commercial ok, no attribution)"
+ },
+ {
+  "mood": "ambient",
+  "title": "Atmospheric",
+  "id": "139",
+  "file": "audio/music/ambient-139.mp3",
+  "license": "Mixkit Free License (commercial ok, no attribution)"
+ },
+ {
+  "mood": "documentary",
+  "title": "Start creating now",
+  "id": "580",
+  "file": "audio/music/documentary-580.mp3",
+  "license": "Mixkit Free License (commercial ok, no attribution)"
+ },
+ {
+  "mood": "documentary",
+  "title": "World",
+  "id": "682",
+  "file": "audio/music/documentary-682.mp3",
+  "license": "Mixkit Free License (commercial ok, no attribution)"
+ },
+ {
+  "mood": "documentary",
+  "title": "Film Score",
+  "id": "587",
+  "file": "audio/music/documentary-587.mp3",
+  "license": "Mixkit Free License (commercial ok, no attribution)"
+ }
+]

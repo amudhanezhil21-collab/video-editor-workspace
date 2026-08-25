@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx hyperframes@latest doctor)",
+      "Bash(grep -iA2 whisper)",
+      "Bash(python3 -V)",
+      "Bash(pip install *)",
+      "Bash(brew info *)",
+      "Bash(brew install *)",
+      "Bash(colima start *)",
+      "Bash(ffprobe -v error -show_entries format=duration,size:stream=codec_type,codec_name,width,height,r_frame_rate -of default=noprint_wrappers=1 \"/Users/ezhilamudhan/Downloads/WhatsApp Video 2026-08-08 at 7.29.43 PM.mp4\")",
+      "Bash(ffprobe -v error -show_entries stream=index,codec_type,codec_name -of csv \"/Users/ezhilamudhan/Downloads/WhatsApp Video 2026-08-08 at 7.29.43 PM.mp4\")"
+    ]
+  },
+  "enabledMcpjsonServers": [
+    "higgsfield"
+  ],
+  "enableAllProjectMcpServers": true
+}

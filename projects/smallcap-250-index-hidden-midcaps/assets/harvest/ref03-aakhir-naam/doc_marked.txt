@@ -1,0 +1,3 @@
+I need this type of frame with text “Small Cap 250 Index Fund”
+The same exact background and also swirling stars at top right corner and bottom left corner.
+Ignore the youtube UI elements.

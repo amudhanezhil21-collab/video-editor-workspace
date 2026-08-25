@@ -1,0 +1,39 @@
+/Users/ezhilamudhan/.local/share/uv/tools/whisperx/lib/python3.13/site-packages/pyannote/audio/core/io.py:48: UserWarning: 
+torchcodec is not installed correctly so built-in audio decoding will fail. Solutions are:
+* use audio preloaded in-memory as a {'waveform': (channel, time) torch.Tensor, 'sample_rate': int} dictionary;
+* fix torchcodec installation. Error message was:
+
+Could not load libtorchcodec. Likely causes:
+          1. FFmpeg is not properly installed in your environment. We support
+             versions 4, 5, 6 and 7.
+          2. The PyTorch version (2.8.0) is not compatible with
+             this version of TorchCodec. Refer to the version compatibility
+             table:
+             https://github.com/pytorch/torchcodec?tab=readme-ov-file#installing-torchcodec.
+          3. Another runtime dependency; see exceptions below.
+        The following exceptions were raised as we tried to load libtorchcodec:
+        
+[start of libtorchcodec loading traceback]
+FFmpeg version 7: dlopen(/Users/ezhilamudhan/.local/share/uv/tools/whisperx/lib/python3.13/site-packages/torchcodec/libtorchcodec_core7.dylib, 0x0006): Library not loaded: @rpath/libavutil.59.dylib
+  Referenced from: <4EE009B0-9B70-3C86-BB0E-E3E97FD75307> /Users/ezhilamudhan/.local/share/uv/tools/whisperx/lib/python3.13/site-packages/torchcodec/libtorchcodec_core7.dylib
+  Reason: tried: '/opt/anaconda3/lib/python3.13/lib-dynload/../../libavutil.59.dylib' (no such file), '/opt/anaconda3/bin/../lib/libavutil.59.dylib' (no such file)
+FFmpeg version 6: dlopen(/Users/ezhilamudhan/.local/share/uv/tools/whisperx/lib/python3.13/site-packages/torchcodec/libtorchcodec_core6.dylib, 0x0006): Library not loaded: @rpath/libavutil.58.dylib
+  Referenced from: <429667FA-10BA-309D-B804-C6862E0D693C> /Users/ezhilamudhan/.local/share/uv/tools/whisperx/lib/python3.13/site-packages/torchcodec/libtorchcodec_core6.dylib
+  Reason: tried: '/opt/anaconda3/lib/python3.13/lib-dynload/../../libavutil.58.dylib' (no such file), '/opt/anaconda3/bin/../lib/libavutil.58.dylib' (no such file)
+FFmpeg version 5: dlopen(/Users/ezhilamudhan/.local/share/uv/tools/whisperx/lib/python3.13/site-packages/torchcodec/libtorchcodec_core5.dylib, 0x0006): Library not loaded: @rpath/libavutil.57.dylib
+  Referenced from: <AF044D12-BBEA-3FC3-9BF0-FE09393BCD48> /Users/ezhilamudhan/.local/share/uv/tools/whisperx/lib/python3.13/site-packages/torchcodec/libtorchcodec_core5.dylib
+  Reason: tried: '/opt/anaconda3/lib/python3.13/lib-dynload/../../libavutil.57.dylib' (no such file), '/opt/anaconda3/bin/../lib/libavutil.57.dylib' (no such file)
+FFmpeg version 4: dlopen(/Users/ezhilamudhan/.local/share/uv/tools/whisperx/lib/python3.13/site-packages/torchcodec/libtorchcodec_core4.dylib, 0x0006): Library not loaded: @rpath/libavutil.56.dylib
+  Referenced from: <F551E475-09B9-3CDC-9702-50798633AD8E> /Users/ezhilamudhan/.local/share/uv/tools/whisperx/lib/python3.13/site-packages/torchcodec/libtorchcodec_core4.dylib
+  Reason: tried: '/opt/anaconda3/lib/python3.13/lib-dynload/../../libavutil.56.dylib' (no such file), '/opt/anaconda3/bin/../lib/libavutil.56.dylib' (no such file)
+[end of libtorchcodec loading traceback].
+  warnings.warn(
+2026-08-23 10:19:25 - whisperx.vads.pyannote - INFO - Performing voice activity detection using Pyannote...
+Lightning automatically upgraded your loaded checkpoint from v1.5.4 to v2.6.5. To apply the upgrade to your files permanently, run `python -m lightning.pytorch.utilities.upgrade_checkpoint ../../../../.local/share/uv/tools/whisperx/lib/python3.13/site-packages/whisperx/assets/pytorch_model.bin`
+2026-08-23 10:19:25 - whisperx.transcribe - INFO - Performing transcription...
+/Users/ezhilamudhan/.local/share/uv/tools/whisperx/lib/python3.13/site-packages/transformers/configuration_utils.py:335: UserWarning: Passing `gradient_checkpointing` to a config initialization is deprecated and will be removed in v5 Transformers. Using `model.gradient_checkpointing_enable()` instead, or if you are using the `Trainer` API, pass `gradient_checkpointing=True` in your `TrainingArguments`.
+  warnings.warn(
+Transcript: [0.031 --> 29.917]  Daily SIP करू weekly या फिर monthly कौन सी frequency से सबसे ज्यादा returns मिलेंगे। आओ देखते हैं data क्या कहता है। सोचो आपने August 1996 से June 2026 तक total 109.08 lakh rupees invest किये। अगर daily 1000 rupees की SIP की तो valuation बनती है 12.33 crore rupees। अगर weekly 6997 rupees की तो भी 12.33 crore rupees।
+Transcript: [29.917 --> 58.52]  और अगर monthly 30,384 rupees invest किये, तब भी valuation मिली 12.45 crore rupees. तीनों frequency का XIRR exactly same निकला, 13.47%. मतलब long term में frequency से कोई फरक नहीं पड़ता. Daily, weekly या monthly, returns लगबख same ही होते हैं. तो lesson क्या है? Frequency पर मत उलजो, discipline और long term investing पर focus करो.
+Transcript: [58.52 --> 70.687]  Monthly SIP काफी लोगों के लिए preferable है क्योंकि ये उनकी salary cycle से match करती है. तो आपका SIP frequency कौन सा है? Daily, weekly या monthly? Let us know in the comments.
+2026-08-23 10:20:30 - whisperx.transcribe - INFO - Performing alignment...

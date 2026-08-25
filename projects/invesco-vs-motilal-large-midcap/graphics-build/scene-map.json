@@ -1,0 +1,1927 @@
+{
+ "job": "invesco-vs-motilal-large-midcap",
+ "generated": "2026-08-16",
+ "timebase": "base-cut seconds (assets/reference-basecut.mp4, 813.840s, 25fps = 20346 frames); PREPEND shifts delivery times +3.000",
+ "transitionDialect": "Video-A dialect (audit finding 11 - one dialect per video): brand dual-panel wipe = structural moves; light-leak = card<->panel/creator<->MG; dissolve = same-layout swaps & table->card; whip/zoom = creator<->b-roll & card->creator+panel; in-place morphs for all 5->6 resolves and slot swaps",
+ "fixedSlots": [
+  {
+   "id": "PREPEND-1",
+   "slot": "prepend",
+   "t0": -3.0,
+   "t1": 0.0,
+   "asset": "assets/longform/disclaimer-start.png",
+   "spec": "3.000s exactly, total silence, before base-cut frame 0 (S1 non-negotiable; creator 2026-08-16 asset rules). Delivery timeline: 0.000-3.000; all base-cut times shift +3.000 in delivery.",
+   "frameType": 4
+  },
+  {
+   "id": "OVERLAY-1",
+   "slot": "over-timeline",
+   "t0": 55.083,
+   "t1": 57.113,
+   "asset": "assets/longform/groww-transition.mov",
+   "spec": "Brand transition, 2.03s ProRes 4444 alpha composite OVER the timeline (scale 2x, retime 30->25fps), triggered on the p04 marker 'Chaliye shuru karte hai!' (55.083); covers the s06->s07 boundary. Only occurrence in the video (S1).",
+   "frameType": null
+  },
+  {
+   "id": "APPEND-1",
+   "slot": "append",
+   "t0": 813.84,
+   "t1": 823.84,
+   "asset": "assets/longform/endscreen.mp4",
+   "spec": "Endscreen, exactly 10.0s of the 20.04s template (audit norm: always exactly 10.0s), hard cut at base-cut end ~1.1s after 'bye!' (812.70). Music only. Delivery: 816.840-826.840.",
+   "frameType": 6
+  },
+  {
+   "id": "APPEND-2",
+   "slot": "append",
+   "t0": 823.84,
+   "t1": 833.84,
+   "asset": "assets/longform/disclaimer-rolling.png (static top-of-strip)",
+   "spec": "Closing legal: static legal page held 10.0s (audit norm 10.1s across 3/3 videos), immediately after the endscreen. White page, never lavender-styled. Delivery: 826.840-836.840.",
+   "frameType": 4
+  },
+  {
+   "id": "APPEND-3",
+   "slot": "append",
+   "t0": 833.84,
+   "t1": 839.34,
+   "asset": "assets/longform/disclaimer-rolling.png (crawl)",
+   "spec": "Rolling disclaimer crawl bottom-to-top to the final frame, 5.5s (audit norm 5.0-5.9s, archive speed). Delivery: 836.840-842.340 = final frame.",
+   "frameType": 4
+  }
+ ],
+ "spans": [
+  {
+   "id": "s01",
+   "t0": 0.0,
+   "t1": 8.354,
+   "paragraph": "p01",
+   "scriptText": "Hey! Kabhi socha hai ki do log same exam pass karke...",
+   "frameType": 3,
+   "why": "grammar rule 7: hook/rhetorical question aimed at viewer, first ~75s -> type 3 creator + built text + coins (A 2.32 FIFA hook; B 3.0)",
+   "assets": [],
+   "dissection": [
+    "mixed white-sans/purple-serif question builds word-by-word, right-to-left in place, as spoken",
+    "two-figures + coin illustrations rise bottom-to-top with mandatory internal motion (fig02 football precedent)"
+   ],
+   "transitionIn": {
+    "kind": "hard cut (from PREPEND disclaimer card)",
+    "trigger": "VO greeting onset ~1.7s (audit norm: card hard-cuts out exactly as VO starts)"
+   },
+   "notes": "Base-cut t=0; the 3.0s supplied disclaimer PREPENDS before this frame (see PREPEND row)."
+  },
+  {
+   "id": "s02",
+   "t0": 8.354,
+   "t1": 14.656,
+   "paragraph": "p01",
+   "scriptText": "kuch saalon baad bilkul alag jagah pahunch jaate hain? Kyunki raasta same tha, lekin approach alag thi.",
+   "frameType": 7,
+   "why": "grammar rule 11 (procedure step 11): metaphor with no data -> b-roll; one road splitting into diverging stylized paths is not filmable -> type 7; 6.3s within 3-8s norm",
+   "assets": [],
+   "dissection": [
+    "camera follows two figures on one path; path forks; figures diverge on 'bilkul alag jagah' (~9.6s)"
+   ],
+   "transitionIn": {
+    "kind": "zoom-in + brand-primary light leak",
+    "trigger": "'kuch saalon baad' 8.354"
+   },
+   "notes": "4-side black box + grain/dust treatment mandatory (S3.4)."
+  },
+  {
+   "id": "s03",
+   "t0": 14.656,
+   "t1": 29.44,
+   "paragraph": "p02",
+   "scriptText": "Kuch aisa hi hai in dono Large & Mid Cap funds ke saath. Dono SEBI ke same mandate...",
+   "frameType": 5,
+   "why": "grammar rule 4: concept with moving parts -> type 5 concept MG; S5 opening recipe fig04 'funds in a race' piggy banks with wavy progression tails (A 20.40 piggy race)",
+   "assets": [],
+   "dissection": [
+    "two piggy circles (depth strokes) enter on shared grid bg (14.7)",
+    "'Same SEBI Mandate' chip pops (~19.5, on 'same mandate follow karte hain')",
+    "'Same Benchmark' chip pops (~23.5, on 'same benchmark ke against')",
+    "camera pushes into the piggies' portfolios on 'portfolio ke andar jhaankte hain' (~26.5)"
+   ],
+   "transitionIn": {
+    "kind": "zoom-out + light leak (b-roll -> MG)",
+    "trigger": "'Kuch aisa hi hai' 14.656"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s04",
+   "t0": 29.44,
+   "t1": 32.943,
+   "paragraph": "p02",
+   "scriptText": "toh dono ki philosophy bilkul different nikalti hai.",
+   "frameType": 6,
+   "why": "grammar rule 5: conclusion clause the running MG can land -> type 6 resolving serif title, in place, never on a cut (B 198.3 'True Diversification')",
+   "assets": [],
+   "dissection": [
+    "progression tails diverge; serif italic title 'Bilkul *Different* Philosophy' resolves word-by-word purple right-to-left on the clause (29.9-32.1)"
+   ],
+   "transitionIn": {
+    "kind": "in-place resolve on continuous MG (no cut)",
+    "trigger": "'philosophy bilkul different' 29.94"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s05",
+   "t0": 32.943,
+   "t1": 45.773,
+   "paragraph": "p02",
+   "scriptText": "Aaj hum dekhenge Invesco India Large & Mid Cap Fund Direct Growth aur Motilal Oswal...",
+   "frameType": 5,
+   "why": "grammar rule (comparison block S6 step 1) + A 31.28: fund logo circles pop as VO names the funds",
+   "assets": [],
+   "dissection": [
+    "Invesco logo circle pops with stroke motion at 'Invesco India' 34.10",
+    "Motilal logo circle pops at 'Motilal Oswal' 37.63",
+    "serif fund names + 'Direct Growth' qualifiers type under each",
+    "'Top 2 - 3Y & 5Y Returns' badge lands on 'top 2 positions' 44.75"
+   ],
+   "transitionIn": {
+    "kind": "light leak",
+    "trigger": "'Aaj hum dekhenge' 32.94"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s06",
+   "t0": 45.773,
+   "t1": 55.984,
+   "paragraph": "p03+p04",
+   "scriptText": "Video ko aage badhane se pehle like kar dijiye, share kar dijiye... / Chaliye shuru karte hai!",
+   "frameType": 1,
+   "why": "grammar rule 3 (procedure): like/subscribe ask -> subscribe unit overlaid on the running creator shot, no scene change; S1 CTA non-negotiable",
+   "assets": [],
+   "dissection": [
+    "serif/sans 'like * share * subscribe' text lands word-by-word with the ask",
+    "SUBSCRIBE UNIT #1: pill + cursor enters 47.43 ('like kar dijiye'), clicks SUBSCRIBE ~49.0, bell ~50.4, exits 52.43 (5.0s)"
+   ],
+   "transitionIn": {
+    "kind": "zoom-out to creator (S9 B-roll->A-roll family; here MG->creator)",
+    "trigger": "'Video ko aage badhane se pehle' 46.19"
+   },
+   "notes": "BRAND TRANSITION (S1): groww-transition.mov, 2.03s alpha composite over the timeline, scale 2x, retimed to 25fps, triggered on the marker line 'Chaliye shuru karte hai!' 55.083-55.984 - covers the s06->s07 boundary. Only use in the video."
+  },
+  {
+   "id": "s07",
+   "t0": 55.984,
+   "t1": 58.846,
+   "paragraph": "p05",
+   "scriptText": "Pehle kuch basic important notes:",
+   "frameType": 4,
+   "why": "HARD RULE: sub-topic opener -> type 4 topic card, every time (opener 1/25); card cut to phrase, 2.9s (grammar rule 2: 35/35 announcements carded)",
+   "assets": [],
+   "dissection": [
+    "lavender grid card; 'Important Points' white sans / 'for Comparison' indigo serif italic (fig08 title pair); gold coins rotating in corners"
+   ],
+   "transitionIn": {
+    "kind": "brand transition lands (back half of the 2.03s alpha composite reveals the card)",
+    "trigger": "marker 'Chaliye shuru karte hai!' 55.083"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s08",
+   "t0": 58.846,
+   "t1": 66.592,
+   "paragraph": "p06",
+   "scriptText": "Invesco India... aur Motilal Oswal..., dono hi Large & Mid Cap category ke funds hai.",
+   "frameType": 6,
+   "why": "S6 comparison-block recipe steps 1-3 (A 51.80-55.15 type 6): icons pop as named -> converge + shrink on 'both are [category] funds' -> category title resolves word-by-word",
+   "assets": [],
+   "dissection": [
+    "Invesco icon pops 58.85, Motilal icon pops 61.01 (depth strokes)",
+    "icons move closer + shrink on 'dono hi Large & Mid Cap category ke funds hai' (63.47-66.57)",
+    "serif title 'Large & Mid Cap Funds' resolves purple, right-to-left in place"
+   ],
+   "transitionIn": {
+    "kind": "straight cut from topic card, elements pop after",
+    "trigger": "'Invesco India' 58.846"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s09",
+   "t0": 66.592,
+   "t1": 78.42,
+   "paragraph": "p06",
+   "scriptText": "Yaani SEBI mandate ke anusar dono ko apne portfolio ka kam se kam 35%...",
+   "frameType": 5,
+   "why": "S1 COMPULSORY: table on this line -> full-screen MG (a01); grammar rule 1: spoken stat gets the exact figure highlighted at speak-time (A 55.15 65%-mandate parallel)",
+   "assets": [
+    "a01"
+   ],
+   "dissection": [
+    "icons dissolve (S6 step 4); a01 bordered table animates in on grid bg",
+    "Definition row reveals 66.6-69.3",
+    "Asset-allocation row reveals 69.4",
+    "'35%' large-cap chip isolates + enlarges at 71.38",
+    "'35%' mid-cap chip isolates + enlarges at 74.72",
+    "'Source: Groww' below throughout"
+   ],
+   "transitionIn": {
+    "kind": "in-place morph on continuous grid bg (icons -> table)",
+    "trigger": "'Yaani SEBI mandate' 66.59"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s10",
+   "t0": 78.42,
+   "t1": 80.252,
+   "paragraph": "p07",
+   "scriptText": "Dono funds ka benchmark same hai:",
+   "frameType": 4,
+   "why": "HARD RULE: sub-topic opener -> type 4 card (opener 2/25); 1.8s cut to phrase",
+   "assets": [],
+   "dissection": [
+    "card 'Benchmark' - serif italic + coins"
+   ],
+   "transitionIn": {
+    "kind": "light leak",
+    "trigger": "'Dono funds ka benchmark' 78.42"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s11",
+   "t0": 80.252,
+   "t1": 84.247,
+   "paragraph": "p08",
+   "scriptText": "NIFTY LargeMidcap 250 TRI (Total Return Index).",
+   "frameType": 2,
+   "why": "grammar rule 1: compact spec the creator narrates around -> type 2 side panel (A 60.60 Benchmark panel exact); S6 recipe figs 12/13 banner + stack",
+   "assets": [],
+   "dissection": [
+    "creator left; indigo banner enters bottom-to-top right: both fund names serif above one shared value 'NIFTY LargeMidcap 250 TRI (Total Return Index)'"
+   ],
+   "transitionIn": {
+    "kind": "light leak (card -> creator+panel)",
+    "trigger": "index name VO 80.25"
+   },
+   "notes": "p08 timing is gap-inferred (0 ASR matches on the English index name) - verify landing frame against base-cut audio at build (WhisperX lesson)."
+  },
+  {
+   "id": "s12",
+   "t0": 84.247,
+   "t1": 91.795,
+   "paragraph": "p09",
+   "scriptText": "Invesco India Large & Mid Cap Fund January 01, 2013 ko launch hua tha...",
+   "frameType": 2,
+   "why": "A 70.20 exact device: same slot swaps in place to 'Launch Date' panel; S6 recipe designed callout boxes, repeated for second fund",
+   "assets": [],
+   "dissection": [
+    "slot swap -> 'Launch Date' designed callout box (internal gradient, never plain - fig13)",
+    "Invesco 'January 01, 2013' lands 84.25-85.61",
+    "second callout: Motilal 'October 17, 2019' lands 89.75-91.19"
+   ],
+   "transitionIn": {
+    "kind": "in-place slot swap on continuous bg",
+    "trigger": "'January 01, 2013' 84.25"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s13",
+   "t0": 91.795,
+   "t1": 94.338,
+   "paragraph": "p10",
+   "scriptText": "Ab baat karte hai AUM ki.",
+   "frameType": 4,
+   "why": "HARD RULE: opener -> type 4 card (opener 3/25); A 77.35 'AUM' coin card exact; 2.5s cut to phrase",
+   "assets": [],
+   "dissection": [
+    "card 'AUM'"
+   ],
+   "transitionIn": {
+    "kind": "light leak",
+    "trigger": "'Ab baat karte hai AUM ki' 91.80"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s14",
+   "t0": 94.338,
+   "t1": 107.407,
+   "paragraph": "p10",
+   "scriptText": "Invesco... ka AUM hai ₹11,164 Crore, whereas Motilal Oswal... ₹18,413 Crore, as of July 2026.",
+   "frameType": 2,
+   "why": "S1 COMPULSORY: assets on this line (a02, a03) -> type 2 creator + MG; S2 prose-box treatment: the box with spoken figures pulled out and emphasised as said (A 80.55 AUM panel)",
+   "assets": [
+    "a02",
+    "a03"
+   ],
+   "dissection": [
+    "a02 About-Invesco box in beside creator; '₹11,164 Cr' pulled out + enlarged (~97-100)",
+    "in-place swap to a03 About-Motilal box; '₹18,413 Cr' enlarged 104.19-104.87",
+    "'as of July 2026' date chip lands 106.43 (S2.3 as-of on screen with its data)",
+    "'Source: Value Research' single line below (doc prints one line covering both boxes)"
+   ],
+   "transitionIn": {
+    "kind": "whip-cut (card -> creator+panel, A dialect)",
+    "trigger": "'Invesco... ka AUM hai' 94.4"
+   },
+   "notes": "RESOLVED 2026-08-16: (1) a02/a03 box text prints expense ratios 0.55%/0.60% conflicting with a29 + p65 dialogue 0.56%/0.90%; (2) a03 lists manager 'Varun Sharma' vs script p14 team list; (3) a02 'Khemani' + script 'November 2013' vs a04 screenshot '1st November 2023'. S2.3 verbatim rule means boxes cannot render until creator resolves. Do not silently edit box text. | Khemani-date part only: RESOLVED (screen shows 1st November 2023); expense 0.55/0.60 and 'Varun Sharma' remain BLOCKED. | Varun Sharma RESOLVED 2026-08-16: box shown as printed. Expense 0.55/0.60-vs-0.56/0.90 remains the ONLY blocker on this span. | expense ruling: boxes as printed, table+VO 0.56/0.90 as printed — ALL BLOCKERS CLEAR, span buildable."
+  },
+  {
+   "id": "s15",
+   "t0": 107.407,
+   "t1": 111.388,
+   "paragraph": "p11",
+   "scriptText": "Toh, kaun hai in dono funds ke fund managers?",
+   "frameType": 4,
+   "why": "HARD RULE: opener -> type 4 card (opener 4/25); A 91.30 'Fund Managers' card exact; 4.0s (phrase + breath 109.4-111.4)",
+   "assets": [],
+   "dissection": [
+    "card 'Fund Managers'"
+   ],
+   "transitionIn": {
+    "kind": "light leak",
+    "trigger": "'Toh, kaun hai' 108.0"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s16",
+   "t0": 111.388,
+   "t1": 124.824,
+   "paragraph": "p12",
+   "scriptText": "Invesco... ke Fund Manager Mr. Aditya Khemani hain, jo B.Com (Hons) aur PGDBM...",
+   "frameType": 2,
+   "why": "S1 COMPULSORY: a04 on this line; grammar rule 9: person's career -> type 2 journey beside creator, one node per spoken fact (A 95.35 Gunwani); a04 screenshot shown as the sourced panel with phrase-sweep",
+   "assets": [
+    "a04"
+   ],
+   "dissection": [
+    "a04 bordered bio panel in right; vertical journey line grows one node per fact",
+    "node 'B.Com (Hons) + PGDBM' sweep ~113.9-116.9",
+    "node '20+ years equity market' highlight 119.31",
+    "node 'Invesco AMC - November 2013' highlight 123.23 [CONFLICT - see notes]",
+    "'Source: Invesco India' below the screenshot for the full span"
+   ],
+   "transitionIn": {
+    "kind": "whip-cut",
+    "trigger": "'Invesco... ke Fund Manager' 110.7"
+   },
+   "notes": "RESOLVED 2026-08-16: script says 'November 2013 se judey hai'; a04 screenshot reads 'with effect from 1st November 2023'. Do not build the date node until the creator resolves (S2.3 character-for-character). | CREATOR RULING: on-screen date = 1st November 2023 (the a04 bio screenshot as printed). RESIDUAL FLAG: base-cut VO at ~118-124s audibly says 'November 2013 se' — screen will contradict audio; creator to choose: keep / re-record line / audio patch."
+  },
+  {
+   "id": "s17",
+   "t0": 124.824,
+   "t1": 138.101,
+   "paragraph": "p13+p14",
+   "scriptText": "AND / Motilal Oswal Large and Midcap Fund ek team-managed fund hai, jise Mr. Atul Mehra...",
+   "frameType": 5,
+   "why": "S1 COMPULSORY: a05 on p14; S2 photo-grid treatment: cards animate in one by one; grammar rule 9 second-person in-place slot reset (A 113.90); p13 'AND' is the reset beat",
+   "assets": [
+    "a05"
+   ],
+   "dissection": [
+    "in-place reset over the 'AND' gap 124.82-125.90",
+    "5 manager cards pop in SCREENSHOT order (Khandelwal, Shetty, Mehra, Mayekar, Agarwal) - S2.3 no re-ordering; only the last card prints 'Mr.' - reproduce as printed",
+    "mint highlight jumps to each card as its name is SPOKEN: Mehra 129.80, Khandelwal 131.08, Agarwal 132.44, Shetty 133.78, Mayekar 135.34",
+    "'team-managed' serif label above; 'Source: Motilal Oswal Mutual Fund' below"
+   ],
+   "transitionIn": {
+    "kind": "in-place reset / dissolve",
+    "trigger": "'AND' beat 124.82"
+   },
+   "notes": "Related conflict lives at s14 (a03 'Varun Sharma' vs this five-name team)."
+  },
+  {
+   "id": "s18",
+   "t0": 138.101,
+   "t1": 140.944,
+   "paragraph": "p15",
+   "scriptText": "Ab dekhte hai, inn funds ke investment philosophy ke baare mein.",
+   "frameType": 4,
+   "why": "HARD RULE: opener -> type 4 card (opener 5/25); A 302.20 'Investment Philosophy' card exact; 2.8s",
+   "assets": [],
+   "dissection": [
+    "card 'Investment Philosophy'"
+   ],
+   "transitionIn": {
+    "kind": "brand dual-panel wipe (structural section boundary)",
+    "trigger": "'Ab dekhte hai' 138.10"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s19",
+   "t0": 140.944,
+   "t1": 153.957,
+   "paragraph": "p16",
+   "scriptText": "Invesco... portfolio 4 key themes ke around... Sabse bada allocation Financials 29.2%...",
+   "frameType": 5,
+   "why": "S1 COMPULSORY: a06 colour deck slide (spoken coverage p16-p19); S2 deck-slide treatment: each column revealed in step with the spoken line (A 392.00 AMC slide type 5)",
+   "assets": [
+    "a06"
+   ],
+   "dissection": [
+    "slide frame + blue title 'Key investment themes' in; 4 column ghosts",
+    "FINANCIALS column reveals; '29.2%' isolates + enlarges at 148.85",
+    "'-1.0% Underweight' red chip at 151.19 ('benchmark ke muqable 1.0% underweight')",
+    "other columns dimmed; 'Source: Invesco India (data as of April 30, 2026)' below for the whole a06 run"
+   ],
+   "transitionIn": {
+    "kind": "straight cut from card, elements build after",
+    "trigger": "'Invesco... ka portfolio' 140.94"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s20",
+   "t0": 153.957,
+   "t1": 165.252,
+   "paragraph": "p17",
+   "scriptText": "Healthcare mein fund ka allocation hai 19.1%, jo benchmark se 11.9% overweight hai...",
+   "frameType": 5,
+   "why": "a06 continues - in-place column build 2/4; S2.8 dissection changes pacing, never numbers",
+   "assets": [
+    "a06"
+   ],
+   "dissection": [
+    "HEALTHCARE column reveals; '19.1%' enlarges 154.76-154.94",
+    "'11.9% Overweight' green chip 155.92-156.56",
+    "'proxy play on India's consumption... relatively better valuation' bullet sweeps with VO (~158-165)"
+   ],
+   "transitionIn": {
+    "kind": "in-place build (bg never cuts)",
+    "trigger": "'Healthcare' 153.24"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s21",
+   "t0": 165.252,
+   "t1": 174.117,
+   "paragraph": "p18",
+   "scriptText": "Consumer Discretionary mein 17.3% allocation hai long-term demand potential capture karne ke liye...",
+   "frameType": 5,
+   "why": "a06 continues - in-place column build 3/4",
+   "assets": [
+    "a06"
+   ],
+   "dissection": [
+    "CONSUMER DISCRETIONARY column reveals; '17.3%' enlarges (~167)",
+    "'3.2% Overweight' green chip on '3.2% overweight' (~171.5)",
+    "'Beneficiaries of long-term demand potential' bullet sweep"
+   ],
+   "transitionIn": {
+    "kind": "in-place build",
+    "trigger": "'Consumer Discretionary' 165.25"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s22",
+   "t0": 174.117,
+   "t1": 181.181,
+   "paragraph": "p19",
+   "scriptText": "Aur Real Estate mein 7.7% allocation hai, 6.1% overweight compared to benchmark.",
+   "frameType": 5,
+   "why": "a06 continues - column 4/4; ANCHOR LINE for a06 (anchorParagraph p19) - asset on screen at anchor",
+   "assets": [
+    "a06"
+   ],
+   "dissection": [
+    "REAL ESTATE column reveals; '7.7%' enlarges (~176)",
+    "'6.1% Overweight' green chip (~177.5)",
+    "full slide reassembles + source line holds through the 178.6-181.2 breath"
+   ],
+   "transitionIn": {
+    "kind": "in-place build",
+    "trigger": "'Aur Real Estate' 174.12"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s23",
+   "t0": 181.181,
+   "t1": 184.765,
+   "paragraph": "p20",
+   "scriptText": "Motilal Oswal Large and Midcap Fund ek alag philosophy follow karta hai -",
+   "frameType": 1,
+   "why": "grammar rule 5: emphasis pivot -> cut back to the creator's face; alternation rule: creator beat required between different-subject full-frame graphics (a06 -> a07)",
+   "assets": [],
+   "dissection": [
+    "creator + serif text 'ek *alag* philosophy' lands word-by-word"
+   ],
+   "transitionIn": {
+    "kind": "whip-cut (A dialect)",
+    "trigger": "'Motilal Oswal' 180.28"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s24",
+   "t0": 184.765,
+   "t1": 189.75,
+   "paragraph": "p20",
+   "scriptText": "QGLP framework, yaani Quality, Growth, Longevity, aur Price.",
+   "frameType": 5,
+   "why": "S1 COMPULSORY: a07 deck slide (coverage p20-p24); grammar rule 10 (list): one element per spoken item - Q G L P letters pop as named",
+   "assets": [
+    "a07"
+   ],
+   "dissection": [
+    "slide header 'High Quality & High Growth Focused House' + Motilal logo in at 'QGLP framework' 184.77",
+    "Q pops on 'Quality' 186.73, G on 'Growth' 187.77, L on 'Longevity' 188.37, P on 'Price' 188.91"
+   ],
+   "transitionIn": {
+    "kind": "light leak",
+    "trigger": "'QGLP framework' 184.77"
+   },
+   "notes": "OPEN QUESTION: a07 source line MISSING in doc - S1 requires visible attribution; creator must supply (do not invent)."
+  },
+  {
+   "id": "s25",
+   "t0": 189.75,
+   "t1": 197.397,
+   "paragraph": "p21",
+   "scriptText": "Q ka matlab hai Quality. Companies ko select karne ke liye minimum ROCE ya ROE...",
+   "frameType": 5,
+   "why": "a07 continues - in-place build: Q box reveals with yellow-dotted connector",
+   "assets": [
+    "a07"
+   ],
+   "dissection": [
+    "Q letter re-highlights; grey box 'Minimum threshold set to ROCE/ROE' reveals under it",
+    "'ROCE' / 'ROE' tokens emphasised as spoken (~194-196.5)"
+   ],
+   "transitionIn": {
+    "kind": "in-place build",
+    "trigger": "'Q ka matlab' 189.75"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s26",
+   "t0": 197.397,
+   "t1": 207.661,
+   "paragraph": "p22",
+   "scriptText": "G aur L ka matlab hai Growth aur Longevity. Investment team collectively...",
+   "frameType": 5,
+   "why": "a07 continues - wide G+L box reveals (one box spans both letters, as printed)",
+   "assets": [
+    "a07"
+   ],
+   "dissection": [
+    "G+L letters co-highlight; wide box 'Ensuring Longevity of Growth by investing in sustainable themes...' reveals",
+    "phrase sweep tracks 'sustainable themes' (~201-205); holds through 205.6-207.7 breath"
+   ],
+   "transitionIn": {
+    "kind": "in-place build",
+    "trigger": "'G aur L ka matlab' 197.40"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s27",
+   "t0": 207.661,
+   "t1": 218.728,
+   "paragraph": "p23",
+   "scriptText": "P ka matlab hai Price - PE aur PEG framework use hota hai, jise DCF...",
+   "frameType": 5,
+   "why": "a07 continues - P box reveals; tokens pop per named term (rule 10)",
+   "assets": [
+    "a07"
+   ],
+   "dissection": [
+    "P letter highlights; box 'Application of PE, PEG framework...' reveals",
+    "'PE'/'PEG' tokens (~210-212); 'DCF (Discounted Cash Flow)' (~213.5); 'implied returns' / 'implied growth' (~215.5-218)"
+   ],
+   "transitionIn": {
+    "kind": "in-place build",
+    "trigger": "'P ka matlab' 207.66"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s28",
+   "t0": 218.728,
+   "t1": 233.307,
+   "paragraph": "p24",
+   "scriptText": "Portfolio construction mein, fund ka 65% house theme representation aur stock picking par based hai...",
+   "frameType": 5,
+   "why": "a07 bottom row - ANCHOR LINE for a07 (p24); the three percentage boxes isolate + enlarge in VO order (S2.8)",
+   "assets": [
+    "a07"
+   ],
+   "dissection": [
+    "curly-bracket connectors draw on",
+    "'House theme representation... Stock picking - 65%' box enlarges (~221-224)",
+    "'Flexibity to invest outside house themes - 25%' box (~226-228) - slide genuinely prints 'Flexibity'; reproduce as printed (S2.3)",
+    "'Provision for risk mitigation - 10%' box (~229-231)",
+    "full slide reassembles through 232.7-233.3"
+   ],
+   "transitionIn": {
+    "kind": "in-place build",
+    "trigger": "'Portfolio construction mein' 218.73"
+   },
+   "notes": "Source line MISSING (same open question as s24)."
+  },
+  {
+   "id": "s29",
+   "t0": 233.307,
+   "t1": 245.331,
+   "paragraph": "p25",
+   "scriptText": "Fund ke growth-oriented themes mein China+1, Make in India, Financialisation...",
+   "frameType": 5,
+   "why": "S1 COMPULSORY: a08 slide; grammar rule 10: 7 theme columns pop one per named item",
+   "assets": [
+    "a08"
+   ],
+   "dissection": [
+    "header 'Growth Oriented Themes which could be Potential Leaders of the Cycle' in",
+    "columns pop as named: China+1 (~235.5), Make in India (~236.5), Financialisation (~238), Tech & Tech Services (~239.5), Urbanisation (~241), Healthcare Ecosystem (~242), Telecom (~243.5)",
+    "sub-theme boxes cascade under each pill after its pop"
+   ],
+   "transitionIn": {
+    "kind": "dissolve (slide -> slide, same deck family - A same-layout device)",
+    "trigger": "'growth-oriented themes' 233.9"
+   },
+   "notes": "OPEN QUESTION: a08 source line MISSING - creator to supply."
+  },
+  {
+   "id": "s30",
+   "t0": 245.331,
+   "t1": 248.812,
+   "paragraph": "p26",
+   "scriptText": "Ab hum in donom funds ke portfolio ke baare mein jaante hain.",
+   "frameType": 4,
+   "why": "HARD RULE: opener -> type 4 card (opener 6/25); 3.5s cut to phrase",
+   "assets": [],
+   "dissection": [
+    "card 'Portfolio'"
+   ],
+   "transitionIn": {
+    "kind": "brand dual-panel wipe (section boundary)",
+    "trigger": "'Ab hum... portfolio' 245.33"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s31",
+   "t0": 248.812,
+   "t1": 260.152,
+   "paragraph": "p27",
+   "scriptText": "Invesco... ka portfolio mein 40 stocks hai. Top 5 stocks 33.55%, top 10 stocks 53.42%...",
+   "frameType": 2,
+   "why": "S1 COMPULSORY: a09; grammar rule 1: compact spec (4 rows) creator narrates around -> type 2 (A 155.00 concentration table exact); S8 panel recipe",
+   "assets": [
+    "a09"
+   ],
+   "dissection": [
+    "serif label above panel: 'Invesco India Large & Mid Cap Fund *Direct Growth*' (qualifier carried from a11 label per inventory)",
+    "rows reveal + mint chip in VO order: 'No. of Stocks - 40' (~251.5), 'Top 5 - 33.55%' (~254.5), 'Top 10 - 53.42%' (~257.5)",
+    "'Top 3 Sectors - 59.73%' row present but unhighlighted (spoken at p29)",
+    "'Source: Value Research' below"
+   ],
+   "transitionIn": {
+    "kind": "whip-cut (card -> creator+panel)",
+    "trigger": "'Invesco... ka portfolio' 248.81"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s32",
+   "t0": 260.152,
+   "t1": 274.684,
+   "paragraph": "p28",
+   "scriptText": "Motilal Oswal... ka portfolio zyada concentrated hai, jisme sirf 29 stocks hai...",
+   "frameType": 2,
+   "why": "S1 COMPULSORY: a10; grammar rule 2: same metric, second fund -> identical mirrored layout swapped in place",
+   "assets": [
+    "a10"
+   ],
+   "dissection": [
+    "in-place slot swap -> Motilal panel, serif label 'Motilal Oswal Large and Midcap Fund *Direct Growth*' (from a12)",
+    "'zyada concentrated' serif emphasis; '29' chip (~263)",
+    "'Top 5 - 23.36%' (~268), 'Top 10 - 43.76%' (~271.5)",
+    "'Source: Value Research' below"
+   ],
+   "transitionIn": {
+    "kind": "in-place slot swap on continuous bg",
+    "trigger": "'Motilal Oswal... zyada concentrated' 260.2"
+   },
+   "notes": "p28 timing widened in anchors - verify row-highlight frames at build."
+  },
+  {
+   "id": "s33",
+   "t0": 274.684,
+   "t1": 285.569,
+   "paragraph": "p29",
+   "scriptText": "Dono funds ke top 3 sectors combined... Invesco 59.73%, jabki Motilal 59.65%.",
+   "frameType": 5,
+   "why": "S1 COMPULSORY: a11 + a12 at their ANCHOR LINE (p29); grammar rule 2: mirrored pair in identical layout full-screen, cells land in same screen position (3/3 videos, no exceptions)",
+   "assets": [
+    "a11",
+    "a12"
+   ],
+   "dissection": [
+    "both labeled Direct-Growth Concentration cards side-by-side on grid bg",
+    "'Top 3 Sectors' rows band-highlight simultaneously: 59.73% and 59.65%",
+    "'lagbhag same' gold chips on both values (gold = mixed/neutral verdict code)",
+    "single 'Source: Value Research' per printed page-10 layout [see OPEN QUESTIONS - S2.5 says two visuals = two source lines]"
+   ],
+   "transitionIn": {
+    "kind": "dissolve (side panel -> full-screen twins)",
+    "trigger": "'Dono funds ke top 3 sectors' 274.7"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s34",
+   "t0": 285.569,
+   "t1": 288.03,
+   "paragraph": "p30",
+   "scriptText": "Ab baat karte hai market cap allocation ki.",
+   "frameType": 4,
+   "why": "HARD RULE: opener -> type 4 card (opener 7/25); 2.5s cut to phrase (ends 287.67)",
+   "assets": [],
+   "dissection": [
+    "card 'Market Cap Allocation'"
+   ],
+   "transitionIn": {
+    "kind": "light leak",
+    "trigger": "'Ab baat karte hai market cap' 285.57"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s35",
+   "t0": 288.03,
+   "t1": 302.298,
+   "paragraph": "p30",
+   "scriptText": "Invesco... ka allocation hai: Large-cap 37.43%, Mid-cap 38.33%, aur Small-cap 24.24%.",
+   "frameType": 5,
+   "why": "S1 COMPULSORY: a13; grammar rule 1: dense stat block -> type 5 full-screen, blocks isolate + enlarge in VO order",
+   "assets": [
+    "a13"
+   ],
+   "dissection": [
+    "a13 Portfolio-Aggregates card full-screen; 'Large 37.43%' block enlarges 290.37-290.63",
+    "'Mid 38.33%' block 298.70-299.32",
+    "'Small 24.24%' block 301.50-302.30",
+    "NOTE: VO word gap 290.6-298.7 (unmatched ASR) - block draw-on/bar-fill animation carries the hold; verify against audio",
+    "'Source: Value Research' below"
+   ],
+   "transitionIn": {
+    "kind": "straight cut from card, elements build after",
+    "trigger": "'Invesco... ka allocation hai' 288.03"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s36",
+   "t0": 302.298,
+   "t1": 313.085,
+   "paragraph": "p30",
+   "scriptText": "Category average large-cap allocation 52.75% hai, toh Invesco apne category ke muqable...",
+   "frameType": 5,
+   "why": "a13 continues - dissection act 2: category comparison chips (S2.3: value never stripped of its comparison column)",
+   "assets": [
+    "a13"
+   ],
+   "dissection": [
+    "'Category: 52.75%' chip flashes red-vs-fund at 305.00-305.36",
+    "Large block tints down / Small block tints up on 'large-cap mein kam aur small-cap mein zyada' (306-312.5)"
+   ],
+   "transitionIn": {
+    "kind": "in-place build",
+    "trigger": "'Category average' 302.3"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s37",
+   "t0": 313.085,
+   "t1": 331.922,
+   "paragraph": "p31",
+   "scriptText": "Motilal Oswal... ka allocation hai: Large-cap 39.57%, Mid-cap 31.79%, aur Small-cap 28.64%...",
+   "frameType": 5,
+   "why": "S1 COMPULSORY: a14; grammar rule 2: identical mirrored layout swapped in place; cross-fund verdict co-highlight",
+   "assets": [
+    "a14"
+   ],
+   "dissection": [
+    "in-place swap -> a14 Motilal aggregates; Large 39.57% / Mid 31.79% / Small 28.64% blocks enlarge in VO order (~315-323)",
+    "category chips repeat treatment (~324-327)",
+    "both funds' Small blocks co-highlight on 'Motilal Oswal ka small-cap tilt zyada hai' (~327-331.5)",
+    "'Source: Value Research' below"
+   ],
+   "transitionIn": {
+    "kind": "in-place slot swap",
+    "trigger": "'Motilal Oswal... ka allocation' 313.1"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s38",
+   "t0": 331.922,
+   "t1": 334.403,
+   "paragraph": "p32",
+   "scriptText": "Average market cap ki baat karein toh,",
+   "frameType": 4,
+   "why": "HARD RULE: opener -> type 4 card (opener 8/25); opener phrase is the head of a data sentence - card cut to 'Average market cap ki baat karein toh,' (ends 333.72), assets land next span",
+   "assets": [],
+   "dissection": [
+    "card 'Average Market Cap'"
+   ],
+   "transitionIn": {
+    "kind": "light leak",
+    "trigger": "'Average market cap' 331.92"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s39",
+   "t0": 334.403,
+   "t1": 345.528,
+   "paragraph": "p32",
+   "scriptText": "Invesco... average market cap hai ₹97,433 Crore, jabki Motilal Oswal... ₹77,294 Crore. Category ₹1,57,535...",
+   "frameType": 5,
+   "why": "S1 COMPULSORY: a15 + a16 at ANCHOR LINE (p32); grammar rule 2 mirrored twins; Avg-Mkt-Cap blocks isolated + enlarged",
+   "assets": [
+    "a15",
+    "a16"
+   ],
+   "dissection": [
+    "twin labeled aggregates cards in, Avg Mkt Cap blocks foregrounded",
+    "'₹97,433 Cr' lands 337.52-337.76",
+    "emphasis swaps to '₹77,294 Cr' 343.89-344.21",
+    "'Category: ₹ 1,57,535 Cr' chip flashes on both cards 344.89-345.27",
+    "shared 'Source: Value Research' (page-13 prints one line - see OPEN QUESTIONS)"
+   ],
+   "transitionIn": {
+    "kind": "straight cut from card, elements build after",
+    "trigger": "'Invesco... average market cap' 334.4"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s40",
+   "t0": 345.528,
+   "t1": 355.693,
+   "paragraph": "p32",
+   "scriptText": "yaani dono hi funds apne category ke muqable chhoti companies mein zyada invest karte hai.",
+   "frameType": 6,
+   "why": "grammar rule 5: conclusion clause -> type 6 resolving serif title lands in place on the running twin-card MG; holds through the 350.5-355.7 breath",
+   "assets": [
+    "a15",
+    "a16"
+   ],
+   "dissection": [
+    "serif title '*Smaller* Companies Than Category' resolves on 'chhoti companies mein zyada invest' 348.4-350.5",
+    "resolved title + twins hold through silence; exit on card cut 355.69"
+   ],
+   "transitionIn": {
+    "kind": "in-place resolve (no cut)",
+    "trigger": "'yaani dono hi funds' 345.53"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s41",
+   "t0": 355.693,
+   "t1": 357.675,
+   "paragraph": "p33",
+   "scriptText": "Valuation ki baat karein toh,",
+   "frameType": 4,
+   "why": "HARD RULE: opener -> type 4 card (opener 9/25); 2.0s cut to phrase (ends 356.95)",
+   "assets": [],
+   "dissection": [
+    "card 'Valuation'"
+   ],
+   "transitionIn": {
+    "kind": "light leak",
+    "trigger": "'Valuation' 355.69"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s42",
+   "t0": 357.675,
+   "t1": 376.388,
+   "paragraph": "p33",
+   "scriptText": "Invesco ka Portfolio P/E Ratio Motilal Oswal ke... se zyada hai aur P/B comparitively kam hai...",
+   "frameType": 5,
+   "why": "S1 COMPULSORY: a17 black-bordered comparison table -> every column printed incl. benchmark; row-by-row reveal earns the 18.7s hold (S2.8)",
+   "assets": [
+    "a17"
+   ],
+   "dissection": [
+    "4-column table builds: headers in (header prints 'Motilal Oswal Large & Midcap Fund' with ampersand - reproduce as printed, S2.3)",
+    "P/E row: 48.34 vs 46.23 cells highlight 358.8-362.8",
+    "P/B row: 5.26 vs 7.06 cells highlight 363.6-370.2",
+    "'valuation... alag' gold chips on both fund columns 370.9-376.3",
+    "'*Direct Growth' star + 'Source: Value Research & Screener' below"
+   ],
+   "transitionIn": {
+    "kind": "straight cut from card, table builds",
+    "trigger": "'Invesco ka Portfolio P/E' 357.0"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s43",
+   "t0": 376.388,
+   "t1": 387.731,
+   "paragraph": "p33",
+   "scriptText": "Benchmark ke comparison mein, dono funds ka Portfolio P/E aur P/B ratio zyada hai...",
+   "frameType": 5,
+   "why": "a17 continues - dissection act 2: benchmark column sweep (S2.8 sub-step; same graphic, new act)",
+   "assets": [
+    "a17"
+   ],
+   "dissection": [
+    "'NIFTY LargeMidcap 250 (Benchmark)' column sweeps: 24.60 then 3.71 (376.4-380.3)",
+    "both fund columns tint vs benchmark on 'relatively higher-valued companies' 384.4-387.7"
+   ],
+   "transitionIn": {
+    "kind": "in-place build",
+    "trigger": "'Benchmark ke comparison mein' 376.39"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s44",
+   "t0": 387.731,
+   "t1": 392.212,
+   "paragraph": "p33",
+   "scriptText": "Yeh difference sector allocation aur stock selection ki wajah se bhi ho sakta hai.",
+   "frameType": 1,
+   "why": "grammar rule 13: interpretation returns to the bare creator (min dress: serif text per style type 1); alternation beat before next data block",
+   "assets": [],
+   "dissection": [
+    "creator + serif text 'sector allocation * stock selection'"
+   ],
+   "transitionIn": {
+    "kind": "whip-cut",
+    "trigger": "'Yeh difference' 387.73"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s45",
+   "t0": 392.212,
+   "t1": 394.0,
+   "paragraph": "p34",
+   "scriptText": "Portfolio turnover ki baat karein toh,",
+   "frameType": 4,
+   "why": "HARD RULE: opener -> type 4 card (opener 10/25); 1.8s cut to phrase (ends 393.97)",
+   "assets": [],
+   "dissection": [
+    "card 'Portfolio Turnover'"
+   ],
+   "transitionIn": {
+    "kind": "light leak",
+    "trigger": "'Portfolio turnover' 392.21"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s46",
+   "t0": 394.0,
+   "t1": 413.978,
+   "paragraph": "p34",
+   "scriptText": "Invesco... reported turnover hai 61.82%, jabki Motilal Oswal... 42.35%, March 31, 2025 tak...",
+   "frameType": 2,
+   "why": "S1 COMPULSORY: a18; grammar rule 1: compact spec (2 rows) -> type 2 side panel (A 181.72 turnover callout); 20.0s earned by 4 highlight steps",
+   "assets": [
+    "a18"
+   ],
+   "dissection": [
+    "a18 table beside creator; header 'Fund (* Direct Growth) | Portfolio Turnover Ratio (as of March 31, 2025)' - as-of qualifier italic as printed",
+    "Invesco row '61.82%' highlight 398.29-399.24",
+    "Motilal row '42.35%' highlight 403.64-404.22",
+    "'March 31, 2025' italic chip re-emphasised 406.41-407.03",
+    "Invesco row re-highlights on 'zyada frequently changes' 409.73-413.98",
+    "'Source: Morningstar' below"
+   ],
+   "transitionIn": {
+    "kind": "whip-cut (card -> creator+panel)",
+    "trigger": "'Invesco... reported turnover' 394.0"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s47",
+   "t0": 413.978,
+   "t1": 419.48,
+   "paragraph": "p35+p36",
+   "scriptText": "Ab, Sirf portfolio composition dekhkar equity funds ko judge karna kaafi nahi hota.",
+   "frameType": 1,
+   "why": "grammar rule 5: emphasis pivot -> crash-zoom to the creator's face (A 466.35 'sirf returns dekhkar judge karna kaafi nahi' exact parallel)",
+   "assets": [],
+   "dissection": [
+    "crash-zoom in; serif text '*sirf* portfolio composition?' lands"
+   ],
+   "transitionIn": {
+    "kind": "crash-zoom (whip family)",
+    "trigger": "'Sirf portfolio composition' 414.46"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s48",
+   "t0": 419.48,
+   "t1": 425.003,
+   "paragraph": "p36+p37",
+   "scriptText": "Chaliye ab risk aur risk-adjusted returns ki baat karte hai. Pehla metric hai Standard Deviation,",
+   "frameType": 4,
+   "why": "HARD RULE: openers -> type 4 (openers 11+12/25); A 483.95 exact device: card 'Risk & Risk-Adjusted Returns' morphs title in place -> 'Standard Deviation'; 5.5s covers both spoken phrases (morph card, two titles)",
+   "assets": [],
+   "dissection": [
+    "card 'Risk & Risk-Adjusted Returns' lands on 'ab risk aur risk-adjusted returns' 419.48-422.60",
+    "title morphs in place -> 'Standard Deviation' on 'Pehla metric hai Standard Deviation' 422.84-424.44"
+   ],
+   "transitionIn": {
+    "kind": "brand dual-panel wipe (structural)",
+    "trigger": "'ab risk aur risk-adjusted returns' 419.48"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s49",
+   "t0": 425.003,
+   "t1": 430.245,
+   "paragraph": "p37",
+   "scriptText": "jo yeh batata hai ki fund ke returns kitna fluctuate karte hai apne average...",
+   "frameType": 1,
+   "why": "grammar rule 8: unsourced definition -> spoken to camera (A 585.05 Sortino precedent, 5/5 consistent); style min dress: inline serif label + coins",
+   "assets": [],
+   "dissection": [
+    "creator + inline serif label 'Standard Deviation' + rotating coins (C 428.44 mini-label device)"
+   ],
+   "transitionIn": {
+    "kind": "whip-cut from card",
+    "trigger": "'jo yeh batata hai' 424.70"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s50",
+   "t0": 430.245,
+   "t1": 443.633,
+   "paragraph": "p38",
+   "scriptText": "Invesco... ka Standard Deviation hai 18.36, jabki iski category ka average 16.24. Motilal 21.33...",
+   "frameType": 5,
+   "why": "S1 COMPULSORY: a19; grammar rule 1: stat cells light at speak-time; red = worse colour code; full-screen metric table (A 502.35 risk-table treatment)",
+   "assets": [
+    "a19"
+   ],
+   "dissection": [
+    "a19 row builds: Invesco '18.36' cell highlight (~433)",
+    "'Category Average 16.24' cell (~436.5)",
+    "Motilal '21.33' cell (~438.5)",
+    "both fund cells tint red on 'dono hi funds apni category se zyada volatile' (~440-443.3)",
+    "'* Direct Growth' + 'Source: Morningstar' below"
+   ],
+   "transitionIn": {
+    "kind": "light leak (creator -> table)",
+    "trigger": "'Invesco... ka Standard Deviation' 430.25"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s51",
+   "t0": 443.633,
+   "t1": 446.334,
+   "paragraph": "p39",
+   "scriptText": "Ab baat karte hai Beta ki.",
+   "frameType": 4,
+   "why": "HARD RULE: opener -> type 4 card (opener 13/25); 2.7s cut to phrase (ends 445.07)",
+   "assets": [],
+   "dissection": [
+    "card 'Beta'"
+   ],
+   "transitionIn": {
+    "kind": "dissolve (table -> card, A dialect)",
+    "trigger": "'Ab baat karte hai Beta ki' 443.63"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s52",
+   "t0": 446.334,
+   "t1": 453.877,
+   "paragraph": "p39",
+   "scriptText": "Beta measure karta hai ki fund benchmark ke comparison mein kitna volatile hai...",
+   "frameType": 1,
+   "why": "grammar rule 8: unsourced definition -> creator to camera; inline serif label + coins",
+   "assets": [],
+   "dissection": [
+    "creator + serif label 'Beta'; 'Beta > 1 = zyada volatile' micro-text lands on the rule clause (~449.9-452.6)"
+   ],
+   "transitionIn": {
+    "kind": "whip-cut from card",
+    "trigger": "'Beta measure karta hai' 445.09"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s53",
+   "t0": 453.877,
+   "t1": 465.531,
+   "paragraph": "p40",
+   "scriptText": "Invesco... ka Beta hai 1.08, jabki Motilal Oswal... 1.17. Category average hai 0.97...",
+   "frameType": 5,
+   "why": "S1 COMPULSORY: a20; same treatment slot as a19 (identical layout family, in-place swap between metric tables via card beats)",
+   "assets": [
+    "a20"
+   ],
+   "dissection": [
+    "Invesco '1.08' cell (~455.5); Motilal '1.17' (~458); Category '0.97' (~461)",
+    "both fund cells red on 'benchmark se zyada volatile' (~462-465.5)",
+    "'* Direct Growth' + 'Source: Morningstar'"
+   ],
+   "transitionIn": {
+    "kind": "light leak",
+    "trigger": "'Invesco... ka Beta' 453.88"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s54",
+   "t0": 465.531,
+   "t1": 467.5,
+   "paragraph": "p41",
+   "scriptText": "Alpha ki baat karein toh,",
+   "frameType": 4,
+   "why": "HARD RULE: opener -> type 4 card (opener 14/25); opener phrase heads a data sentence - card 2.0s, table next span",
+   "assets": [],
+   "dissection": [
+    "card 'Alpha'"
+   ],
+   "transitionIn": {
+    "kind": "dissolve",
+    "trigger": "'Alpha ki baat karein toh' 465.53"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s55",
+   "t0": 467.5,
+   "t1": 482.769,
+   "paragraph": "p41",
+   "scriptText": "Invesco... ka Alpha hai 8.11, jabki iski category ka average sirf 0.62. Motilal 6.36...",
+   "frameType": 5,
+   "why": "S1 COMPULSORY: a21 at ANCHOR LINE (p41); no definition beat in script - table carries the whole paragraph; 15.3s cell-walked",
+   "assets": [
+    "a21"
+   ],
+   "dissection": [
+    "Invesco '8.11' green cell (~469); Category '0.62' cell with 'sirf' shrink-emphasis (~472); Motilal '6.36' green (~475.5)",
+    "both fund cells green-sweep on 'kaafi zyada excess return generate' 478.2-482.7 (green = good code)",
+    "'* Direct Growth' + 'Source: Morningstar'"
+   ],
+   "transitionIn": {
+    "kind": "straight cut from card, table builds",
+    "trigger": "'Invesco... ka Alpha hai' 467.5"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s56",
+   "t0": 482.769,
+   "t1": 485.351,
+   "paragraph": "p42",
+   "scriptText": "Ab baat karte hai Sharpe Ratio ki,",
+   "frameType": 4,
+   "why": "HARD RULE: opener -> type 4 card (opener 15/25); A 518.65 'Sharpe' card exact; 2.6s (phrase ends 484.27)",
+   "assets": [],
+   "dissection": [
+    "card 'Sharpe Ratio'"
+   ],
+   "transitionIn": {
+    "kind": "dissolve",
+    "trigger": "'Ab baat karte hai Sharpe Ratio' 482.77"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s57",
+   "t0": 485.351,
+   "t1": 490.395,
+   "paragraph": "p42",
+   "scriptText": "jo har extra unit of risk ke liye fund ne kitna extra return diya...",
+   "frameType": 1,
+   "why": "grammar rule 8: definition WITHOUT citable source in this script -> creator to camera (contrast A 520.55 where a source existed); inline serif label + coins",
+   "assets": [],
+   "dissection": [
+    "creator + serif label 'Sharpe Ratio'; 'extra return / extra risk' micro-fraction animates on the clause (~485.4-488.0)"
+   ],
+   "transitionIn": {
+    "kind": "whip-cut from card",
+    "trigger": "'jo har extra unit of risk' 484.57"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s58",
+   "t0": 490.395,
+   "t1": 507.353,
+   "paragraph": "p43",
+   "scriptText": "Invesco... ka Sharpe Ratio hai 0.94, jabki Motilal Oswal... 0.77. Category average 0.59...",
+   "frameType": 5,
+   "why": "S1 COMPULSORY: a22; cells light at speak-time; 17.0s incl. verdict tint + tail hold/exit through the 503.3-507.4 breath",
+   "assets": [
+    "a22"
+   ],
+   "dissection": [
+    "Invesco '0.94' green (~493); Motilal '0.77' (~496.5); Category '0.59' (~499.5)",
+    "both fund cells green on 'behtar risk-adjusted returns' (~501-503.3)",
+    "table holds resolved, exits with sting into the capture-ratio card",
+    "'* Direct Growth' + 'Source: Morningstar'"
+   ],
+   "transitionIn": {
+    "kind": "light leak",
+    "trigger": "'Invesco... ka Sharpe Ratio' 490.40"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s59",
+   "t0": 507.353,
+   "t1": 510.095,
+   "paragraph": "p44+p45",
+   "scriptText": "Ab chaliye dekhte hai Upside aur Downside Capture Ratio ko. Upside Capture Ratio...",
+   "frameType": 4,
+   "why": "HARD RULE: openers -> type 4 (openers 16+17/25); card 'Upside & Downside Capture Ratio' on the spoken p44 line (507.35-508.19), morphs in place -> 'Upside Capture Ratio' as p45 begins (morph-card device, A 483.95)",
+   "assets": [],
+   "dissection": [
+    "card lands on p44 phrase; title morphs -> 'Upside Capture Ratio' ~508.3"
+   ],
+   "transitionIn": {
+    "kind": "brand dual-panel wipe (structural)",
+    "trigger": "'Ab chaliye dekhte hai Upside aur Downside' 507.35"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s60",
+   "t0": 510.095,
+   "t1": 517.799,
+   "paragraph": "p45",
+   "scriptText": "Upside Capture Ratio batata hai ki jab market upar jaata hai, fund apne benchmark...",
+   "frameType": 1,
+   "why": "grammar rule 8: unsourced definition -> creator; inline serif label + coins (opener 17 satisfied by the s59 card morph)",
+   "assets": [],
+   "dissection": [
+    "creator + serif label 'Upside Capture Ratio'; '>100 = benchmark se behtar' micro-text lands 513.3-516.4"
+   ],
+   "transitionIn": {
+    "kind": "whip-cut from card",
+    "trigger": "'fund apne benchmark ke comparison' 510.10"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s61",
+   "t0": 517.799,
+   "t1": 530.828,
+   "paragraph": "p46",
+   "scriptText": "Invesco... ka Upside Capture Ratio hai 132, jabki Motilal Oswal... 133. Category average 101...",
+   "frameType": 5,
+   "why": "S1 COMPULSORY: a23; cells light at speak-time, green = good",
+   "assets": [
+    "a23"
+   ],
+   "dissection": [
+    "Invesco '132' green (~520); Motilal '133' green (~523); Category '101' (~526)",
+    "both cells green-sweep on 'kaafi aage nikal jaate' (~528-530.8)",
+    "'* Direct Growth' + 'Source: Morningstar'"
+   ],
+   "transitionIn": {
+    "kind": "light leak",
+    "trigger": "'Invesco... ka Upside Capture' 517.80"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s62",
+   "t0": 530.828,
+   "t1": 533.4,
+   "paragraph": "p47",
+   "scriptText": "Downside Capture Ratio batata hai ki jab market girta hai,",
+   "frameType": 4,
+   "why": "HARD RULE: opener -> type 4 (opener 18/25); card morphs in place -> 'Downside Capture Ratio', 2.6s cut to the term phrase (spoken ~531.8-532.9)",
+   "assets": [],
+   "dissection": [
+    "card title morph -> 'Downside Capture Ratio'"
+   ],
+   "transitionIn": {
+    "kind": "dissolve (table -> card)",
+    "trigger": "'Downside Capture Ratio' ~531.8"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s63",
+   "t0": 533.4,
+   "t1": 540.886,
+   "paragraph": "p47",
+   "scriptText": "fund us fall mein kitna neeche jaata hai. 100 se kam matlab fund benchmark se kam gira...",
+   "frameType": 1,
+   "why": "grammar rule 8: unsourced definition -> creator; inline serif label + coins",
+   "assets": [],
+   "dissection": [
+    "creator + serif label 'Downside Capture Ratio'; '<100 = kam gira = achhi baat' micro-text lands 537.4-540.8"
+   ],
+   "transitionIn": {
+    "kind": "whip-cut from card",
+    "trigger": "'fund us fall mein' 535.05"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s64",
+   "t0": 540.886,
+   "t1": 554.147,
+   "paragraph": "p48",
+   "scriptText": "Invesco... ka Downside Capture Ratio hai 104, jabki Motilal Oswal... 116. Category average 99...",
+   "frameType": 5,
+   "why": "S1 COMPULSORY: a24; cells light at speak-time; red = worse",
+   "assets": [
+    "a24"
+   ],
+   "dissection": [
+    "Invesco '104' (~543.5); Motilal '116' red (~546.5); Category '99' (~549.5)",
+    "both fund cells tint red on 'category se zyada girta' (~551-554)",
+    "'* Direct Growth' + 'Source: Morningstar'"
+   ],
+   "transitionIn": {
+    "kind": "light leak",
+    "trigger": "'Invesco... ka Downside Capture' 540.89"
+   },
+   "notes": "p48 t1 gap-inferred - verify exit frame at build."
+  },
+  {
+   "id": "s65",
+   "t0": 554.147,
+   "t1": 556.988,
+   "paragraph": "p49",
+   "scriptText": "Ab baat karte hai Maximum Drawdown ki,",
+   "frameType": 4,
+   "why": "HARD RULE: opener -> type 4 card (opener 19/25); 2.8s cut to phrase (ends 556.35)",
+   "assets": [],
+   "dissection": [
+    "card 'Maximum Drawdown'"
+   ],
+   "transitionIn": {
+    "kind": "dissolve",
+    "trigger": "'Ab baat karte hai Maximum Drawdown' 554.15"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s66",
+   "t0": 556.988,
+   "t1": 562.43,
+   "paragraph": "p49",
+   "scriptText": "jo yeh dikhata hai ki fund apne peak se kitna neeche gira sabse bura phase mein.",
+   "frameType": 1,
+   "why": "grammar rule 8: unsourced definition -> creator; inline serif label + coins",
+   "assets": [],
+   "dissection": [
+    "creator + serif label 'Maximum Drawdown'; peak-to-trough micro-glyph animates on 'peak se kitna neeche gira' 558.2-560.3"
+   ],
+   "transitionIn": {
+    "kind": "whip-cut from card",
+    "trigger": "'jo yeh dikhata hai' 556.67"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s67",
+   "t0": 562.43,
+   "t1": 573.573,
+   "paragraph": "p50",
+   "scriptText": "Invesco... ka Maximum Drawdown hai -17.08%, jo October 2024 se February 2025 tak, yaani 5 months...",
+   "frameType": 5,
+   "why": "S1 COMPULSORY: a25 (built across p50-p52); Invesco column first, cells light at speak-time",
+   "assets": [
+    "a25"
+   ],
+   "dissection": [
+    "a25 table in: Invesco '-17.08%' red cell (~565.5)",
+    "'Drawdown Period' row reveals: 'Oct 2024 - Feb 2025 (5 months)' (~568-572)",
+    "'* Direct Growth' + 'Source: Morningstar' below for the whole a25 run"
+   ],
+   "transitionIn": {
+    "kind": "light leak",
+    "trigger": "'Invesco... ka Maximum Drawdown' 562.43"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s68",
+   "t0": 573.573,
+   "t1": 589.116,
+   "paragraph": "p51",
+   "scriptText": "Motilal Oswal... ka Maximum Drawdown hai -24.12%, jo January 2025 se February 2025... Benchmark -18.15%...",
+   "frameType": 5,
+   "why": "a25 continues - Motilal column + benchmark column in place; S2.3: fourth column header reads 'Benchmark Index Average' as printed (NOT Category Average)",
+   "assets": [
+    "a25"
+   ],
+   "dissection": [
+    "Motilal '-24.12%' deep-red cell (~576)",
+    "period 'Jan 2025 - Feb 2025 (2 months)' (~580-584)",
+    "'Benchmark Index Average -18.15%' column sweeps (~585-589)"
+   ],
+   "transitionIn": {
+    "kind": "in-place build",
+    "trigger": "'Motilal Oswal... ka Maximum Drawdown' 573.6"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s69",
+   "t0": 589.116,
+   "t1": 597.783,
+   "paragraph": "p52",
+   "scriptText": "Yaani Motilal Oswal... ka drawdown apni category se kaafi zyada gehra raha hai, jabki Invesco...",
+   "frameType": 5,
+   "why": "a25 verdict act at its ANCHOR LINE (p52): asset on screen at anchor; verdict tints per colour code",
+   "assets": [
+    "a25"
+   ],
+   "dissection": [
+    "Motilal cell holds red vs benchmark band; Invesco cell tints gold/neutral on 'kaafi kareeb raha' (~592-596)",
+    "table exits in the 596-597.8 breath"
+   ],
+   "transitionIn": {
+    "kind": "in-place build",
+    "trigger": "'Yaani Motilal Oswal... ka drawdown' 589.12"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s70",
+   "t0": 597.783,
+   "t1": 601.927,
+   "paragraph": "p53",
+   "scriptText": "Ab baat karte hai returns ki, yaani fund ki actual performance ki.",
+   "frameType": 4,
+   "why": "HARD RULE: opener -> type 4 card (opener 20/25); A 432.05 'Returns' card exact; 4.1s (phrase + breath)",
+   "assets": [],
+   "dissection": [
+    "card 'Returns'"
+   ],
+   "transitionIn": {
+    "kind": "brand dual-panel wipe (major section)",
+    "trigger": "'Ab baat karte hai returns ki' 597.78"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s71",
+   "t0": 601.927,
+   "t1": 615.058,
+   "paragraph": "p54",
+   "scriptText": "Invesco... ne pichhle 1 saal mein 13.45% return diya hai, jabki benchmark sirf 4.56%...",
+   "frameType": 5,
+   "why": "S1 COMPULSORY: a26 (ONE table, built across p54-p62); grammar rule 2: comparison table walked cell-by-cell, cells land in same screen position; 1-Year block, Invesco column",
+   "assets": [
+    "a26"
+   ],
+   "dissection": [
+    "a26 frame + headers build; '1-Year' band active",
+    "Invesco '13.45%' green cell (~604.5); benchmark '4.56%' with 'sirf' emphasis (~607); category '8.27%' (~609.5); 'Rank 3' chip (~612.5)",
+    "'* Direct Growth' + 'Source: Value Research' below for the whole a26 run"
+   ],
+   "transitionIn": {
+    "kind": "straight cut from card, table builds",
+    "trigger": "'Invesco... ne pichhle 1 saal' 601.93"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s72",
+   "t0": 615.058,
+   "t1": 631.812,
+   "paragraph": "p55",
+   "scriptText": "Wahin Motilal Oswal... ne 8.43% return diya... Lekin category mein iska 18th rank hai...",
+   "frameType": 5,
+   "why": "a26 continues - 1-Year Motilal column (mirrored, same layout, in place)",
+   "assets": [
+    "a26"
+   ],
+   "dissection": [
+    "Motilal '8.43%' cell (~617.5); benchmark-beat tick; category '8.17%' (~623); 'Rank 18' chip (~626.5)",
+    "Invesco 1Y cell re-flashes green on 'clear outperformance' (~628-631.6)"
+   ],
+   "transitionIn": {
+    "kind": "in-place build",
+    "trigger": "'Wahin Motilal Oswal' 615.1"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s73",
+   "t0": 631.812,
+   "t1": 645.102,
+   "paragraph": "p56+p57",
+   "scriptText": "Ab 3-year performance dekhte hain. Invesco ne 25.73% CAGR... benchmark 12.30%... 1st rank...",
+   "frameType": 5,
+   "why": "a26 continues - '3-Year' section band morphs/enlarges in place on the p56 opener (631.8-633.4), then Invesco 3Y cells light; opener 21/25 handled as IN-TABLE title morph (see OPEN QUESTIONS)",
+   "assets": [
+    "a26"
+   ],
+   "dissection": [
+    "'3-Year' band header enlarges + table scrolls in place (631.8-633.4)",
+    "Invesco '25.73%' green (~635.5); benchmark '12.30%' (~638.5); category '16.76%' (~641); 'Rank 1' gold-green chip (~643.5)"
+   ],
+   "transitionIn": {
+    "kind": "in-place morph (bg never cuts)",
+    "trigger": "'Ab 3-year performance' 631.81"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s74",
+   "t0": 645.102,
+   "t1": 659.37,
+   "paragraph": "p58",
+   "scriptText": "Dusri taraf, Motilal Oswal ne 23.17% CAGR diya... Iska category rank 2nd hai...",
+   "frameType": 5,
+   "why": "a26 continues - 3-Year Motilal column",
+   "assets": [
+    "a26"
+   ],
+   "dissection": [
+    "Motilal '23.17%' green (~647); benchmark+category beat ticks (~650-654); 'Rank 2' chip (~655.5)",
+    "both 3Y fund cells green-sweep on 'outstanding performance' (~656-659)"
+   ],
+   "transitionIn": {
+    "kind": "in-place build",
+    "trigger": "'Dusri taraf, Motilal Oswal' 645.1"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s75",
+   "t0": 659.37,
+   "t1": 673.134,
+   "paragraph": "p59+p60",
+   "scriptText": "Ab 5-year returns ki baat karein. Invesco... ne 18.71% CAGR... rank 2nd hai.",
+   "frameType": 5,
+   "why": "a26 continues - '5-Year' band morph on the p59 opener (659.4-660.2; opener 22/25 as in-table morph, see OPEN QUESTIONS), then Invesco 5Y cells",
+   "assets": [
+    "a26"
+   ],
+   "dissection": [
+    "'5-Year' band enlarges (659.4-661.5)",
+    "Invesco '18.71%' (~663.5); benchmark '11.76%' (~666.5); category '14.68%' (~669); 'Rank 2' chip (~671.5)"
+   ],
+   "transitionIn": {
+    "kind": "in-place morph",
+    "trigger": "'Ab 5-year returns' 659.37"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s76",
+   "t0": 673.134,
+   "t1": 686.677,
+   "paragraph": "p61",
+   "scriptText": "Wahin Motilal Oswal... ne 18.88% CAGR return diya, jo Invesco se marginally zyada hai... 1st rank...",
+   "frameType": 5,
+   "why": "a26 continues - 5-Year Motilal column with micro-compare",
+   "assets": [
+    "a26"
+   ],
+   "dissection": [
+    "Motilal '18.88%' green (~675.5); 18.88 vs 18.71 cells pulse together on 'marginally zyada' (~677-679)",
+    "benchmark/category ticks (~680-683); 'Rank 1' chip (~684.5)"
+   ],
+   "transitionIn": {
+    "kind": "in-place build",
+    "trigger": "'Wahin Motilal Oswal' 673.1"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s77",
+   "t0": 686.677,
+   "t1": 693.72,
+   "paragraph": "p62",
+   "scriptText": "Overall dekha jaaye toh, dono funds ne har time period mein... comfortably outperform kiya hai.",
+   "frameType": 6,
+   "why": "grammar rule 5: shared conclusion -> type 6 resolving title on the running MG; a26 at its ANCHOR LINE (p62) in a type-6 span - hard rule satisfied",
+   "assets": [
+    "a26"
+   ],
+   "dissection": [
+    "full a26 table zooms out; every fund-vs-benchmark/category cell sweeps green",
+    "serif title '*Comfortably* Outperformed - Every Period' resolves on the conclusion clause (~690-693.5)"
+   ],
+   "transitionIn": {
+    "kind": "in-place resolve (no cut)",
+    "trigger": "'Overall dekha jaaye toh' 686.68"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s78",
+   "t0": 693.72,
+   "t1": 697.5,
+   "paragraph": "p63",
+   "scriptText": "Ab return consistency check karne ke liye in funds ke discrete returns par nazar daalte hain.",
+   "frameType": 4,
+   "why": "HARD RULE: opener -> type 4 card (opener 23/25); 3.8s cut to the phrase head; chart frame begins building under the phrase tail",
+   "assets": [],
+   "dissection": [
+    "card 'Return Consistency' with sub-line 'Discrete Returns' serif italic"
+   ],
+   "transitionIn": {
+    "kind": "brand dual-panel wipe",
+    "trigger": "'Ab return consistency check' 693.72"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s79",
+   "t0": 697.5,
+   "t1": 706.303,
+   "paragraph": "p63",
+   "scriptText": "2020 se lekar aaj tak, Invesco... ne 6 mein se 2 saalon mein... outperform kiya hai,",
+   "frameType": 5,
+   "why": "S1 COMPULSORY: a28 chart at ANCHOR LINE (p63); S2.4 charts reproduced curve-for-curve - axes never rescaled, all 3 series, legend order/colours unchanged; script names Invesco first",
+   "assets": [
+    "a28"
+   ],
+   "dissection": [
+    "a28 Invesco panel: chrome, legend (blue fund / green BSE Large Mid Cap TRI / brown category), Y-axis, 12 year-groups 2014-2025 bars draw on",
+    "2020-2025 window band highlights on '2020 se lekar aaj tak' (699.2-700.3)",
+    "post-2020 outperform year-groups flash green + '2 / 6' chip lands on '6 mein se 2 saalon' (702.2-706.2)",
+    "Value Research watermark preserved in-plot"
+   ],
+   "transitionIn": {
+    "kind": "straight cut from card, chart draws on",
+    "trigger": "'2020 se lekar' 699.22 (frame builds from 697.5)"
+   },
+   "notes": "OPEN QUESTION: no printed 'Source:' caption (watermark only) - creator to supply the source line; S2.4 point-by-point verify at build."
+  },
+  {
+   "id": "s80",
+   "t0": 706.303,
+   "t1": 712.705,
+   "paragraph": "p63",
+   "scriptText": "jabki Motilal Oswal Large & Mid Cap Fund ne isi period mein 6 mein se 3 saalon mein...",
+   "frameType": 5,
+   "why": "a27 chart, in-place swap of the same layout family (grammar rule 2: swap in place); Motilal second as spoken",
+   "assets": [
+    "a27"
+   ],
+   "dissection": [
+    "swap -> a27 Motilal panel (2020-2025, tab chrome as printed); bars draw",
+    "outperform year-groups (2021/2023/2024 shape) flash green + '3 / 6' chip on '6 mein se 3 saalon' (709.2-712.5)"
+   ],
+   "transitionIn": {
+    "kind": "in-place slot swap",
+    "trigger": "'jabki Motilal Oswal' 706.30"
+   },
+   "notes": "Source line MISSING (watermark only) - same open question as s79."
+  },
+  {
+   "id": "s81",
+   "t0": 712.705,
+   "t1": 714.486,
+   "paragraph": "p64",
+   "scriptText": "Ab baat karte hai expense ratio ki,",
+   "frameType": 4,
+   "why": "HARD RULE: opener -> type 4 card (opener 24/25); A 692.80 'Expense Ratio' card exact; 1.8s cut to phrase (ends 714.39)",
+   "assets": [],
+   "dissection": [
+    "card 'Expense Ratio'"
+   ],
+   "transitionIn": {
+    "kind": "brand dual-panel wipe",
+    "trigger": "'Ab baat karte hai expense ratio' 712.71"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s82",
+   "t0": 714.486,
+   "t1": 719.35,
+   "paragraph": "p64",
+   "scriptText": "yaani fund ko manage karne ke liye har saal li jaane wali fee.",
+   "frameType": 1,
+   "why": "grammar rule 8: unsourced definition -> creator; inline serif label + coins",
+   "assets": [],
+   "dissection": [
+    "creator + serif label 'Expense Ratio'; 'yearly fee' coin micro-glyph on 'har saal li jaane wali fee' 717.3-719.3"
+   ],
+   "transitionIn": {
+    "kind": "whip-cut from card",
+    "trigger": "'yaani fund ko manage' 714.49"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s83",
+   "t0": 719.35,
+   "t1": 733.041,
+   "paragraph": "p65+p66",
+   "scriptText": "Invesco... ka expense ratio 0.56% hai, jabki Motilal Oswal... 0.90% hai. Expense ratio jitna kam...",
+   "frameType": 5,
+   "why": "S1 COMPULSORY: a29 at ANCHOR LINE (p66 - span covers 725.2-733.0 of p66); A 696.40 twin side-by-side expense panels exact; green=lower/better, red=higher",
+   "assets": [
+    "a29"
+   ],
+   "dissection": [
+    "twin panels in: Invesco '0.56%' lands green (~721.5); Motilal '0.90%' lands red (~723.5)",
+    "deduct animation (coins subtracting from a returns bar) beside panels on 'returns se har saal charges ke roop mein deduct' (728.8-732.6)",
+    "'* Direct Growth' + 'Source: Morningstar' below"
+   ],
+   "transitionIn": {
+    "kind": "light leak",
+    "trigger": "'Invesco... ka expense ratio' 719.35"
+   },
+   "notes": "RESOLVED 2026-08-16: a29 + p65 dialogue say 0.56%/0.90%; About boxes a02/a03 print 0.55%/0.60%. Do not render either pair until the creator resolves. | expense ruling: boxes as printed, table+VO 0.56/0.90 as printed — ALL BLOCKERS CLEAR, span buildable."
+  },
+  {
+   "id": "s84",
+   "t0": 733.041,
+   "t1": 740.246,
+   "paragraph": "p66",
+   "scriptText": "Isliye, agar do funds ki performance lagbhag similar ho, toh lower expense ratio wale fund ko...",
+   "frameType": 1,
+   "why": "grammar rule 13: rationale/interpretation -> creator; serif emphasis text",
+   "assets": [],
+   "dissection": [
+    "creator + serif text '*lower* expense ratio = natural advantage' lands on the clause (736.8-740.2)"
+   ],
+   "transitionIn": {
+    "kind": "whip-cut",
+    "trigger": "'Isliye' 733.04"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s85",
+   "t0": 740.246,
+   "t1": 745.56,
+   "paragraph": "p66",
+   "scriptText": "especially long-term investing mein jahan compounding ki wajah se yeh difference aur bada ho sakta hai.",
+   "frameType": 8,
+   "why": "grammar rule 11 (procedure): compounding-growth metaphor, no data, filmable -> type 8 real b-roll (B 620.1 watering-can-onto-coins exact metaphor); 5.3s in 3-8s norm; the data-half's single breather (C one-per-block precedent)",
+   "assets": [],
+   "dissection": [
+    "Envato: watering can over growing coin stacks / time-lapse plant on coins; black box + grain"
+   ],
+   "transitionIn": {
+    "kind": "zoom-in + light leak (A-roll -> B-roll, S9)",
+    "trigger": "'especially long-term investing' 740.69"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s86",
+   "t0": 745.56,
+   "t1": 747.5,
+   "paragraph": "p67",
+   "scriptText": "Conclusion",
+   "frameType": 4,
+   "why": "HARD RULE: opener -> type 4 card (opener 25/25); C 706.68 'Final Takeaway' 1.0s flash precedent; 1.9s - p68 VO onset 746.4 runs under the card tail",
+   "assets": [],
+   "dissection": [
+    "card 'Conclusion'"
+   ],
+   "transitionIn": {
+    "kind": "zoom-out from b-roll onto card",
+    "trigger": "p67 marker gap 745.56"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s87",
+   "t0": 747.5,
+   "t1": 765.179,
+   "paragraph": "p68",
+   "scriptText": "Toh yeh raha in dono funds ka comparison. Dono hi funds ka investment approach kaafi alag...",
+   "frameType": 1,
+   "why": "grammar rule 12: final verdict returns to camera (C 28.4s final-takeaway precedent); 17.7s deliberate trust hold (allowed, max ~3/video - this is 1 of 2)",
+   "assets": [],
+   "dissection": [
+    "serif keywords land word-by-word as named: 'portfolio construction' (~752), 'sector positioning' (~753.5), 'turnover' (~755), 'volatility' (~758.5), 'drawdown' (~759.5), 'risk-adjusted returns' (~761)"
+   ],
+   "transitionIn": {
+    "kind": "whip-cut from card",
+    "trigger": "'Toh yeh raha' 746.41"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s88",
+   "t0": 765.179,
+   "t1": 780.328,
+   "paragraph": "p69",
+   "scriptText": "Performance ke perspective se dekhein, toh dono funds ne alag-alag time periods mein...",
+   "frameType": 1,
+   "why": "grammar rule 13: interpretation -> creator (trust hold 2 of 2); reframe prepares the checklist slot",
+   "assets": [],
+   "dissection": [
+    "creator + serif text 'higher return != poora picture' family emphasis; 'risk profile' serif lands 777.1-778.0"
+   ],
+   "transitionIn": {
+    "kind": "jump-cut / reframe within continuous take (C device)",
+    "trigger": "'Performance ke perspective' 765.18"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s89",
+   "t0": 780.328,
+   "t1": 797.978,
+   "paragraph": "p69",
+   "scriptText": "Isliye kisi bhi equity fund ko evaluate karte waqt... investment philosophy, portfolio strategy, risk characteristics...",
+   "frameType": 3,
+   "why": "grammar rule 10 (list): criteria pop one per named item (C 232.32 creator-side checklist); type 3 balanced creator+text+illustration; late-video type 3 attested for reveal/list beats (C 337.0)",
+   "assets": [],
+   "dissection": [
+    "creator reframed left; checklist items pop exactly as named: 'Investment Philosophy' 786.97, 'Portfolio Strategy' 788.85, 'Risk Characteristics' 789.89, 'Risk Appetite' 792.72, 'Financial Goals' 793.68",
+    "coins + serif/sans mixed styling; items tick on 'kitna match karte hain' 794.7-796.0"
+   ],
+   "transitionIn": {
+    "kind": "no-cut overlay build over continuous take (C device)",
+    "trigger": "'Isliye kisi bhi equity fund' 780.33"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s90",
+   "t0": 797.978,
+   "t1": 805.648,
+   "paragraph": "p70",
+   "scriptText": "Yaad rahe, yeh video sirf educational purpose ke liye banayi gayi hai...",
+   "frameType": 2,
+   "why": "S1 COMPULSORY: a30 must land in a type-2/5/6 span (hard rule - no dropped asset); C 125.28 typewriter-disclaimer + compliance box device; grammar rule 10 (warning) keeps the creator eye-to-camera while the panel carries the text",
+   "assets": [],
+   "dissection": [
+    "compliance callout panel in: 'Disclaimer: This is solely for educational purposes. The securities/investments quoted here are not recommendatory.' - phrase-sweeps in sync with the spoken p70 line",
+    "small line beneath: 'Research Analyst: Shreesha Ramesh Desai | RA Date: 07-08-2026'"
+   ],
+   "transitionIn": {
+    "kind": "no-cut overlay (panel slides up over continuous take)",
+    "trigger": "'Yaad rahe' 797.98"
+   },
+   "notes": "OPEN QUESTION: inventory marks a30 'parent to decide'; mapped here to satisfy the anchor rule (anchor p71 - strip persists into s91). a30's legalese also belongs to the APPEND closing-legal chain. | a30 EXCLUDED by creator 2026-08-16 — compliance block not shown in video; span keeps its base type without the strip."
+  },
+  {
+   "id": "s91",
+   "t0": 805.648,
+   "t1": 813.84,
+   "paragraph": "p71",
+   "scriptText": "Agar yeh video helpful laga ho, toh like karein, share karein... Until then, bye!",
+   "frameType": 2,
+   "why": "grammar rule 3: subscribe unit rides the current frame (outro CTA slot, 3/3 videos); a30 ANCHOR LINE is p71 - compliance strip persists small in this type-2 span, satisfying the anchor rule",
+   "assets": [],
+   "dissection": [
+    "compliance strip shrinks to bottom edge, persists",
+    "SUBSCRIBE UNIT #2: enters 807.33 ('like karein'), cursor clicks SUBSCRIBE ~809.1, bell ~810.5, exits 812.33 (5.0s)",
+    "'Until then, bye!' 811.90-812.70; creator wave-out holds to base-cut end 813.84"
+   ],
+   "transitionIn": {
+    "kind": "no-cut overlay (continuous take from s90)",
+    "trigger": "'Agar yeh video helpful' 805.57"
+   },
+   "notes": "Endscreen APPEND hard-cuts at base-cut end 813.840 (see APPEND rows). | a30 EXCLUDED by creator 2026-08-16 — compliance block not shown in video; span keeps its base type without the strip."
+  }
+ ],
+ "stats": {
+  "spanCount": 91,
+  "secondsPerType": {
+   "1": 107.136,
+   "2": 99.76,
+   "3": 26.004,
+   "4": 58.829,
+   "5": 482.038,
+   "6": 28.457,
+   "7": 6.302,
+   "8": 5.314
+  },
+  "spansPerType": {
+   "1": 14,
+   "2": 9,
+   "3": 2,
+   "4": 21,
+   "5": 39,
+   "6": 4,
+   "7": 1,
+   "8": 1
+  },
+  "assetCoverage": "30/30",
+  "assetsMissing": []
+ }
+}

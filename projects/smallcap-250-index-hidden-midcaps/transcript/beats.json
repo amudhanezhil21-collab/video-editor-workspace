@@ -1,0 +1,135 @@
+[
+ {
+  "ref": 1,
+  "start": 0.698,
+  "end": 6.56,
+  "desc": "hook: 100% small cap exposure milega",
+  "text": "small cap 250 index fund में इंवेस्ट करोगे तो सौ परसेंट small cap एक्सपोजर मिलेगा।"
+ },
+ {
+  "ref": 2,
+  "start": 6.88,
+  "end": 8.12,
+  "desc": "Sounds logical, right?",
+  "text": "Sounds logical राइट।"
+ },
+ {
+  "ref": 3,
+  "start": 8.62,
+  "end": 10.741,
+  "desc": "Aakhir naam hi Small Cap 250 Index Fund hai",
+  "text": "Aakhir नाम ही small cap 250 index fund है"
+ },
+ {
+  "ref": 4,
+  "start": 11.161,
+  "end": 12.961,
+  "desc": "Lekin reality thodi different hai",
+  "text": "लेकिन रियालिटी थोड़ी डिफरेंट है।"
+ },
+ {
+  "ref": 5,
+  "start": 13.121,
+  "end": 14.522,
+  "desc": "Twist index ke andar hai",
+  "text": "ट्विस्ट index के अंदर है।"
+ },
+ {
+  "ref": 6,
+  "start": 14.653,
+  "end": 20.016,
+  "desc": "Nifty Smallcap 250 ... June aur December mein",
+  "text": "Nifty small cap 250 index sirf साल में दो बार री बैलेंस होता है जून और डिसेंबर में"
+ },
+ {
+  "ref": 7,
+  "start": 20.263,
+  "end": 26.368,
+  "desc": "Ab maan lo ... 80% 100% 120% up",
+  "text": "मान लीजिए एक small cap company zabardast rally कर देती है, 80%, 100, 120% up,"
+ },
+ {
+  "ref": 8,
+  "start": 26.488,
+  "end": 29.751,
+  "desc": "Uski market cap badh kar mid cap range",
+  "text": "उसकी market cap बढ़ कर mid cap range में पहुँच जाती है,"
+ },
+ {
+  "ref": 9,
+  "start": 29.831,
+  "end": 32.133,
+  "desc": "Kya index usse turant nikaal deta hai?",
+  "text": "क्या index उसे तुरंत निकाल देता है?"
+ },
+ {
+  "ref": 10,
+  "start": 32.213,
+  "end": 32.714,
+  "desc": "Nahi.",
+  "text": "नहीं."
+ },
+ {
+  "ref": 11,
+  "start": 32.814,
+  "end": 41.982,
+  "desc": "Woh stock agle rebalancing tak...",
+  "text": "वो stock अगले rebalancing तक index में बना रहता है, और क्योंकि index fund index को exactly track करता है, fund भी उस stock को hold करता रहता है."
+ },
+ {
+  "ref": 12,
+  "start": 42.402,
+  "end": 50.006,
+  "desc": "Matlab aap officially ... mid caps ban chuke",
+  "text": "मतलब आप officially एक small cap index fund hold कर रहे हैं लेकिन उसके अंदर कुछ stocks already mid caps बन चुके होते हैं"
+ },
+ {
+  "ref": 13,
+  "start": 50.146,
+  "end": 64.553,
+  "desc": "Abhi dekho ... + TABLE",
+  "text": "अभी देखिए June में rebalance होने से पहले इस index के सारे funds में more than 9% stocks already mid cap threshold cross कर चुके हैं मतलब आपके small cap fund का roughly 9-10% exposure उन stocks में है जो technically mid cap बन चुके हैं"
+ },
+ {
+  "ref": 14,
+  "start": 65.373,
+  "end": 67.996,
+  "desc": "Officially small cap. Functionally nahi.",
+  "text": "officially small cap functionally नहीं"
+ },
+ {
+  "ref": 15,
+  "start": 68.336,
+  "end": 73.783,
+  "desc": "Yeh structure winners ko prematurely cut...",
+  "text": "ये structure winners को prematurely cut होने से बचाता है जो stock grow किया वो portfolio में रहता है"
+ },
+ {
+  "ref": 16,
+  "start": 74.003,
+  "end": 78.328,
+  "desc": "Aap assume karte ho ... pure small cap risk",
+  "text": "आप assume करते हैं कि आपका पूरा पैसा pure small cap risk ले रहा है"
+ },
+ {
+  "ref": 17,
+  "start": 78.608,
+  "end": 81.792,
+  "desc": "Kabhi kabhi woh assumption ... galat",
+  "text": "कभी कभी वो assumption कुछ time तक galat हो सकता है"
+ },
+ {
+  "ref": 18,
+  "start": 81.892,
+  "end": 86.917,
+  "desc": "Isliye fund ka naam ... underlying holdings",
+  "text": "इसलिए fund का नाम देखने के साथ साथ उसके underlying holdings भी समझना ज़रूरी है"
+ },
+ {
+  "ref": 19,
+  "start": 87.111,
+  "end": 88.916,
+  "desc": "Aapko yeh pehle pata tha? comment karke bataiye",
+  "text": "आपको यह पहले पता था, comment करके बताईए"
+ }
+]

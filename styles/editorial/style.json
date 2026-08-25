@@ -1,0 +1,62 @@
+{
+  "name": "editorial",
+  "formats": ["short", "long"],
+  "colors": {
+    "bg": "$bg",
+    "rule": "$rule",
+    "accent": "$accent",
+    "accentSoft": "$accent-soft",
+    "ink": "$ink",
+    "muted": "$muted",
+    "calloutPill": "#5367FC",
+    "negative": "#F26B55"
+  },
+  "captions": {
+    "enabled_short": true,
+    "enabled_long": false,
+    "font": "$caption-font",
+    "wordsPerGroup": [2, 4],
+    "leadAudioMs": 80,
+    "position_short": "y 1380, centered, inside safe band"
+  },
+  "hook": {
+    "card": true,
+    "headlinePx": [120, 160],
+    "maxTextElements": 3,
+    "accentUnderline": { "drawSeconds": 0.4, "afterTextReveal": true }
+  },
+  "graphics": {
+    "kinds": ["stat", "card", "screenshot", "takeover", "zoom", "diagram", "broll-slot"],
+    "placement_short": "top half; face bottom half",
+    "placement_long": "full-frame takeovers and lower thirds only; no reframe",
+    "staggerSecondsMin": 0.4,
+    "statCountUp": { "fractionOfBeat": 0.6, "minSeconds": 1.2 },
+    "pip": {
+      "short": { "widthPx": 420, "leftPx": 60, "bottomOffsetPx": 380, "radiusPx": 24, "borderPx": 2 },
+      "long": { "widthPx": 480, "heightPx": 270, "marginPx": 48, "radiusPx": 12, "borderPx": 0 }
+    },
+    "transitions": {
+      "headToTakeover": { "type": "wipe-up", "seconds": 0.35, "ease": "power3.out" },
+      "takeoverToHead": { "type": "slide-up-fade", "seconds": 0.3, "hardKillAtBoundary": true },
+      "pipEnterExit": { "seconds": 0.4, "ease": "power2.inOut" }
+    },
+    "background": { "neverFlat": true, "options": ["grid 8% $rule", "radial vignette $accent-soft"] },
+    "tailMarginSeconds": 0.5
+  },
+  "camera": {
+    "headPushIn": { "minSceneSeconds": 8, "scalePct": [2, 3], "engine": "ffmpeg" }
+  },
+  "audio": {
+    "musicBedDb": -18,
+    "ducking": false,
+    "fadeIn": false,
+    "tailFadeOut": true,
+    "sfxDb": -10,
+    "sfxPerVideo": "a handful, never per cut"
+  },
+  "safeZones": {
+    "short": { "frame": [1080, 1920], "keepInsideY": [200, 1620], "topBackgroundOnlyPx": 200, "bottomBackgroundOnlyPx": 300 },
+    "long": { "frame": [1920, 1080], "titleSafeMarginPct": 10, "outroRightClearPct": 40 }
+  },
+  "learned": []
+}

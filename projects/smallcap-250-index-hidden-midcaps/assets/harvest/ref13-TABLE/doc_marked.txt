@@ -1,0 +1,2 @@
+Then I need this type of frame(Ignore the youtube UI elements) where creator is in square mask, the mask should have drop shadow in it as shown in the reference, maintain similar background as shown in the reference( a gradient of both brand purple and brand green, a subtle grid with a very low opacity.)
+Here there is a graph animation in a white square rounded corner square box, instead of bar graph animation, I need chart animation of the table in the script.

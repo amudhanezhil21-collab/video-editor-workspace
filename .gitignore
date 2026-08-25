@@ -1,0 +1,38 @@
+# secrets — NEVER commit; paste keys into .env on each machine (see .claude/SETUP.md)
+.env
+
+# heavy + regenerable / travels separately (raw footage lives on Drive)
+projects/*/raw/
+projects/*/outputs/
+projects/*/graphics-build/segs/
+projects/*/graphics-build/parts/renders/
+projects/*/graphics-build/remotion/node_modules/
+projects/*/graphics-build/remotion/out/
+projects/*/graphics-build/__pycache__/
+**/__pycache__/
+
+# OS noise
+.DS_Store
+
+# creator-supplied reference cuts are multi-GB — travel separately, like raw footage
+projects/*/assets/reference-basecut.mp4
+
+# machine-derived intermediates only — everything else (brand masters, generated
+# backgrounds/props, music, SFX) IS tracked. These regenerate from scripts:
+projects/*/graphics-build/plates
+projects/*/graphics-build/_stage/
+projects/*/graphics-build/_fast/
+projects/*/transcript/basecut-asr/*.wav
+projects/*/audio/final-mix.m4a
+projects/*/graphics-build/remotion/public/assets/basecut-audio.m4a
+projects/*/graphics-build/remotion/public/assets/plate-*.png
+projects/*/graphics-build/remotion/public/assets/pexels-broll.mp4
+# duplicates of the masters in assets/longform/ (copied in at build time)
+projects/*/graphics-build/remotion/public/assets/groww-transition.mov
+projects/*/graphics-build/remotion/public/assets/endscreen.mp4
+projects/*/graphics-build/remotion/public/assets/disclaimer-*.png
+
+# Higgsfield vendor skills — reinstall with `npx skills add higgsfield-ai/skills`,
+# don't vendor them into the repo (they go stale and bloat it)
+.agents/
+.claude/skills/higgsfield-*

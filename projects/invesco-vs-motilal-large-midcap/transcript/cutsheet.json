@@ -1,0 +1,1099 @@
+{
+ "job": "invesco-vs-motilal-large-midcap",
+ "source_duration": 942.4,
+ "cut_duration": 815.4,
+ "fps": 25,
+ "skill": "script-cut",
+ "version": 18,
+ "provenance": "v18: replay-overlap purge (alpha/18.88/drawdown), PB-ratio+strategy+returns restored, CAGR resume fixed",
+ "segments": [
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 6.16,
+   "end": 23.12,
+   "text": "हाई, क्या आपने कभी सोचा है कि दो लोग सेम एग्जाम पास करके सेम सिटी में जॉब स्टार्ट करके भी कुछ सालों बाद बिलकुल अलग जगां पहुँच जाते हैं क्योंकि रास्ता सेम था लेकिन अपरोज अलग थी कुछ ऐसा ही है इन दोनों",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 23.12,
+   "end": 30.16,
+   "text": "लाज और मि� दोनों से भी के सेम बैंडेट फॉलो करते हैं, दोनों सेम बेंचमार्क के अगेंस्ट मेजर",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 30.48,
+   "end": 43.48,
+   "text": "हैं, लेकिन जब हम इनके फोटफोलियो के अंदर चांक के देखते हैं, तो दोनों की फिलोसिफी बिल्कुल डिफरेंट निकलती है। आज हम देखेंगे इन वैस्को इंडिया",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 43.48,
+   "end": 47.6,
+   "text": "",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 47.6,
+   "end": 49.68,
+   "text": "",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 49.72,
+   "end": 50.92,
+   "text": "",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 56.08,
+   "end": 72.32,
+   "text": "वीडियो को आगे बढ़ने से पहले लाइक कर लीजिए, शेर कर लीजिए और चानल को सब्सक्राइब कर लीजिए ताकि ऐसे इंसाइटफुल कमपारिजन्स आपके कभी भी मिस्स ना हो जाएं। चलिए शुरू करते हैं। पहले कुछ बेसिक पॉइंट्स डिसकस कर लेते है",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 72.32,
+   "end": 75.52,
+   "text": "",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 75.52,
+   "end": 77.76,
+   "text": "",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 79.12,
+   "end": 99.24,
+   "text": "यानि कि सेबी मैंडेट के अनुसार दोनों को अपने पोर्टफोलियों का कम से कम 35% हिस्सा लाज कैप स्टॉक्स में और कम से कम 35% हिस्सा मिट कैप स्टॉक्स में इन्वेस करना होता है दोनों फंड्स का बेंचमार्क सेम है। इन वेस्को इंडिया लाज और मिट कैप फंड जैनुरी फर्स्ट 2013 को लॉंच हुआ था।",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 99.24,
+   "end": 110.76,
+   "text": "वेराज मोतिलाल उसवाल लाज और मिट कैप फंड अक्टोबर 17, 2019 को लॉंच हुआ। अब बात करते हैं इनके AUM की। इन वेस्को इंडिया �",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 110.76,
+   "end": 113.24,
+   "text": "",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 113.24,
+   "end": 117.48,
+   "text": "",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 117.48,
+   "end": 118.76,
+   "text": "",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 119.6,
+   "end": 124.32,
+   "text": "तो कौन है इन दोनों फंड्स के फंड मैनेजर्स",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 124.6,
+   "end": 127.24,
+   "text": "इनवेसको के हैं मिस्टर आदितक हिमानी",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 127.96,
+   "end": 129.56,
+   "text": "जो बीकॉम ओनर्स और",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 130.44,
+   "end": 133.56,
+   "text": "डी बीम क्वालिफाइड इनवेस्मेंट प्रोफेशनल है",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 133.92,
+   "end": 138.2,
+   "text": "उन्हें एक्विटी मार्केट में 20 साल से जादा का एक्सपीरियंस है और ये इनवेसको",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 138.24,
+   "end": 144.36,
+   "text": "एमस",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 144.84,
+   "end": 147.64,
+   "text": "team managed fund है जिसे Mr. अतुल महरा,",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 148.08,
+   "end": 151.72,
+   "text": "अजे खंडेलवाल, Mr. अंकित अगरवाल, Mr. राकेश शेटी",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 152.64,
+   "end": 153.52,
+   "text": "स्वत्नल",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 153.52,
+   "end": 154.6,
+   "text": "पी माईकर",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 154.6,
+   "end": 157.28,
+   "text": "साथ में manage करते हैं आप देखते हैं इन funds के",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 157.28,
+   "end": 159.28,
+   "text": "investment philosophy के बारे में",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 161.96,
+   "end": 163.96,
+   "text": "India Large and Mid Cap का portfolio",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 162.08,
+   "end": 162.72,
+   "text": "Large and",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 166.0,
+   "end": 166.12,
+   "text": "",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 166.16,
+   "end": 171.36,
+   "text": "के around बनाया गया है सबसे बड़ा allocation है financials में 29.2% लेकिन यह आप",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 172.52,
+   "end": 186.6,
+   "text": "लेकिन ये अपने बेंचमार्क के मुकाबले 1% अंडर वेट है। हेल्थ केर में फंड का अलोकेशन है 19.1% जो बेंचमार्क से 11.9% ओवर वेट है। Fund manager का view है कि ये sector India की consumption growth का एक proxy play है,",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 186.84,
+   "end": 188.04,
+   "text": "better valuation",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 189.28,
+   "end": 190.68,
+   "text": "discretionary में 17.3%",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 190.68,
+   "end": 192.88,
+   "text": "allocation है, long term demand potential capture करने के",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 192.88,
+   "end": 194.96,
+   "text": "लिए, 3.2% overweight compared to",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 196.72,
+   "end": 204.88,
+   "text": "allocation है, 6.1% overweight compared to benchmark.",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 204.88,
+   "end": 213.36,
+   "text": "मूतिलाल उसवाल Large and Mid Cap Fund एक अलग philosophy फॉलो करता है QGLP Framework यानि की",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 213.32,
+   "end": 214.24,
+   "text": "Quality,",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 214.24,
+   "end": 216.96,
+   "text": "Growth, Longevity quarter",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 217.8,
+   "end": 236.4,
+   "text": "Quality, Companies को Select करने के लिए Minimum ROC या ROE threshold set किया जाता है G और L का मतलब है growth and longevity investment team collectively ऐसे sustainable themes identify करती है जिन में growth लंबे समय तक चल सके P का मतलब है PE",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 237.28,
+   "end": 244.76,
+   "text": "PE और PEG framework use होता है जिससे DCF यानि के discounted cash flow implied returns और implied",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 246.08,
+   "end": 270.16,
+   "text": "किया जाता है Portfolio construction में fund का 65% house theme representation और stock picking पर based है। 25% flexibility है house themes के बाहर invest करने की और 10% risk mitigation के लिए reserved है। Fund के growth oriented themes में China plus one, make in India, Financialization, Tech and Tech Services,",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 270.16,
+   "end": 273.08,
+   "text": "Urbanization, Healthcare,",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 274.16,
+   "end": 280.6,
+   "text": "और Telecom शामिल हैं। अब हम इन दोनों Funds के Portfolio के बारे में जानते हैं। Invesco से स्टार्ट करते",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 282.36,
+   "end": 283.72,
+   "text": "Mid Cap का Portfolio के",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 285.16,
+   "end": 287.48,
+   "text": "40 Stocks हैं। Top 5 Stocks का Portfolio...",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 291.56,
+   "end": 313.04,
+   "text": "टॉप 5 स्टॉक्स पोर्टफोलियो का 33.55% होल्ड करते हैं और टॉप 10 स्टॉक्स 53.42% होल्ड करते हैं मोतिलाल ओसवाल लाज और मिड कैप का पोर्टफोलियो जाता कॉंसेंट्रेटर है जिसमें सिर्फ 29 स्टॉक्स हैं टॉप 5 स्टॉक्स का पोर्टफोलियो बनता है 23.36% औ",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 313.04,
+   "end": 318.56,
+   "text": "",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 315.48,
+   "end": 316.08,
+   "text": "",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 319.96,
+   "end": 322.16,
+   "text": "top 3 sectors 59.73%",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 322.12,
+   "end": 323.32,
+   "text": "है, जबकि",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 323.36,
+   "end": 325.56,
+   "text": "मोतिलाल large and mid",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 326.6,
+   "end": 326.92,
+   "text": "top",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 326.96,
+   "end": 329.44,
+   "text": "3 sectors 59.65% है,",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 333.16,
+   "end": 337.88,
+   "text": "अब बात करते हैं market cap allocation की,",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 340.12,
+   "end": 340.48,
+   "text": "का",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 340.48,
+   "end": 342.64,
+   "text": "अलोकेशन है large cap में 37.43%, mid cap",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 342.64,
+   "end": 347.16,
+   "text": "में 38.33%, और small cap में 24.2%,",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 354.16,
+   "end": 363.72,
+   "text": "average large cap allocation 52.75% है, तो invest को अपने category के मुकाबले large cap में कम और small cap",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 363.72,
+   "end": 365.68,
+   "text": "में ज़ादा exposure रखता है,",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 366.0,
+   "end": 387.88,
+   "text": "उस वाल large and mid cap का है कुछ इस तरहां से, large cap 39.57, mid cap 31.79 और small cap में 28.64%. ये fund भी अपने category average से large cap में कम exposure रखता है और दोनों funds में मोतिलाल उसवाल का small cap tilt जादा है. Average market cap की बात करें तो Invesco, India large",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 389.56,
+   "end": 391.64,
+   "text": "का average market",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 391.64,
+   "end": 392.56,
+   "text": "cap है 97,433 CR,",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 392.56,
+   "end": 396.68,
+   "text": "जबकि मोती लाल उसवाल large and mid cap का average market cap है 77,294",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 396.64,
+   "end": 404.64,
+   "text": "77,294 CR, category average 157,535 CR है, यानि के दोनों ही funds अपने category के मुखाबले चोटी companies में जादा invest करते हैं.",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 411.84,
+   "end": 421.16,
+   "text": "valuation की बात करें हैं तो Invesco का portfolio PE",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 422.12,
+   "end": 427.8,
+   "text": "मोतिलाल ओसवाल के portfolio PE ratio से जादा है और portfolio PB ratio",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 428.56,
+   "end": 489.12,
+   "text": "comparatively कम है यानि कि मोतिलाल ओसवाल का PE थोड़ा कम है लेकिन PB जादा है जो कि यह दिखाता है कि fund उन companies में invest कर रहा है जिनकी book value के against price जादा है Benchmark के Comparison में दोनों Funds का Portfolio PE और PB Ratio ज़्यादा है जो कि बताता है कि दोनों Funds Benchmark के मुखाबले Relatively Higher Valued Companies में Invest करते हैं। ये Difference Sector Allocation और Stock Selection की वजह से भी हो सकता है। Portfolio Turnover की बात करें तो Invesco India Large and Mid Cap Fund का Reported Turnover है। 61.82% जबकि मोतिलाल ओस्वाल large and mid cap का reported turnover है 42.35% दोनों ही 31st of March 2025 तक के data के हिसाब से यानि कि Invesco अपने portfolio में relatively जादा frequently changes करता रहता है। सिफ portfolio composition देखकर equity funds को judge करना काफी नहीं होता। चलिए अब risk और risk adjusted returns की भी बात कर लेते हैं। पहला metric है standard deviation",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 489.12,
+   "end": 495.04,
+   "text": "जो कि यह बताता है कि fund के returns कितना fluctuate करते हैं अपने average return के comparison में.",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 498.32,
+   "end": 499.92,
+   "text": "इन्वेस्को Large Mid का",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 501.28,
+   "end": 503.52,
+   "text": "standard deviation 18.36 है,",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 505.16,
+   "end": 508.4,
+   "text": "जबकि इसकी category का average 16.24 है। मोतिलाल",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 508.56,
+   "end": 511.04,
+   "text": "ओसवाल का standard deviation 21.33",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 511.04,
+   "end": 516.04,
+   "text": "है। यानि कि दोनों ही funds अपनी category से जादा volatile है। अब बात करते हैं",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 516.48,
+   "end": 516.64,
+   "text": "की।",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 516.64,
+   "end": 535.56,
+   "text": "beta measure करता है कि fund benchmark के comparison में कितना volatile है। beta 1 से जादा मतलब fund benchmark से जादा volatile है। Invesco का beta 1.08 है। जबकि मोतिलाल ओसवाल large and mid cap का beta 1.17 है। category average है 0.97 यानि कि दोनों ही funds",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 535.56,
+   "end": 542.6,
+   "text": "हमने benchmark से ज़्यादा volatile हैं alpha की बात करें तो Invesco India Large and Mid Cap Fund का",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 543.36,
+   "end": 548.08,
+   "text": "8.11 जबकि इसकी category का average सिर्फ 0.62 है",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 548.64,
+   "end": 549.12,
+   "text": "उसवा Large",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 549.12,
+   "end": 555.08,
+   "text": "and Mid Cap का alpha है 6.36 यानि कि दोनों ही funds अपने benchmark से काफी ज़्यादा excess",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 555.56,
+   "end": 570.64,
+   "text": "generate कर रहे हैं अब बात करते हैं sharp ratio की जो हर extra unit of risk के लिए fund ने कितना extra return generate किया य इन वैस्को की बात करें तो इसका शाप रेश्यू है 0.94 जबकि मोतिलाल उसवाल का शाप रेश्यू है",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 571.12,
+   "end": 574.16,
+   "text": "कैटेगरी आवरिज 0.59 है",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 574.12,
+   "end": 577.84,
+   "text": "तो दोनों ही फंड्स अपने कैटेगरी से बेहतर रिस्क आटजस्टिल रिटर्न्स",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 577.84,
+   "end": 578.72,
+   "text": "दे रहे",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 581.64,
+   "end": 586.16,
+   "text": "चलिए देखते हैं अपसाइड डाउनसाइड कैप्चर रेशियो को अपसाइड कैप्चर बताता",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 586.24,
+   "end": 587.96,
+   "text": "है कि जब मार्केट ऊपर जाता है",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 589.72,
+   "end": 597.08,
+   "text": "फंड अपने बेंचमार्क के comparison में कैसा परफॉर्म करता है सौ से जादा मतलब फंड ने बेंचमार्क से बेहतर परफॉर्म किया और वाइस अवर्सा.",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 599.48,
+   "end": 600.0,
+   "text": "Invesco",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 600.0,
+   "end": 601.88,
+   "text": "का Upside Capture Ratio है",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 601.88,
+   "end": 618.64,
+   "text": "132, जबकि Motilal Oswal का है 133. Category Average है 101, यानि कि दोनों ही Funds Rising Market में अपनी Category से काफी आगे निकल जाते हैं. Downside Capture Ratio बताता है कि जब Market गिरता है, Funds उस Fall में",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 619.72,
+   "end": 623.96,
+   "text": "है. 100 से कम, मतलब Fund Benchmark से कम गिरा, जो कि एक अच्छी बात है.",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 625.4,
+   "end": 637.76,
+   "text": "का downside capture ratio है 104, जबकि Motilal Oswal का है 116. Category average है 99 की, यानि के falling market में दोनों funds category से जादा",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 640.52,
+   "end": 652.24,
+   "text": "अब बात करते हैं maximum drawdown की, जो ये दिखाता है कि fund अपने peak से कितना नीचे गिरा सबसे बुरे phase में. इन वस्को इंडिया लाज और मिट कैप का मैक्सिमम ड्रॉडाउन",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 652.24,
+   "end": 660.76,
+   "text": "है negative 17.08% जो October 24 से February 25 तक यानि के 5 महीने तक चला.",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 660.76,
+   "end": 671.28,
+   "text": "मोतिलाल ओसवाल लाज और मिट कैप का मैक्सिमम ड्रॉडाउन है negative 24.12% जो January 25 से February 25 तक यानि के 2 महीने तक चला.",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 671.28,
+   "end": 683.24,
+   "text": "बेंचमार्क इंडेक्स का अवरिज मैक्सिम का drawdown अपनी category से काफी जाधा गहरा रहा है, जबकि Invesco",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 683.24,
+   "end": 688.4,
+   "text": "अपनी category से काफी करीब रहा. अब बात करते हैं returns की, यानि के fund की actual",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 690.8,
+   "end": 694.84,
+   "text": "performance को देखते हैं. Invesco ने पिछले एक साल में 13.45% returns",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 694.84,
+   "end": 698.96,
+   "text": "दिये, जबकि इसका benchmark सिर्फ 4.56% दे पाया.",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 699.36,
+   "end": 703.24,
+   "text": "और category average है 8.27 की. इसी वजह से ये",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 703.28,
+   "end": 710.24,
+   "text": "अपनी category में third rank प वहीं मोतिलाल, उसवाल, लार्ज और मिट कैप 8.43% विटर्न्स दे पाया,",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 711.92,
+   "end": 717.64,
+   "text": "है और कैटिगरी आवरिज 8.17% से भी थोड़ा उपर है। लेकिन",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 717.92,
+   "end": 720.08,
+   "text": "में इसका 18th रैंक है,",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 720.08,
+   "end": 722.0,
+   "text": "नाने कि पिछले एक साल में इन वैस्को",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 722.0,
+   "end": 722.44,
+   "text": "ने",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 722.76,
+   "end": 732.08,
+   "text": "performance दिखाई है। अब 3-year performance को देखते हैं. Invesco ने 25.73% CAGR return generate किया जबकि benchmark 12.3%",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 732.08,
+   "end": 736.08,
+   "text": "और category average 16.76% रही. इसी वजह",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 736.4,
+   "end": 737.76,
+   "text": "category में first rank",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 737.76,
+   "end": 741.16,
+   "text": "पर है. दूसरी तरफ, मोतिलाल उसवाल ने 23.17% returns.",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 745.12,
+   "end": 748.88,
+   "text": "CAGR दिया जो benchmark और category दोनों से काफी बहतर",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 750.44,
+   "end": 772.84,
+   "text": "इसकी category rank second है यानि के 3 year horizon पे दोनों funds ने outstanding performance दिखाई है अब 5 year returns को देख लेते हैं Invesco ने 18.71% CAGR दिया जबके benchmark 11.76% और category average 14.68% रही इसकी category rank है second वहीं Motilal Oswal ने 18.88% returns",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 774.48,
+   "end": 780.6,
+   "text": "CAGR returns दिये, जो Invesco से marginally ज्यादा है, benchmark और category average से भी",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 780.56,
+   "end": 783.96,
+   "text": "काफी आगे रहा, और इसी वजह से ये category rank",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 785.92,
+   "end": 786.72,
+   "text": "rank पर है,",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 786.72,
+   "end": 792.2,
+   "text": "overall देखा जाये तो दोनों funds ने हर time period में benchmark और category average को",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 792.4,
+   "end": 792.76,
+   "text": "comfortably",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 797.12,
+   "end": 798.6,
+   "text": "",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 798.6,
+   "end": 801.44,
+   "text": "अब return consistency check करने के लिए इन funds",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 801.44,
+   "end": 816.24,
+   "text": "के discrete returns पर नज़र डालते हैं, 2020 से लेकर आज तक Invesco ने 6 में से 2 सालों में category और benchmark को outperform किया है, जबकि Motilal Oswal ने इसी period में 6 में से 3 सालों में category और benchmark",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 816.64,
+   "end": 816.92,
+   "text": "",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 816.92,
+   "end": 822.92,
+   "text": "outperform किया है. अब बात करते हैं expense ratio की, याने कि fund को manage करने के लिए हर साल",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 822.92,
+   "end": 830.16,
+   "text": "ली जाने वाली fee. Invesco का expense ratio 0.56% है, का मोतिलाल उसवाल",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 833.68,
+   "end": 838.48,
+   "text": "0.9% है. Expense ratio जितना कम होता है उतना ही कम आपके return",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 838.48,
+   "end": 838.68,
+   "text": "से",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 838.68,
+   "end": 842.68,
+   "text": "हर साल charges के रूप में deduct होता रहता है इसलिए",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 844.32,
+   "end": 856.24,
+   "text": "अगर दो funds की performance लगभग similar हो तो lower expense ratio वाले fund को एक natural advantage मिल जाता है especially long term investing में जहां compounding की वजह से ये difference और बड़ा हो सकता है",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 859.08,
+   "end": 874.08,
+   "text": "तो ये रहा इन दोनों funds का comparison, दोनों ही funds का investment approach काफ़ी अलग है, एक तरफ portfolio construction, sector positioning और portfolio turnover में difference देखने को मिलता है, तो दूसरी तरफ volatility, drawdown और",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 877.6,
+   "end": 894.48,
+   "text": "में भी दोनों की अपनी अलग characteristics हैं performance के perspective से देखें तो दोनों funds ने अलग-अलग time period में benchmark और category average से better returns deliver कियें साथ ही risk metrics भी ये दिखाते हैं कि higher return के साथ",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 894.48,
+   "end": 899.76,
+   "text": "risk profile को भी समझना उतना ही जरूरी है इसलिए किसी भी equity fund को evaluate",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 900.56,
+   "end": 903.56,
+   "text": "करते वक्त सिर्फ past returns या category ranking पे",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 904.84,
+   "end": 906.08,
+   "text": "फोकस करने के बजाए",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 906.52,
+   "end": 912.68,
+   "text": "investment philosophy, portfolio strategy, risk characteristics और ये सब",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 914.36,
+   "end": 925.28,
+   "text": "अपनी risk appetite और financial goals से कितना match करते हैं इस पर भी द्यान देना चाहिए याद रहे ये वीडियो सिर्फ educational purposes के लिए बनाई गई है इसमें दिये गए securities या investments",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 930.48,
+   "end": 930.96,
+   "text": "",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 930.96,
+   "end": 931.44,
+   "text": "recommendations",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  },
+  {
+   "src": "raw/Invesco-India-Large.mov",
+   "start": 931.44,
+   "end": 941.0,
+   "text": "नहीं है, अगर ये वीडियो helpful लगी हो, तो इसको like करें, share करें, और चानल को subscribe करना ना भूलें, मिलते हैं आपसे अगले वीडियो में, until then, bye-bye, happy investing.",
+   "cover": "punch-in",
+   "tailFade": 0.06
+  }
+ ]
+}

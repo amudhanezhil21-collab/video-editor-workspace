@@ -1,0 +1,19 @@
+# Memory index
+
+- [User: Groww creator, voice-note direction](user-groww-creator.md) — Hinglish shorts, plain-language replies, always ask for missing items, ffprobe WhatsApp files for audio
+- [Project: job log](project-pipeline-state.md) — sip-horizon + value-funds shipped; invesco long-form job in stage-1 validation, long-form framework arriving part by part (graphics next), Kie model strings recorded
+- [Lesson: WhisperX hallucinated timeline](lesson-whisperx-hallucinated-timeline.md) — cross-check word coverage vs silence map before cutting; Hinglish needs --language hi (en covertly translates); **the >1.2s-gap energy check is now a mandatory gate** — it caught a silent 12s dropout; verify renders by re-transcription
+- [Lesson: Remotion Sequence remount = blinking](lesson-remotion-sequence-remount.md) — a beat boundary is NOT a cut; merge consecutive beats showing the same graphic into one run or every entrance animation replays
+- [Lesson: render + verification traps](lesson-render-verification-traps.md) — pin ffmpeg -map or it muxes the silent track; measure the true head offset before diffing audio; exFAT SSD explodes on node_modules; use tracked background tasks
+- [Lesson: spec tables need real structure](lesson-spec-tables-need-structure.md) — never infer table structure from prose; find the structured source, treat declared row/col counts as ground truth, drive highlights off the transcript
+- [Feedback: lessons go into permanent skills](feedback-lessons-into-skills.md) — every lesson lands in a skill/style file the same pass it is learned, not just in one job's output
+- [Lesson: Remotion + Three.js traps](lesson-remotion-threejs-traps.md) — R3F ortho frustum is in PIXELS; React 19 needs r3f v9; alphaextract lies on ProRes4444; crop w/h cannot animate
+- [Lesson: seeked renderers + immediateRender](lesson-seeked-renderers-immediaterender.md) — GSAP fromTo pins elements to their end state unless immediateRender:false; detect by diffing two far-apart frames (broken 0.03 vs working 2.3–3.6)
+- [Feedback: transitions, scrims, captions](feedback-transitions-and-scrims.md) — light leak is ONLY a transition (she must never show inside one); cut on the finished sentence; gradients dissolve in AND out; no captions over AI b-roll
+- [Feedback: data tables](feedback-data-tables.md) — table lands COMPLETE then highlights run over it; every rule one weight/colour on WHOLE pixels (fractional column widths are what makes line weights wobble); both formats
+- [Feedback: chrome drop shadow](feedback-chrome-drop-shadow.md) — corner badge + wordmark carry shadow-soft and stay crisp, both formats; BAKE it into the asset (CSS drop-shadow is a filter and silently doesn't render in HyperFrames)
+- [Project: dwm-sip AVATAR job](project-dwm-sip-avatar-job.md) — SIP-frequency script with HeyGen "Aleena" avatar + ElevenLabs clone, everything on SSD; HeyGen API wallet $0 blocker (2026-08-23); fallbacks + API facts
+- [Lesson: iCloud dataless assets](lesson-icloud-dataless-assets.md) — repo asset reads can hang forever; check `ls -lO` for the `dataless` flag before blaming the tool
+- [Feedback: mask crops — measure the silhouette](lesson-mask-crops-measure-silhouette.md) — never size a PIP/mask crop from a face-detector box (Haar over-extends ~170px above the hair); hair top from silhouette alpha, ~5% headroom, face ≈78% of crop width
+- [Feedback: the creator is never covered](feedback-creator-never-covered.md) — she renders IN FRONT of every card AND cards are sized to clear her plate; a reference frame's measured card width is not a layout instruction until you know the z-order
+- [Project: human-vs-AI pitch deck](project-human-vs-ai-deck.md) — 16-slide leadership deck on the SSD (outside the repo); numbers are amber placeholders until the creator supplies baselines; human clip is a 360p YouTube pull

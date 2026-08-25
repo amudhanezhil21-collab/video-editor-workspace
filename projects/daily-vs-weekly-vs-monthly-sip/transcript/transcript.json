@@ -1,0 +1,921 @@
+{
+ "source": "raw/source.mp4",
+ "language": "hi",
+ "fps": 30,
+ "durationSeconds": 70.666667,
+ "method": "WhisperX large-v3 transcription + wav2vec2 FORCED ALIGNMENT of the corrected text over the full file. The default VAD pass compressed 15-30s and left a false 9.1s gap; forced alignment reproduces the 3s-window ground-truth sweep in every window.",
+ "words": [
+  {
+   "word": "Daily",
+   "start": 0.54,
+   "end": 0.78,
+   "score": 0.943
+  },
+  {
+   "word": "SIP",
+   "start": 0.94,
+   "end": 1.2,
+   "score": 0.867
+  },
+  {
+   "word": "करू",
+   "start": 1.28,
+   "end": 1.58,
+   "score": 0.804
+  },
+  {
+   "word": "weekly",
+   "start": 1.6,
+   "end": 2.221,
+   "score": 0.956
+  },
+  {
+   "word": "या",
+   "start": 2.241,
+   "end": 2.341,
+   "score": 0.584
+  },
+  {
+   "word": "फिर",
+   "start": 2.421,
+   "end": 2.521,
+   "score": 0.725
+  },
+  {
+   "word": "monthly",
+   "start": 2.541,
+   "end": 2.941,
+   "score": 0.945
+  },
+  {
+   "word": "कौन",
+   "start": 3.321,
+   "end": 3.481,
+   "score": 0.6
+  },
+  {
+   "word": "सी",
+   "start": 3.561,
+   "end": 3.621,
+   "score": 0.704
+  },
+  {
+   "word": "frequency",
+   "start": 3.641,
+   "end": 4.161,
+   "score": 0.859
+  },
+  {
+   "word": "से",
+   "start": 4.221,
+   "end": 4.321,
+   "score": 0.608
+  },
+  {
+   "word": "सबसे",
+   "start": 4.441,
+   "end": 4.801,
+   "score": 0.912
+  },
+  {
+   "word": "ज्यादा",
+   "start": 4.901,
+   "end": 5.181,
+   "score": 0.785
+  },
+  {
+   "word": "returns",
+   "start": 5.201,
+   "end": 5.562,
+   "score": 0.932
+  },
+  {
+   "word": "मिलेंगे।",
+   "start": 5.602,
+   "end": 7.162,
+   "score": 0.653
+  },
+  {
+   "word": "आओ",
+   "start": 7.182,
+   "end": 7.222,
+   "score": 0.0
+  },
+  {
+   "word": "देखते",
+   "start": 7.302,
+   "end": 7.602,
+   "score": 0.859
+  },
+  {
+   "word": "हैं",
+   "start": 7.702,
+   "end": 7.822,
+   "score": 0.595
+  },
+  {
+   "word": "data",
+   "start": 7.902,
+   "end": 8.182,
+   "score": 0.856
+  },
+  {
+   "word": "क्या",
+   "start": 8.242,
+   "end": 8.362,
+   "score": 0.756
+  },
+  {
+   "word": "कहता",
+   "start": 8.442,
+   "end": 8.722,
+   "score": 0.592
+  },
+  {
+   "word": "है।",
+   "start": 8.783,
+   "end": 9.343,
+   "score": 0.664
+  },
+  {
+   "word": "सोचो",
+   "start": 9.423,
+   "end": 9.803,
+   "score": 0.934
+  },
+  {
+   "word": "आपने",
+   "start": 9.943,
+   "end": 10.143,
+   "score": 0.72
+  },
+  {
+   "word": "August",
+   "start": 10.163,
+   "end": 10.723,
+   "score": 0.822
+  },
+  {
+   "word": "1996",
+   "start": 10.803,
+   "end": 11.143,
+   "score": 0.531
+  },
+  {
+   "word": "से",
+   "start": 11.243,
+   "end": 11.623,
+   "score": 0.758
+  },
+  {
+   "word": "June",
+   "start": 11.883,
+   "end": 12.344,
+   "score": 0.889
+  },
+  {
+   "word": "2026",
+   "start": 12.404,
+   "end": 12.844,
+   "score": 0.809
+  },
+  {
+   "word": "तक",
+   "start": 12.944,
+   "end": 13.164,
+   "score": 0.941
+  },
+  {
+   "word": "total",
+   "start": 13.284,
+   "end": 13.944,
+   "score": 0.852
+  },
+  {
+   "word": "109.08",
+   "start": 13.984,
+   "end": 14.564,
+   "score": 0.852
+  },
+  {
+   "word": "lakh",
+   "start": 14.644,
+   "end": 14.804,
+   "score": 0.887
+  },
+  {
+   "word": "rupees",
+   "start": 14.904,
+   "end": 15.224,
+   "score": 0.798
+  },
+  {
+   "word": "invest",
+   "start": 15.424,
+   "end": 16.065,
+   "score": 0.715
+  },
+  {
+   "word": "किये।",
+   "start": 16.125,
+   "end": 16.465,
+   "score": 0.496
+  },
+  {
+   "word": "अगर",
+   "start": 17.305,
+   "end": 17.485,
+   "score": 0.965
+  },
+  {
+   "word": "daily",
+   "start": 17.505,
+   "end": 17.905,
+   "score": 0.883
+  },
+  {
+   "word": "1000",
+   "start": 17.925,
+   "end": 18.345,
+   "score": 0.889
+  },
+  {
+   "word": "rupees",
+   "start": 18.365,
+   "end": 18.645,
+   "score": 0.857
+  },
+  {
+   "word": "की",
+   "start": 18.705,
+   "end": 18.765,
+   "score": 0.784
+  },
+  {
+   "word": "SIP",
+   "start": 18.945,
+   "end": 19.245,
+   "score": 0.661
+  },
+  {
+   "word": "की",
+   "start": 19.346,
+   "end": 19.466,
+   "score": 0.808
+  },
+  {
+   "word": "तो",
+   "start": 19.846,
+   "end": 19.946,
+   "score": 0.772
+  },
+  {
+   "word": "valuation",
+   "start": 19.986,
+   "end": 20.506,
+   "score": 0.86
+  },
+  {
+   "word": "बनती",
+   "start": 20.566,
+   "end": 20.826,
+   "score": 0.632
+  },
+  {
+   "word": "है",
+   "start": 20.906,
+   "end": 21.086,
+   "score": 0.866
+  },
+  {
+   "word": "12.33",
+   "start": 21.106,
+   "end": 21.366,
+   "score": 0.988
+  },
+  {
+   "word": "crore",
+   "start": 21.486,
+   "end": 21.966,
+   "score": 0.773
+  },
+  {
+   "word": "rupees।",
+   "start": 22.006,
+   "end": 22.406,
+   "score": 0.822
+  },
+  {
+   "word": "अगर",
+   "start": 23.407,
+   "end": 23.607,
+   "score": 0.992
+  },
+  {
+   "word": "weekly",
+   "start": 23.627,
+   "end": 24.127,
+   "score": 0.899
+  },
+  {
+   "word": "6997",
+   "start": 24.147,
+   "end": 24.407,
+   "score": 0.991
+  },
+  {
+   "word": "rupees",
+   "start": 24.487,
+   "end": 25.107,
+   "score": 0.822
+  },
+  {
+   "word": "की",
+   "start": 25.127,
+   "end": 25.267,
+   "score": 0.646
+  },
+  {
+   "word": "तो",
+   "start": 25.507,
+   "end": 25.567,
+   "score": 0.25
+  },
+  {
+   "word": "भी",
+   "start": 25.787,
+   "end": 26.468,
+   "score": 0.705
+  },
+  {
+   "word": "12.33",
+   "start": 27.048,
+   "end": 27.908,
+   "score": 0.839
+  },
+  {
+   "word": "crore",
+   "start": 28.148,
+   "end": 28.808,
+   "score": 0.809
+  },
+  {
+   "word": "rupees।",
+   "start": 28.848,
+   "end": 29.448,
+   "score": 0.913
+  },
+  {
+   "word": "और",
+   "start": 30.049,
+   "end": 30.269,
+   "score": 0.744
+  },
+  {
+   "word": "अगर",
+   "start": 30.349,
+   "end": 30.589,
+   "score": 0.929
+  },
+  {
+   "word": "monthly",
+   "start": 30.609,
+   "end": 31.109,
+   "score": 0.982
+  },
+  {
+   "word": "30,384",
+   "start": 31.169,
+   "end": 31.909,
+   "score": 0.839
+  },
+  {
+   "word": "rupees",
+   "start": 32.029,
+   "end": 32.509,
+   "score": 0.902
+  },
+  {
+   "word": "invest",
+   "start": 32.709,
+   "end": 33.289,
+   "score": 0.862
+  },
+  {
+   "word": "किये,",
+   "start": 33.39,
+   "end": 33.87,
+   "score": 0.572
+  },
+  {
+   "word": "तब",
+   "start": 34.53,
+   "end": 34.69,
+   "score": 0.701
+  },
+  {
+   "word": "भी",
+   "start": 34.77,
+   "end": 34.93,
+   "score": 0.976
+  },
+  {
+   "word": "valuation",
+   "start": 34.95,
+   "end": 35.33,
+   "score": 0.974
+  },
+  {
+   "word": "मिली",
+   "start": 35.55,
+   "end": 36.07,
+   "score": 0.633
+  },
+  {
+   "word": "12.45",
+   "start": 36.23,
+   "end": 36.65,
+   "score": 0.84
+  },
+  {
+   "word": "crore",
+   "start": 36.67,
+   "end": 37.211,
+   "score": 0.756
+  },
+  {
+   "word": "rupees.",
+   "start": 37.231,
+   "end": 38.551,
+   "score": 0.913
+  },
+  {
+   "word": "तीनों",
+   "start": 38.631,
+   "end": 38.931,
+   "score": 0.476
+  },
+  {
+   "word": "frequency",
+   "start": 38.951,
+   "end": 39.411,
+   "score": 0.905
+  },
+  {
+   "word": "का",
+   "start": 39.591,
+   "end": 39.831,
+   "score": 0.775
+  },
+  {
+   "word": "XIRR",
+   "start": 39.851,
+   "end": 40.271,
+   "score": 0.953
+  },
+  {
+   "word": "exactly",
+   "start": 40.291,
+   "end": 40.952,
+   "score": 0.887
+  },
+  {
+   "word": "same",
+   "start": 41.052,
+   "end": 41.192,
+   "score": 0.911
+  },
+  {
+   "word": "निकला,",
+   "start": 41.252,
+   "end": 42.272,
+   "score": 0.744
+  },
+  {
+   "word": "13.47%.",
+   "start": 42.292,
+   "end": 42.692,
+   "score": 0.871
+  },
+  {
+   "word": "मतलब",
+   "start": 42.772,
+   "end": 43.152,
+   "score": 0.574
+  },
+  {
+   "word": "long",
+   "start": 43.372,
+   "end": 44.253,
+   "score": 0.887
+  },
+  {
+   "word": "term",
+   "start": 44.453,
+   "end": 44.893,
+   "score": 0.874
+  },
+  {
+   "word": "में",
+   "start": 44.993,
+   "end": 45.133,
+   "score": 0.7
+  },
+  {
+   "word": "frequency",
+   "start": 45.153,
+   "end": 45.753,
+   "score": 0.909
+  },
+  {
+   "word": "से",
+   "start": 45.833,
+   "end": 45.933,
+   "score": 0.694
+  },
+  {
+   "word": "कोई",
+   "start": 46.053,
+   "end": 46.253,
+   "score": 0.599
+  },
+  {
+   "word": "फरक",
+   "start": 46.333,
+   "end": 46.553,
+   "score": 0.768
+  },
+  {
+   "word": "नहीं",
+   "start": 46.593,
+   "end": 46.713,
+   "score": 0.362
+  },
+  {
+   "word": "पड़ता.",
+   "start": 46.793,
+   "end": 47.794,
+   "score": 0.796
+  },
+  {
+   "word": "Daily,",
+   "start": 47.834,
+   "end": 48.254,
+   "score": 0.947
+  },
+  {
+   "word": "weekly",
+   "start": 48.414,
+   "end": 48.794,
+   "score": 0.948
+  },
+  {
+   "word": "या",
+   "start": 48.974,
+   "end": 49.014,
+   "score": 0.996
+  },
+  {
+   "word": "monthly,",
+   "start": 49.034,
+   "end": 49.494,
+   "score": 0.886
+  },
+  {
+   "word": "returns",
+   "start": 49.874,
+   "end": 50.274,
+   "score": 0.872
+  },
+  {
+   "word": "लगबख",
+   "start": 50.314,
+   "end": 50.674,
+   "score": 0.756
+  },
+  {
+   "word": "same",
+   "start": 50.794,
+   "end": 50.975,
+   "score": 0.926
+  },
+  {
+   "word": "ही",
+   "start": 51.015,
+   "end": 51.115,
+   "score": 0.831
+  },
+  {
+   "word": "होते",
+   "start": 51.155,
+   "end": 51.415,
+   "score": 0.962
+  },
+  {
+   "word": "हैं.",
+   "start": 51.455,
+   "end": 51.675,
+   "score": 0.724
+  },
+  {
+   "word": "तो",
+   "start": 52.195,
+   "end": 52.275,
+   "score": 0.953
+  },
+  {
+   "word": "lesson",
+   "start": 52.295,
+   "end": 52.695,
+   "score": 0.955
+  },
+  {
+   "word": "क्या",
+   "start": 52.795,
+   "end": 52.935,
+   "score": 0.788
+  },
+  {
+   "word": "है?",
+   "start": 53.015,
+   "end": 53.855,
+   "score": 0.862
+  },
+  {
+   "word": "Frequency",
+   "start": 53.895,
+   "end": 54.335,
+   "score": 0.908
+  },
+  {
+   "word": "पर",
+   "start": 54.415,
+   "end": 54.516,
+   "score": 0.958
+  },
+  {
+   "word": "मत",
+   "start": 54.596,
+   "end": 54.796,
+   "score": 0.952
+  },
+  {
+   "word": "उलजो,",
+   "start": 54.816,
+   "end": 54.936,
+   "score": 0.326
+  },
+  {
+   "word": "discipline",
+   "start": 55.016,
+   "end": 56.036,
+   "score": 0.959
+  },
+  {
+   "word": "और",
+   "start": 56.056,
+   "end": 56.196,
+   "score": 0.416
+  },
+  {
+   "word": "long",
+   "start": 56.276,
+   "end": 56.496,
+   "score": 0.989
+  },
+  {
+   "word": "term",
+   "start": 56.516,
+   "end": 56.696,
+   "score": 0.911
+  },
+  {
+   "word": "investing",
+   "start": 56.796,
+   "end": 57.116,
+   "score": 0.817
+  },
+  {
+   "word": "पर",
+   "start": 57.196,
+   "end": 57.296,
+   "score": 0.997
+  },
+  {
+   "word": "focus",
+   "start": 57.316,
+   "end": 57.696,
+   "score": 0.8
+  },
+  {
+   "word": "करो.",
+   "start": 57.756,
+   "end": 58.797,
+   "score": 0.857
+  },
+  {
+   "word": "Monthly",
+   "start": 58.897,
+   "end": 59.277,
+   "score": 0.842
+  },
+  {
+   "word": "SIP",
+   "start": 59.357,
+   "end": 59.457,
+   "score": 0.849
+  },
+  {
+   "word": "काफी",
+   "start": 59.597,
+   "end": 59.917,
+   "score": 0.789
+  },
+  {
+   "word": "लोगों",
+   "start": 59.937,
+   "end": 60.157,
+   "score": 0.64
+  },
+  {
+   "word": "के",
+   "start": 60.237,
+   "end": 60.317,
+   "score": 0.756
+  },
+  {
+   "word": "लिए",
+   "start": 60.377,
+   "end": 60.517,
+   "score": 0.805
+  },
+  {
+   "word": "preferable",
+   "start": 60.617,
+   "end": 61.057,
+   "score": 0.892
+  },
+  {
+   "word": "है",
+   "start": 61.097,
+   "end": 61.257,
+   "score": 0.934
+  },
+  {
+   "word": "क्योंकि",
+   "start": 61.478,
+   "end": 61.758,
+   "score": 0.798
+  },
+  {
+   "word": "ये",
+   "start": 61.838,
+   "end": 61.878,
+   "score": 0.497
+  },
+  {
+   "word": "उनकी",
+   "start": 61.938,
+   "end": 62.158,
+   "score": 0.83
+  },
+  {
+   "word": "salary",
+   "start": 62.178,
+   "end": 62.538,
+   "score": 0.936
+  },
+  {
+   "word": "cycle",
+   "start": 62.558,
+   "end": 62.898,
+   "score": 0.821
+  },
+  {
+   "word": "से",
+   "start": 62.958,
+   "end": 63.038,
+   "score": 0.949
+  },
+  {
+   "word": "match",
+   "start": 63.058,
+   "end": 63.318,
+   "score": 0.777
+  },
+  {
+   "word": "करती",
+   "start": 63.378,
+   "end": 63.658,
+   "score": 0.587
+  },
+  {
+   "word": "है.",
+   "start": 63.718,
+   "end": 64.178,
+   "score": 0.987
+  },
+  {
+   "word": "तो",
+   "start": 64.278,
+   "end": 64.398,
+   "score": 0.871
+  },
+  {
+   "word": "आपका",
+   "start": 64.558,
+   "end": 64.918,
+   "score": 0.947
+  },
+  {
+   "word": "SIP",
+   "start": 64.958,
+   "end": 65.159,
+   "score": 0.781
+  },
+  {
+   "word": "frequency",
+   "start": 65.219,
+   "end": 65.859,
+   "score": 0.844
+  },
+  {
+   "word": "कौन",
+   "start": 65.959,
+   "end": 66.159,
+   "score": 0.769
+  },
+  {
+   "word": "सा",
+   "start": 66.239,
+   "end": 66.339,
+   "score": 0.73
+  },
+  {
+   "word": "है?",
+   "start": 66.399,
+   "end": 66.559,
+   "score": 0.947
+  },
+  {
+   "word": "Daily,",
+   "start": 67.039,
+   "end": 67.479,
+   "score": 0.864
+  },
+  {
+   "word": "weekly",
+   "start": 67.639,
+   "end": 67.979,
+   "score": 0.933
+  },
+  {
+   "word": "या",
+   "start": 68.139,
+   "end": 68.219,
+   "score": 0.75
+  },
+  {
+   "word": "monthly?",
+   "start": 68.239,
+   "end": 68.68,
+   "score": 0.991
+  },
+  {
+   "word": "Let",
+   "start": 69.1,
+   "end": 69.24,
+   "score": 0.863
+  },
+  {
+   "word": "us",
+   "start": 69.26,
+   "end": 69.3,
+   "score": 0.52
+  },
+  {
+   "word": "know",
+   "start": 69.4,
+   "end": 69.5,
+   "score": 0.906
+  },
+  {
+   "word": "in",
+   "start": 69.52,
+   "end": 69.58,
+   "score": 0.998
+  },
+  {
+   "word": "the",
+   "start": 69.6,
+   "end": 69.8,
+   "score": 0.902
+  },
+  {
+   "word": "comments.",
+   "start": 69.82,
+   "end": 70.12,
+   "score": 0.661
+  }
+ ]
+}

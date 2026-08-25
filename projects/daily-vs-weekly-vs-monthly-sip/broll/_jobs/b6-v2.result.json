@@ -1,0 +1,39 @@
+{
+  "created_at": "2026-08-23T06:32:22.465586Z",
+  "display_name": "Seedance 2.0",
+  "id": "66bece12-62da-461c-929a-d668a4f788f7",
+  "job_type": "seedance_2_0",
+  "min_result_url": null,
+  "params": {
+    "aspect_ratio": "9:16",
+    "bitrate_mode": "standard",
+    "duration": 5,
+    "generate_audio": false,
+    "genre": "auto",
+    "height": 1920,
+    "medias": [
+      {
+        "data": {
+          "id": "614c33c6-882d-4320-8213-faa9a4bd78ce",
+          "type": "media_input",
+          "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3A6I8lFFLgx7LNIsn9gZ1CttzLy/614c33c6-882d-4320-8213-faa9a4bd78ce_resize.jpg"
+        },
+        "role": "image"
+      }
+    ],
+    "mode": "std",
+    "model": "seedance_2_0",
+    "multi_prompt": [],
+    "multi_shot_mode": "custom",
+    "multi_shots": false,
+    "prompt": "Ultra-realistic photoreal cinematic studio shot. THE SAME WOMAN as in the reference image — same face, same skin tone, same hair pulled back, same small bindi, same drop earrings — wearing the SAME plain white crew-neck t-shirt with the bold black English word MONTHLY printed large across the chest. She walks in from the left, stops centre frame facing camera, smiles warmly and gives a confident thumbs up with her right hand. Framed from the knees up. Photoreal skin texture and fabric detail, soft frontal key light. Locked-off camera. Background is a perfectly even, ultra-saturated pure chroma key green screen (bright key green), flat studio-lit edge to edge, absolutely no shadows cast on the green, no gradient on the green, and no green spill on the subject. The subject is crisply separated from the background with clean edges. No text overlays other than the shirt word, no captions, no watermark, no logo, no borders.",
+    "prompt_language": "en",
+    "reference_elements": [],
+    "resolution": "1080p",
+    "speedramp": "auto",
+    "width": 1080
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3A6I8lFFLgx7LNIsn9gZ1CttzLy/hf_20260823_063222_66bece12-62da-461c-929a-d668a4f788f7.mp4",
+  "status": "completed",
+  "thumbnail_url": "https://cdn.higgsfield.ai/user_3A6I8lFFLgx7LNIsn9gZ1CttzLy/hf_20260823_063222_66bece12-62da-461c-929a-d668a4f788f7_thumbnail.webp"
+}

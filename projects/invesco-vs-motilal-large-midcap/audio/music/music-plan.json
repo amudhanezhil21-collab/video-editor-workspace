@@ -1,0 +1,90 @@
+{
+ "method": "sound-design.md: pick by mood (finance explainer -> documentary), bed sits ~-18 LUFS under VO, sting on every topic-card boundary",
+ "default": "audio/music/documentary-580.mp3 (LRA 2.8 \u2014 most consistent under speech; 167s, loop with 2s crossfades)",
+ "alternate": "audio/music/documentary-682.mp3 (LRA 3.3 \u2014 section variety if one bed reads monotonous over 14 min)",
+ "reserve": "documentary-587 (LRA 16.6, too dynamic for bed \u2014 usable for intro/outro moments only)",
+ "note": "final pick auditioned in the finishing-pass review loop; creator can override from the candidates list",
+ "candidates": [
+  {
+   "mood": "corporate",
+   "title": "Start creating now",
+   "id": "623",
+   "file": "audio/music/corporate-623.mp3",
+   "license": "Mixkit Free License (commercial ok, no attribution)",
+   "lufs": -9.4,
+   "lra": 6.2
+  },
+  {
+   "mood": "corporate",
+   "title": "House",
+   "id": "132",
+   "file": "audio/music/corporate-132.mp3",
+   "license": "Mixkit Free License (commercial ok, no attribution)",
+   "lufs": -8.5,
+   "lra": 4.6
+  },
+  {
+   "mood": "corporate",
+   "title": "Electronica",
+   "id": "371",
+   "file": "audio/music/corporate-371.mp3",
+   "license": "Mixkit Free License (commercial ok, no attribution)",
+   "lufs": -11.9,
+   "lra": 11.3
+  },
+  {
+   "mood": "ambient",
+   "title": "Start creating now",
+   "id": "127",
+   "file": "audio/music/ambient-127.mp3",
+   "license": "Mixkit Free License (commercial ok, no attribution)",
+   "lufs": -17.5,
+   "lra": 11.0
+  },
+  {
+   "mood": "ambient",
+   "title": "Mysterious",
+   "id": "292",
+   "file": "audio/music/ambient-292.mp3",
+   "license": "Mixkit Free License (commercial ok, no attribution)",
+   "lufs": -30.5,
+   "lra": 8.6
+  },
+  {
+   "mood": "ambient",
+   "title": "Atmospheric",
+   "id": "139",
+   "file": "audio/music/ambient-139.mp3",
+   "license": "Mixkit Free License (commercial ok, no attribution)",
+   "lufs": -14.8,
+   "lra": 8.5
+  },
+  {
+   "mood": "documentary",
+   "title": "Start creating now",
+   "id": "580",
+   "file": "audio/music/documentary-580.mp3",
+   "license": "Mixkit Free License (commercial ok, no attribution)",
+   "lufs": -10.9,
+   "lra": 2.8
+  },
+  {
+   "mood": "documentary",
+   "title": "World",
+   "id": "682",
+   "file": "audio/music/documentary-682.mp3",
+   "license": "Mixkit Free License (commercial ok, no attribution)",
+   "lufs": -12.9,
+   "lra": 3.3
+  },
+  {
+   "mood": "documentary",
+   "title": "Film Score",
+   "id": "587",
+   "file": "audio/music/documentary-587.mp3",
+   "license": "Mixkit Free License (commercial ok, no attribution)",
+   "lufs": -14.2,
+   "lra": 16.6
+  }
+ ]
+}

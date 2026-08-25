@@ -1,0 +1,146 @@
+@import url(https://themes.googleusercontent.com/fonts/css?kit=fpjTOVmNbO4Lz34iLyptLUXza5VhXqVC6o75Eld_V98);Tab 1
+Small Cap 250 Index Fund mein invest karoge toh 100% small cap exposure milega.{{REF1}}
+Sounds logical, right?{{REF2}}
+Aakhir naam hi Small Cap 250 Index Fund hai.{{REF3}}
+Lekin reality thodi different hai.{{REF4}}
+Twist index ke andar hai.{{REF5}}
+Nifty Smallcap 250 Index sirf saal mein do baar rebalance hota hai — June aur December mein.{{REF6}}
+Ab maan lo ek small cap company zabardast rally kar deti hai.
+80%, 100%, 120% up.{{REF7}}
+Uski market cap badh kar mid cap range mein pahunch jaati hai.{{REF8}}
+Kya index usse turant nikaal deta hai?{{REF9}}
+Nahi.{{REF10}}
+Woh stock agle rebalancing tak index mein bana rehta hai.
+Aur kyunki index fund index ko exactly track karta hai, fund bhi us stock ko hold karta rehta hai.{{REF11}}
+Matlab aap officially ek small cap index fund hold kar rahe ho...
+Lekin uske andar kuch stocks already mid caps ban chuke hote hain.{{REF12}}
+Abhi dekho, June mein rebalance hone se pehle abhi, iss index ke saare funds mein more than 9% stocks already mid cap threshold cross kar chuki hai.
+Matlab aapke "small cap" fund ka roughly 9-10% exposure un stocks mein hai jo technically mid cap ban chuke hai.
+Nippon India Nifty Smallcap 250 Index Fund
+| 9.59%
+|
+SBI Nifty Smallcap 250 Index Fund
+| 9.59%
+|
+Motilal Oswal Nifty Smallcap 250 Index Fund
+| 9.59%
+|
+HDFC Nifty Smallcap 250 Index Fund
+| 9.59%
+|
+ICICI Prudential Nifty Smallcap 250 Index Fund
+| 9.59%
+|
+Edelweiss Nifty Smallcap 250 Index Fund
+| 9.60%
+|
+JioBlackRock Nifty Smallcap 250 Index Fund
+| 9.59%
+|
+Groww Nifty Smallcap 250 Index Fund
+| 9.59%
+|
+Bandhan Nifty Smallcap 250 Index Fund
+| 9.59%
+|
+Kotak Nifty Smallcap 250 Index Fund
+| 9.58%
+|
+DSP Nifty Smallcap 250 Index Fund
+| 9.59%
+|
+Source: Groww{{REF13}}
+Officially small cap. Functionally nahi.{{REF14}}
+Yeh structure winners ko prematurely cut hone se bachata hai. Jo stock grow kiya, woh portfolio mein rehta hai.{{REF15}}
+Aap assume karte ho ki aapka poora paisa pure small cap risk le raha hai.{{REF16}}
+Kabhi kabhi woh assumption kuch time tak galat ho sakhta hai.{{REF17}}
+Isliye fund ka naam dekhne ke saath-saath uske underlying holdings bhi samajhna zaroori hai.{{REF18}}
+Aapko yeh pehle pata tha? Comment mein batao.{{REF19}}
+Disclaimer: This is solely for educational purposes. The securities/investments quoted here are not recommendatory.
+To read the RA disclaimer, please click here.
+RA Sign :
+Research Analyst : Cleyon Savio Dsouza
+RA Date : 09-06-2026
+Tab 2
+If you invest in a Small Cap 250 Index Fund, you'll get 100% small-cap exposure.
+Sounds logical, right?
+After all, it's called a Small Cap 250 Index Fund.
+But the reality is a little different.
+The twist lies inside the index.
+The Nifty Smallcap 250 Index is rebalanced only twice a year — in June and December.
+Now, let's assume a small-cap company delivers an extraordinary rally.
+Up 80%, 100%, or even 120%.
+Its market capitalization increases and moves into the mid-cap range.
+Does the index remove it immediately?
+No.
+That stock remains in the index until the next rebalancing.
+And since an index fund tracks the index exactly, the fund continues to hold that stock as well.
+That means you're officially holding a small-cap index fund...
+But some of the stocks inside it may have already become mid-caps.
+Take a look right now, before the June rebalancing.
+Across all the funds tracking this index, more than 9% of the stocks have already crossed the mid-cap threshold.
+That means roughly 9–10% of your "small-cap" fund exposure is in stocks that have technically become mid-caps.
+Nippon India Nifty Smallcap 250 Index Fund
+| 9.59%
+|
+SBI Nifty Smallcap 250 Index Fund
+| 9.59%
+|
+Motilal Oswal Nifty Smallcap 250 Index Fund
+| 9.59%
+|
+HDFC Nifty Smallcap 250 Index Fund
+| 9.59%
+|
+ICICI Prudential Nifty Smallcap 250 Index Fund
+| 9.59%
+|
+Edelweiss Nifty Smallcap 250 Index Fund
+| 9.60%
+|
+JioBlackRock Nifty Smallcap 250 Index Fund
+| 9.59%
+|
+Groww Nifty Smallcap 250 Index Fund
+| 9.59%
+|
+Bandhan Nifty Smallcap 250 Index Fund
+| 9.59%
+|
+Kotak Nifty Smallcap 250 Index Fund
+| 9.58%
+|
+DSP Nifty Smallcap 250 Index Fund
+| 9.59%
+|
+Source: Groww
+Officially small-cap. Functionally, not entirely.
+This structure prevents winners from being cut too early. A stock that has grown significantly continues to remain in the portfolio.
+You may assume that all your money is taking pure small-cap risk.
+Sometimes, that assumption can be inaccurate for a period of time.
+That's why, along with looking at a fund's name, it's important to understand its underlying holdings as well.
+Did you know this already? Let us know in the comments.
+Disclaimer: This is solely for educational purposes. The securities/investments quoted here are not recommendatory.
+To read the RA disclaimer, please click here.
+RA Sign :
+Research Analyst : Cleyon Savio Dsouza
+RA Date : 09-06-2026
+{{BODY1}}subtle zoom in
+{{BODY2}}a subtle gradient from bottom till 25 % and an text(Sounds logical?) here.
+{{BODY3}}(https://docs.google.com/document/d/1Ggg9W9vFAKu7MtwfihIGpB1XnJtYULNtfHxKXSapeLY/edit?usp=sharing) Follow this editing instruction.
+{{BODY4}}plain A-roll.
+{{BODY5}}with subtle gradient in bottom frame, use stock market widget elements with optimum size and swirl it. A lightleak after sfx after it
+{{BODY6}}(https://docs.google.com/document/d/1TWoC2RNeYY2V4C8es4oLErKtLwXDel9gKyLMkR5m-Jo/edit?usp=sharing) Use this type of frame and when text June and December comes, animate those text under with subtle black gradient.
+{{BODY7}}AN AI B roll of a person who is standing in front of big trading terminal with an heading Small Cap companies. And the terminal is fully green. The camera is shown from behind towards the terminal. An sfx with edit after it.
+{{BODY8}}(https://docs.google.com/document/d/1X5n3nBg1D7nshGRpvQogoIz8IBfDbjLyUWo-MrbnI-s/edit?usp=sharing) Follow this editing instruction
+{{BODY9}}a rapid zoom in of plain A-roll
+{{BODY10}}A text of no in it over the gradient in bottom.
+{{BODY11}}(https://docs.google.com/document/d/1XDvRqxJ3L7LqpO0UNiBkypHKwy5fYNRU8DDdrxMPhfc/edit?usp=sharing)
+{{BODY12}}an  AI animation,  with theme of comsapny brand colours, all sheeps being white and when we zoom inthe black sheep it's writen Mid Cap in it. ( so visually emphhasiziong there is one odd one out among small cap funds which very few stocks are mid cap)
+{{BODY13}}(https://docs.google.com/document/d/1IbfjcUtiRy9ffU9xvTG2CTmgcQg9QzxKM92LSXaa2uc/edit?usp=sharing) Animate this table in the given reference.
+{{BODY14}}https://docs.google.com/document/d/1KgL8TJrMwHf7CySI68D2iSieG6SGWXIA1t6C9rsAGZU/edit?usp=sharing follow this instruction
+{{BODY15}}an plain AI B-roll where there are circles with with hand and leg sticky figures. those are put in ramp, where the circle which is written small cap funds is in No 1 position. A light leak after it. use higgsfield , Hyperframe/remotion for it.
+{{BODY16}}(https://docs.google.com/document/d/1KzcBVBZ3x-RCsjpWRWOIAXT5PesV2BmKOFDj88rzOXU/edit?usp=sharing) AI roill generation is specified in this.
+{{BODY17}}An plain A- roll with subtle zoom in , but by the time she says galat an sfx of negative tone only at the time of galat and also an red overlay all over the screen only at the time she says galat. an lightleak with sfx after that
+{{BODY18}}a widget of pad and paper , coming from bottom with subtle gradient at the bottom part of video. A note on the pad should be written as funds with some stacks of paper in it.
+{{BODY19}}subscribe widget at the bottom with the gradient.

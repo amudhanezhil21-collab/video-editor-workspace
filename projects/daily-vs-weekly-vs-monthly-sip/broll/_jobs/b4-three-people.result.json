@@ -1,0 +1,30 @@
+{
+  "created_at": "2026-08-23T05:05:06.938299Z",
+  "display_name": "Seedance 2.0",
+  "id": "25af24d6-2004-4284-ba9a-6b136d88f477",
+  "job_type": "seedance_2_0",
+  "min_result_url": null,
+  "params": {
+    "aspect_ratio": "9:16",
+    "bitrate_mode": "standard",
+    "duration": 10,
+    "generate_audio": false,
+    "genre": "auto",
+    "height": 1920,
+    "medias": [],
+    "mode": "std",
+    "model": "seedance_2_0",
+    "multi_prompt": [],
+    "multi_shot_mode": "custom",
+    "multi_shots": false,
+    "prompt": "Ultra-realistic photoreal cinematic studio shot. Three Indian adults stand side by side in a row facing camera, evenly spaced, framed from the knees up. Each wears a clean plain crew-neck t-shirt with one bold English word printed large across the chest: the person on the left reads DAILY, the middle reads WEEKLY, the right reads MONTHLY. In front of each person a neat stack of gold coins rises steadily up from the floor; all three stacks grow at the same rate and settle at exactly the same equal height. Photoreal skin texture and fabric detail, soft frontal key light, gentle rim light. Locked-off camera, no camera movement. Background is a perfectly even, ultra-saturated pure chroma key green screen (bright key green), flat studio-lit edge to edge, absolutely no shadows cast on the green, no gradient on the green, and no green spill on the subject. The subject is crisply separated from the background with clean edges. No text overlays, no captions, no watermark, no logo, no borders.",
+    "prompt_language": "en",
+    "reference_elements": [],
+    "resolution": "1080p",
+    "speedramp": "auto",
+    "width": 1080
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3A6I8lFFLgx7LNIsn9gZ1CttzLy/hf_20260823_050506_25af24d6-2004-4284-ba9a-6b136d88f477.mp4",
+  "status": "completed",
+  "thumbnail_url": "https://cdn.higgsfield.ai/user_3A6I8lFFLgx7LNIsn9gZ1CttzLy/hf_20260823_050506_25af24d6-2004-4284-ba9a-6b136d88f477_thumbnail.webp"
+}

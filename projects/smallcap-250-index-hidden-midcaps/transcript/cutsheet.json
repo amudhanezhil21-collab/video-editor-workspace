@@ -1,0 +1,173 @@
+[
+ {
+  "id": "REF1",
+  "ref": 1,
+  "start": 0.698,
+  "end": 6.56,
+  "line": "hook: 100% small cap exposure milega",
+  "creatorInstruction": "subtle zoom in",
+  "spokenText": "small cap 250 index fund में इंवेस्ट करोगे तो सौ परसेंट small cap एक्सपोजर मिलेगा।"
+ },
+ {
+  "id": "REF2",
+  "ref": 2,
+  "start": 6.88,
+  "end": 8.12,
+  "line": "Sounds logical, right?",
+  "creatorInstruction": "a subtle gradient from bottom till 25 % and an text(Sounds logical?) here.",
+  "spokenText": "Sounds logical राइट।"
+ },
+ {
+  "id": "REF3",
+  "ref": 3,
+  "start": 8.62,
+  "end": 10.741,
+  "line": "Aakhir naam hi Small Cap 250 Index Fund hai",
+  "creatorInstruction": "Follow this editing instruction. [doc: takeover frame with text \"Small Cap 250 Index Fund\", same exact background, swirling stars at top right and bottom left]",
+  "spokenText": "Aakhir नाम ही small cap 250 index fund है"
+ },
+ {
+  "id": "REF4",
+  "ref": 4,
+  "start": 11.161,
+  "end": 12.961,
+  "line": "Lekin reality thodi different hai",
+  "creatorInstruction": "plain A-roll.",
+  "spokenText": "लेकिन रियालिटी थोड़ी डिफरेंट है।"
+ },
+ {
+  "id": "REF5",
+  "ref": 5,
+  "start": 13.121,
+  "end": 14.522,
+  "line": "Twist index ke andar hai",
+  "creatorInstruction": "with subtle gradient in bottom frame, use stock market widget elements with optimum size and swirl it. A lightleak after sfx after it",
+  "spokenText": "ट्विस्ट index के अंदर है।"
+ },
+ {
+  "id": "REF6",
+  "ref": 6,
+  "start": 14.653,
+  "end": 20.016,
+  "line": "Nifty Smallcap 250 ... June aur December mein",
+  "creatorInstruction": "Use this type of frame and when text June and December comes, animate those text under with subtle black gradient. [doc: seesaw motion graphics, heading 'Nifty Smallcap Index rebalance', ivy presto font]",
+  "spokenText": "Nifty small cap 250 index sirf साल में दो बार री बैलेंस होता है जून और डिसेंबर में"
+ },
+ {
+  "id": "REF7",
+  "ref": 7,
+  "start": 20.263,
+  "end": 26.368,
+  "line": "Ab maan lo ... 80% 100% 120% up",
+  "creatorInstruction": "AN AI B roll of a person who is standing in front of big trading terminal with an heading Small Cap companies. And the terminal is fully green. The camera is shown from behind towards the terminal. An sfx with edit after it.",
+  "spokenText": "मान लीजिए एक small cap company zabardast rally कर देती है, 80%, 100, 120% up,"
+ },
+ {
+  "id": "REF8",
+  "ref": 8,
+  "start": 26.488,
+  "end": 29.751,
+  "line": "Uski market cap badh kar mid cap range",
+  "creatorInstruction": "Follow this editing instruction [doc: this type of motion graphics in full screen in same background, should suit the line of script]",
+  "spokenText": "उसकी market cap बढ़ कर mid cap range में पहुँच जाती है,"
+ },
+ {
+  "id": "REF9",
+  "ref": 9,
+  "start": 29.831,
+  "end": 32.133,
+  "line": "Kya index usse turant nikaal deta hai?",
+  "creatorInstruction": "a rapid zoom in of plain A-roll",
+  "spokenText": "क्या index उसे तुरंत निकाल देता है?"
+ },
+ {
+  "id": "REF10",
+  "ref": 10,
+  "start": 32.213,
+  "end": 32.714,
+  "line": "Nahi.",
+  "creatorInstruction": "A text of no in it over the gradient in bottom.",
+  "spokenText": "नहीं."
+ },
+ {
+  "id": "REF11",
+  "ref": 11,
+  "start": 32.814,
+  "end": 41.982,
+  "line": "Woh stock agle rebalancing tak...",
+  "creatorInstruction": "[doc only: make a similar motion graphics of vox style in this similar background]",
+  "spokenText": "वो stock अगले rebalancing तक index में बना रहता है, और क्योंकि index fund index को exactly track करता है, fund भी उस stock को hold करता रहता है."
+ },
+ {
+  "id": "REF12",
+  "ref": 12,
+  "start": 42.402,
+  "end": 50.006,
+  "line": "Matlab aap officially ... mid caps ban chuke",
+  "creatorInstruction": "an AI animation, with theme of comsapny brand colours, all sheeps being white and when we zoom inthe black sheep it's writen Mid Cap in it.",
+  "spokenText": "मतलब आप officially एक small cap index fund hold कर रहे हैं लेकिन उसके अंदर कुछ stocks already mid caps बन चुके होते हैं"
+ },
+ {
+  "id": "REF13",
+  "ref": 13,
+  "start": 50.146,
+  "end": 64.553,
+  "line": "Abhi dekho ... + TABLE",
+  "creatorInstruction": "Animate this table in the given reference. [doc: creator in square mask with drop shadow, gradient of brand purple and brand green, subtle low-opacity grid, chart animation of the table in the script inside a white rounded box]",
+  "spokenText": "अभी देखिए June में rebalance होने से पहले इस index के सारे funds में more than 9% stocks already mid cap threshold cross कर चुके हैं मतलब आपके small cap fund का roughly 9-10% exposure उन stocks में है जो technically mid cap बन चुके हैं"
+ },
+ {
+  "id": "REF14",
+  "ref": 14,
+  "start": 65.373,
+  "end": 67.996,
+  "line": "Officially small cap. Functionally nahi.",
+  "creatorInstruction": "follow this instruction [doc: this type of frame with text \"Officially Small cap, functionally not\", same exact background, swirling stars top right and bottom left]",
+  "spokenText": "officially small cap functionally नहीं"
+ },
+ {
+  "id": "REF15",
+  "ref": 15,
+  "start": 68.336,
+  "end": 73.783,
+  "line": "Yeh structure winners ko prematurely cut...",
+  "creatorInstruction": "an plain AI B-roll where there are circles with with hand and leg sticky figures. those are put in ramp, where the circle which is written small cap funds is in No 1 position. A light leak after it.",
+  "spokenText": "ये structure winners को prematurely cut होने से बचाता है जो stock grow किया वो portfolio में रहता है"
+ },
+ {
+  "id": "REF16",
+  "ref": 16,
+  "start": 74.003,
+  "end": 78.328,
+  "line": "Aap assume karte ho ... pure small cap risk",
+  "creatorInstruction": "AI roill generation is specified in this. [doc: same animation, man putting coins in piggy bank, but only ONE piggy bank, labelled Small Cap]",
+  "spokenText": "आप assume करते हैं कि आपका पूरा पैसा pure small cap risk ले रहा है"
+ },
+ {
+  "id": "REF17",
+  "ref": 17,
+  "start": 78.608,
+  "end": 81.792,
+  "line": "Kabhi kabhi woh assumption ... galat",
+  "creatorInstruction": "An plain A-roll with subtle zoom in , but by the time she says galat an sfx of negative tone only at the time of galat and also an red overlay all over the screen only at the time she says galat. an lightleak with sfx after that",
+  "spokenText": "कभी कभी वो assumption कुछ time तक galat हो सकता है"
+ },
+ {
+  "id": "REF18",
+  "ref": 18,
+  "start": 81.892,
+  "end": 86.917,
+  "line": "Isliye fund ka naam ... underlying holdings",
+  "creatorInstruction": "a widget of pad and paper , coming from bottom with subtle gradient at the bottom part of video. A note on the pad should be written as funds with some stacks of paper in it.",
+  "spokenText": "इसलिए fund का नाम देखने के साथ साथ उसके underlying holdings भी समझना ज़रूरी है"
+ },
+ {
+  "id": "REF19",
+  "ref": 19,
+  "start": 87.111,
+  "end": 88.916,
+  "line": "Aapko yeh pehle pata tha? comment karke bataiye",
+  "creatorInstruction": "subscribe widget at the bottom with the gradient.",
+  "spokenText": "आपको यह पहले पता था, comment करके बताईए"
+ }
+]

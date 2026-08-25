@@ -1,0 +1,1643 @@
+{
+ "fps": 25,
+ "note": "English translation of the Hinglish VO (creator's own Tab 2 wording). Timing anchored on spoken loanwords, NOT evenly distributed. Y placement is solved later by caption_solver.py against the rendered graphics.",
+ "anchorsMatched": 58,
+ "groups": [
+  {
+   "text": "Small Cap 250 Index Fund",
+   "words": [
+    "Small",
+    "Cap",
+    "250",
+    "Index",
+    "Fund"
+   ],
+   "wordTimes": [
+    [
+     0.698,
+     0.918
+    ],
+    [
+     1.018,
+     1.338
+    ],
+    [
+     1.398,
+     1.658
+    ],
+    [
+     1.738,
+     2.078
+    ],
+    [
+     2.158,
+     2.378
+    ]
+   ],
+   "start": 0.698,
+   "end": 2.378,
+   "ref": 1,
+   "isInterjection": false
+  },
+  {
+   "text": "- you invest,",
+   "words": [
+    "-",
+    "you",
+    "invest,"
+   ],
+   "wordTimes": [
+    [
+     2.485,
+     2.592
+    ],
+    [
+     2.592,
+     2.699
+    ],
+    [
+     2.699,
+     3.079
+    ]
+   ],
+   "start": 2.485,
+   "end": 3.079,
+   "ref": 1,
+   "isInterjection": false
+  },
+  {
+   "text": "you get 100% small-cap",
+   "words": [
+    "you",
+    "get",
+    "100%",
+    "small-cap"
+   ],
+   "wordTimes": [
+    [
+     3.564,
+     4.049
+    ],
+    [
+     4.049,
+     4.534000000000001
+    ],
+    [
+     4.534000000000001,
+     5.019
+    ],
+    [
+     5.019,
+     5.259
+    ]
+   ],
+   "start": 3.564,
+   "end": 5.259,
+   "ref": 1,
+   "isInterjection": false
+  },
+  {
+   "text": "exposure.",
+   "words": [
+    "exposure."
+   ],
+   "wordTimes": [
+    [
+     5.599,
+     6.079
+    ]
+   ],
+   "start": 5.599,
+   "end": 6.079,
+   "ref": 1,
+   "isInterjection": false
+  },
+  {
+   "text": "Sounds logical,",
+   "words": [
+    "Sounds",
+    "logical,"
+   ],
+   "wordTimes": [
+    [
+     6.88,
+     7.14
+    ],
+    [
+     7.16,
+     7.62
+    ]
+   ],
+   "start": 6.88,
+   "end": 7.62,
+   "ref": 2,
+   "isInterjection": false
+  },
+  {
+   "text": "right?",
+   "words": [
+    "right?"
+   ],
+   "wordTimes": [
+    [
+     7.869999999999999,
+     8.12
+    ]
+   ],
+   "start": 7.87,
+   "end": 8.12,
+   "ref": 2,
+   "isInterjection": false
+  },
+  {
+   "text": "After all,",
+   "words": [
+    "After",
+    "all,"
+   ],
+   "wordTimes": [
+    [
+     8.723333333333333,
+     8.826666666666666
+    ],
+    [
+     8.826666666666666,
+     8.93
+    ]
+   ],
+   "start": 8.723,
+   "end": 8.93,
+   "ref": 3,
+   "isInterjection": false
+  },
+  {
+   "text": "it's called a Small Cap",
+   "words": [
+    "it's",
+    "called",
+    "a",
+    "Small",
+    "Cap"
+   ],
+   "wordTimes": [
+    [
+     8.93,
+     9.033333333333333
+    ],
+    [
+     9.033333333333333,
+     9.136666666666667
+    ],
+    [
+     9.136666666666667,
+     9.24
+    ],
+    [
+     9.24,
+     9.46
+    ],
+    [
+     9.52,
+     9.76
+    ]
+   ],
+   "start": 8.93,
+   "end": 9.76,
+   "ref": 3,
+   "isInterjection": false
+  },
+  {
+   "text": "250 Index Fund.",
+   "words": [
+    "250",
+    "Index",
+    "Fund."
+   ],
+   "wordTimes": [
+    [
+     9.8,
+     10.04
+    ],
+    [
+     10.1,
+     10.38
+    ],
+    [
+     10.441,
+     10.621
+    ]
+   ],
+   "start": 9.8,
+   "end": 10.621,
+   "ref": 3,
+   "isInterjection": false
+  },
+  {
+   "text": "But the reality is a",
+   "words": [
+    "But",
+    "the",
+    "reality",
+    "is",
+    "a"
+   ],
+   "wordTimes": [
+    [
+     11.281,
+     11.401
+    ],
+    [
+     11.401,
+     11.521
+    ],
+    [
+     11.521,
+     12.021
+    ],
+    [
+     12.121,
+     12.221
+    ],
+    [
+     12.221,
+     12.321
+    ]
+   ],
+   "start": 11.281,
+   "end": 12.321,
+   "ref": 4,
+   "isInterjection": false
+  },
+  {
+   "text": "little different.",
+   "words": [
+    "little",
+    "different."
+   ],
+   "wordTimes": [
+    [
+     12.321,
+     12.421
+    ],
+    [
+     12.421,
+     12.761
+    ]
+   ],
+   "start": 12.321,
+   "end": 12.761,
+   "ref": 4,
+   "isInterjection": false
+  },
+  {
+   "text": "The twist lies inside the",
+   "words": [
+    "The",
+    "twist",
+    "lies",
+    "inside",
+    "the"
+   ],
+   "wordTimes": [
+    [
+     13.121,
+     13.121
+    ],
+    [
+     13.121,
+     13.381
+    ],
+    [
+     13.396,
+     13.411000000000001
+    ],
+    [
+     13.411000000000001,
+     13.426
+    ],
+    [
+     13.426,
+     13.441
+    ]
+   ],
+   "start": 13.121,
+   "end": 13.441,
+   "ref": 5,
+   "isInterjection": false
+  },
+  {
+   "text": "index.",
+   "words": [
+    "index."
+   ],
+   "wordTimes": [
+    [
+     13.441,
+     13.761
+    ]
+   ],
+   "start": 13.441,
+   "end": 13.761,
+   "ref": 5,
+   "isInterjection": false
+  },
+  {
+   "text": "The Nifty Smallcap 250 Index",
+   "words": [
+    "The",
+    "Nifty",
+    "Smallcap",
+    "250",
+    "Index"
+   ],
+   "wordTimes": [
+    [
+     14.653,
+     14.653
+    ],
+    [
+     14.653,
+     14.854
+    ],
+    [
+     14.934,
+     15.135
+    ],
+    [
+     15.276,
+     15.416
+    ],
+    [
+     15.456,
+     15.717
+    ]
+   ],
+   "start": 14.653,
+   "end": 15.717,
+   "ref": 6,
+   "isInterjection": false
+  },
+  {
+   "text": "is rebalanced only twice a",
+   "words": [
+    "is",
+    "rebalanced",
+    "only",
+    "twice",
+    "a"
+   ],
+   "wordTimes": [
+    [
+     16.063,
+     16.409
+    ],
+    [
+     16.409,
+     16.755
+    ],
+    [
+     16.755,
+     17.101
+    ],
+    [
+     17.101,
+     17.447
+    ],
+    [
+     17.447,
+     17.793
+    ]
+   ],
+   "start": 16.063,
+   "end": 17.793,
+   "ref": 6,
+   "isInterjection": false
+  },
+  {
+   "text": "year - in June and",
+   "words": [
+    "year",
+    "-",
+    "in",
+    "June",
+    "and"
+   ],
+   "wordTimes": [
+    [
+     17.793,
+     18.139
+    ],
+    [
+     18.139,
+     18.485
+    ],
+    [
+     18.485,
+     18.831
+    ],
+    [
+     18.831,
+     19.072
+    ],
+    [
+     19.2125,
+     19.353
+    ]
+   ],
+   "start": 17.793,
+   "end": 19.353,
+   "ref": 6,
+   "isInterjection": false
+  },
+  {
+   "text": "December.",
+   "words": [
+    "December."
+   ],
+   "wordTimes": [
+    [
+     19.353,
+     19.775
+    ]
+   ],
+   "start": 19.353,
+   "end": 19.775,
+   "ref": 6,
+   "isInterjection": false
+  },
+  {
+   "text": "Its market capitalization increases and",
+   "words": [
+    "Its",
+    "market",
+    "capitalization",
+    "increases",
+    "and"
+   ],
+   "wordTimes": [
+    [
+     26.6385,
+     26.789
+    ],
+    [
+     26.789,
+     27.089
+    ],
+    [
+     27.244124999999997,
+     27.39925
+    ],
+    [
+     27.39925,
+     27.554375
+    ],
+    [
+     27.554375,
+     27.7095
+    ]
+   ],
+   "start": 26.639,
+   "end": 27.709,
+   "ref": 8,
+   "isInterjection": false
+  },
+  {
+   "text": "moves into the mid-cap range.",
+   "words": [
+    "moves",
+    "into",
+    "the",
+    "mid-cap",
+    "range."
+   ],
+   "wordTimes": [
+    [
+     27.7095,
+     27.864624999999997
+    ],
+    [
+     27.864624999999997,
+     28.01975
+    ],
+    [
+     28.01975,
+     28.174875
+    ],
+    [
+     28.174875,
+     28.33
+    ],
+    [
+     28.33,
+     28.73
+    ]
+   ],
+   "start": 27.709,
+   "end": 28.73,
+   "ref": 8,
+   "isInterjection": false
+  },
+  {
+   "text": "Does the index",
+   "words": [
+    "Does",
+    "the",
+    "index"
+   ],
+   "wordTimes": [
+    [
+     29.904666666666667,
+     29.97833333333333
+    ],
+    [
+     29.97833333333333,
+     30.052
+    ],
+    [
+     30.052,
+     30.452
+    ]
+   ],
+   "start": 29.905,
+   "end": 30.452,
+   "ref": 9,
+   "isInterjection": false
+  },
+  {
+   "text": "remove it",
+   "words": [
+    "remove",
+    "it"
+   ],
+   "wordTimes": [
+    [
+     30.87225,
+     31.292500000000004
+    ],
+    [
+     31.292500000000004,
+     31.712750000000003
+    ]
+   ],
+   "start": 30.872,
+   "end": 31.713,
+   "ref": 9,
+   "isInterjection": false
+  },
+  {
+   "text": "immediately?",
+   "words": [
+    "immediately?"
+   ],
+   "wordTimes": [
+    [
+     31.712750000000003,
+     32.133
+    ]
+   ],
+   "start": 31.713,
+   "end": 32.133,
+   "ref": 9,
+   "isInterjection": false
+  },
+  {
+   "text": "No.",
+   "words": [
+    "No."
+   ],
+   "wordTimes": [
+    [
+     32.463499999999996,
+     32.714
+    ]
+   ],
+   "start": 32.463,
+   "end": 32.714,
+   "ref": 10,
+   "isInterjection": true
+  },
+  {
+   "text": "That stock",
+   "words": [
+    "That",
+    "stock"
+   ],
+   "wordTimes": [
+    [
+     32.844,
+     32.874
+    ],
+    [
+     32.874,
+     33.214
+    ]
+   ],
+   "start": 32.844,
+   "end": 33.214,
+   "ref": 11,
+   "isInterjection": false
+  },
+  {
+   "text": "remains in the",
+   "words": [
+    "remains",
+    "in",
+    "the"
+   ],
+   "wordTimes": [
+    [
+     33.5995,
+     33.985
+    ],
+    [
+     33.985,
+     34.3705
+    ],
+    [
+     34.3705,
+     34.756
+    ]
+   ],
+   "start": 33.599,
+   "end": 34.756,
+   "ref": 11,
+   "isInterjection": false
+  },
+  {
+   "text": "index until the next rebalancing.",
+   "words": [
+    "index",
+    "until",
+    "the",
+    "next",
+    "rebalancing."
+   ],
+   "wordTimes": [
+    [
+     34.756,
+     35.096
+    ],
+    [
+     35.306124999999994,
+     35.51625
+    ],
+    [
+     35.51625,
+     35.726375
+    ],
+    [
+     35.726375,
+     35.936499999999995
+    ],
+    [
+     35.936499999999995,
+     36.146625
+    ]
+   ],
+   "start": 34.756,
+   "end": 36.147,
+   "ref": 11,
+   "isInterjection": false
+  },
+  {
+   "text": "And since an index fund",
+   "words": [
+    "And",
+    "since",
+    "an",
+    "index",
+    "fund"
+   ],
+   "wordTimes": [
+    [
+     36.146625,
+     36.35675
+    ],
+    [
+     36.35675,
+     36.566875
+    ],
+    [
+     36.566875,
+     36.777
+    ],
+    [
+     36.777,
+     37.078
+    ],
+    [
+     37.158,
+     37.338
+    ]
+   ],
+   "start": 36.147,
+   "end": 37.338,
+   "ref": 11,
+   "isInterjection": false
+  },
+  {
+   "text": "tracks the index exactly,",
+   "words": [
+    "tracks",
+    "the",
+    "index",
+    "exactly,"
+   ],
+   "wordTimes": [
+    [
+     38.559,
+     38.759
+    ],
+    [
+     38.8712,
+     38.9834
+    ],
+    [
+     38.9834,
+     39.0956
+    ],
+    [
+     39.0956,
+     39.2078
+    ]
+   ],
+   "start": 38.559,
+   "end": 39.208,
+   "ref": 11,
+   "isInterjection": false
+  },
+  {
+   "text": "the fund",
+   "words": [
+    "the",
+    "fund"
+   ],
+   "wordTimes": [
+    [
+     39.2078,
+     39.32
+    ],
+    [
+     39.32,
+     39.98
+    ]
+   ],
+   "start": 39.208,
+   "end": 39.98,
+   "ref": 11,
+   "isInterjection": false
+  },
+  {
+   "text": "continues to hold",
+   "words": [
+    "continues",
+    "to",
+    "hold"
+   ],
+   "wordTimes": [
+    [
+     40.31366666666666,
+     40.647333333333336
+    ],
+    [
+     40.647333333333336,
+     40.981
+    ],
+    [
+     40.981,
+     41.201
+    ]
+   ],
+   "start": 40.314,
+   "end": 41.201,
+   "ref": 11,
+   "isInterjection": false
+  },
+  {
+   "text": "that stock as well.",
+   "words": [
+    "that",
+    "stock",
+    "as",
+    "well."
+   ],
+   "wordTimes": [
+    [
+     41.3572,
+     41.5134
+    ],
+    [
+     41.5134,
+     41.6696
+    ],
+    [
+     41.6696,
+     41.8258
+    ],
+    [
+     41.8258,
+     41.982
+    ]
+   ],
+   "start": 41.357,
+   "end": 41.982,
+   "ref": 11,
+   "isInterjection": false
+  },
+  {
+   "text": "Take a look right now,",
+   "words": [
+    "Take",
+    "a",
+    "look",
+    "right",
+    "now,"
+   ],
+   "wordTimes": [
+    [
+     50.216,
+     50.286
+    ],
+    [
+     50.286,
+     50.356
+    ],
+    [
+     50.356,
+     50.426
+    ],
+    [
+     50.426,
+     50.496
+    ],
+    [
+     50.496,
+     50.566
+    ]
+   ],
+   "start": 50.216,
+   "end": 50.566,
+   "ref": 13,
+   "isInterjection": false
+  },
+  {
+   "text": "before the June rebalancing.",
+   "words": [
+    "before",
+    "the",
+    "June",
+    "rebalancing."
+   ],
+   "wordTimes": [
+    [
+     50.566,
+     50.636
+    ],
+    [
+     50.636,
+     50.706
+    ],
+    [
+     50.706,
+     51.126
+    ],
+    [
+     51.266,
+     51.667
+    ]
+   ],
+   "start": 50.566,
+   "end": 51.667,
+   "ref": 13,
+   "isInterjection": false
+  },
+  {
+   "text": "Across all the",
+   "words": [
+    "Across",
+    "all",
+    "the"
+   ],
+   "wordTimes": [
+    [
+     52.22725,
+     52.7875
+    ],
+    [
+     52.7875,
+     53.347750000000005
+    ],
+    [
+     53.347750000000005,
+     53.908
+    ]
+   ],
+   "start": 52.227,
+   "end": 53.908,
+   "ref": 13,
+   "isInterjection": false
+  },
+  {
+   "text": "funds",
+   "words": [
+    "funds"
+   ],
+   "wordTimes": [
+    [
+     53.908,
+     54.628
+    ]
+   ],
+   "start": 53.908,
+   "end": 54.628,
+   "ref": 13,
+   "isInterjection": false
+  },
+  {
+   "text": "tracking",
+   "words": [
+    "tracking"
+   ],
+   "wordTimes": [
+    [
+     54.703,
+     54.778
+    ]
+   ],
+   "start": 54.703,
+   "end": 54.778,
+   "ref": 13,
+   "isInterjection": false
+  },
+  {
+   "text": "this index,",
+   "words": [
+    "this",
+    "index,"
+   ],
+   "wordTimes": [
+    [
+     54.778,
+     54.852999999999994
+    ],
+    [
+     54.852999999999994,
+     54.928
+    ]
+   ],
+   "start": 54.778,
+   "end": 54.928,
+   "ref": 13,
+   "isInterjection": false
+  },
+  {
+   "text": "more than 9% of the",
+   "words": [
+    "more",
+    "than",
+    "9%",
+    "of",
+    "the"
+   ],
+   "wordTimes": [
+    [
+     54.928,
+     55.048
+    ],
+    [
+     55.088,
+     55.268
+    ],
+    [
+     55.328,
+     55.388
+    ],
+    [
+     55.394666666666666,
+     55.40133333333333
+    ],
+    [
+     55.40133333333333,
+     55.408
+    ]
+   ],
+   "start": 54.928,
+   "end": 55.408,
+   "ref": 13,
+   "isInterjection": false
+  },
+  {
+   "text": "stocks have already",
+   "words": [
+    "stocks",
+    "have",
+    "already"
+   ],
+   "wordTimes": [
+    [
+     55.408,
+     55.608
+    ],
+    [
+     55.628,
+     55.648
+    ],
+    [
+     55.648,
+     56.109
+    ]
+   ],
+   "start": 55.408,
+   "end": 56.109,
+   "ref": 13,
+   "isInterjection": false
+  },
+  {
+   "text": "crossed the",
+   "words": [
+    "crossed",
+    "the"
+   ],
+   "wordTimes": [
+    [
+     57.189,
+     57.509
+    ],
+    [
+     57.95933333333333,
+     58.409666666666666
+    ]
+   ],
+   "start": 57.189,
+   "end": 58.41,
+   "ref": 13,
+   "isInterjection": false
+  },
+  {
+   "text": "mid-cap threshold.",
+   "words": [
+    "mid-cap",
+    "threshold."
+   ],
+   "wordTimes": [
+    [
+     58.409666666666666,
+     58.86
+    ],
+    [
+     58.86,
+     59.31033333333333
+    ]
+   ],
+   "start": 58.41,
+   "end": 59.31,
+   "ref": 13,
+   "isInterjection": false
+  },
+  {
+   "text": "That means roughly 9-10% of",
+   "words": [
+    "That",
+    "means",
+    "roughly",
+    "9-10%",
+    "of"
+   ],
+   "wordTimes": [
+    [
+     59.31033333333333,
+     59.760666666666665
+    ],
+    [
+     59.760666666666665,
+     60.211
+    ],
+    [
+     60.211,
+     60.651
+    ],
+    [
+     60.751,
+     61.071
+    ],
+    [
+     61.083,
+     61.095
+    ]
+   ],
+   "start": 59.31,
+   "end": 61.095,
+   "ref": 13,
+   "isInterjection": false
+  },
+  {
+   "text": "your small-cap fund exposure is",
+   "words": [
+    "your",
+    "small-cap",
+    "fund",
+    "exposure",
+    "is"
+   ],
+   "wordTimes": [
+    [
+     61.095,
+     61.107
+    ],
+    [
+     61.107,
+     61.119
+    ],
+    [
+     61.119,
+     61.131
+    ],
+    [
+     61.131,
+     61.671
+    ],
+    [
+     61.95133333333333,
+     62.23166666666667
+    ]
+   ],
+   "start": 61.095,
+   "end": 62.232,
+   "ref": 13,
+   "isInterjection": false
+  },
+  {
+   "text": "in stocks that have technically",
+   "words": [
+    "in",
+    "stocks",
+    "that",
+    "have",
+    "technically"
+   ],
+   "wordTimes": [
+    [
+     62.23166666666667,
+     62.512
+    ],
+    [
+     62.512,
+     62.752
+    ],
+    [
+     62.892,
+     63.032
+    ],
+    [
+     63.032,
+     63.172
+    ],
+    [
+     63.172,
+     63.632
+    ]
+   ],
+   "start": 62.232,
+   "end": 63.632,
+   "ref": 13,
+   "isInterjection": false
+  },
+  {
+   "text": "become mid-caps.",
+   "words": [
+    "become",
+    "mid-caps."
+   ],
+   "wordTimes": [
+    [
+     63.939,
+     64.246
+    ],
+    [
+     64.246,
+     64.553
+    ]
+   ],
+   "start": 63.939,
+   "end": 64.553,
+   "ref": 13,
+   "isInterjection": false
+  },
+  {
+   "text": "Officially small-cap.",
+   "words": [
+    "Officially",
+    "small-cap."
+   ],
+   "wordTimes": [
+    [
+     65.373,
+     65.974
+    ],
+    [
+     66.094,
+     66.354
+    ]
+   ],
+   "start": 65.373,
+   "end": 66.354,
+   "ref": 14,
+   "isInterjection": false
+  },
+  {
+   "text": "Functionally, not entirely.",
+   "words": [
+    "Functionally,",
+    "not",
+    "entirely."
+   ],
+   "wordTimes": [
+    [
+     66.514,
+     67.596
+    ],
+    [
+     67.72933333333333,
+     67.86266666666667
+    ],
+    [
+     67.86266666666667,
+     67.996
+    ]
+   ],
+   "start": 66.514,
+   "end": 67.996,
+   "ref": 14,
+   "isInterjection": false
+  },
+  {
+   "text": "Sometimes, that assumption can be",
+   "words": [
+    "Sometimes,",
+    "that",
+    "assumption",
+    "can",
+    "be"
+   ],
+   "wordTimes": [
+    [
+     78.82166666666667,
+     79.03533333333333
+    ],
+    [
+     79.03533333333333,
+     79.249
+    ],
+    [
+     79.249,
+     79.889
+    ],
+    [
+     79.931625,
+     79.97425
+    ],
+    [
+     79.97425,
+     80.016875
+    ]
+   ],
+   "start": 78.822,
+   "end": 80.017,
+   "ref": 17,
+   "isInterjection": false
+  },
+  {
+   "text": "inaccurate for a period of",
+   "words": [
+    "inaccurate",
+    "for",
+    "a",
+    "period",
+    "of"
+   ],
+   "wordTimes": [
+    [
+     80.016875,
+     80.0595
+    ],
+    [
+     80.0595,
+     80.102125
+    ],
+    [
+     80.102125,
+     80.14475
+    ],
+    [
+     80.14475,
+     80.187375
+    ],
+    [
+     80.187375,
+     80.23
+    ]
+   ],
+   "start": 80.017,
+   "end": 80.23,
+   "ref": 17,
+   "isInterjection": false
+  },
+  {
+   "text": "time.",
+   "words": [
+    "time."
+   ],
+   "wordTimes": [
+    [
+     80.23,
+     80.43
+    ]
+   ],
+   "start": 80.23,
+   "end": 80.43,
+   "ref": 17,
+   "isInterjection": false
+  },
+  {
+   "text": "That's why,",
+   "words": [
+    "That's",
+    "why,"
+   ],
+   "wordTimes": [
+    [
+     81.9345,
+     81.977
+    ],
+    [
+     81.977,
+     82.0195
+    ]
+   ],
+   "start": 81.934,
+   "end": 82.019,
+   "ref": 18,
+   "isInterjection": false
+  },
+  {
+   "text": "along with looking at a",
+   "words": [
+    "along",
+    "with",
+    "looking",
+    "at",
+    "a"
+   ],
+   "wordTimes": [
+    [
+     82.0195,
+     82.062
+    ],
+    [
+     82.062,
+     82.1045
+    ],
+    [
+     82.1045,
+     82.14699999999999
+    ],
+    [
+     82.14699999999999,
+     82.1895
+    ],
+    [
+     82.1895,
+     82.232
+    ]
+   ],
+   "start": 82.019,
+   "end": 82.232,
+   "ref": 18,
+   "isInterjection": false
+  },
+  {
+   "text": "fund's name,",
+   "words": [
+    "fund's",
+    "name,"
+   ],
+   "wordTimes": [
+    [
+     82.232,
+     82.372
+    ],
+    [
+     82.8326,
+     83.2932
+    ]
+   ],
+   "start": 82.232,
+   "end": 83.293,
+   "ref": 18,
+   "isInterjection": false
+  },
+  {
+   "text": "it's important to",
+   "words": [
+    "it's",
+    "important",
+    "to"
+   ],
+   "wordTimes": [
+    [
+     83.2932,
+     83.7538
+    ],
+    [
+     83.7538,
+     84.2144
+    ],
+    [
+     84.2144,
+     84.675
+    ]
+   ],
+   "start": 83.293,
+   "end": 84.675,
+   "ref": 18,
+   "isInterjection": false
+  },
+  {
+   "text": "understand",
+   "words": [
+    "understand"
+   ],
+   "wordTimes": [
+    [
+     84.675,
+     85.235
+    ]
+   ],
+   "start": 84.675,
+   "end": 85.235,
+   "ref": 18,
+   "isInterjection": false
+  },
+  {
+   "text": "its",
+   "words": [
+    "its"
+   ],
+   "wordTimes": [
+    [
+     85.262,
+     85.289
+    ]
+   ],
+   "start": 85.262,
+   "end": 85.289,
+   "ref": 18,
+   "isInterjection": false
+  },
+  {
+   "text": "underlying holdings as well.",
+   "words": [
+    "underlying",
+    "holdings",
+    "as",
+    "well."
+   ],
+   "wordTimes": [
+    [
+     85.289,
+     85.316
+    ],
+    [
+     85.316,
+     85.636
+    ],
+    [
+     86.063,
+     86.49
+    ],
+    [
+     86.49,
+     86.917
+    ]
+   ],
+   "start": 85.289,
+   "end": 86.917,
+   "ref": 18,
+   "isInterjection": false
+  },
+  {
+   "text": "Did you know this already?",
+   "words": [
+    "Did",
+    "you",
+    "know",
+    "this",
+    "already?"
+   ],
+   "wordTimes": [
+    [
+     87.21309090909091,
+     87.31518181818183
+    ],
+    [
+     87.31518181818183,
+     87.41727272727273
+    ],
+    [
+     87.41727272727273,
+     87.51936363636364
+    ],
+    [
+     87.51936363636364,
+     87.62145454545454
+    ],
+    [
+     87.62145454545454,
+     87.72354545454546
+    ]
+   ],
+   "start": 87.213,
+   "end": 87.724,
+   "ref": 19,
+   "isInterjection": false
+  },
+  {
+   "text": "Let us know in the",
+   "words": [
+    "Let",
+    "us",
+    "know",
+    "in",
+    "the"
+   ],
+   "wordTimes": [
+    [
+     87.72354545454546,
+     87.82563636363636
+    ],
+    [
+     87.82563636363636,
+     87.92772727272727
+    ],
+    [
+     87.92772727272727,
+     88.02981818181817
+    ],
+    [
+     88.02981818181817,
+     88.13190909090909
+    ],
+    [
+     88.13190909090909,
+     88.234
+    ]
+   ],
+   "start": 87.724,
+   "end": 88.234,
+   "ref": 19,
+   "isInterjection": false
+  },
+  {
+   "text": "comments.",
+   "words": [
+    "comments."
+   ],
+   "wordTimes": [
+    [
+     88.234,
+     88.415
+    ]
+   ],
+   "start": 88.234,
+   "end": 88.415,
+   "ref": 19,
+   "isInterjection": false
+  }
+ ],
+ "suppressed": [
+  {
+   "ref": 7,
+   "start": 20.263,
+   "end": 26.368,
+   "reason": "AI-generated b-roll — creator directive 2026-08-23, no captions over AI b-roll"
+  },
+  {
+   "ref": 12,
+   "start": 42.402,
+   "end": 50.006,
+   "reason": "AI-generated b-roll — creator directive 2026-08-23, no captions over AI b-roll"
+  },
+  {
+   "ref": 15,
+   "start": 68.336,
+   "end": 73.783,
+   "reason": "AI-generated b-roll — creator directive 2026-08-23, no captions over AI b-roll"
+  },
+  {
+   "ref": 16,
+   "start": 74.003,
+   "end": 78.328,
+   "reason": "AI-generated b-roll — creator directive 2026-08-23, no captions over AI b-roll"
+  }
+ ]
+}

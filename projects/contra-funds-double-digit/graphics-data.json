@@ -1,0 +1,172 @@
+{
+  "_note": "FACTS ONLY. Numbers, names and sources are transcribed verbatim from the creator's own source document so nothing on screen is invented. The DESIGN and layout of every card is ours, built fresh — the source document's prescribed layouts and rules are deliberately NOT used (creator directive).",
+  "_rule": "Every number that appears on screen must appear here, and every card must carry its source line. No figure goes on screen that is not in this file.",
+
+  "hookTable": {
+    "purpose": "Proves the hook: only four value funds cleared double digits in one year.",
+    "spokenAt": [0.05, 5.08],
+    "columns": ["Fund", "1-year return"],
+    "rows": [
+      { "label": "Quant Value Fund", "value": 16.23 },
+      { "label": "LIC MF Value Fund", "value": 13.57 },
+      { "label": "DSP Value Fund", "value": 11.84 },
+      { "label": "Mahindra Manulife Value Fund", "value": 10.31 }
+    ],
+    "footnote": "Funds that delivered more than 10% returns. Source: Value Research. Data as of 20th July 2026.",
+    "source": "Mint Money"
+  },
+
+  "equityRule": {
+    "purpose": "The defining constraint of a value fund.",
+    "spokenAt": [5.44, 21.55],
+    "equityMinPct": 80,
+    "otherPct": 20,
+    "labels": { "equity": "Equities (80%)", "other": "Other Assets (20%)" }
+  },
+
+  "keywords": {
+    "purpose": "The three qualities a value fund looks for, spoken in sequence.",
+    "spokenAt": [14.0, 21.55],
+    "terms": ["FUNDAMENTALLY STRONG", "UNDERPERFORMING", "UNDERVALUED"]
+  },
+
+  "indexTable": {
+    "purpose": "THE proof moment — the value style itself beat the broad market over 1yr and 5yr.",
+    "spokenAt": [21.71, 38.59],
+    "columns": ["", "1 Year Return", "5 Year Returns"],
+    "rows": [
+      { "label": "Nifty 500 Value 50", "oneYear": 13.95, "fiveYear": 26.2, "highlight": true },
+      { "label": "Nifty 50", "oneYear": -5.42, "fiveYear": 9.99 },
+      { "label": "Nifty 500", "oneYear": -1.71, "fiveYear": 12.41 }
+    ],
+    "constituents": 50,
+    "basis": "value score",
+    "source": "NSE Indexogram"
+  },
+
+  "dspForeign": {
+    "purpose": "DSP's distinguishing feature — significant foreign holdings.",
+    "spokenAt": [45.01, 48.45],
+    "fund": "DSP Value Fund",
+    "columns": ["", "Foreign Holdings %"],
+    "rows": [
+      { "label": "July 2026", "value": 13 },
+      { "label": "January 2026", "value": 23 },
+      { "label": "October 2025", "value": 26 },
+      { "label": "July 2025", "value": 26 }
+    ],
+    "source": "DSP Mutual Fund Factsheet"
+  },
+
+  "usVsIndia": {
+    "purpose": "Why those foreign holdings helped — US outperformed India.",
+    "spokenAt": [48.95, 54.96],
+    "columns": ["", "1 Year Return"],
+    "rows": [
+      { "label": "S&P 500", "value": 14.21 },
+      { "label": "Nifty 500", "value": 1.24 },
+      { "label": "Nasdaq 100", "value": 15.82 }
+    ],
+    "source": "Trading View"
+  },
+
+  "licMcap": {
+    "purpose": "LIC MF's distinguishing feature — over half in mid and small cap. Show the components; let the viewer add 18.37 + 35.86 themselves rather than asserting the claim.",
+    "spokenAt": [55.06, 61.56],
+    "fund": "LIC MF Value Fund",
+    "columns": ["Mcap Category", "Percentage"],
+    "rows": [
+      { "label": "Large Cap", "value": 41.56 },
+      { "label": "Mid Cap", "value": 18.37, "highlight": true },
+      { "label": "Small Cap", "value": 35.86, "highlight": true },
+      { "label": "Total Equity", "value": 95.79 }
+    ],
+    "source": "LIC MF Factsheet"
+  },
+
+  "midSmallPerf": {
+    "purpose": "Why that mid/small tilt paid off recently.",
+    "spokenAt": [61.84, 68.94],
+    "columns": ["", "6 Months"],
+    "rows": [
+      { "label": "Nifty Small Cap 100 Index", "value": 13.4 },
+      { "label": "Nifty Mid Cap 150 Index", "value": 7.1 }
+    ],
+    "source": "Moneycontrol"
+  },
+
+  "vlrt": {
+    "purpose": "Quant's non-traditional approach, named in the VO as the VLRT framework.",
+    "spokenAt": [68.94, 78.0],
+    "fund": "Quant Value Fund",
+    "title": "VLRT Framework",
+    "arms": [
+      { "letter": "V", "name": "VALUATION", "gloss": "Knowing the difference between price and value." },
+      { "letter": "L", "name": "LIQUIDITY", "gloss": "Understanding the flow of money across asset classes." },
+      { "letter": "R", "name": "RISK APPETITE", "gloss": "Perceiving what drives market participants to certain actions and reactions." },
+      { "letter": "T", "name": "TIME", "gloss": "Being in sync with the waves of value and behaviour." }
+    ],
+    "source": "Quant Mutual Fund",
+    "_constraint": "Rebuild as our own diagram. Never screenshot the fund house's artwork."
+  },
+
+  "quantMcap": {
+    "purpose": "Quant's second distinguishing feature — higher mid/small allocation.",
+    "spokenAt": [78.0, 88.0],
+    "fund": "Quant Value Fund",
+    "title": "CONTRIBUTION BY MARKET CAP",
+    "axisMax": 44,
+    "rows": [
+      { "label": "Large Cap", "value": 37.59 },
+      { "label": "Mid Cap", "value": 19.41 },
+      { "label": "Small Cap", "value": 27.12 }
+    ],
+    "source": "Quant Mutual Fund"
+  },
+
+  "trackRecord": {
+    "purpose": "The caveat — don't judge on one year. The BLANK cells are the point: these funds have no long track record.",
+    "spokenAt": [88.0, 94.25],
+    "columns": ["", "3 Year Return", "5 Year Return", "10 Year Returns"],
+    "rows": [
+      { "label": "Quant Value Fund", "threeYear": 22.52, "fiveYear": null, "tenYear": null },
+      { "label": "LIC MF Value Fund", "threeYear": 17.48, "fiveYear": null, "tenYear": null },
+      { "label": "DSP Value Fund", "threeYear": 17.33, "fiveYear": 13.92, "tenYear": null }
+    ],
+    "source": "Value Research",
+    "_constraint": "Render nulls as visible em-dashes. The absence IS the message."
+  },
+
+  "composition": {
+    "purpose": "Managers differ — some tilt large, some mid/small, some international. One chart moving through states, not four charts.",
+    "spokenAt": [95.61, 102.92],
+    "title": "Fund Composition",
+    "segments": ["Large-Cap", "Mid-Cap", "Small-Cap", "International"],
+    "states": [
+      [37, 21, 21, 21],
+      [70, 10, 10, 10],
+      [47, 22, 21, 15],
+      [20, 35, 25, 20]
+    ]
+  },
+
+  "compliance": {
+    "sebiOpen": {
+      "_need": "SEBI registered name / RA registration number / weblink. NOT in the source document — creator must supply the exact strings.",
+      "durationSec": 1.5,
+      "status": "MISSING — blocked on creator"
+    },
+    "raBox": {
+      "raName": "Cleyon Savio Dsouza",
+      "narrator": "MISSING — creator must supply",
+      "reportDate": "MISSING — creator must supply",
+      "disclaimerNote": "RA disclaimer link in channel 'About' section"
+    }
+  },
+
+  "openQuestions": [
+    "SEBI strip exact text (registered name, RA registration number, weblink) is not in any source we hold.",
+    "Narrator name and report date for the RA box.",
+    "Source document is dated 'as of 20th July 2026'; confirm the figures are still the ones to publish."
+  ]
+}

@@ -1,0 +1,355 @@
+{
+ "name": "groww-shorts",
+ "formats": [
+  "short"
+ ],
+ "frame": [
+  1080,
+  1920
+ ],
+ "fps": 25,
+ "runtimeSeconds": [
+  75,
+  96
+ ],
+ "colors": {
+  "_source": "brand.md is the ONLY place colour values live. These are token names, never hex \u2014 see CLAUDE.md standing rule.",
+  "paper": "$paper-ground",
+  "gradientGround": "$gradient-ground",
+  "indigo": "$indigo",
+  "graphicInk": "$ink",
+  "amber": "$amber",
+  "coral": "$coral",
+  "navy": "$ink",
+  "shadowHard": "$shadow-hard",
+  "shadowSoft": "$shadow-soft",
+  "subscribeRed": "#FF333F",
+  "_subscribeRedNote": "YouTube's own red \u2014 the one deliberate off-palette value.",
+  "accentGreenUse": "identity-only: logos, wipe sheets, serif takeover titles, CTA headlines \u2014 never data ink, never emphasis"
+ },
+ "type": {
+  "captionSans": {
+   "family": "Nunito Sans",
+   "file": "assets/fonts/NunitoSans-Variable.ttf"
+  },
+  "dataSans": {
+   "family": "Inter Tight",
+   "file": "assets/fonts/"
+  },
+  "displaySerif": {
+   "family": "Ivy Presto",
+   "file": "assets/fonts/"
+  },
+  "documentSerif": {
+   "class": "Times-like, quoted/press material only",
+   "subheadColor": "#A42831"
+  }
+ },
+ "chrome": {
+  "thumbnailFlashFrames": [
+   1,
+   2
+  ],
+  "endThumbnailFrames": true,
+  "badgeTopLeft": {
+   "circleDiaPx": [
+    56,
+    62
+   ],
+   "centerPx": [
+    98,
+    98
+   ],
+   "textToXPx": 245
+  },
+  "logoTopRight": {
+   "xPx": [
+    815,
+    1015
+   ],
+   "yPx": [
+    70,
+    125
+   ]
+  },
+  "topChromeOnlyPx": 200,
+  "layering": "branding and captions above everything, including full-frame wipes"
+ },
+ "safeZones": {
+  "editorialY": [
+   200,
+   1620
+  ],
+  "sourceLineY": 1460,
+  "complianceOutroMaxY": 1820,
+  "bottomClearPx": 250
+ },
+ "hook": {
+  "card": false,
+  "spokenBySeconds": 0.6,
+  "firstEvidenceSeconds": [
+   1.5,
+   3.5
+  ]
+ },
+ "scenes": [
+  "head",
+  "top-card",
+  "takeover",
+  "face-card",
+  "b-roll"
+ ],
+ "faceCard": {
+  "geometries": [
+   {
+    "kind": "top-center-square",
+    "sizePx": [
+     360,
+     360
+    ]
+   },
+   {
+    "kind": "top-center-large",
+    "widthPx": 605,
+    "borderPx": 6,
+    "borderColor": "$indigo"
+   },
+   {
+    "kind": "lower-card",
+    "widthPx": [
+     960,
+     976
+    ],
+    "radiusPx": [
+     24,
+     40
+    ]
+   }
+  ],
+  "cornerPip": false
+ },
+ "camera": {
+  "headPushIn": true,
+  "varietyDevice": "punch-in crop change between jump cuts",
+  "_headPushInNote": "style.md and the creator both allow zoom-ins/push-ins (directive 2026-08-21). This field read false until 2026-08-22 and contradicted the style file."
+ },
+ "graphics": {
+  "canvas": "$paper with fine grid, side insets 55-95px",
+  "cards": {
+   "radiusPx": [
+    14,
+    40
+   ],
+   "fills": [
+    "white+shadow",
+    "transparent+dark outline 2-5px"
+   ]
+  },
+  "sourceLineRequired": true,
+  "countUps": true,
+  "chartBuilds": true,
+  "entrance": {
+   "kinds": [
+    "whip-zoom-slam",
+    "zoom-settle-2x",
+    "slide-slam",
+    "directional-streak"
+   ],
+   "seconds": [
+    0.3,
+    0.5
+   ],
+   "motionBlur": true
+  },
+  "holdSeconds": [
+   3,
+   15
+  ],
+  "exit": {
+   "kinds": [
+    "hard-cut",
+    "slide",
+    "wipe",
+    "shrink",
+    "streak"
+   ],
+   "maxSeconds": 0.5,
+   "note": "Exits are designed and matched to the moment; a hard cut is a choice, not the default."
+  },
+  "highlight": {
+   "perGraphic": 1,
+   "delayedToSpokenWord": true,
+   "maxDelaySeconds": 5.5,
+   "instruments": [
+    "amber-marker-sweep-0.3s",
+    "indigo-pill-wipe-0.5s",
+    "red-annotation-draw-0.4-0.5s"
+   ]
+  },
+  "accumulateStaggerSeconds": [
+   0.5,
+   1.2
+  ],
+  "microStaggerSeconds": [
+   0.1,
+   0.2
+  ],
+  "chainWithFaceHidden": true,
+  "typewriter": {
+   "onlyFor": [
+    "quotes",
+    "keywords"
+   ],
+   "charsPerSecond": 70
+  },
+  "_buildsNote": "Table grammar builds with count-ups (style.md), and the creator's own sample clip animates its percentages counting up."
+ },
+ "transitions": {
+  "diagonalWipe": {
+   "direction": "BL-to-TR",
+   "coverSeconds": [
+    0.15,
+    0.3
+   ],
+   "fullCoverFrames": [
+    1,
+    2
+   ],
+   "totalSeconds": 0.7,
+   "perVideo": [
+    1,
+    2
+   ],
+   "colorDefault": "$indigo",
+   "colorBrandMoment": "$accent"
+  },
+  "crossfades": false,
+  "fadeToBlackEnding": false
+ },
+ "captions": {
+  "perVideoSwitch": true,
+  "language": "English translation of Hindi VO (translation pass after WhisperX; never Devanagari)",
+  "chip": {
+   "fill": "#040304",
+   "radiusPx": [
+    14,
+    18
+   ],
+   "sidePaddingPx": [
+    20,
+    26
+   ],
+   "lineHeightPx": [
+    55,
+    85
+   ]
+  },
+  "textPx": [
+   46,
+   60
+  ],
+  "wordsPerGroup": [
+   2,
+   6
+  ],
+  "groupSeconds": [
+   1,
+   1.5
+  ],
+  "karaoke": {
+   "color": "$amberKaraoke",
+   "perWordSeconds": [
+    0.15,
+    0.25
+   ],
+   "everyWord": true
+  },
+  "interjectionChip": "ALL-CAPS short chip stacked above main line",
+  "defaultCenterY": [
+   1362,
+   1430
+  ],
+  "layoutAware": true,
+  "aboveWipeLayer": true,
+  "layoutAwareMethod": "Solved by measurement: per-frame occupancy map of graphic CONTENT (edge energy, so a smooth gradient background is not a collision), then a Y ladder that clears graphics + face box + safe zones; b-roll is not a collision; suppress the group where nothing clears; suppress across reframe windows because the face moves."
+ },
+ "compliance": {
+  "openingSebiBox": {
+   "position": "bottom-left x70-120 y1590-1720",
+   "seconds": [
+    2.5,
+    4
+   ]
+  },
+  "outroRaPanel": true,
+  "textSource": "user-supplied legal identity \u2014 never copied from references"
+ },
+ "outro": {
+  "subscribeSkit": {
+   "bannerX": [
+    119,
+    975
+   ],
+   "bannerY": [
+    1450,
+    1820
+   ],
+   "pillColor": "$subscribeRed",
+   "seconds": [
+    1.5,
+    2.4
+   ],
+   "overlaidWhileTalking": true
+  }
+ },
+ "open": {},
+ "learned": [
+  "captions ON by default (user decision 2026-08-09)",
+  "corner branding: wordmark top-right only, white logo on small indigo chip (user decision)",
+  "subscribe micro-skit: adopted (user decision)",
+  "compliance: Groww official SEBI/RA text on file in job assets",
+  "grade: Sony SLog3->Rec709 + Maltilde look, stacked (user decision) - applies ONLY when the supplied footage is LOG. Check first: a supplied finished cut is usually already Rec709 and the LUT would wreck it. Test: p1-p99 luma spread and mean saturation.",
+  "light leak, dust and caption placement are now MEASURED specs in style.md - do not re-derive them per job (2026-08-22)"
+ ],
+ "editorRules": {
+  "faceNeverCovered": true,
+  "graphicZoneBackdrop": {
+   "blur": "gaussian, applied in FFmpeg at composite",
+   "wash": "paper tint over blur",
+   "maskFeatherPx": 220,
+   "note": "no visible blur edge \u2014 feather generously"
+  },
+  "contrastScrim": {
+   "behindAllTextAndGraphics": true,
+   "peakBlackPct": 65,
+   "style": "subtle gradient, never a visible band"
+  },
+  "elementFx": {
+   "transparentPngFromEdges": true,
+   "motionBlur": true,
+   "densityBias": "more graphics, all word-synced"
+  },
+  "approvalBar": "decent + matching the spoken words",
+  "tableActLayout": "face-cell: during table/data acts the graphic owns the frame; presenter shrinks into a ring-framed circle (~380px, bottom-center, indigo ring) or rounded cell \u2014 reference V4 video-cell device. User preference 2026-08-09: more impressive than half-frame split.",
+  "pacingDoc": {
+   "source": "user Google Doc 2026-08-09",
+   "rules": [
+    "constant movement \u2014 light transformations between clips, never bare hard cuts on the A-roll",
+    "VFX on transitions (whips, curtain wipes, light transforms)",
+    "b-roll blended naturally; AI generation only where necessary",
+    "element icons (calendar, chart) synced precisely to the spoken word",
+    "black text-emphasis gradients VERY subtle, heavily feathered, never over the head",
+    "premium + engaging: continuous motion, understated mini-grid"
+   ]
+  }
+ },
+ "pip": {
+  "tightCrop": {
+   "note": "For the current raw framing, 660x800 from (210,340) fills a 0.82:1 mask.",
+   "cropW": 660,
+   "cropH": 800,
+   "cropX": 210,
+   "cropY": 340
+  }
+ }
+}
