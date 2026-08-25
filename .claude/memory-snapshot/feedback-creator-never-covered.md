@@ -65,6 +65,15 @@ of fault in every other bubble beat.
   of a beat's facts living only in composition code where no check can see them — after the b-roll
   clip map and the screenshot map. See [[lesson-absence-is-not-a-valid-state]].
 
+## Both formats, and the cross-format lesson
+
+`groww-shorts/style.md` already carried **"placement is SOLVED by measurement, never chosen by eye"**
+(2026-08-22) with a full occupancy-map solver, plus "no props over the face OR over the creator's mask
+frame — ever." Long form never received either, which is exactly why its bubbles used hand-typed
+fractions. **A standing rule absorbed into one format's style file must be checked against the
+other's in the same pass.** The formats share a brand, a pipeline and a creator; almost nothing that
+matters is truly format-specific.
+
 ## The general lesson
 
 A rule expressed as *one guard in one code path* is not a rule, it is a patch. The same rule has to

@@ -46,6 +46,9 @@ exists there, **drop that one prop for that beat**; two carry the texture fine.
 - This is the rule against **any** foreground edge, not just a card's — a prop half-behind her
   shoulder looks equally wrong. See [[feedback-creator-never-covered]].
 
+**Both formats.** Written into `groww-longform/style.md` §1 and `groww-shorts/style.md` — shorts
+already forbade props over the face and the mask frame, but not over a data card's edge.
+
 Gate: `assert_props_clear.py` (finishing-pass skill). Written into `styles/groww-longform/style.md`
 §1 and its own section.
 

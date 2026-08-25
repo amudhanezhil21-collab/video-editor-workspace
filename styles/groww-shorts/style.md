@@ -304,6 +304,42 @@ Captions on/off; wipe colour; graphic aesthetic sub-mode (indigo data-card / new
 - Open items pending user decision are marked in style.json under `open`.
 - Every review correction that should apply to all future videos gets absorbed into this file before a job closes.
 
+### Carried over from long form (creator directives 2026-08-25)
+
+Three faults found in a delivered long-form draft. All three are format-agnostic, so they hold here
+too — stated in vertical terms rather than copied across.
+
+**1. A prop is fully clear of a card, or fully behind it — never sliced by its edge.**
+The golden rule above already forbids props over the face or the mask frame. This is the same idea
+against a **data card's** edge, which was not covered: a prop straddling a card boundary leaves a
+sliver poking out and reads as a mistake. Fully clear (a real margin, bigger than the prop's own
+drift and shadow) or fully behind (invisible, harmless) — never between. Eleven of these shipped in
+the long-form draft, on both axes, and the quiet ones at low opacity were the easiest to miss.
+Do **not** fix by removing props when a card is up, shrinking them, moving them in front of the card,
+or animating them out on card entry — each trades this fault for a worse one. Move the prop, or drop
+that one prop for that beat.
+
+**2. A table is BUILT, never pasted.** "Tables build, they never appear" above governs the
+*animation*; this governs the *source*. If the script's item is tabular data, it is rebuilt in brand
+tokens — never her spreadsheet screenshot dropped onto the card. Two shipped that way in long form,
+sitting a few beats from properly built tables.
+- **The excuse to watch for:** "too many rows to rebuild legibly." Long form answered that by landing
+  the table as two stacked halves. **Vertical's constraint is width, not height** — 1080px takes far
+  fewer columns than rows — so here the split is by **column**: carry the columns the VO actually
+  refers to, or run two cards across consecutive beats. Row or column count is never a reason to
+  paste.
+- **This does not touch b-roll.** App-screenshot inserts stay legal per the scene vocabulary. The
+  rule is about tabular data being dodged, not about screenshots existing.
+
+**3. A graphic's copy is a LABEL, not the narration.** A comment asking for a motion graphic is a
+brief for a *visual*. In long form the Sharpe-ratio explainer had the script's Hinglish sentence
+typeset across the frame while she spoke it — zero new information, double reading load, and the
+actual explanation crowded out. This is about copy **inside a graphic** only.
+- On-screen copy inside a graphic is the term, the number, the unit, two to four words. The **visual**
+  carries the meaning.
+- **The tell:** a text field filled by copy-paste from the script. Frame copy is authored from the
+  concept. If the words could be pasted straight out of the narration, the graphic is not designed yet.
+
 ### Data tables: land COMPLETE, then highlight (creator directive 2026-08-23)
 
 Applies to **both formats**.

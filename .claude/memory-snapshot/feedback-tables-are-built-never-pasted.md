@@ -43,6 +43,10 @@ brief — a directive given for one beat is usually a general preference.
 - Pasting also drags in artifacts she asked to remove: ref03's source carried the orange annotation
   marks she said to ignore.
 
+**Both formats,** with the split axis flipped: long form lands a long table as two stacked halves;
+vertical's constraint is WIDTH, so shorts splits by column or across consecutive beats. Neither
+pastes. Does not touch app-screenshot b-roll, which stays legal in shorts.
+
 Gate: `assert_no_pasted_tables.py` (finishing-pass) measures the bitmap's rule grid — 3+ horizontal
 and 2+ vertical long rules means it is a table. Verified to clear a talking-head frame and an AI
 b-roll frame at 0 rules, so it does not ban legitimate images.

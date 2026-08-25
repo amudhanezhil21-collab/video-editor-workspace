@@ -45,6 +45,9 @@ system with their own rules; a graphic is not a caption.
 - Note it was the **script doc's** prose, not the spoken transcript (she paraphrases when recording).
   Either way it is narration, and narration is not frame copy.
 
+**Both formats** — but scoped to copy INSIDE a graphic. The shorts caption system (English
+translation, grouped, karaoke'd) is settled and out of scope; the creator confirmed not to touch it.
+
 **The general shape**, and it keeps recurring: reaching for the literal source instead of doing the
 design work. Same as pasting a spreadsheet screenshot instead of building the table
 ([[feedback-tables-are-built-never-pasted]]) — the source material is an input to a graphic, never

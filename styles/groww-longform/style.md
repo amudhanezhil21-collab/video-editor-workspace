@@ -85,6 +85,30 @@ Circles, icons and cards carry a stroke for depth (motion on the stroke preferre
 **Tables:** indigo rounded panel, white sans rows, hairline separators, values right-aligned with **fund-name column headers**, the spoken row highlighted (mint chip or dark band), fund name in serif italic above, source line below; creator kept in frame or the panel taken full screen.
 
 
+### Placement is SOLVED by measurement, never chosen by eye
+
+This rule was already written into `groww-shorts/style.md` on 2026-08-22 and was never carried into
+long form. That omission is the whole reason the bubble beats used hand-typed `fx` fractions and put
+graphics on her face. **A standing rule absorbed into one format's style file must be checked against
+the other's the same pass** — the formats share a brand, a pipeline and a creator; almost nothing that
+matters is genuinely format-specific.
+
+Any element whose position could collide with something — an overlay, a prop, a bubble, a caption —
+gets its position **derived**:
+
+1. Build a per-frame occupancy map of graphic **content** (local edge energy, so a smooth gradient
+   ground does not count as a collision but a card, table or number does).
+2. Walk a ladder of candidate positions and take the first that clears the graphics, the face box and
+   the safe zones. If none clears, take the least-overlap position — or suppress the element.
+3. **Take the union across the whole beat, not one frame.** She moves: hair swings wide, a hand comes
+   up. A mid-beat sample passes while the beat fails.
+4. **A hand-tuned constant is the smell**, especially one carrying a comment that explains a past miss
+   (`// fx 0.5 parked it over her mouth`). That is not a fix; it is proof the placement is
+   unprincipled — it corrects one beat and leaves every sibling beat broken.
+
+Shorts adds one caveat worth keeping in mind here: **inside a reframe or zoom window the face is not
+where the static face box says it is.** Re-derive it from the reframed geometry.
+
 ### Overlays on the FULL-FRAME creator: left, right, or below her face (creator directive 2026-08-25)
 
 The section below covers her as a small matted plate. It does **not** cover the other mode, and that
