@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "SessionEnd": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"${CLAUDE_PROJECT_DIR:-.}/.claude/scripts/sync-memory.sh\"",
+            "timeout": 30,
+            "statusMessage": "Syncing memory into the repo"
+          }
+        ]
+      }
+    ]
+  }
+}
