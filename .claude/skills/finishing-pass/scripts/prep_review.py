@@ -51,14 +51,61 @@ def main():
     print(f"contact sheets: {made} (50 frames each; every one of {n} frames appears on exactly one sheet)")
 
     cuts = json.load(open(cutsheet))
+    cuts = cuts["beats"] if isinstance(cuts, dict) else cuts
+
+    # THE OFFSET. Cutsheet times are BODY times; the deliverable has a disclaimer card in front, so
+    # its clock is shifted. Stamping body times onto final-render stills hands reviewers frames from
+    # 3 seconds earlier than the beat they are being asked about — they then describe the wrong
+    # graphic, "confirm" defects that are not there, and miss the ones that are. Nothing about the
+    # output looks wrong, which is what makes it dangerous.
+    #
+    # So it is required, not defaulted. Derived from the pipeline's concat manifest when available.
+    off = None
+    for a in sys.argv[4:]:
+        if a.startswith("--offset="):
+            off = float(a.split("=", 1)[1])
+    if off is None:
+        man = os.path.join(os.path.dirname(render), "concat.txt")
+        if not os.path.exists(man):
+            man = os.path.join(os.path.dirname(os.path.dirname(render)), "render", "concat.txt")
+        if os.path.exists(man):
+            parts, body_i = [], None
+            for line in open(man):
+                if line.strip().startswith("file "):
+                    p = line.strip()[5:].strip().strip("'\"")
+                    if "body" in os.path.basename(p):
+                        body_i = len(parts)
+                    parts.append(p)
+            if body_i is not None:
+                off = sum(float(subprocess.run(["ffprobe","-v","error","-show_entries",
+                          "format=duration","-of","csv=p=0",p], capture_output=True,
+                          text=True).stdout or 0) for p in parts[:body_i])
+                print(f"head offset: {off:.2f}s (derived from {os.path.basename(man)})")
+    if off is None:
+        sys.exit("ABORT: cannot determine the head offset (no concat.txt found). Pass "
+                 "--offset=SECONDS. Refusing to default to 0: cutsheet times stamped onto a "
+                 "render that has a disclaimer in front point at the wrong beats, silently.")
+    if off:
+        # Cheap sanity check the reviewer can see: the offset must not push past the file.
+        span = max(c["end"] for c in cuts)
+        rlen = float(subprocess.run(["ffprobe","-v","error","-show_entries","format=duration",
+                     "-of","csv=p=0",render], capture_output=True, text=True).stdout or 0)
+        if span + off > rlen + 0.5:
+            sys.exit(f"ABORT: cutsheet ends at {span:.1f}s + offset {off:.1f}s = "
+                     f"{span+off:.1f}s, past the render's {rlen:.1f}s. Wrong file or wrong offset.")
+
     marks=[]
     for c in cuts:
-        marks += [("REF%d-in"%c["ref"], c["start"]+0.06), ("REF%d-mid"%c["ref"], (c["start"]+c["end"])/2),
-                  ("REF%d-out"%c["ref"], max(c["start"], c["end"]-0.10))]
+        ref = c.get("ref", c.get("id"))
+        marks += [(f"REF{ref}-in", c["start"]+0.06), (f"REF{ref}-mid", (c["start"]+c["end"])/2),
+                  (f"REF{ref}-out", max(c["start"], c["end"]-0.10))]
     for tag,t in marks:
-        run("ffmpeg","-y","-v","error","-ss",f"{t:.3f}","-i",render,"-frames:v","1","-q:v","2",
+        # filename carries the BODY time (what the cutsheet and the instructions speak in) so a
+        # reviewer's finding maps straight back to a beat; the seek uses the shifted render time.
+        run("ffmpeg","-y","-v","error","-ss",f"{t+off:.3f}","-i",render,"-frames:v","1","-q:v","2",
             os.path.join(bd,f"{tag}_t{t:.2f}.jpg"))
-    print(f"boundary stills: {len(marks)} at full resolution")
+    print(f"boundary stills: {len(marks)} at full resolution "
+          f"(filenames are BODY time; seeks shifted by {off:.2f}s)")
 
 if __name__ == "__main__":
     main()

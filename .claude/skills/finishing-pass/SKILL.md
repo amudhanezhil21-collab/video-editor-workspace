@@ -29,6 +29,102 @@ Sparse. A handful of moments per video, not a hit on every cut. Real sample file
 - Music and SFX are **pure audio passes. Copy the video stream, never re-encode it.**
 - **Write the effects plan and the filter graph out to disk.** When a graphics tweak later re-renders the base, re-apply the exact same plan instead of re-deciding every placement.
 
+## A missing asset ABORTS. It never degrades.
+
+Two mechanical gates, both required, neither optional:
+
+```bash
+# BEFORE the assembler encodes a frame — are the assets on disk?
+scripts/assert_beat_assets.py <job-root> --pieces
+# AFTER the render — did they actually reach the picture?
+scripts/assert_beats_visible.py <job-root> --render <file>
+# LAYOUT — is any foreground edge slicing a background prop?
+scripts/assert_props_clear.py <job-root> --verbose
+# CONTENT — is any table pasted as a screenshot instead of built?
+scripts/assert_no_pasted_tables.py <job-root> --verbose
+```
+
+Both exit 1 and name the beats. Do not soften either into a warning. They catch **different**
+failures: draft 1 had the b-roll clips present on disk *and* absent from the render, so the first
+gate alone would have passed it.
+
+The assembler routes beats through an if/elif chain, and the natural way to write each branch is
+"is this the right kind of beat **and** is its asset there?":
+
+```python
+if   kind in SEGMENT and part:               ...   # rendered graphic replaces the frame
+elif bid in BROLL and exists(clip):          ...   # b-roll clip replaces the frame
+elif kind == 'transition' and exists(TRANS): ...
+else:                                        ...   # plain footage
+```
+
+That shape makes a missing file **indistinguishable from "this beat is meant to be plain footage."**
+It falls to the `else`, the piece encodes cleanly, the runtime is exactly right, the duplicate-frame
+gate passes, and the render looks finished. There is nothing to notice. On
+`flexi-cap-large-cap-disguise` draft 1 three finished AI b-roll clips shipped **completely unused** —
+21 seconds of plain talking head where the shop scene should have been. The creator found it; six
+review passes did not.
+
+Three rules, and they are separate:
+
+1. **Preflight, then encode.** Build the list of assets every beat owes, assert all of them, abort
+   with the full list. A per-branch `exists()` test cannot do this job — by the time the branch is
+   evaluated, "absent" has already been given a legal meaning.
+2. **The cutsheet names the asset, not the code.** Draft 1's beat said `{"kind": "broll"}` and
+   nothing more; the clip filename lived in a dict inside `assemble.py`. Nothing outside that file
+   could tell a clip was owed, so nothing could check it. Beats declare their own assets —
+   `{"id": "ref02", "kind": "broll", "clip": "b02-shop-crowd"}` — and the assembler reads that.
+3. **Never derive an asset path from the beat id.** The draft-1 branch tested
+   `render/ref02-broll.mp4`, a name no build ever produced, while the clip sat in `broll/` under its
+   own name. Resolve through the recorded value; a rebuilt name is a guess that fails silently.
+4. **Then prove it landed.** Compare each beat's frame against **its own asset**, not against the
+   base footage. "Does the picture match the thing it claims to show" has a 25x margin on the real
+   job — assets that landed measured 0.6-4.1, the three lost b-roll beats measured 105-110. Against
+   the base footage the same test separates far more weakly and inverts for overlays.
+
+### The head offset: two clocks, and reviewers must be handed the right one
+
+The cutsheet speaks in **body time**. The deliverable has a disclaimer card in front of the body and
+an endscreen behind it, so **the file's clock is not the cutsheet's clock** — on
+`flexi-cap-large-cap-disguise` the shift is 3.00s.
+
+Get it wrong and the review does not fail, it **lies**. Running the visibility gate at offset 0 on a
+render whose true offset is 3s flagged ref06 and ref16 as lost assets when both were perfectly fine.
+Hand those timestamps to a reviewer and it will go and *confirm* two defects that do not exist,
+describe whatever sat 3 seconds earlier as the beat's content, and miss the real faults. Nothing in
+the output looks wrong. This is worse than no review, because it produces confident findings.
+
+- **Derive it, never type it.** `render/concat.txt` lists the parts in order; the head is the sum of
+  everything before the body. Both `assert_beats_visible.py` and `prep_review.py` now do this
+  automatically and **abort** if they cannot — neither defaults to 0.
+- **Confirm it against the picture.** A manifest can be stale. One opaque beat must match its own
+  asset at the derived shift, or stop: the manifest, the cutsheet and the render disagree.
+- **Correlating pixels alone will not find it.** The natural probe is a long static beat, but the
+  stillness that makes it match reliably also makes every offset inside the hold match equally well.
+  There is no peak to lock onto. Derive from the manifest; use pixels only to verify.
+- **Name frames in body time, seek in render time.** `prep_review.py` writes `REF2-mid_t23.83.jpg`
+  (body) while seeking 26.83 (render), so a reviewer's finding maps straight back to a beat with no
+  arithmetic and no chance of a silent 3s slip.
+
+Anything the assembler knows about a beat and the cutsheet does not is the **same defect waiting to
+happen again**. Both draft-1 faults were facts trapped in `assemble.py`: which clip a b-roll beat
+uses (`BROLL = {...}`), and which 'takeover' beats are really lower-thirds (`LOWER_THIRD = {...}`).
+The second one produced a false positive in the visibility gate, because no checker could know what
+only that file knew. Beats declare themselves — `"clip": "b02-shop-crowd"`, `"composite": "overlay"`
+— and every consumer reads the cutsheet.
+
+**And the trap that hides the fix:** cached pieces are reused when they exist, so a fixed asset plus
+an old piece means **the fix appears to do nothing.** mtime-against-the-asset is not enough — the
+broken b-roll pieces were *newer* than the clips they failed to open, because the bug was in the
+routing, not the asset. Invalidate against the **assembler script's own mtime** too, or delete
+`render/pieces/` before re-running.
+
+**The general shape, worth recognising anywhere in this pipeline:** a missing thing written as a
+valid state instead of a failure. It is the same bug as the 0-row table in `build_specs.py` and the
+short music bed that died at 60s. When something is absent, ask whether the code can tell the
+difference between *absent* and *deliberately empty*. If it cannot, that is the defect — not the
+absence.
+
 ## The review loop: give it eyes
 
 Everything above gets you a workflow, not a one-shot edit. Claude cannot see video — it can only read the transcript. That is why the rough cut nails every time (pure transcript problem) and why graphics come back with small issues (it never sees the result). The fix is the **watch** skill: pull frames out one by one so any moment can be inspected on screen. Once the editor can see its own work, it works like a real editor: make a change, watch it back, spot what is off, fix it, repeat until it looks right.
@@ -38,6 +134,14 @@ The loop needs exactly two ingredients: **a goal** (finish the video) and **a wa
 **In the pipeline:** the render finishes. Sub-agents watch it back like a picky editor — visual glitches, spacing, alignment, the general feel — and hand back a list of **timestamped findings**. Fix, re-render, review again, until it passes. By final human review, the video has already been through half a dozen reviews it ran on itself.
 
 **It has to be sub-agents, not the main session,** for a boring reason: frame dumps flood the context window. Send the review out, get findings back.
+
+**But the review loop cannot catch an ABSENCE, and you must not expect it to.** A reviewer looking
+at frames sees what is there, not what should have been. Plain talking head where a b-roll shop
+scene was specified is a perfectly good frame — well exposed, on-brand, nothing to flag. Six passes
+over `flexi-cap-large-cap-disguise` draft 1 missed exactly that, three times, and the creator found
+it on first viewing. Absence is a **manifest** problem, not a perception problem: run the two gates
+above, mechanically, every render. Reviewers judge what is on screen; the gates decide whether the
+right things are on screen at all.
 
 ### Contrast is measured, not eyeballed
 

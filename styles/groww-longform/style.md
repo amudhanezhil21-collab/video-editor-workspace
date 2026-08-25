@@ -19,9 +19,12 @@ How every frame looks and behaves.
 | Brand transition | Supplied transition ONLY at the script's instruction→main marker |
 | Subscribe unit | Whenever VO says like/share/subscribe: bar + SUBSCRIBE + bell, cursor clicks BOTH |
 | Every table is shown | Every table, column, graph, news element, screenshot in the script reaches the screen |
+| Every table is BUILT | Tabular data is always rebuilt in brand tokens and animated — never the source screenshot pasted in |
+| Graphics never print the script | On-screen copy is a short English label authored for the frame — never the narration typeset, never Hinglish |
 | Every source is shown | Every reference visual carries its source line visibly beneath it |
 | Logo lock-up | Badge top-left + Groww top-right on every single frame |
 | The creator is never covered | She renders IN FRONT of every card, and cards are sized to clear her plate outright |
+| Props never straddle an edge | A floating prop is fully clear of the card (≥24px) or fully behind it — never sliced by its edge |
 | One background system | All creator-less scenes share the same grid background |
 | Brand colour only | No off-brand colour enters any frame |
 
@@ -82,6 +85,32 @@ Circles, icons and cards carry a stroke for depth (motion on the stroke preferre
 **Tables:** indigo rounded panel, white sans rows, hairline separators, values right-aligned with **fund-name column headers**, the spoken row highlighted (mint chip or dark band), fund name in serif italic above, source line below; creator kept in frame or the panel taken full screen.
 
 
+### Overlays on the FULL-FRAME creator: left, right, or below her face (creator directive 2026-08-25)
+
+The section below covers her as a small matted plate. It does **not** cover the other mode, and that
+gap shipped: on the A-roll bubble beats the logo bubbles were placed by hand-picked fractions
+(`fx: 0.30`, `0.36`, `0.64`) that never consult where she is, so they landed on her head and burst
+there. Her note: *"even after a rule being that no graphics on her face, these bubbles are coming in
+her face and bursting, it should have gone right and left or been bottom below her face."*
+
+**Acceptable zones: left of her, right of her, or below her face. Never over it.**
+
+- **Measure her, do not guess.** Keep-out comes from the footage for that beat, as the **union across
+  the whole beat** — hair swings wide, a hand comes up, and a mid-beat frame passes while the beat
+  fails.
+- **Use the alpha matte.** Skin detection is useless in this room (brick and wood are skin-toned).
+  Sharpness-vs-bokeh finds her but over-extends onto dark clothing and raised hands. BiRefNet
+  lite-matting is the reliable source; A-roll beats have no plate, so they need their own matte pass.
+- **An over-padded keep-out is its own failure** — it forces overlays off-frame or into shrinking.
+- **Never fix by shrinking the bubble, dropping it, or letting it sit over her "only briefly".** It
+  bursts where it sits.
+- **Positions live in the cutsheet, not `Root.tsx`.** A beat fact inside the composition cannot be
+  checked by anything outside it.
+
+**The tell to watch for anywhere:** a magic number carrying a comment that explains a past miss
+(`// fx 0.5 parked it over her mouth`) is not a fix — it is proof the placement is unprincipled. One
+nudge fixed one beat and left the same fault in every other beat of that kind.
+
 ### The creator is never covered (creator directive 2026-08-24)
 
 Two rules, and **both** are needed — either alone leaves it to luck.
@@ -113,6 +142,59 @@ her; check them against these bounds rather than assuming.
 **Verify by measurement, not by eye.** Find the card's ink extent and assert it ends before her
 plate begins. A glance at a mid-build frame will not show this — the card fades in over the top of
 her, so the overlap only becomes visible once it is fully opaque.
+
+### A foreground edge never lands inside a floating prop (creator directive 2026-08-25)
+
+The little chart stickers behind the card have **two** acceptable relationships with it and one that
+reads as a mistake:
+
+| | |
+|---|---|
+| Entirely clear of the card, by a real margin | fine — this is the reference look |
+| Entirely behind the card, invisible | fine — nothing to see, nothing to notice |
+| **Straddling the card's edge** | **broken** — a sliver of sticker poking out from behind a corner |
+
+Measured on `flexi-cap-large-cap-disguise` draft 1. The top-right prop occupies **x 1624–1711,
+y 156–267** once its ±3.5px/±5.5px drift and its hard down-right shadow are folded in. Card right
+edges landed at:
+
+- 1421–1447 on nine beats — 177–203px clear, correct
+- **1647 on ref11, ref14, ref18** — 23px into the prop
+- **1682 on ref06** — 58px into the prop
+- 1622 on ref03 — a 2px gap, which the drift closes; **not** clear
+- 1717–1725 on ref16/ref17 — prop fully behind the card, fine
+
+ref16 was sliced **horizontally** — the prop's top poked above the card's top edge, which a
+left/right test misses entirely. ref10 and ref12 had the card's *bottom* edge cut both dim props,
+leaving only the bar panel showing. **Eleven collisions in total, across all three props.** She
+spotted one; the rest were the same fault at lower contrast.
+
+The cause is that the prop anchors are fixed fractions of the frame while card widths vary per beat,
+so nothing was comparing the two. Test all four edges, not just the vertical ones.
+
+The two lower props render at **0.38 and 0.28 opacity** (`tokens.ts` ICONS.opacities). They are
+easy to overlook — by eye and by any checker matching raw colour — but a sliced prop is a sliced
+prop at any opacity.
+
+**Resolve each prop against the card, per beat.** Clear by **≥24px** (drift plus shadow needs more
+than 20), or fully behind, or move it to the nearest fully-clear spot inside its own region. If no
+clear spot exists there, **drop that one prop for that beat** — two carry the texture perfectly well.
+
+**And do none of these, because each trades this fault for a worse one:**
+
+- **Do not remove the props when a card is up.** Her own frames carry table *and* props together;
+  the background goes dead without them.
+- **Do not shrink them to fit.** The size is measured off her artwork. Smaller reads as noise.
+- **Do not move them in front of the card.** Decoration over data is a bigger error than a sliver.
+- **Do not animate them out as the card enters.** Popping draws more attention than the overlap,
+  and a re-entering prop replays its animation on every beat boundary.
+- **Do not push them to the frame edge.** x=1728 is the title-safe limit and the corner badge and
+  Groww lockup already own those corners — her own props stop at 88.85% of frame width.
+- **Do not park one over her plate either.** This is the same rule against any foreground edge, not
+  just a card's: a sticker half-behind her shoulder looks exactly as wrong.
+
+Gate: `assert_props_clear.py` in the `finishing-pass` skill measures every beat and names the
+straddles.
 
 ## Transitions (§9 — weighted equally with scenes)
 
@@ -161,6 +243,71 @@ tells you the width is right).
 
 **3. Every scrim dissolves in AND out** (~0.5s each way). One that snaps on, or that simply stops
 when its beat ends, reads as abrupt.
+
+### A graphic is a picture, not the script typeset (creator directive 2026-08-25)
+
+A comment asking for a **motion graphic** is a brief for a **visual**. It is never permission to put
+the script's narration on screen.
+
+**Why:** the Sharpe and Sortino explainer beats had their body text filled with the script's own
+Hinglish sentences, set as a full-width paragraph, on beats whose direction read *"full-screen
+Vox-style explainer… continuous motion across the whole beat."* Her note: *"unnecessarily the hinglish
+script from the script file is coming there, the comment was just about to create a suitable motion
+graphics in it, not to put the Hinglish script on its screen."*
+
+She is **speaking those words while they sit on screen.** The text adds nothing, doubles the reading
+load against her own voice, and crowds out the explanation the viewer needed a picture for.
+
+- **On-screen copy in a graphic is a LABEL** — the term, the number, the unit, two to four words.
+  Not a sentence. Never a paragraph.
+- **The visual carries the meaning.** For "Sharpe ratio": a risk axis against a return axis, one
+  additional unit of risk yielding an additional unit of return, the ratio forming, labelled
+  `Sharpe Ratio`. The spoken line stays in the audio.
+- **Never Hinglish on screen.** The spoken track is Hinglish; on-screen copy is short English — her
+  own lower-thirds, table headers and topic cards all are.
+- **The tell:** a text field filled by copy-paste from the script or transcript. Frame copy is
+  *authored* from the concept. If the words could be pasted out of the narration, the graphic has not
+  been designed yet.
+- **What good looks like, same video:** the ref26/ref28 lower-thirds — two short authored English
+  lines each, written for the frame.
+
+Same failure as pasting a spreadsheet screenshot instead of building the table: reaching for the
+literal source instead of doing the design work. **Source material is an input to a graphic, never
+the graphic.**
+
+### A table is BUILT, never pasted (creator directive 2026-08-25)
+
+If the script's item is **tabular data — rows and columns — it gets rebuilt** as a brand table:
+tokens, teal header (or headerless, if only one column would carry a heading), rows animating in,
+highlights driven off the transcript, source line beneath. The creator's own spreadsheet screenshot
+is the *source*, never the graphic.
+
+**Why:** draft 1 of `flexi-cap-large-cap-disguise` pasted two of them straight onto the card —
+foreign font, hard spreadsheet gridlines, pale grid cells bleeding past the data — a few beats away
+from properly built tables. She caught it at once: *"instead of table being generated, just the image
+from script was put as it is."*
+
+**The excuse to watch for.** One of the two held 18 rows, and the build reasoned that rebuilt at 31px
+a row it would be unreadable, so a screenshot was "the only way to hold all the rows." That was
+already answered by her own earlier directive, which nobody connected to it:
+
+> "use ivy presto, **let them land as two stacked halves rather than one 13 row card**"
+
+**A long table splits. It does not become a screenshot.** Two stacked halves, or two cards across
+consecutive beats — the row count is never a reason to paste.
+
+**What stays an image.** Genuinely non-tabular source material — a news headline, an app UI, a
+photograph, a real chart — is legitimate as an image, inside a designed brand card with its source
+line. Do not over-rotate into redrawing those; the rule is about *tabular data*, and a blanket ban on
+images would be the worse rule. The test is the content, not the category.
+
+**Declare it in the cutsheet**, never in a map inside the composition: `"render": "image"`,
+`"image_src": "src/foo.png"`. A fact that lives only in the composition cannot be checked by
+anything outside it.
+
+Gate: `assert_no_pasted_tables.py` measures the bitmap's rule grid — 3+ horizontal and 2+ vertical
+long rules means it is a table and must be rebuilt. Verified to clear a talking-head frame and an AI
+b-roll frame at 0 rules.
 
 ### Data tables: land COMPLETE, then highlight (creator directive 2026-08-23)
 
