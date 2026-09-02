@@ -293,3 +293,17 @@ against the 3.0 floor, not 4.5.
 ## Close-out: the style file absorbs every correction
 
 Any correction from review that should apply to every future video gets **written back into the active style file before the job is closed out.** Distinguish those from one-off notes, which are applied and forgotten. **Show the diff before it becomes standing behaviour.** Because review sub-agents read the style fresh on every pass, an absorbed correction tightens every future review with no extra wiring.
+
+## SFX cueing and the two mixer traps (absorbed 2026-09-02, standard-deviation job)
+
+- **Cue an impact so its PEAK lands on the cut frame, not so the file starts at the transition.**
+  Measure the sample's internal peak first (envelope in 50ms windows). The house leak whoosh is
+  front-loaded (all energy in 0.2s); the b-roll whoosh peaks 0.50s in. Cueing both "at the leak
+  start" spent the impact ~0.3s before every cut — four dry cuts, caught by a reviewer as
+  "exit leak has no SFX". Correct cue = cut_time − sample_peak_time (± ~0.05s).
+- **`alimiter` defaults to `level=1`, which re-normalizes the output back to 0dBFS after
+  limiting — silently defeating the ceiling.** A master set to limit=0.85 still measured
+  +0.0dBTP. Always `alimiter=limit=X:level=disabled`. Verify with loudnorm's measured
+  Input True Peak, target ≤ −1 dBTP.
+- **A `cmd | tail` pipe swallows the exit code** — a gate that ABORTs still lets the chain
+  continue. `set -o pipefail` in every chained gate invocation.

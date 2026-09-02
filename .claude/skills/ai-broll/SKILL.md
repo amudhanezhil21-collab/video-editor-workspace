@@ -143,3 +143,17 @@ Motion-graphics slots (stats, charts, kinetic type) render locally through this 
 The second job of this skill: when the graphics skill needs an icon or illustration that code cannot build, generate the image with whatever this machine has — Higgsfield, or Kie.ai (`google/nano-banana`) — and hand back a file for the graphics engine to composite. Same manifest discipline: every generated asset gets a manifest entry with its prompt, provider/model and destination beat.
 
 **Before generating anything, check `projects/*/broll/generated/` across the workspace** — icons and illustrations from earlier jobs are reusable and already keyed to the brand, and reusing one costs nothing.
+
+## Conform + payoff (absorbed 2026-09-02, standard-deviation job)
+
+- **Conform generated 24fps to a 30fps base with `minterpolate mi_mode=mci:me_mode=bidir`,
+  then verify zero dup-cadence frames** (adjacent-frame MAD < 0.1 at a fixed period = the
+  repeat pattern). Plain dup conform read as a 6Hz stutter on fast motion and was filed as a
+  MAJOR. Check three interpolated frames for warping before trusting mci.
+- **Trim to include the clip's PAYOFF, not just its first N seconds.** The coaster generation
+  held its drop in the final 15 frames; a head-anchored trim shipped 5.5s of lift-hill and the
+  metaphor never landed. Find the payoff moment first, then anchor the trim window so it falls
+  on the spoken cue. Record the offset in the cutsheet (`srcOffsetFrames`), never in the
+  assembler.
+- **Burn a small `*AI generated` tag over every generated clip at composite** — furniture, both
+  formats. (This ffmpeg build has no drawtext: bake the tag as a brand-font PNG and overlay.)

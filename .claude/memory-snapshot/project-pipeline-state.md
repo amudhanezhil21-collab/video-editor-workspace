@@ -118,3 +118,13 @@ That workflow is now the `instruction-harvest` skill.
 Absorbed from this job per [[feedback-lessons-into-skills]]: the WhisperX dropout gate, the measured
 light-leak and dust specs, caption collision solving, the Remotion/Three.js contract, Higgsfield CLI
 specifics, and the blind every-frame review harness (tools now live in the finishing-pass skill).
+
+**standard-deviation-equity-funds SHIPPED (2026-09-02).** Full pipeline in ~1.5 days incl. a
+session crash: harvest (docx cross-check confirmed anchoring), 30fps job (her cut is 30/1 —
+style's 25 is not a law of the base), 9 Remotion comps, 2 Higgsfield b-rolls, 5-slice blind QA +
+composition pass, 2 fix rounds, all gates green, −15.7 LUFS/−1.4 dBTP. Open for the creator:
+HSBC SD=benchmark row, lower-SD flexi-cap benchmark figures (mid-cap values), SD period unstated,
+'claude.mov' table-animation reference never shared. Handoff framework PDF lives in the job's
+outputs/. New standing rules landed in style.md (caption coverage-vs-voice, karaoke distribution,
+one-position-per-sentence) + finishing-pass (SFX peak-on-cut, alimiter level=disabled, pipefail)
++ ai-broll (mci conform, payoff-anchored trim, *AI tag).

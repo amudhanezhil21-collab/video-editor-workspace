@@ -275,7 +275,21 @@ The channel runs both modes: full karaoke captions (V2, V4) and zero burned capt
   4. Where nothing clears, **suppress that group** and let the on-screen evidence carry the line.
      The channel already runs caption-free beats; a caption fighting a full-frame data card is worse
      than no caption.
-  5. **Inside a REFRAME window the face is not where the static face box says it is.** A caption
+  5. **Coverage is checked against the VOICE, not against the group list (absorbed 2026-09-02).**
+     An English caption track translated from Hinglish runs out of words before the clause ends —
+     twice on the standard-deviation job (4.0s and 0.7s holes mid-speech, found by reviewers, not
+     by the solver). After solving, scan for any stretch >1.5s where VO energy is present and no
+     group is active; fill it by extending the last group's hold or authoring a chip for the
+     untranslated clause. A suppressed WINDOW (sync-slide, takeover) still needs its groups —
+     re-place them in the beat's free band (chest zone is legal) rather than dropping ~10s of captions.
+  6. **Karaoke times are DISTRIBUTED, never word-mapped, when translation inverts the order
+     (absorbed 2026-09-02).** Mapping English words onto Hinglish anchor timestamps parked the
+     amber word 4s on "carry" and then sprinted 8 words inside a 0.4s leak. If the anchor mapping
+     produces any word >1.5s or <0.08s, spread the group's words evenly across its window instead.
+  7. **One position per SENTENCE (absorbed 2026-09-02).** The ladder may relocate between
+     sentences, but a sentence that starts at the bottom finishes at the bottom — a mid-sentence
+     top/bottom jump reads as a glitch even when both positions are individually legal.
+  8. **Inside a REFRAME window the face is not where the static face box says it is.** A caption
      placed against the original box will land on her mouth. Suppress captions across any reframe,
      or re-derive the face box from the reframed geometry.
 
