@@ -61,3 +61,12 @@ Frames sampled at `beat.t_in` show entrance animations at frame 0 — blank tabl
 rows, a lower-third born as a 1px hairline. Both looked like defects and were
 not. **Sample mid-beat** (t_in + 60% of duration) when checking whether content
 is correct, and only sample frame 0 deliberately when checking an entrance.
+
+## 6. ffmpeg 9 removed `-vsync` (2026-09-02)
+
+`-vsync 0` errors out on ffmpeg 9 ("Unrecognized option") — use `-fps_mode passthrough`.
+It bit three separate scripts in one day (frame extraction, prep_review.py, the leak probe).
+Also from the same day's gates: probe FRAME-EXACT (`select='eq(n,F)'` decoding from zero) —
+a float `-ss` seek lands ±1 frame and produced phantom doubled/missing white frames; and
+measure white in the range the file actually uses (limited-range video white is Y'≈235 —
+a >240 gate can never pass, and 251-white figures from RGB analyses do not transfer).
