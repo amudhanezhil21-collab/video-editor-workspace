@@ -80,8 +80,12 @@ export const B15Outro: React.FC = () => {
           display: 'flex', alignItems: 'center', justifyContent: 'space-between',
           padding: '0 34px',
         }}>
-          <Img src={staticFile('logos/groww-capsule.png')}
-               style={{width: 250, height: 'auto', filter: 'invert(0.75)'}} />
+          {/* invert() turned the teal roundel maroon (comp review F7) — split assets:
+              roundel keeps its true colour, wordmark baked to ink for the white banner */}
+          <div style={{display: 'flex', alignItems: 'center', gap: 14}}>
+            <Img src={staticFile('logos/groww-roundel.png')} style={{width: 64, height: 'auto'}} />
+            <Img src={staticFile('logos/groww-wordmark-ink.png')} style={{width: 168, height: 'auto'}} />
+          </div>
           <div style={{
             background: clicked ? '#B8BCC2' : '#FF333F', borderRadius: 14,
             transform: `scale(${press})`,

@@ -331,10 +331,15 @@ export const VolatilityBand: React.FC<VolatilityProps> = ({
   const carryLo = avg - sdFrom;
   const carryHi = avg + sdFrom;
 
-  /* --- carry-in endpoint chips retire inside the rip ---------------------- */
+  /* --- carry-in endpoint chips retire WITH the flip ------------------------
+     The moment the SD counter starts its 6 -> 12 odometer flip (cues.sdNumber[0])
+     the carried ±6 edge chips are stale; holding them to the band rip left an
+     internally inconsistent frame ("12%" beside 4%/16% chips) for ~1.5s
+     (composition review 2026-09-02). They fade over 8 frames from the flip cue.
+     The band itself still rips later, on its own cue — that beat is the point. */
   const carryChipA = !carryIn
     ? 0
-    : interpolate(f, [cues.band, cues.band + 10], [1, 0], {
+    : interpolate(f, [cues.sdNumber[0], cues.sdNumber[0] + 8], [1, 0], {
         extrapolateLeft: 'clamp',
         extrapolateRight: 'clamp',
       });
@@ -690,7 +695,7 @@ export const VolatilityBand: React.FC<VolatilityProps> = ({
       {/* ---------- ENDPOINT CHIPS ------------------------------------------- */}
       {carryIn && carryChipA > 0.001 ? (
         <>
-          {/* they ride the band edges outward as it rips, then are gone */}
+          {/* gone by the time the flip settles; the band is bare until it rips */}
           <Chip y={yHi} value={`${carryHi}%`} colour={T.indigo} start={-1} opacity={carryChipA} />
           <Chip y={yLo} value={`${carryLo}%`} colour={carryLo < 0 ? T.coral : T.indigo} start={-1} opacity={carryChipA} />
         </>

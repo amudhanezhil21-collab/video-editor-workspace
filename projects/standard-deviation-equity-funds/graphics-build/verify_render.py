@@ -26,8 +26,9 @@ for b in CUT['beats']:
     t=b['start']+0.6*(b['end']-b['start'])
     fr=grab(RENDER,t)
     if fr is None: fails.append(f"{b['id']}: could not grab render frame"); continue
-    if b['how']=='replace':
-        af=grab(b['asset'], t-b['start'])
+    if b.get('how','replace')=='replace':
+        # srcOffsetFrames: the composite may skip the head of the asset (cutsheet-owned fact)
+        af=grab(b['asset'], t-b['start']+b.get('srcOffsetFrames',0)/30.0)
         if af is None: fails.append(f"{b['id']}: could not grab asset frame"); continue
         n=min(len(fr),len(af)); d=float(np.abs(fr[:n]-af[:n]).mean())
         ok=d<25
@@ -35,9 +36,13 @@ for b in CUT['beats']:
         if not ok: fails.append(f"{b['id']}: render does not match asset (diff {d:.1f})")
     else:
         bf=grab('graphics-build/work/base-plate.mp4',t)
-        n=min(len(fr),len(bf)); d=float(np.abs(fr[:n]-bf[:n]).mean())
-        ok=d>8
-        print(f"  {b['id']:4} overlay  diff-vs-base  {d:6.1f}  {'OK' if ok else 'ABSENT'}")
+        n=min(len(fr),len(bf)); diffmap=np.abs(fr[:n]-bf[:n])
+        d=float(diffmap.mean())
+        # a small overlay (e.g. an emphasis stamp) moves few pixels but moves them HARD:
+        # accept either a broad mark or a strong localized one
+        p99=float(np.percentile(diffmap,99.5))
+        ok=d>8 or p99>60
+        print(f"  {b['id']:4} overlay  diff-vs-base  {d:6.1f} p99.5 {p99:5.1f}  {'OK' if ok else 'ABSENT'}")
         if not ok: fails.append(f"{b['id']}: overlay left no mark (diff {d:.1f})")
 
 # Duplicate gate over A-ROLL windows only: the channel's graphics hold DEAD STATIC by design,

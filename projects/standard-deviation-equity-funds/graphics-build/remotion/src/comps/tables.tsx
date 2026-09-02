@@ -26,9 +26,12 @@ import {loadFonts} from '../fonts';
  *
  * The table itself follows style.md "Data tables: land COMPLETE, then highlight":
  * the whole table — header band, every category band, every fund row, every
- * value, every rule and the source line — is finished by frame 28 (0.933s), and
- * nothing moves after that. The mask keeps playing (it is her face); the CARD is
- * dead static for the rest of the beat.
+ * value, every rule and the source line — is finished by frame 28 (0.933s). The
+ * hold then carries style.md's held-table exception ("sequential VO-synced cell
+ * highlights, one instrument at a time"): a slow walk down the five category
+ * bands, each band's tint deepening briefly (0.11 -> 0.22 of the SAME indigo),
+ * one group at a time, never two at once, geometry untouched. The mask keeps
+ * playing (it is her face); the tint walk is the only thing moving on the card.
  *
  * Data is transcribed VERBATIM from assets/fund-data.json, in the document's own
  * row order, including the four recorded data flags (HSBC Small Cap's SD equal to
@@ -168,6 +171,9 @@ const TAIL_START = 20;        // source line last (style.md: "footnote last")
 /** Frame at which the table is COMPLETE. 28 frames = 0.933s. */
 export const BUILD_END = 28;
 
+// --- the held-table walk ---------------------------------------------------
+const WALK_EASE = 9;          // 0.3s at 30fps — each tint step eases in/out, no bounce
+
 const fmt = (n: number) => n.toFixed(2);
 
 /* ---------------------------------------------------------------------------
@@ -257,8 +263,8 @@ const CreatorMask: React.FC<{clip: string}> = ({clip}) => (
 const TableCard: React.FC<{
   title: string;
   groups: FundGroup[];
-  highlight: [number, number] | null;
-}> = ({title, groups, highlight}) => {
+  walk: [number, number] | null;
+}> = ({title, groups, walk}) => {
   const f = useCurrentFrame();
 
   const cardIn = interpolate(f, [0, CARD_IN_END - 2], [0, 1],
@@ -280,17 +286,26 @@ const TableCard: React.FC<{
   const tail = interpolate(f, [TAIL_START, BUILD_END], [0, 1],
     {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
 
-  // Optional: sequential VO-synced sweep down the STD DEVIATION column, one cell at a
-  // time (style.md's named exception to one-highlight-per-graphic, for HELD tables).
-  // OFF by default — neither B7 nor B8 speaks a figure to sync to, so the beat is a
-  // clean entrance + dead-static hold. $amber is brand.md's highlighter.
-  const sweep = (i: number) => {
-    if (!highlight) return 0;
-    const [hs, he] = highlight;
-    const per = (he - hs) / 10;
-    const s = hs + i * per;
-    return interpolate(f, [s, s + per * 0.82], [0, 1],
-      {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: Easing.out(Easing.quad)});
+  // The held-table highlight pass (style.md's named exception to one-highlight-
+  // per-graphic): a slow tinted-band walk down the five category groups, in table
+  // order. Each band's tint deepens 0.11 -> 0.22 (the SAME $indigo, ~2x alpha)
+  // and settles back before the next band starts — one group at a time, never
+  // two at once, eased WALK_EASE frames each way, no bounce. The neat contiguity
+  // matters for verification: group g's release completes on frame e-1 and group
+  // g+1's rise starts on frame e, so a consecutive-frame diff never shows two
+  // bands changing together. Neither table speaks a per-figure VO cue, so the
+  // walk paces the groups evenly across the hold instead of pinning to words.
+  const bandEmph = (g: number) => {
+    if (!walk) return 0;
+    const [ws, we] = walk;
+    const per = (we - ws) / N_GROUPS;
+    const s = ws + g * per;
+    const e = s + per;
+    const up = interpolate(f, [s, s + WALK_EASE], [0, 1],
+      {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: Easing.inOut(Easing.quad)});
+    const down = interpolate(f, [e - WALK_EASE - 1, e - 1], [1, 0],
+      {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: Easing.inOut(Easing.quad)});
+    return Math.min(up, down);
   };
 
   return (
@@ -334,8 +349,10 @@ const TableCard: React.FC<{
           const bandBase = gT + BAND_H / 2 + 21 * 0.36;
           return (
             <g key={grp.cat} transform={`translate(${dx} 0)`} opacity={a}>
-              {/* tinted band — hierarchy comes from the tint, NEVER a heavier rule */}
-              <rect x={IX0} y={gT} width={INNER} height={BAND_H} fill={T.indigo} opacity={0.11} />
+              {/* tinted band — hierarchy comes from the tint, NEVER a heavier rule.
+                  The walk deepens THIS rect's alpha only; nothing else moves. */}
+              <rect x={IX0} y={gT} width={INNER} height={BAND_H} fill={T.indigo}
+                    opacity={0.11 + 0.11 * bandEmph(g)} />
               <text x={IX0 + CELL_PAD} y={bandBase} fontFamily="InterTight" fontWeight={800}
                     fontSize={21} letterSpacing="0.07em" fill={T.ink}>{grp.cat.toUpperCase()}</text>
               <text x={BM_LABEL_X} y={bandBase} fontFamily="InterTight" fontWeight={600} fontSize={16}
@@ -353,13 +370,8 @@ const TableCard: React.FC<{
               {grp.funds.map(([name, sd], r) => {
                 const rowTop = gT + BAND_H + RULE + r * (ROW_H + RULE);
                 const base = rowTop + ROW_H / 2 + 25 * 0.36;
-                const sw = sweep(g * 2 + r);
                 return (
                   <g key={name}>
-                    {sw > 0 ? (
-                      <rect x={SD_X0 + 10} y={base - 26} width={(SD_W - 26) * sw} height={34}
-                            fill={T.amber} opacity={0.95} />
-                    ) : null}
                     <text x={IX0 + CELL_PAD} y={base} fontFamily="InterTight" fontWeight={600}
                           fontSize={25} fill={T.ink}>{name}</text>
                     <text x={SD_RIGHT} y={base} textAnchor="end" fontFamily="InterTight"
@@ -396,31 +408,32 @@ const TableCard: React.FC<{
  * THE TWO COMPOSITIONS
  * ------------------------------------------------------------------------- */
 export type TableProps = {
-  /** optional sequential $amber sweep down the STD DEVIATION column, [startFrame, endFrame]
-   *  relative to the beat. null = no highlight; the card holds dead static after BUILD_END. */
-  highlightFrames?: [number, number] | null;
+  /** window of the held-table band walk, [startFrame, endFrame] relative to the
+   *  beat: five equal steps, one category band at a time, in table order.
+   *  null = no walk (the card holds dead static after BUILD_END). */
+  walkFrames?: [number, number] | null;
 };
 
-export const B7Table: React.FC<TableProps> = ({highlightFrames = null}) => {
+export const B7Table: React.FC<TableProps> = ({walkFrames = B7_WALK}) => {
   loadFonts();
   return (
     <AbsoluteFill style={{backgroundColor: G.mid}}>
       <GradientGround />
       <CreatorMask clip="mask/b7-mask.mp4" />
       <TableCard title="HIGHER THAN BENCHMARK & CATEGORY" groups={HIGHER_GROUPS}
-                 highlight={highlightFrames} />
+                 walk={walkFrames} />
     </AbsoluteFill>
   );
 };
 
-export const B8Table: React.FC<TableProps> = ({highlightFrames = null}) => {
+export const B8Table: React.FC<TableProps> = ({walkFrames = B8_WALK}) => {
   loadFonts();
   return (
     <AbsoluteFill style={{backgroundColor: G.mid}}>
       <GradientGround />
       <CreatorMask clip="mask/b8-mask.mp4" />
       <TableCard title="LOWER THAN BENCHMARK & CATEGORY" groups={LOWER_GROUPS}
-                 highlight={highlightFrames} />
+                 walk={walkFrames} />
     </AbsoluteFill>
   );
 };
@@ -429,6 +442,13 @@ export const B8Table: React.FC<TableProps> = ({highlightFrames = null}) => {
 export const B7_WINDOW = {start: 56.57, end: 62.29} as const;   // 1697 -> 1869, 172 frames
 export const B8_WINDOW = {start: 62.31, end: 68.5} as const;    // 1869 -> 2055, 186 frames
 const F = (s: number) => Math.round(s * FRAME.fps);
+
+/* Walk pacing: the build settles at f28, the walk starts at f35, and the last
+ * band has fully released 15 frames before the comp's final frame. Five equal
+ * steps in between (composition review 2026-09-02: "21 numbers, 11.9s, no eye
+ * guidance" — the hold now guides, the entrance still lands complete). */
+export const B7_WALK: [number, number] = [35, F(B7_WINDOW.end) - F(B7_WINDOW.start) - 15]; // [35, 157]
+export const B8_WALK: [number, number] = [35, F(B8_WINDOW.end) - F(B8_WINDOW.start) - 15]; // [35, 171]
 
 /** Drop <TableCompositions /> into RemotionRoot — Root.tsx is not touched by this file. */
 export const TableCompositions: React.FC = () => (
@@ -440,7 +460,7 @@ export const TableCompositions: React.FC = () => (
       fps={FRAME.fps}
       width={FRAME.w}
       height={FRAME.h}
-      defaultProps={{highlightFrames: null} as TableProps}
+      defaultProps={{walkFrames: B7_WALK} as TableProps}
     />
     <Composition
       id="b8-table-lower"
@@ -449,7 +469,7 @@ export const TableCompositions: React.FC = () => (
       fps={FRAME.fps}
       width={FRAME.w}
       height={FRAME.h}
-      defaultProps={{highlightFrames: null} as TableProps}
+      defaultProps={{walkFrames: B8_WALK} as TableProps}
     />
   </>
 );

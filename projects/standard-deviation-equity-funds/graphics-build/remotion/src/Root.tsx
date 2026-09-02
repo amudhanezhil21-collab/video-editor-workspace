@@ -7,7 +7,7 @@ import {Leak30, LEAK30_FRAMES} from './comps/leak30';
 import {Captions} from './comps/captions';
 import {B3Volatility, B4Volatility} from './comps/volatility';
 import {TableCompositions} from './comps/tables';
-import {B10QuestionWidget, B11RiskTolerance, B13Ratios, B14SharpeSortino} from './comps/support';
+import {B8bStamp, B10QuestionWidget, B11RiskTolerance, B13Ratios, B14SharpeSortino} from './comps/support';
 
 /**
  * standard-deviation-equity-funds — composition registry.
@@ -23,7 +23,7 @@ const TOTAL = 4311;
 const KNOCK: [number, number][] = [
   [F(17.95), F(40.49)],
   [F(56.57), F(68.50)],
-  [F(102.64), F(111.83)],
+  [F(102.64), F(112.57)],
   [F(126.04), F(134.24)],
 ];
 
@@ -36,10 +36,12 @@ export const RemotionRoot: React.FC = () => (
     <TableCompositions />
     <Composition id="b10-question" component={B10QuestionWidget} durationInFrames={168}
       fps={FRAME.fps} width={FRAME.w} height={FRAME.h} defaultProps={{totalFrames: 168}} />
-    <Composition id="b11-risk-tolerance" component={B11RiskTolerance} durationInFrames={276}
-      fps={FRAME.fps} width={FRAME.w} height={FRAME.h} defaultProps={{totalFrames: 276}} />
+    <Composition id="b11-risk-tolerance" component={B11RiskTolerance} durationInFrames={298}
+      fps={FRAME.fps} width={FRAME.w} height={FRAME.h} defaultProps={{totalFrames: 298}} />
     {/* B13 runs 273f (not the delivered 264) so its baked exit completes under the leak
         whose peak sits at abs f3781 — a 264f render fades out in the open. */}
+    <Composition id="b8b-stamp" component={B8bStamp} durationInFrames={240}
+      fps={FRAME.fps} width={FRAME.w} height={FRAME.h} defaultProps={{totalFrames: 240}} />
     <Composition id="b13-ratios" component={B13Ratios} durationInFrames={273}
       fps={FRAME.fps} width={FRAME.w} height={FRAME.h} defaultProps={{totalFrames: 273}} />
     <Composition id="b14-sharpe-sortino" component={B14SharpeSortino} durationInFrames={246}

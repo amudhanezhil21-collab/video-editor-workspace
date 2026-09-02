@@ -42,6 +42,7 @@ SEGMENTS = {
     'B14': 'graphics-build/out/b14-sharpe-sortino.mov',
 }
 OVERLAYS = {
+    'B8s': 'graphics-build/out/b8b-stamp.mov',
     'B10': 'graphics-build/out/b10-question.mov',
     'B13': 'graphics-build/out/b13-ratios.mov',
 }
@@ -94,7 +95,7 @@ CHROME = {  # derived from measured shadow-asset padding (mark position from Chr
     'capsule': {'file': f'{LOGOS}/groww-capsule-shadow.png',      'w': 243, 'x': 794, 'y': 50},
 }
 # chrome knockback windows (frames) — light data-card layouts
-KNOCK = [(F(17.95), F(40.52)), (F(56.57), F(68.50)), (F(102.64), F(111.83)), (F(126.04), F(134.91))]
+KNOCK = [(F(17.95), F(40.52)), (F(56.57), F(68.50)), (F(102.64), F(112.57)), (F(126.04), F(134.91))]
 
 def knock_expr():
     return '+'.join(f'between(n\\,{a}\\,{b-1})' for a, b in KNOCK)
@@ -105,9 +106,9 @@ def emit(out='graphics-build/work/draft1.mp4', with_captions=None):
     segwin = {
         'B2':  (F(10.62), F(17.95)), 'B3': (F(17.95), F(29.77)), 'B4': (F(29.77), F(40.52)),
         'B5':  (F(40.52), F(45.98)), 'B7': (F(56.57), F(62.31)), 'B8': (F(62.31), F(68.50)),
-        'B11': (F(102.64), F(111.83)), 'B14': (F(126.04), F(134.91)),
+        'B11': (F(102.64), F(112.57)), 'B14': (F(126.04), F(134.91)),
     }
-    ovwin = {'B10': (F(97.00), F(102.64)), 'B13': (F(116.93), F(126.04))}
+    ovwin = {'B8s': (F(76.50), F(84.47)), 'B10': (F(97.00), F(102.64)), 'B13': (F(116.93), F(126.04))}
     inputs = ['-i', 'graphics-build/work/base-plate.mp4']
     flt, idx = [], 1
     cur = '[0:v]'
@@ -117,11 +118,14 @@ def emit(out='graphics-build/work/draft1.mp4', with_captions=None):
         cur_out = out
         return cur_out
     # --- segments + overlays (tpad clone so every layer holds its last frame) ---
-    for bid in ['B2', 'B3', 'B4', 'B5', 'B7', 'B8', 'B11', 'B14', 'B10', 'B13']:
+    SRC_OFFSET = {b['id']: b.get('srcOffsetFrames', 0) for b in CUT['beats']}  # cutsheet-owned
+    for bid in ['B2', 'B3', 'B4', 'B5', 'B7', 'B8', 'B11', 'B14', 'B8s', 'B10', 'B13']:
         path = SEGMENTS.get(bid) or OVERLAYS[bid]
         a, b = (segwin | ovwin)[bid]
         inputs += ['-i', path]
-        flt.append(f'[{idx}:v]tpad=stop_mode=clone:stop=-1,setpts=PTS-STARTPTS+{a}/{FPS}/TB[s{bid}]')
+        skip=SRC_OFFSET.get(bid,0)
+        pre=f"trim=start_frame={skip}," if skip else ""
+        flt.append(f'[{idx}:v]{pre}tpad=stop_mode=clone:stop=-1,setpts=PTS-STARTPTS+{a}/{FPS}/TB[s{bid}]')
         o = nxt(bid)
         flt.append(f'{cur}[s{bid}]overlay=eof_action=pass:enable=between(n\\,{a}\\,{b-1}){o}')
         cur = o; idx += 1
@@ -159,6 +163,23 @@ def emit(out='graphics-build/work/draft1.mp4', with_captions=None):
     flt.append(f'[{idx}:v]scale=1080:1920,setpts=PTS-STARTPTS[th]')
     o = nxt('th')
     flt.append(f'{cur}[th]overlay=eof_action=pass:enable=lt(n\\,2){o}')
+    cur = o; idx += 1
+    # "*AI generated" tag over both AI b-roll windows (style: standing furniture on generated
+    # footage; comp review F6). Baked PNG + overlay — this ffmpeg build has no drawtext.
+    inputs += ['-loop', '1', '-t', str(4311/FPS), '-i', 'graphics-build/work/ai-tag.png']
+    flt.append(f'[{idx}:v]setpts=PTS-STARTPTS,split[tg2][tg5]')
+    for k,(a,b) in {'t2': (F(10.62), F(17.93)), 't5': (F(40.52), F(45.98))}.items():
+        o = nxt(f'ai{k}')
+        flt.append(f"{cur}[tg{k[1]}]overlay=64:1630:eof_action=pass:enable=between(n\\,{a}\\,{b-1}){o}")
+        cur = o
+    idx += 1
+    # thumbnail end stinger: the cutsheet's "end cold on thumbnail" (V2/V4 grammar) — final 2 frames
+    inputs += ['-loop', '1', '-t', '0.2', '-i', THUMB]
+    # clone-pad to the end: a 0.2s looped image has no frames at t=143.6, so the overlay
+    # would pass base through and the stinger silently never appears
+    flt.append(f'[{idx}:v]scale=1080:1920,setpts=PTS-STARTPTS,tpad=stop_mode=clone:stop=-1[the]')
+    o = nxt('the')
+    flt.append(f'{cur}[the]overlay=eof_action=pass:enable=gt(n\,4308){o}')
     cur = o; idx += 1
     if with_captions:
         inputs += ['-i', with_captions]

@@ -12,7 +12,7 @@ import {PeriwinkleGround, SparkleStar} from '../components/PeriwinkleGround';
 import {loadFonts} from '../fonts';
 
 /* ===========================================================================================
- * support.tsx — B10 / B11 / B13 / B14 for standard-deviation-equity-funds.
+ * support.tsx — B8b / B10 / B11 / B13 / B14 for standard-deviation-equity-funds.
  *
  * Everything here is a pure function of useCurrentFrame(). No Math.random, no Date, no timers,
  * no <Sequence> remounts (a beat boundary is not a cut — see the Remotion remount lesson).
@@ -179,6 +179,156 @@ export const EdgeScrim: React.FC<{
 };
 
 /* ===========================================================================================
+ * B8b — SINGLE EMPHASIS-WORD STAMP  "≠ BAD FUND"  (window 76.50-84.47s -> 240 frames,
+ * base frame 2295 start)   SHE IS ON SCREEN, unzoomed (base plate p2), FACE_BOX applies.
+ *
+ * The dead middle: "Higher standard deviation ka matlab ye nahi hai ki fund kharab hai."
+ * Transcript: "fund" 78.983-79.303, "खराब" 79.383-79.664, "है." 79.704-80.324. The stamp
+ * punches at comp f90 (= base f2385 = 79.50s), ON "खराब".
+ *
+ * style.md "Single emphasis-word stamps" (sheet R4/R5, absorbed 2026-08-10): all-caps heavy
+ * data sans ~76px Inter Tight ExtraBold + small lightning-bolt glyph, a ~3-frame $accent-mint
+ * outline flash then solid white, on a dim radial scrim, one at a time, upper third, ~1s+ hold.
+ *   - "$accent-mint" maps to T.accent (#00D09C, brand.md `accent`) — its one loud use this scene.
+ *   - The ≠ glyph IS in InterTight-ExtraBold's cmap (U+2260, checked with fontTools), so the
+ *     label is the authored "≠ BAD FUND", not a spelled-out sentence.
+ *   - The bolt is DRAWN (SVG): U+26A1 is NOT in Inter Tight and an emoji would fall back to a
+ *     system font, which is banned.
+ *
+ * Geometry: FACE_BOX x139-953 / y560-1401 -> the stamp owns the free band above her head.
+ * EVERYTHING here, the scrim included, lives inside y204-540 (band y200-560 minus margin).
+ * The radial scrim is an ellipse with a cosine falloff to TRUE zero at its own edge, and it
+ * dissolves IN and OUT (~0.5s each way) around the stamp's life.
+ *
+ * Deliver TRANSPARENT: --codec=prores --prores-profile=4444 --pixel-format=yuva444p10le
+ * =========================================================================================== */
+
+const B8B = {
+  punch: 90, // "खराब" @79.50s -> local frame 90
+  flashFrames: 3, // mint outline flash, then solid white
+  settleFrames: 6, // scale 1.26 -> 1 slam-settle
+  holdEnd: 138, // punch + 48f = 1.6s hold
+  exitFrames: 8, // designed exit: fade + rise
+  scrimFade: 15, // scrim dissolves in AND out over 0.5s, to TRUE zero
+  cy: 372, // lockup centre — upper third, centred
+  scrim: {cx: 540, cy: 372, rx: 460, ry: 168, peak: 0.42}, // y204-540, clear of FACE_BOX
+  fontSize: 76,
+};
+
+/** Cosine-falloff radial scrim: peak at centre, TRUE zero (value AND derivative) at the edge. */
+const b8bScrimStops = (() => {
+  const stops: string[] = [];
+  for (let i = 0; i <= 32; i++) {
+    const u = i / 32;
+    const a = B8B.scrim.peak * (0.5 + 0.5 * Math.cos(Math.PI * u));
+    stops.push(`rgba(0,0,0,${a.toFixed(5)}) ${(u * 100).toFixed(2)}%`);
+  }
+  return stops.join(', ');
+})();
+
+/** Small lightning-bolt glyph, drawn — 44x60, filled to match the stamp's flash/solid state. */
+const B8bBolt: React.FC<{flash: boolean}> = ({flash}) => (
+  <svg
+    width={44}
+    height={60}
+    viewBox="0 0 44 60"
+    style={{display: 'block', filter: 'drop-shadow(0 5px 10px rgba(0,0,0,0.55))'}}
+  >
+    <path
+      d="M 25 1 L 4 34 L 16.5 34 L 10 59 L 40 21 L 25.5 21 L 34 1 Z"
+      fill={flash ? 'none' : T.white}
+      stroke={flash ? T.accent : 'none'}
+      strokeWidth={flash ? 3 : 0}
+      strokeLinejoin="round"
+    />
+  </svg>
+);
+
+export const B8bStamp: React.FC<{
+  totalFrames?: number;
+  punchFrame?: number;
+}> = ({totalFrames = 240, punchFrame = B8B.punch}) => {
+  loadFonts();
+  const f = useCurrentFrame();
+
+  const exitStart = B8B.holdEnd;
+  const scrimIn = punchFrame - B8B.scrimFade; // 75: alpha is exactly 0 at and before this frame
+  const scrimOutEnd = exitStart + B8B.scrimFade; // 153: alpha is exactly 0 from here on
+
+  // scrim: dissolve in ahead of the punch, out behind the exit — reaches true zero both ways.
+  const scrimP = Math.min(
+    lin(f, scrimIn, punchFrame),
+    interpolate(f, [exitStart, scrimOutEnd], [1, 0], {
+      extrapolateLeft: 'clamp',
+      extrapolateRight: 'clamp',
+    })
+  );
+
+  // the stamp itself: instant presence on the punch frame (a stamp slams, it never fades in),
+  // scale settling 1.26 -> 1 with motion blur, mint OUTLINE for the first 3 frames, then solid.
+  const on = f >= punchFrame;
+  const flash = on && f < punchFrame + B8B.flashFrames;
+  const pSettle = ease(f, punchFrame, punchFrame + B8B.settleFrames);
+  const pOut = ease(f, exitStart, exitStart + B8B.exitFrames);
+  const stampOpacity = on ? 1 - pOut : 0;
+
+  if (scrimP <= 0 && stampOpacity <= 0) return <AbsoluteFill />; // hard zero outside the life
+
+  return (
+    <AbsoluteFill>
+      {/* dim radial scrim — bounded to y204-540, cosine to true zero at its own ellipse edge */}
+      <div
+        style={{
+          position: 'absolute',
+          left: B8B.scrim.cx - B8B.scrim.rx,
+          top: B8B.scrim.cy - B8B.scrim.ry,
+          width: B8B.scrim.rx * 2,
+          height: B8B.scrim.ry * 2,
+          background: `radial-gradient(50% 50% at 50% 50%, ${b8bScrimStops})`,
+          opacity: scrimP,
+        }}
+      />
+
+      {/* the stamp: bolt + ≠ BAD FUND */}
+      <div
+        style={{
+          position: 'absolute',
+          left: 0,
+          top: B8B.cy - 46,
+          width: W,
+          height: 92,
+          display: 'flex',
+          flexDirection: 'row',
+          alignItems: 'center',
+          justifyContent: 'center',
+          gap: 20,
+          opacity: stampOpacity,
+          transform: `scale(${(1.26 - 0.26 * pSettle).toFixed(4)}) translateY(${(-30 * pOut).toFixed(2)}px)`,
+          filter: `${entryBlur(pSettle, 10)} blur(${(pOut * 5).toFixed(2)}px)`,
+        }}
+      >
+        <B8bBolt flash={flash} />
+        <span
+          style={{
+            fontFamily: SANS,
+            fontWeight: 800,
+            fontSize: B8B.fontSize,
+            lineHeight: `${B8B.fontSize}px`,
+            letterSpacing: '0.005em',
+            whiteSpace: 'nowrap',
+            color: flash ? 'rgba(255,255,255,0)' : T.white,
+            WebkitTextStroke: flash ? `3.5px ${T.accent}` : '0px rgba(0,0,0,0)',
+            textShadow: '0 5px 16px rgba(0,0,0,0.62), 0 2px 4px rgba(0,0,0,0.45)',
+          }}
+        >
+          ≠ BAD FUND
+        </span>
+      </div>
+    </AbsoluteFill>
+  );
+};
+
+/* ===========================================================================================
  * B10 — QUESTION-MARK WIDGET  (window 97.00-102.60s -> 168 frames)   SHE IS ON SCREEN.
  *
  * Creator, verbatim: "A question mark widget at the bottom frame with gradient behind."
@@ -322,7 +472,15 @@ export const B10QuestionWidget: React.FC<{
 };
 
 /* ===========================================================================================
- * B11 — SYNCHRONIZED SLIDE + "RISK TOLERANCE"  (window 102.64-111.83s -> 276 frames)
+ * B11 — SYNCHRONIZED SLIDE + "RISK TOLERANCE"  (window 102.64-112.567s -> 298 frames,
+ * base frames 3079-3376 inclusive)
+ *
+ * THE EXIT IS THE CUT. The beat's speech ends at 111.83 and she is silent until the next word
+ * at 112.57 (base frame 3377), which is also the B12 rapid-zoom punch. A 276f comp ended the
+ * layout mid-pause: her continuous take snapped ~65%->full scale in one uncovered frame — a
+ * glitch, not a cut. So the comp runs to base 3376 and the layout HOLDS FULL STRENGTH to its
+ * last frame; the assembler's hard cut to B12's zoom lands exactly ON the spoken word. There
+ * is deliberately NO exit animation here — do not add one.
  *
  * Creator spec doc 15KN64, verbatim:
  *   "As the creator frame video scales and slides down to the bottom half of the frame, the top
@@ -470,7 +628,7 @@ export const B11RiskTolerance: React.FC<{
   highlightFrame?: number;
   plate?: string;
 }> = ({
-  totalFrames = 276,
+  totalFrames = 298,
   slideStart = B11.slideStart,
   slideFrames = B11.slideFrames,
   textFrames = [B11.text1, B11.text2],

@@ -20,7 +20,7 @@ type G = {text: string; words: string[]; wordTimes: [number, number][];
 export const Captions: React.FC = () => {
   const f = useCurrentFrame();
   const t = f / FRAME.fps;
-  const groups = (solved as {groups: G[]}).groups;
+  const groups = (solved as unknown as {groups: G[]}).groups;
   const active = groups.filter((g) => t >= g.start && t < g.end);
   return (
     <AbsoluteFill style={{pointerEvents: 'none', fontFamily: 'InterTight'}}>

@@ -482,7 +482,9 @@
    ],
    "start": 36.03,
    "end": 38.29,
-   "y": 1500
+   "y": 1500,
+   "seg": -1,
+   "isInterjection": false
   },
   {
    "text": "returns could swing from -2%",
@@ -798,90 +800,73 @@
    ],
    "wordTimes": [
     [
-     62.311,
-     63.132
+     62.31,
+     62.928
     ],
     [
-     63.132,
-     63.712
+     62.928,
+     63.546
     ],
     [
-     63.712,
-     63.952
+     63.546,
+     64.164
     ],
     [
-     63.952,
-     68.056
+     64.164,
+     64.782
     ],
     [
-     68.056,
-     68.376
+     64.782,
+     65.4
     ]
    ],
-   "start": 62.311,
-   "end": 68.376,
-   "seg": 11,
-   "isInterjection": false,
-   "y": 1500
+   "start": 62.31,
+   "end": 65.4,
+   "y": 1500,
+   "seg": -1,
+   "isInterjection": false
   },
   {
-   "text": "standard deviation than their benchmark",
+   "text": "standard deviation than benchmark and category.",
    "words": [
     "standard",
     "deviation",
     "than",
-    "their",
-    "benchmark"
-   ],
-   "wordTimes": [
-    [
-     68.376,
-     68.393
-    ],
-    [
-     68.393,
-     68.41
-    ],
-    [
-     68.41,
-     68.427
-    ],
-    [
-     68.427,
-     68.445
-    ],
-    [
-     68.445,
-     68.462
-    ]
-   ],
-   "start": 68.376,
-   "end": 68.462,
-   "seg": 11,
-   "isInterjection": false,
-   "y": 1500
-  },
-  {
-   "text": "and category.",
-   "words": [
+    "benchmark",
     "and",
     "category."
    ],
    "wordTimes": [
     [
-     68.462,
-     68.479
+     65.4,
+     65.91
     ],
     [
-     68.479,
-     68.496
+     65.91,
+     66.42
+    ],
+    [
+     66.42,
+     66.93
+    ],
+    [
+     66.93,
+     67.44
+    ],
+    [
+     67.44,
+     67.95
+    ],
+    [
+     67.95,
+     68.46
     ]
    ],
-   "start": 68.462,
-   "end": 68.496,
-   "seg": 11,
-   "isInterjection": false,
-   "y": 1500
+   "start": 65.4,
+   "end": 68.46,
+   "y": 1500,
+   "seg": -1,
+   "isInterjection": false
   },
   {
    "text": "So what if your equity",
@@ -1118,6 +1103,38 @@
    "y": 320
   },
   {
+   "text": "And keep in mind,",
+   "words": [
+    "And",
+    "keep",
+    "in",
+    "mind,"
+   ],
+   "wordTimes": [
+    [
+     84.47,
+     84.94
+    ],
+    [
+     84.94,
+     85.41
+    ],
+    [
+     85.41,
+     85.88
+    ],
+    [
+     85.88,
+     86.35
+    ]
+   ],
+   "start": 84.47,
+   "end": 86.35,
+   "y": 1500,
+   "seg": -1,
+   "isInterjection": false
+  },
+  {
    "text": "Funds that move up sharply",
    "words": [
     "Funds",
@@ -1152,7 +1169,7 @@
    "end": 88.753,
    "seg": 15,
    "isInterjection": false,
-   "y": 320
+   "y": 1500
   },
   {
    "text": "could also face higher downside risk.",
@@ -1268,7 +1285,7 @@
    "end": 96.095,
    "seg": 16,
    "isInterjection": false,
-   "y": 320
+   "y": 1500
   },
   {
    "text": "Now, should one avoid funds",

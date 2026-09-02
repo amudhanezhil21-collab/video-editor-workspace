@@ -134,10 +134,11 @@
    "kind": "ai-broll",
    "instruction": "Use AI B roll with Higgsfield",
    "label": "REF8",
-   "note": "roller coaster metaphor; NO captions",
+   "note": "roller coaster metaphor; NO captions | first 15 clip frames skipped so the DROP lands under 'roller coaster' (comp review F3)",
    "broll": "roller-coaster",
    "asset": "broll/conformed/B5-roller-coaster-30fps.mp4",
-   "how": "replace"
+   "how": "replace",
+   "srcOffsetFrames": 15
   },
   {
    "id": "B6",
@@ -200,7 +201,21 @@
    "kind": "aroll",
    "instruction": "(uninstructed)",
    "label": "-",
-   "note": "no comment anchored; plain A-roll"
+   "note": "no comment anchored; plain A-roll | stamp overlay lives in its own beat B8s"
+  },
+  {
+   "id": "B8s",
+   "start": 76.5,
+   "end": 84.47,
+   "segments": [
+    13
+   ],
+   "kind": "stamp-overlay",
+   "how": "overlay",
+   "asset": "graphics-build/out/b8b-stamp.mov",
+   "instruction": "(comp review F5)",
+   "label": "-",
+   "note": "one emphasis stamp '≠ BAD FUND' at 79.5s over the uninstructed talking stretch"
   },
   {
    "id": "B9",
@@ -233,7 +248,7 @@
   {
    "id": "B11",
    "start": 102.64,
-   "end": 111.83,
+   "end": 112.57,
    "segments": [
     19,
     20
@@ -241,7 +256,7 @@
    "kind": "sync-slide",
    "instruction": "Synchronized Movement + Blend + Text 'Risk Tolerance' (doc 15KN64, verbatim in assets/instruction-spec.md)",
    "label": "REF14",
-   "note": "Spec doc 15KN64 (confirmed): synchronized two-layer slide - her frame scales+slides to bottom half, top graphic panel (off-white, subtle grid, coral line graph, rupee symbols) slides down IN SYNC, feathered seam ~y670, then 'Risk Tolerance' pops in indigo boxes. Full-frame segment.",
+   "note": "Spec doc 15KN64 (confirmed): synchronized two-layer slide - her frame scales+slides to bottom half, top graphic panel (off-white, subtle grid, coral line graph, rupee symbols) slides down IN SYNC, feathered seam ~y670, then 'Risk Tolerance' pops in indigo boxes. Full-frame segment. | extended to 112.57 so the layout's exit cut lands ON the next word + zoom punch (comp review blocker F1)",
    "asset": "graphics-build/out/b11-risk-tolerance.mov",
    "how": "replace"
   },
