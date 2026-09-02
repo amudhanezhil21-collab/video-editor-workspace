@@ -36,3 +36,9 @@ projects/*/graphics-build/remotion/public/assets/disclaimer-*.png
 # symlinks that point into it). They were vendored so a fresh clone has a complete
 # skills/ directory with no reinstall step and no broken symlinks. Refresh them with
 # `npx skills add higgsfield-ai/skills` and commit the diff like any other change.
+
+# Rendered PRODUCTS stay out of git entirely: GitHub hard-rejects >100MB blobs (no LFS here),
+# several beat renders exceed that, and every one regenerates from tracked source
+# (remotion comps + assemble.py). Sources are the progress; renders are artifacts.
+projects/*/graphics-build/out/
+projects/*/graphics-build/work/

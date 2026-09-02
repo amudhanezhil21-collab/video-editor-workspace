@@ -1,0 +1,37 @@
+{
+  "source": "Value Research",
+  "asOn": "August 25, 2026",
+  "planNote": "Direct Growth",
+  "origin": "Transcribed from 10 spreadsheet SCREENSHOTS embedded in the script doc (Tab 3). Screenshots must be REBUILT as brand tables, never pasted.",
+  "columns": ["FUND NAME", "STD DEVIATION (%)", "BENCHMARK", "CATEGORY"],
+  "higherThanBenchmarkAndCategory": [
+    {"cat": "Small Cap",  "fund": "HSBC Small Cap",              "sd": 21.75, "benchmark": 21.75, "category": 20.28},
+    {"cat": "Small Cap",  "fund": "Bank of India Small Cap",     "sd": 21.79, "benchmark": 21.75, "category": 20.28},
+    {"cat": "Mid Cap",    "fund": "Motilal Oswal Mid Cap Fund",  "sd": 20.48, "benchmark": 17.88, "category": 17.76},
+    {"cat": "Mid Cap",    "fund": "JM Mid Cap Fund",             "sd": 18.97, "benchmark": 17.88, "category": 17.76},
+    {"cat": "Large Cap",  "fund": "Invesco India Large Cap",     "sd": 15.62, "benchmark": 14.36, "category": 15.16},
+    {"cat": "Large Cap",  "fund": "JM Large Cap Fund",           "sd": 15.23, "benchmark": 14.36, "category": 15.16},
+    {"cat": "Flexi Cap",  "fund": "JM Flexicap Fund",            "sd": 17.08, "benchmark": 15.22, "category": 15.27},
+    {"cat": "Flexi Cap",  "fund": "Bank of India Flexi Cap Fund","sd": 18.83, "benchmark": 15.22, "category": 15.27},
+    {"cat": "Multi Cap",  "fund": "Kotak Multicap Fund",         "sd": 17.44, "benchmark": 16.41, "category": 16.25},
+    {"cat": "Multi Cap",  "fund": "Invesco India Multicap Fund", "sd": 17.28, "benchmark": 16.41, "category": 16.25}
+  ],
+  "lowerThanBenchmarkAndCategory": [
+    {"cat": "Small Cap",  "fund": "Axis Small Cap",                  "sd": 16.79, "benchmark": 21.75, "category": 20.28},
+    {"cat": "Small Cap",  "fund": "SBI Small Cap",                   "sd": 17.15, "benchmark": 21.75, "category": 20.28},
+    {"cat": "Large Cap",  "fund": "Sundaram Large Cap Fund",         "sd": 12.71, "benchmark": 14.36, "category": 15.16},
+    {"cat": "Large Cap",  "fund": "ICICI Prudential Large Cap Fund", "sd": 13.26, "benchmark": 14.36, "category": 15.16},
+    {"cat": "Mid Cap",    "fund": "HDFC Mid Cap Fund",               "sd": 15.35, "benchmark": 17.88, "category": 17.76},
+    {"cat": "Mid Cap",    "fund": "Baroda BNP Paribas Mid Cap Fund", "sd": 15.45, "benchmark": 17.88, "category": 17.76},
+    {"cat": "Flexi Cap",  "fund": "Parag Parikh Flexi Cap Fund",     "sd": 9.88,  "benchmark": 17.88, "category": 17.76},
+    {"cat": "Flexi Cap",  "fund": "HDFC Flexi Cap Fund",             "sd": 12.91, "benchmark": 17.88, "category": 17.76},
+    {"cat": "Multi Cap",  "fund": "SBI Multicap Fund",               "sd": 14.06, "benchmark": 16.41, "category": 16.25},
+    {"cat": "Multi Cap",  "fund": "Nippon India Multicap Fund",      "sd": 15.32, "benchmark": 16.41, "category": 16.25}
+  ],
+  "dataFlags": [
+    {"id": "F1", "severity": "blocker-for-claim", "detail": "HSBC Small Cap SD 21.75 EQUALS its benchmark 21.75 — not higher. The spoken line claims these funds have higher SD than benchmark AND category. It is higher than category (20.28) only. This is exactly what the reviewer asked to cross-check; the reply was only 'Yes'."},
+    {"id": "F2", "severity": "data-inconsistency", "detail": "Lower-SD Flexi Cap rows (Parag Parikh 9.88, HDFC Flexi Cap 12.91) carry benchmark 17.88 / category 17.76 — the MID CAP figures. The higher-SD Flexi Cap rows use benchmark 15.22 / category 15.27. One of the two is wrong; the lower-SD pair looks copy-pasted from the mid cap block."},
+    {"id": "F3", "severity": "minor", "detail": "Lower-SD screenshots carry no 'as on' date; only the higher-SD block shows 'August 25, 2026'. Reviewer explicitly asked for source AND date. Normalise both tables to Source: Value Research / August 25, 2026."},
+    {"id": "F4", "severity": "cosmetic", "detail": "Header text differs between sets: 'STD DEVIATION' vs 'STD DEVIATION(%)'. Normalise on rebuild."}
+  ]
+}

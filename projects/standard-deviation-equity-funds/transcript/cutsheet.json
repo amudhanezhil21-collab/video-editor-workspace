@@ -1,0 +1,312 @@
+{
+ "job": "standard-deviation-equity-funds",
+ "format": "shorts",
+ "frame": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "sourceRuntime": 143.7,
+ "faceBox": {
+  "x0": 139,
+  "y0": 560,
+  "x1": 953,
+  "y1": 1401,
+  "note": "MEASURED on THIS shoot over 36 frames (2-142s). Head/hair silhouette x159-933 y580-1381 +20px margin. Face skin x355-813 y600-1100, median face width 268px. tokens.ts FACE_BOX inherited from the smallcap job (x330-730 y380-1100) is WRONG for this framing."
+ },
+ "freeBands": {
+  "aboveHead": [
+   200,
+   560
+  ],
+  "belowBody": [
+   1401,
+   1670
+  ]
+ },
+ "chrome": {
+  "from": "frame 1",
+  "thumbnailFrame1": true,
+  "thumbnail": "assets/thumbnail.png"
+ },
+ "captions": {
+  "mode": "on",
+  "suppressOver": [
+   "ai-broll"
+  ]
+ },
+ "beats": [
+  {
+   "id": "B1",
+   "start": 0.58,
+   "end": 4.1,
+   "segments": [
+    0
+   ],
+   "kind": "aroll-zoom",
+   "instruction": "plain A-Roll with zoom in",
+   "label": "REF4",
+   "note": "hook; slow zoom-in",
+   "zoom": {
+    "from": 1.0,
+    "to": 1.08,
+    "style": "slow"
+   }
+  },
+  {
+   "id": "B1b",
+   "start": 4.12,
+   "end": 10.6,
+   "segments": [
+    1
+   ],
+   "kind": "aroll",
+   "instruction": "(uninstructed)",
+   "label": "-",
+   "note": "no comment anchored; plain A-roll"
+  },
+  {
+   "id": "B2",
+   "start": 10.62,
+   "end": 17.93,
+   "segments": [
+    2
+   ],
+   "kind": "ai-broll",
+   "instruction": "Use AI - Broll of ultra realistic style of a person using trading terminal.",
+   "label": "REF5",
+   "note": "AI b-roll; NO captions over AI b-roll",
+   "broll": "trading-terminal",
+   "asset": "broll/conformed/B2-trading-terminal-30fps.mp4",
+   "how": "replace"
+  },
+  {
+   "id": "B3",
+   "start": 17.95,
+   "end": 29.75,
+   "segments": [
+    3,
+    4
+   ],
+   "kind": "takeover",
+   "instruction": "use full screen motion graphics in this background <doc 1uWwRj>",
+   "label": "REF6",
+   "note": "SD 6% -> 4..16 band. Ground CONFIRMED periwinkle by creator doc 1uWwRj (ref: /tmp/specdocs/d1). Title voice: Ivy Presto italic indigo.",
+   "data": {
+    "avg": 10,
+    "sd": 6,
+    "lo": 4,
+    "hi": 16
+   },
+   "asset": "graphics-build/out/b3-volatility.mov",
+   "how": "replace"
+  },
+  {
+   "id": "B4",
+   "start": 29.77,
+   "end": 40.49,
+   "segments": [
+    5,
+    6
+   ],
+   "kind": "takeover",
+   "instruction": "use Text 10% Average Anual Return",
+   "label": "REF7",
+   "note": "SD 12% -> -2..22. Copy verbatim from creator: '10% Average Annual Return'. Same confirmed ground.",
+   "data": {
+    "avg": 10,
+    "sd": 12,
+    "lo": -2,
+    "hi": 22
+   },
+   "copy": "10% Average Annual Return",
+   "asset": "graphics-build/out/b4-volatility.mov",
+   "how": "replace"
+  },
+  {
+   "id": "B5",
+   "start": 40.52,
+   "end": 45.98,
+   "segments": [
+    7,
+    8
+   ],
+   "kind": "ai-broll",
+   "instruction": "Use AI B roll with Higgsfield",
+   "label": "REF8",
+   "note": "roller coaster metaphor; NO captions",
+   "broll": "roller-coaster",
+   "asset": "broll/conformed/B5-roller-coaster-30fps.mp4",
+   "how": "replace"
+  },
+  {
+   "id": "B6",
+   "start": 46.76,
+   "end": 56.55,
+   "segments": [
+    9
+   ],
+   "kind": "aroll-zoom",
+   "instruction": "plain A-Roll with rapid zoom in",
+   "label": "REF9",
+   "note": "rapid zoom",
+   "zoom": {
+    "from": 1.0,
+    "to": 1.12,
+    "style": "rapid"
+   }
+  },
+  {
+   "id": "B7",
+   "start": 56.57,
+   "end": 62.29,
+   "segments": [
+    10
+   ],
+   "kind": "table",
+   "instruction": "<doc 12wckZ> unreadable - built from screenshot data",
+   "label": "REF10",
+   "note": "HIGHER-SD table; land COMPLETE then highlight LAYOUT per doc 12wckZ: GRADIENT_GROUND (purple+green+grid), creator in rounded-square mask (REF13.mask 363,152,328x400 r57) WITH drop shadow, table in white card (REF13.card 122,618,832x790 r39). faceCrop THIS shoot: 242,538,683x833. claude.mov animation ref UNRESOLVED (not shared); building to style-file table grammar.",
+   "table": "higher",
+   "layout": "ref13-masked",
+   "asset": "graphics-build/out/b7-table-higher.mov",
+   "how": "replace"
+  },
+  {
+   "id": "B8",
+   "start": 62.31,
+   "end": 68.5,
+   "segments": [
+    11
+   ],
+   "kind": "table",
+   "instruction": "<doc 12wckZ> unreadable - built from screenshot data",
+   "label": "REF11",
+   "note": "LOWER-SD table; land COMPLETE then highlight LAYOUT per doc 12wckZ: GRADIENT_GROUND (purple+green+grid), creator in rounded-square mask (REF13.mask 363,152,328x400 r57) WITH drop shadow, table in white card (REF13.card 122,618,832x790 r39). faceCrop THIS shoot: 242,538,683x833. claude.mov animation ref UNRESOLVED (not shared); building to style-file table grammar.",
+   "table": "lower",
+   "layout": "ref13-masked",
+   "asset": "graphics-build/out/b8-table-lower.mov",
+   "how": "replace"
+  },
+  {
+   "id": "B8b",
+   "start": 69.34,
+   "end": 84.37,
+   "segments": [
+    12,
+    13,
+    14
+   ],
+   "kind": "aroll",
+   "instruction": "(uninstructed)",
+   "label": "-",
+   "note": "no comment anchored; plain A-roll"
+  },
+  {
+   "id": "B9",
+   "start": 84.47,
+   "end": 96.62,
+   "segments": [
+    15,
+    16
+   ],
+   "kind": "aroll",
+   "instruction": "plain A-Roll full screen",
+   "label": "REF12",
+   "note": "locked off, full screen"
+  },
+  {
+   "id": "B10",
+   "start": 97.0,
+   "end": 102.6,
+   "segments": [
+    17,
+    18
+   ],
+   "kind": "widget",
+   "instruction": "A question mark widget at the bottom frame with gradient behind.",
+   "label": "REF13",
+   "note": "question-mark widget BOTTOM of frame, gradient behind (dissolves in AND out)",
+   "asset": "graphics-build/out/b10-question.mov",
+   "how": "overlay"
+  },
+  {
+   "id": "B11",
+   "start": 102.64,
+   "end": 111.83,
+   "segments": [
+    19,
+    20
+   ],
+   "kind": "sync-slide",
+   "instruction": "Synchronized Movement + Blend + Text 'Risk Tolerance' (doc 15KN64, verbatim in assets/instruction-spec.md)",
+   "label": "REF14",
+   "note": "Spec doc 15KN64 (confirmed): synchronized two-layer slide - her frame scales+slides to bottom half, top graphic panel (off-white, subtle grid, coral line graph, rupee symbols) slides down IN SYNC, feathered seam ~y670, then 'Risk Tolerance' pops in indigo boxes. Full-frame segment.",
+   "asset": "graphics-build/out/b11-risk-tolerance.mov",
+   "how": "replace"
+  },
+  {
+   "id": "B12",
+   "start": 112.57,
+   "end": 116.39,
+   "segments": [
+    21
+   ],
+   "kind": "aroll-zoom",
+   "instruction": "plain A-Roll rapid zoom in",
+   "label": "REF15",
+   "note": "rapid zoom",
+   "zoom": {
+    "from": 1.0,
+    "to": 1.12,
+    "style": "rapid"
+   }
+  },
+  {
+   "id": "B13",
+   "start": 116.93,
+   "end": 125.74,
+   "segments": [
+    22
+   ],
+   "kind": "text-build",
+   "instruction": "Texts of Alpha, Sharpe Ratio and Sortino Ratio all line by line <doc 15KN64>",
+   "label": "REF16",
+   "note": "three LABELS line by line (style rule: label, not narration)",
+   "lines": [
+    "Alpha",
+    "Sharpe Ratio",
+    "Sortino Ratio"
+   ],
+   "asset": "graphics-build/out/b13-ratios.mov",
+   "how": "overlay"
+  },
+  {
+   "id": "B14",
+   "start": 126.04,
+   "end": 134.24,
+   "segments": [
+    23
+   ],
+   "kind": "takeover",
+   "instruction": "full screen Motion graphics <doc 1uWwRj>",
+   "label": "REF17",
+   "note": "Sharpe vs Sortino contrast takeover",
+   "asset": "graphics-build/out/b14-sharpe-sortino.mov",
+   "how": "replace"
+  },
+  {
+   "id": "B15",
+   "start": 134.91,
+   "end": 143.23,
+   "segments": [
+    24,
+    25
+   ],
+   "kind": "aroll-compliance",
+   "instruction": "A-roll with usual disclaimer and etc",
+   "label": "REF18",
+   "note": "RA panel + subscribe skit; end cold on thumbnail"
+  }
+ ]
+}

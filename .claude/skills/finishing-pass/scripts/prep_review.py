@@ -29,8 +29,8 @@ def main():
 
     have = [f for f in os.listdir(fr) if f.endswith('.jpg') and not f.startswith('._')]
     if len(have) < n:
-        # -vsync 0 keeps a strict 1:1 mapping: exactly one output image per input frame
-        run("ffmpeg","-y","-v","error","-i",render,"-vsync","0","-q:v","3",
+        # -fps_mode passthrough keeps a strict 1:1 mapping (ffmpeg 9 removed -vsync)
+        run("ffmpeg","-y","-v","error","-i",render,"-fps_mode","passthrough","-q:v","3",
             "-vf","scale=360:-1", os.path.join(fr,"f%05d.jpg"))
     files = sorted(f for f in os.listdir(fr) if f.endswith('.jpg') and not f.startswith('._'))
     print(f"frames extracted: {len(files)} / {n} expected  -> "
@@ -46,7 +46,7 @@ def main():
         if os.path.exists(out): continue
         run("ffmpeg","-y","-v","error","-i",render,
             "-vf", f"select='between(n\\,{a}\\,{b})',scale=180:-1,tile={cols}x{rows}:margin=6:padding=4",
-            "-frames:v","1","-q:v","3","-vsync","0", out)
+            "-frames:v","1","-q:v","3","-fps_mode","passthrough", out)
     made=len([f for f in os.listdir(sh) if f.endswith('.jpg') and not f.startswith('._')])
     print(f"contact sheets: {made} (50 frames each; every one of {n} frames appears on exactly one sheet)")
 

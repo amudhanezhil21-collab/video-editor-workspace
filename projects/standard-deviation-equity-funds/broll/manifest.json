@@ -1,0 +1,22 @@
+{
+  "provider": "higgsfield-mcp (seedance_2_5)",
+  "clips": [
+    {
+      "beat": "B2", "window": [10.62, 17.93], "template": "ultra-real trading terminal",
+      "prompt": "Ultra realistic cinematic vertical footage ... person at multi-monitor trading terminal, push-in, no readable text",
+      "model": "seedance_2_5", "file": "broll/conformed/B2-trading-terminal-30fps.mp4",
+      "rawFile": "broll/B2-trading-terminal-raw.mp4",
+      "fps": 30, "duration": 7.97, "durationNote": "window 7.31s + tail margin", "silent": true,
+      "conform": "24->30fps minterpolate dup"
+    },
+    {
+      "beat": "B5", "window": [40.52, 45.98], "template": "roller coaster metaphor",
+      "prompt": "Ultra realistic roller coaster crest and plunge, camera rides with car, golden hour",
+      "model": "seedance_2_5", "file": "broll/conformed/B5-roller-coaster-30fps.mp4",
+      "rawFile": "broll/B5-roller-coaster-raw.mp4",
+      "fps": 30, "duration": 5.97, "durationNote": "window 5.46s + tail margin", "silent": true,
+      "conform": "24->30fps minterpolate dup"
+    }
+  ],
+  "captionRule": "NO burned captions over either clip (creator directive 2026-08-23)"
+}

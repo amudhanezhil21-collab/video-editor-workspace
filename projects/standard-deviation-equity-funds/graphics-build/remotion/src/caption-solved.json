@@ -1,0 +1,1759 @@
+{
+ "groups": [
+  {
+   "text": "Hey, do you know how",
+   "words": [
+    "Hey,",
+    "do",
+    "you",
+    "know",
+    "how"
+   ],
+   "wordTimes": [
+    [
+     0.577,
+     0.886
+    ],
+    [
+     0.886,
+     1.194
+    ],
+    [
+     1.194,
+     1.503
+    ],
+    [
+     1.503,
+     1.812
+    ],
+    [
+     1.812,
+     2.121
+    ]
+   ],
+   "start": 0.577,
+   "end": 2.121,
+   "seg": 0,
+   "isInterjection": false,
+   "y": 320
+  },
+  {
+   "text": "risky your equity fund is?",
+   "words": [
+    "risky",
+    "your",
+    "equity",
+    "fund",
+    "is?"
+   ],
+   "wordTimes": [
+    [
+     2.121,
+     2.429
+    ],
+    [
+     2.429,
+     2.738
+    ],
+    [
+     2.738,
+     3.098
+    ],
+    [
+     3.118,
+     3.339
+    ],
+    [
+     3.339,
+     4.099
+    ]
+   ],
+   "start": 2.121,
+   "end": 4.099,
+   "seg": 0,
+   "isInterjection": false,
+   "y": 320
+  },
+  {
+   "text": "Well, standard deviation shows you",
+   "words": [
+    "Well,",
+    "standard",
+    "deviation",
+    "shows",
+    "you"
+   ],
+   "wordTimes": [
+    [
+     4.119,
+     5.02
+    ],
+    [
+     5.04,
+     5.4
+    ],
+    [
+     5.48,
+     5.92
+    ],
+    [
+     5.92,
+     6.987
+    ],
+    [
+     6.987,
+     8.055
+    ]
+   ],
+   "start": 4.119,
+   "end": 8.055,
+   "seg": 1,
+   "isInterjection": false,
+   "y": 1500
+  },
+  {
+   "text": "how volatile your equity fund is.",
+   "words": [
+    "how",
+    "volatile",
+    "your",
+    "equity",
+    "fund",
+    "is."
+   ],
+   "wordTimes": [
+    [
+     8.055,
+     9.122
+    ],
+    [
+     9.122,
+     9.522
+    ],
+    [
+     9.522,
+     9.792
+    ],
+    [
+     9.792,
+     10.062
+    ],
+    [
+     10.062,
+     10.333
+    ],
+    [
+     10.333,
+     10.603
+    ]
+   ],
+   "start": 8.055,
+   "end": 10.603,
+   "seg": 1,
+   "isInterjection": false,
+   "y": 1500
+  },
+  {
+   "text": "For example, if a fund's",
+   "words": [
+    "For",
+    "example,",
+    "if",
+    "a",
+    "fund's"
+   ],
+   "wordTimes": [
+    [
+     17.947,
+     18.127
+    ],
+    [
+     18.167,
+     18.427
+    ],
+    [
+     18.427,
+     18.887
+    ],
+    [
+     18.887,
+     19.348
+    ],
+    [
+     19.348,
+     19.528
+    ]
+   ],
+   "start": 17.947,
+   "end": 19.528,
+   "seg": 3,
+   "isInterjection": false,
+   "y": 1500
+  },
+  {
+   "text": "average annual return is 10%",
+   "words": [
+    "average",
+    "annual",
+    "return",
+    "is",
+    "10%"
+   ],
+   "wordTimes": [
+    [
+     19.688,
+     20.368
+    ],
+    [
+     20.388,
+     20.688
+    ],
+    [
+     20.768,
+     21.189
+    ],
+    [
+     21.189,
+     21.229
+    ],
+    [
+     21.229,
+     21.329
+    ]
+   ],
+   "start": 19.688,
+   "end": 21.329,
+   "seg": 3,
+   "isInterjection": false,
+   "y": 1500
+  },
+  {
+   "text": "and standard deviation is 6%,",
+   "words": [
+    "and",
+    "standard",
+    "deviation",
+    "is",
+    "6%,"
+   ],
+   "wordTimes": [
+    [
+     21.329,
+     21.829
+    ],
+    [
+     21.829,
+     22.169
+    ],
+    [
+     22.189,
+     22.509
+    ],
+    [
+     22.509,
+     22.589
+    ],
+    [
+     22.589,
+     22.729
+    ]
+   ],
+   "start": 21.329,
+   "end": 22.729,
+   "seg": 3,
+   "isInterjection": false,
+   "y": 1500
+  },
+  {
+   "text": "in a typical year returns",
+   "words": [
+    "in",
+    "a",
+    "typical",
+    "year",
+    "returns"
+   ],
+   "wordTimes": [
+    [
+     23.75,
+     24.14
+    ],
+    [
+     24.14,
+     24.53
+    ],
+    [
+     24.53,
+     24.92
+    ],
+    [
+     24.92,
+     25.31
+    ],
+    [
+     25.31,
+     25.691
+    ]
+   ],
+   "start": 23.75,
+   "end": 25.691,
+   "seg": 4,
+   "isInterjection": false,
+   "y": 1500
+  },
+  {
+   "text": "can fluctuate between 4% and 16%.",
+   "words": [
+    "can",
+    "fluctuate",
+    "between",
+    "4%",
+    "and",
+    "16%."
+   ],
+   "wordTimes": [
+    [
+     25.691,
+     28.231
+    ],
+    [
+     28.231,
+     28.672
+    ],
+    [
+     28.672,
+     28.942
+    ],
+    [
+     28.942,
+     29.212
+    ],
+    [
+     29.212,
+     29.482
+    ],
+    [
+     29.482,
+     29.752
+    ]
+   ],
+   "start": 25.691,
+   "end": 29.752,
+   "seg": 4,
+   "isInterjection": false,
+   "y": 1500
+  },
+  {
+   "text": "But with the same 10%",
+   "words": [
+    "But",
+    "with",
+    "the",
+    "same",
+    "10%"
+   ],
+   "wordTimes": [
+    [
+     29.772,
+     29.879
+    ],
+    [
+     29.879,
+     29.985
+    ],
+    [
+     29.985,
+     30.092
+    ],
+    [
+     30.092,
+     30.452
+    ],
+    [
+     30.532,
+     30.672
+    ]
+   ],
+   "start": 29.772,
+   "end": 30.672,
+   "seg": 5,
+   "isInterjection": false,
+   "y": 1500
+  },
+  {
+   "text": "average annual return and a",
+   "words": [
+    "average",
+    "annual",
+    "return",
+    "and",
+    "a"
+   ],
+   "wordTimes": [
+    [
+     30.732,
+     31.432
+    ],
+    [
+     31.452,
+     31.752
+    ],
+    [
+     31.772,
+     32.113
+    ],
+    [
+     32.113,
+     32.493
+    ],
+    [
+     32.493,
+     32.873
+    ]
+   ],
+   "start": 30.732,
+   "end": 32.873,
+   "seg": 5,
+   "isInterjection": false,
+   "y": 1500
+  },
+  {
+   "text": "standard deviation of 12%,",
+   "words": [
+    "standard",
+    "deviation",
+    "of",
+    "12%,"
+   ],
+   "wordTimes": [
+    [
+     32.873,
+     33.273
+    ],
+    [
+     33.473,
+     34.273
+    ],
+    [
+     34.273,
+     34.293
+    ],
+    [
+     34.293,
+     34.393
+    ]
+   ],
+   "start": 32.873,
+   "end": 34.393,
+   "seg": 5,
+   "isInterjection": false,
+   "y": 1500
+  },
+  {
+   "text": "returns could swing from -2%",
+   "words": [
+    "returns",
+    "could",
+    "swing",
+    "from",
+    "-2%"
+   ],
+   "wordTimes": [
+    [
+     38.395,
+     38.658
+    ],
+    [
+     38.658,
+     38.922
+    ],
+    [
+     38.922,
+     39.185
+    ],
+    [
+     39.185,
+     39.448
+    ],
+    [
+     39.448,
+     39.712
+    ]
+   ],
+   "start": 38.395,
+   "end": 39.712,
+   "seg": 6,
+   "isInterjection": false,
+   "y": 1500
+  },
+  {
+   "text": "to 22%.",
+   "words": [
+    "to",
+    "22%."
+   ],
+   "wordTimes": [
+    [
+     39.712,
+     39.975
+    ],
+    [
+     39.975,
+     40.075
+    ]
+   ],
+   "start": 39.712,
+   "end": 40.075,
+   "seg": 6,
+   "isInterjection": false,
+   "y": 1500
+  },
+  {
+   "text": "If a fund's standard deviation",
+   "words": [
+    "If",
+    "a",
+    "fund's",
+    "standard",
+    "deviation"
+   ],
+   "wordTimes": [
+    [
+     46.757,
+     47.078
+    ],
+    [
+     47.078,
+     47.398
+    ],
+    [
+     47.398,
+     47.638
+    ],
+    [
+     47.858,
+     48.259
+    ],
+    [
+     48.339,
+     48.759
+    ]
+   ],
+   "start": 46.757,
+   "end": 48.759,
+   "seg": 9,
+   "isInterjection": false,
+   "y": 320
+  },
+  {
+   "text": "is higher than its benchmark",
+   "words": [
+    "is",
+    "higher",
+    "than",
+    "its",
+    "benchmark"
+   ],
+   "wordTimes": [
+    [
+     48.759,
+     51.161
+    ],
+    [
+     51.161,
+     51.582
+    ],
+    [
+     51.582,
+     51.959
+    ],
+    [
+     51.959,
+     52.336
+    ],
+    [
+     52.336,
+     52.713
+    ]
+   ],
+   "start": 48.759,
+   "end": 52.713,
+   "seg": 9,
+   "isInterjection": false,
+   "y": 1500
+  },
+  {
+   "text": "or category, its returns have",
+   "words": [
+    "or",
+    "category,",
+    "its",
+    "returns",
+    "have"
+   ],
+   "wordTimes": [
+    [
+     52.713,
+     53.09
+    ],
+    [
+     53.09,
+     53.467
+    ],
+    [
+     53.467,
+     53.844
+    ],
+    [
+     53.844,
+     54.224
+    ],
+    [
+     54.224,
+     54.284
+    ]
+   ],
+   "start": 52.713,
+   "end": 54.284,
+   "seg": 9,
+   "isInterjection": false,
+   "y": 1500
+  },
+  {
+   "text": "been relatively more volatile.",
+   "words": [
+    "been",
+    "relatively",
+    "more",
+    "volatile."
+   ],
+   "wordTimes": [
+    [
+     54.284,
+     54.344
+    ],
+    [
+     54.344,
+     54.764
+    ],
+    [
+     54.764,
+     55.165
+    ],
+    [
+     55.165,
+     55.645
+    ]
+   ],
+   "start": 54.284,
+   "end": 55.645,
+   "seg": 9,
+   "isInterjection": false,
+   "y": 1500
+  },
+  {
+   "text": "Here are equity funds with",
+   "words": [
+    "Here",
+    "are",
+    "equity",
+    "funds",
+    "with"
+   ],
+   "wordTimes": [
+    [
+     56.566,
+     56.726
+    ],
+    [
+     56.766,
+     56.946
+    ],
+    [
+     57.287,
+     57.607
+    ],
+    [
+     57.627,
+     57.947
+    ],
+    [
+     57.947,
+     59.388
+    ]
+   ],
+   "start": 56.566,
+   "end": 59.388,
+   "seg": 10,
+   "isInterjection": false,
+   "y": 1500
+  },
+  {
+   "text": "higher standard deviation than their",
+   "words": [
+    "higher",
+    "standard",
+    "deviation",
+    "than",
+    "their"
+   ],
+   "wordTimes": [
+    [
+     59.388,
+     59.669
+    ],
+    [
+     59.689,
+     59.889
+    ],
+    [
+     59.949,
+     60.469
+    ],
+    [
+     60.489,
+     60.71
+    ],
+    [
+     60.79,
+     61.09
+    ]
+   ],
+   "start": 59.388,
+   "end": 61.09,
+   "seg": 10,
+   "isInterjection": false,
+   "y": 1500
+  },
+  {
+   "text": "benchmark and category.",
+   "words": [
+    "benchmark",
+    "and",
+    "category."
+   ],
+   "wordTimes": [
+    [
+     61.17,
+     61.67
+    ],
+    [
+     61.771,
+     61.911
+    ],
+    [
+     61.971,
+     62.291
+    ]
+   ],
+   "start": 61.17,
+   "end": 62.291,
+   "seg": 10,
+   "isInterjection": false,
+   "y": 1500
+  },
+  {
+   "text": "And these funds carry lower",
+   "words": [
+    "And",
+    "these",
+    "funds",
+    "carry",
+    "lower"
+   ],
+   "wordTimes": [
+    [
+     62.311,
+     63.132
+    ],
+    [
+     63.132,
+     63.712
+    ],
+    [
+     63.712,
+     63.952
+    ],
+    [
+     63.952,
+     68.056
+    ],
+    [
+     68.056,
+     68.376
+    ]
+   ],
+   "start": 62.311,
+   "end": 68.376,
+   "seg": 11,
+   "isInterjection": false,
+   "y": 1500
+  },
+  {
+   "text": "standard deviation than their benchmark",
+   "words": [
+    "standard",
+    "deviation",
+    "than",
+    "their",
+    "benchmark"
+   ],
+   "wordTimes": [
+    [
+     68.376,
+     68.393
+    ],
+    [
+     68.393,
+     68.41
+    ],
+    [
+     68.41,
+     68.427
+    ],
+    [
+     68.427,
+     68.445
+    ],
+    [
+     68.445,
+     68.462
+    ]
+   ],
+   "start": 68.376,
+   "end": 68.462,
+   "seg": 11,
+   "isInterjection": false,
+   "y": 1500
+  },
+  {
+   "text": "and category.",
+   "words": [
+    "and",
+    "category."
+   ],
+   "wordTimes": [
+    [
+     68.462,
+     68.479
+    ],
+    [
+     68.479,
+     68.496
+    ]
+   ],
+   "start": 68.462,
+   "end": 68.496,
+   "seg": 11,
+   "isInterjection": false,
+   "y": 1500
+  },
+  {
+   "text": "So what if your equity",
+   "words": [
+    "So",
+    "what",
+    "if",
+    "your",
+    "equity"
+   ],
+   "wordTimes": [
+    [
+     69.337,
+     69.577
+    ],
+    [
+     69.577,
+     69.897
+    ],
+    [
+     69.897,
+     70.218
+    ],
+    [
+     70.218,
+     70.538
+    ],
+    [
+     70.538,
+     70.918
+    ]
+   ],
+   "start": 69.337,
+   "end": 70.918,
+   "seg": 12,
+   "isInterjection": false,
+   "y": 320
+  },
+  {
+   "text": "funds are relatively more volatile",
+   "words": [
+    "funds",
+    "are",
+    "relatively",
+    "more",
+    "volatile"
+   ],
+   "wordTimes": [
+    [
+     70.938,
+     71.278
+    ],
+    [
+     71.278,
+     72.819
+    ],
+    [
+     72.819,
+     73.3
+    ],
+    [
+     73.42,
+     73.64
+    ],
+    [
+     73.7,
+     74.14
+    ]
+   ],
+   "start": 70.938,
+   "end": 74.14,
+   "seg": 12,
+   "isInterjection": false,
+   "y": 1500
+  },
+  {
+   "text": "than the rest?",
+   "words": [
+    "than",
+    "the",
+    "rest?"
+   ],
+   "wordTimes": [
+    [
+     74.14,
+     74.74
+    ],
+    [
+     74.74,
+     75.341
+    ],
+    [
+     75.341,
+     75.941
+    ]
+   ],
+   "start": 74.14,
+   "end": 75.941,
+   "seg": 12,
+   "isInterjection": false,
+   "y": 320
+  },
+  {
+   "text": "Higher standard deviation doesn't mean",
+   "words": [
+    "Higher",
+    "standard",
+    "deviation",
+    "doesn't",
+    "mean"
+   ],
+   "wordTimes": [
+    [
+     76.502,
+     76.782
+    ],
+    [
+     76.862,
+     77.222
+    ],
+    [
+     77.262,
+     77.582
+    ],
+    [
+     77.582,
+     78.049
+    ],
+    [
+     78.049,
+     78.516
+    ]
+   ],
+   "start": 76.502,
+   "end": 78.516,
+   "seg": 13,
+   "isInterjection": false,
+   "y": 1500
+  },
+  {
+   "text": "the fund is bad.",
+   "words": [
+    "the",
+    "fund",
+    "is",
+    "bad."
+   ],
+   "wordTimes": [
+    [
+     78.516,
+     78.983
+    ],
+    [
+     78.983,
+     79.303
+    ],
+    [
+     79.303,
+     79.814
+    ],
+    [
+     79.814,
+     80.324
+    ]
+   ],
+   "start": 78.516,
+   "end": 80.324,
+   "seg": 13,
+   "isInterjection": false,
+   "y": 320
+  },
+  {
+   "text": "It just means the fund",
+   "words": [
+    "It",
+    "just",
+    "means",
+    "the",
+    "fund"
+   ],
+   "wordTimes": [
+    [
+     80.344,
+     80.464
+    ],
+    [
+     80.464,
+     80.744
+    ],
+    [
+     80.744,
+     81.024
+    ],
+    [
+     81.024,
+     81.164
+    ],
+    [
+     81.164,
+     81.485
+    ]
+   ],
+   "start": 80.344,
+   "end": 81.485,
+   "seg": 14,
+   "isInterjection": false,
+   "y": 320
+  },
+  {
+   "text": "is more volatile.",
+   "words": [
+    "is",
+    "more",
+    "volatile."
+   ],
+   "wordTimes": [
+    [
+     81.485,
+     82.255
+    ],
+    [
+     82.255,
+     83.026
+    ],
+    [
+     83.026,
+     83.506
+    ]
+   ],
+   "start": 81.485,
+   "end": 83.506,
+   "seg": 14,
+   "isInterjection": false,
+   "y": 320
+  },
+  {
+   "text": "Funds that move up sharply",
+   "words": [
+    "Funds",
+    "that",
+    "move",
+    "up",
+    "sharply"
+   ],
+   "wordTimes": [
+    [
+     86.388,
+     86.588
+    ],
+    [
+     86.588,
+     87.568
+    ],
+    [
+     87.568,
+     87.728
+    ],
+    [
+     87.728,
+     88.24
+    ],
+    [
+     88.24,
+     88.753
+    ]
+   ],
+   "start": 86.388,
+   "end": 88.753,
+   "seg": 15,
+   "isInterjection": false,
+   "y": 320
+  },
+  {
+   "text": "could also face higher downside risk.",
+   "words": [
+    "could",
+    "also",
+    "face",
+    "higher",
+    "downside",
+    "risk."
+   ],
+   "wordTimes": [
+    [
+     88.753,
+     89.265
+    ],
+    [
+     89.265,
+     89.778
+    ],
+    [
+     89.778,
+     90.29
+    ],
+    [
+     90.29,
+     90.71
+    ],
+    [
+     90.71,
+     91.03
+    ],
+    [
+     91.03,
+     91.351
+    ]
+   ],
+   "start": 88.753,
+   "end": 91.351,
+   "seg": 15,
+   "isInterjection": false,
+   "y": 1500
+  },
+  {
+   "text": "Lower standard deviation means the",
+   "words": [
+    "Lower",
+    "standard",
+    "deviation",
+    "means",
+    "the"
+   ],
+   "wordTimes": [
+    [
+     91.971,
+     92.211
+    ],
+    [
+     92.231,
+     92.572
+    ],
+    [
+     92.632,
+     93.072
+    ],
+    [
+     93.072,
+     93.472
+    ],
+    [
+     93.472,
+     93.873
+    ]
+   ],
+   "start": 91.971,
+   "end": 93.873,
+   "seg": 16,
+   "isInterjection": false,
+   "y": 1500
+  },
+  {
+   "text": "fund is relatively more consistent.",
+   "words": [
+    "fund",
+    "is",
+    "relatively",
+    "more",
+    "consistent."
+   ],
+   "wordTimes": [
+    [
+     93.873,
+     94.273
+    ],
+    [
+     94.273,
+     94.854
+    ],
+    [
+     94.854,
+     95.315
+    ],
+    [
+     95.415,
+     95.575
+    ],
+    [
+     95.655,
+     96.095
+    ]
+   ],
+   "start": 93.873,
+   "end": 96.095,
+   "seg": 16,
+   "isInterjection": false,
+   "y": 320
+  },
+  {
+   "text": "Now, should one avoid funds",
+   "words": [
+    "Now,",
+    "should",
+    "one",
+    "avoid",
+    "funds"
+   ],
+   "wordTimes": [
+    [
+     96.996,
+     97.116
+    ],
+    [
+     97.116,
+     98.01
+    ],
+    [
+     98.01,
+     98.905
+    ],
+    [
+     98.905,
+     99.799
+    ],
+    [
+     99.799,
+     99.979
+    ]
+   ],
+   "start": 96.996,
+   "end": 99.979,
+   "seg": 17,
+   "isInterjection": false,
+   "y": 1560
+  },
+  {
+   "text": "with higher standard deviation?",
+   "words": [
+    "with",
+    "higher",
+    "standard",
+    "deviation?"
+   ],
+   "wordTimes": [
+    [
+     99.979,
+     100.355
+    ],
+    [
+     100.355,
+     100.73
+    ],
+    [
+     100.73,
+     101.105
+    ],
+    [
+     101.105,
+     101.481
+    ]
+   ],
+   "start": 99.979,
+   "end": 101.481,
+   "seg": 17,
+   "isInterjection": false,
+   "y": 1560
+  },
+  {
+   "text": "NOT NECESSARILY.",
+   "words": [
+    "NOT",
+    "NECESSARILY."
+   ],
+   "wordTimes": [
+    [
+     101.941,
+     102.101
+    ],
+    [
+     102.121,
+     102.602
+    ]
+   ],
+   "start": 101.941,
+   "end": 102.602,
+   "seg": 18,
+   "isInterjection": true,
+   "y": 1500
+  },
+  {
+   "text": "So standard deviation shouldn't be",
+   "words": [
+    "So",
+    "standard",
+    "deviation",
+    "shouldn't",
+    "be"
+   ],
+   "wordTimes": [
+    [
+     112.572,
+     113.212
+    ],
+    [
+     113.212,
+     113.633
+    ],
+    [
+     113.713,
+     114.013
+    ],
+    [
+     114.013,
+     114.158
+    ],
+    [
+     114.158,
+     114.303
+    ]
+   ],
+   "start": 112.572,
+   "end": 114.303,
+   "seg": 21,
+   "isInterjection": false,
+   "y": 1500
+  },
+  {
+   "text": "the only deciding factor.",
+   "words": [
+    "the",
+    "only",
+    "deciding",
+    "factor."
+   ],
+   "wordTimes": [
+    [
+     114.303,
+     114.448
+    ],
+    [
+     114.448,
+     114.593
+    ],
+    [
+     114.593,
+     114.993
+    ],
+    [
+     115.013,
+     115.394
+    ]
+   ],
+   "start": 114.303,
+   "end": 115.394,
+   "seg": 21,
+   "isInterjection": false,
+   "y": 1500
+  },
+  {
+   "text": "You can also check the",
+   "words": [
+    "You",
+    "can",
+    "also",
+    "check",
+    "the"
+   ],
+   "wordTimes": [
+    [
+     116.934,
+     118.061
+    ],
+    [
+     118.061,
+     119.189
+    ],
+    [
+     119.189,
+     120.316
+    ],
+    [
+     120.316,
+     120.496
+    ],
+    [
+     120.496,
+     122.457
+    ]
+   ],
+   "start": 116.934,
+   "end": 122.457,
+   "seg": 22,
+   "isInterjection": false,
+   "y": 1500
+  },
+  {
+   "text": "fund's Alpha, Sharpe and Sortino",
+   "words": [
+    "fund's",
+    "Alpha,",
+    "Sharpe",
+    "and",
+    "Sortino"
+   ],
+   "wordTimes": [
+    [
+     122.457,
+     122.698
+    ],
+    [
+     122.698,
+     122.721
+    ],
+    [
+     122.721,
+     122.745
+    ],
+    [
+     122.745,
+     122.768
+    ],
+    [
+     122.768,
+     122.791
+    ]
+   ],
+   "start": 122.457,
+   "end": 122.791,
+   "seg": 22,
+   "isInterjection": false,
+   "y": 1500
+  },
+  {
+   "text": "ratios for risk-adjusted returns.",
+   "words": [
+    "ratios",
+    "for",
+    "risk-adjusted",
+    "returns."
+   ],
+   "wordTimes": [
+    [
+     122.791,
+     122.815
+    ],
+    [
+     122.815,
+     122.838
+    ],
+    [
+     122.838,
+     123.018
+    ],
+    [
+     123.498,
+     123.838
+    ]
+   ],
+   "start": 122.791,
+   "end": 123.838,
+   "seg": 22,
+   "isInterjection": false,
+   "y": 1500
+  },
+  {
+   "text": "Sharpe ratio shows return earned",
+   "words": [
+    "Sharpe",
+    "ratio",
+    "shows",
+    "return",
+    "earned"
+   ],
+   "wordTimes": [
+    [
+     126.039,
+     126.259
+    ],
+    [
+     126.339,
+     126.62
+    ],
+    [
+     126.62,
+     130.041
+    ],
+    [
+     130.041,
+     130.322
+    ],
+    [
+     130.322,
+     131.322
+    ]
+   ],
+   "start": 126.039,
+   "end": 131.322,
+   "seg": 23,
+   "isInterjection": false,
+   "y": 1500
+  },
+  {
+   "text": "for the risk taken, while",
+   "words": [
+    "for",
+    "the",
+    "risk",
+    "taken,",
+    "while"
+   ],
+   "wordTimes": [
+    [
+     131.322,
+     132.323
+    ],
+    [
+     132.323,
+     133.323
+    ],
+    [
+     133.323,
+     133.443
+    ],
+    [
+     133.443,
+     133.516
+    ],
+    [
+     133.516,
+     133.59
+    ]
+   ],
+   "start": 131.322,
+   "end": 133.59,
+   "seg": 23,
+   "isInterjection": false,
+   "y": 1500
+  },
+  {
+   "text": "Sortino focuses on downside risk.",
+   "words": [
+    "Sortino",
+    "focuses",
+    "on",
+    "downside",
+    "risk."
+   ],
+   "wordTimes": [
+    [
+     133.59,
+     133.663
+    ],
+    [
+     133.663,
+     133.763
+    ],
+    [
+     133.763,
+     133.923
+    ],
+    [
+     133.923,
+     134.084
+    ],
+    [
+     134.084,
+     134.244
+    ]
+   ],
+   "start": 133.59,
+   "end": 134.244,
+   "seg": 23,
+   "isInterjection": false,
+   "y": 1500
+  },
+  {
+   "text": "So don't judge a fund",
+   "words": [
+    "So",
+    "don't",
+    "judge",
+    "a",
+    "fund"
+   ],
+   "wordTimes": [
+    [
+     134.905,
+     136.442
+    ],
+    [
+     136.442,
+     137.98
+    ],
+    [
+     137.98,
+     138.442
+    ],
+    [
+     138.442,
+     138.525
+    ],
+    [
+     138.525,
+     138.609
+    ]
+   ],
+   "start": 134.905,
+   "end": 138.609,
+   "seg": 24,
+   "isInterjection": false,
+   "y": 320
+  },
+  {
+   "text": "by its standard deviation alone.",
+   "words": [
+    "by",
+    "its",
+    "standard",
+    "deviation",
+    "alone."
+   ],
+   "wordTimes": [
+    [
+     138.609,
+     138.692
+    ],
+    [
+     138.692,
+     138.775
+    ],
+    [
+     138.775,
+     138.858
+    ],
+    [
+     138.858,
+     138.942
+    ],
+    [
+     138.942,
+     139.025
+    ]
+   ],
+   "start": 138.609,
+   "end": 139.025,
+   "seg": 24,
+   "isInterjection": false,
+   "y": 320
+  },
+  {
+   "text": "Look at risk and risk-adjusted",
+   "words": [
+    "Look",
+    "at",
+    "risk",
+    "and",
+    "risk-adjusted"
+   ],
+   "wordTimes": [
+    [
+     139.548,
+     140.201
+    ],
+    [
+     140.201,
+     140.854
+    ],
+    [
+     140.854,
+     141.135
+    ],
+    [
+     141.135,
+     141.377
+    ],
+    [
+     141.377,
+     141.598
+    ]
+   ],
+   "start": 139.548,
+   "end": 141.598,
+   "seg": 25,
+   "isInterjection": false,
+   "y": 320
+  },
+  {
+   "text": "performance along with returns.",
+   "words": [
+    "performance",
+    "along",
+    "with",
+    "returns."
+   ],
+   "wordTimes": [
+    [
+     142.08,
+     142.583
+    ],
+    [
+     142.583,
+     142.797
+    ],
+    [
+     142.797,
+     143.012
+    ],
+    [
+     143.012,
+     143.226
+    ]
+   ],
+   "start": 142.08,
+   "end": 143.226,
+   "seg": 25,
+   "isInterjection": false,
+   "y": 320
+  }
+ ]
+}
