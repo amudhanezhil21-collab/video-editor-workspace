@@ -23,9 +23,12 @@ SFX = '/Users/ezhilam/Desktop/Video_Editor/assets/sfx'
 LEAK_W, WHOOSH = f'{SFX}/transition-lightleak-creator.wav', f'{SFX}/lightleak-whoosh.mp3'
 VO_GAIN, MUS_GAIN, LEAK_GAIN, WHOOSH_GAIN = 5.2, -18.9, -4.4, -5.1
 LEAK_PEAKS = [1697, 2055, 3781, 4047]
-CUES = ([{"file": LEAK_W, "at": (p - 9) / FPS, "gain": LEAK_GAIN, "why": f"leak @f{p}"} for p in LEAK_PEAKS] +
-        [{"file": WHOOSH, "at": 10.62 - 0.12, "gain": WHOOSH_GAIN, "why": "B2 b-roll in"},
-         {"file": WHOOSH, "at": 40.52 - 0.12, "gain": WHOOSH_GAIN, "why": "B5 b-roll in"}])
+# The leak wav is a 0.2s-front-loaded impact: cueing it at leak START (peak-9f) spent it
+# ~0.25s before the cut, so every cut read dry (QA 2026-09-02). Cue so the impact PEAKS
+# ON the white frame, and lift it 2.4dB (it measured barely above the bed in the mix).
+CUES = ([{"file": LEAK_W, "at": p / FPS - 0.05, "gain": LEAK_GAIN + 2.4, "why": f"leak peak @f{p}"} for p in LEAK_PEAKS] +
+        [{"file": WHOOSH, "at": 10.62 - 0.50, "gain": WHOOSH_GAIN, "why": "B2 b-roll in (peak on cut)"},
+         {"file": WHOOSH, "at": 40.52 - 0.50, "gain": WHOOSH_GAIN, "why": "B5 b-roll in (peak on cut)"}])
 
 def run(video_in, out):
     dur = 143.70
@@ -41,7 +44,7 @@ def run(video_in, out):
         inputs += ['-i', c['file']]
         flt.append(f'[{i+2}:a]volume={c["gain"]}dB,adelay={int(c["at"]*1000)}|{int(c["at"]*1000)}[fx{i}]')
         amix.append(f'[fx{i}]')
-    flt.append(''.join(amix) + f'amix=inputs={len(amix)}:normalize=0,alimiter=limit=0.891[aout]')
+    flt.append(''.join(amix) + f'amix=inputs={len(amix)}:normalize=0,alimiter=limit=0.85:level=disabled[aout]')
     cmd = (['ffmpeg', '-y', '-v', 'warning', '-stats'] + inputs +
            ['-filter_complex', ';'.join(flt), '-map', '0:v', '-map', '[aout]',
             '-c:v', 'copy', '-c:a', 'aac', '-b:a', '256k', out])

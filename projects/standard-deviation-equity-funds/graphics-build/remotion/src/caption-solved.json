@@ -338,7 +338,7 @@
     ]
    ],
    "start": 25.691,
-   "end": 29.752,
+   "end": 29.786,
    "seg": 4,
    "isInterjection": false,
    "y": 1500
@@ -375,7 +375,7 @@
     ]
    ],
    "start": 29.772,
-   "end": 30.672,
+   "end": 30.706,
    "seg": 5,
    "isInterjection": false,
    "y": 1500
@@ -447,6 +447,41 @@
    "end": 34.393,
    "seg": 5,
    "isInterjection": false,
+   "y": 1500
+  },
+  {
+   "text": "fluctuation can be much higher",
+   "words": [
+    "fluctuation",
+    "can",
+    "be",
+    "much",
+    "higher"
+   ],
+   "wordTimes": [
+    [
+     36.03,
+     36.6
+    ],
+    [
+     36.6,
+     37.0
+    ],
+    [
+     37.0,
+     37.35
+    ],
+    [
+     37.35,
+     37.8
+    ],
+    [
+     37.8,
+     38.29
+    ]
+   ],
+   "start": 36.03,
+   "end": 38.29,
    "y": 1500
   },
   {
@@ -1320,11 +1355,186 @@
      102.602
     ]
    ],
-   "start": 101.941,
+   "start": 102.05,
    "end": 102.602,
    "seg": 18,
    "isInterjection": true,
    "y": 1500
+  },
+  {
+   "text": "A fund with higher standard",
+   "words": [
+    "A",
+    "fund",
+    "with",
+    "higher",
+    "standard"
+   ],
+   "wordTimes": [
+    [
+     102.642,
+     104.684
+    ],
+    [
+     104.684,
+     104.884
+    ],
+    [
+     104.884,
+     104.904
+    ],
+    [
+     104.904,
+     104.924
+    ],
+    [
+     104.924,
+     104.944
+    ]
+   ],
+   "start": 102.642,
+   "end": 104.944,
+   "seg": 19,
+   "isInterjection": false,
+   "y": 1420
+  },
+  {
+   "text": "deviation isn't automatically a bad fund.",
+   "words": [
+    "deviation",
+    "isn't",
+    "automatically",
+    "a",
+    "bad",
+    "fund."
+   ],
+   "wordTimes": [
+    [
+     104.944,
+     104.964
+    ],
+    [
+     104.964,
+     104.984
+    ],
+    [
+     104.984,
+     105.645
+    ],
+    [
+     105.645,
+     105.805
+    ],
+    [
+     105.805,
+     106.065
+    ],
+    [
+     106.146,
+     106.266
+    ]
+   ],
+   "start": 104.944,
+   "end": 106.266,
+   "seg": 19,
+   "isInterjection": false,
+   "y": 1420
+  },
+  {
+   "text": "It also depends on your",
+   "words": [
+    "It",
+    "also",
+    "depends",
+    "on",
+    "your"
+   ],
+   "wordTimes": [
+    [
+     107.427,
+     107.547
+    ],
+    [
+     107.567,
+     107.767
+    ],
+    [
+     107.787,
+     108.048
+    ],
+    [
+     108.088,
+     108.168
+    ],
+    [
+     108.168,
+     108.828
+    ]
+   ],
+   "start": 107.427,
+   "end": 108.828,
+   "seg": 20,
+   "isInterjection": false,
+   "y": 1420
+  },
+  {
+   "text": "risk tolerance and the fund's",
+   "words": [
+    "risk",
+    "tolerance",
+    "and",
+    "the",
+    "fund's"
+   ],
+   "wordTimes": [
+    [
+     108.828,
+     108.988
+    ],
+    [
+     109.008,
+     109.309
+    ],
+    [
+     109.349,
+     109.609
+    ],
+    [
+     109.689,
+     109.869
+    ],
+    [
+     109.989,
+     110.61
+    ]
+   ],
+   "start": 108.828,
+   "end": 110.61,
+   "seg": 20,
+   "isInterjection": false,
+   "y": 1420
+  },
+  {
+   "text": "risk-return profile.",
+   "words": [
+    "risk-return",
+    "profile."
+   ],
+   "wordTimes": [
+    [
+     110.91,
+     111.131
+    ],
+    [
+     111.451,
+     111.831
+    ]
+   ],
+   "start": 110.91,
+   "end": 111.831,
+   "seg": 20,
+   "isInterjection": false,
+   "y": 1420
   },
   {
    "text": "So standard deviation shouldn't be",
@@ -1496,7 +1706,7 @@
     ]
    ],
    "start": 122.791,
-   "end": 123.838,
+   "end": 125.7,
    "seg": 22,
    "isInterjection": false,
    "y": 1500
